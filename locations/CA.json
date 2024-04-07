@@ -6,12 +6,12 @@
       {
         "name": "(CA Ford) Top of Sanctuary",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 356, "y": 390}]
+        "map_locations": [{"map": "CA", "x": 327, "y": 499}]
       },
       {
         "name": "(CA Ford) Bottom of Sanctuary",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 222, "y": 345}]
+        "map_locations": [{"map": "CA", "x": 243, "y": 522}]
       },
       {
         "name": "(Rank)",
@@ -73,97 +73,97 @@
       {
         "name": "(CA GPC) Mountain Lion Log Bridge",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1670, "y": 1015}]
+        "map_locations": [{"map": "CA", "x": 1675, "y": 1015}]
       },
       {
         "name": "(CA GPC) Above Entrance to Lake",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2107, "y": 1022}]
+        "map_locations": [{"map": "CA", "x": 1983, "y": 1124}]
       },
       {
         "name": "(CA GPC) Rock Wall Behind Tree",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2108, "y": 1075}]
       },
       {
         "name": "(CA GPC) Rock Wall Top",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2154, "y": 998}]
       },
       {
         "name": "(CA GPC) Tree Near Fence",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2031, "y": 764}]
       },
       {
         "name": "(CA GPC) Tree Near Geyser",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2120, "y": 774}]
       },
       {
         "name": "(CA GPC) Fence Behind GPC",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2000, "y": 622}]
       },
       {
         "name": "(CA GPC) Near the Bear",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 1837, "y": 615}]
       },
       {
         "name": "(CA GPC) Rocky Platforms Behind GPC Right",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 1683, "y": 649}]
       },
       {
         "name": "(CA GPC) Rocky Platforms Behind GPC Left",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 1594, "y": 732}]
       },
       {
         "name": "(CA GPC) Top of Log Flume",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1430, "y": 884}]
+        "map_locations": [{"map": "CA", "x": 1519, "y": 821}]
       },
       {
         "name": "(CA GPC) Ride the Log Flume",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1413, "y": 921}]
+        "map_locations": [{"map": "CA", "x": 1421, "y": 906}]
       },
       {
         "name": "(CA GPC) Bottom of Log Flume",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1336, "y": 995}]
+        "map_locations": [{"map": "CA", "x": 1329, "y": 981}]
       },
       {
         "name": "(CA GPC) Big Rock Near Ford",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1606, "y": 845}]
+        "map_locations": [{"map": "CA", "x": 1608, "y": 934}]
       },
       {
         "name": "(CA GPC) Inside the Ruined Cabin",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1504, "y": 892}]
+        "map_locations": [{"map": "CA", "x": 1502, "y": 880}]
       },
       {
         "name": "(CA GPC) Branch Swinging Course Start",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1614, "y": 876}]
+        "map_locations": [{"map": "CA", "x": 1818, "y": 697}]
       },
       {
         "name": "(CA GPC) Branch Swinging Course Mid",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1590, "y": 811}]
+        "map_locations": [{"map": "CA", "x": 1934, "y": 796}]
       },
       {
         "name": "(CA GPC) Branch Swinging Course End",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1484, "y": 839}]
+        "map_locations": [{"map": "CA", "x": 1892, "y": 856}]
       },
       {
         "name": "(CA GPC) Branch Above Squirrel",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2028, "y": 901}]
       },
       {
         "name": "(CA GPC) Creek Grate",
@@ -173,12 +173,12 @@
       {
         "name": "(CA GPC) Squirrel's Acorn",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2091, "y": 933}]
       },
       {
         "name": "(CA GPC) Wedged in the Geyser",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "map_locations": [{"map": "CA", "x": 2095, "y": 671}]
       }
     ]
   },
