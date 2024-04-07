@@ -34,6 +34,28 @@ LOCATION_MAPPING = {
     [229] = {"@MIFL/(MI Finale) Milla's Party Room/"},
     [230] = {"@MIFL/(MI Finale) Milla's Dance Party Complete/"},
 
+    -- LO
+    [245] = {"@LOMA/(LO Main) Skyscraper Start/"},
+    [246] = {"@LOMA/(LO Main) Corner Near First Jail/"},
+    [247] = {"@LOMA/(LO Main) Skyscraper before Dam/"},
+    [248] = {"@LOMAShield/(LO Main) Behind Lasers Left 1/"},
+    [249] = {"@LOMAShield/(LO Main) Behind Lasers Left 2/"},
+    [250] = {"@LOMAShield/(LO Main) Behind Lasers Right/"},
+    [251] = {"@LOMAShield/(LO Main) Blimp Hop/"},
+    [252] = {"@LOMAShield/(LO Main) End of Dam/"},
+    [253] = {"@LOMAShield/(LO Main) End of Dam Platform/"},
+    [254] = {"@LOMAShield/(LO Main) Skyscraper after Dam/"},
+    [255] = {"@LOMAShield/(LO Main) Near Battleships/"},
+    [256] = {"@LOMAShield/(LO Main) On the Bridge/"},
+    [257] = {"@LOMAShield/(LO Main) Ground after Bridge/"},
+    [258] = {"@LOMAShield/(LO Main) Skyscraper after Bridge/"},
+    [259] = {"@LOMAShield/(LO Main) Train Tunnel/"},
+    [260] = {"@LOMAShield/(LO Main) Final Skyscrapers Left/"},
+    [261] = {"@LOMAShield/(LO Main) Final Skyscrapers Right/"},
+    [262] = {"@LOMAShield/(LO Boss) Kochamara Intro Left/"},
+    [263] = {"@LOMAShield/(LO Boss) Kochamara Intro Right/"},
+    [264] = {"@LOMAShield/(LO Boss) Lungfishopolis Complete/"},
+
     -- MM
     [265] = {"@MMI1/(MM Neighborhood) Boyd's Fridge/"},
     [266] = {"@MMI1BeforeSign/(MM Neighborhood) Inside First House/"},
