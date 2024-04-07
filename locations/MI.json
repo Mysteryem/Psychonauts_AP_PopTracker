@@ -1,7 +1,7 @@
 [
   {
-    "name": "(MI Area 1)",
-    "access_rules": [],
+    "name": "MIFL",
+    "access_rules": ["mind_milla,levitation"],
     "children": [
       {
         "name": "(MI Area 1) Intro Rings Tutorial",
@@ -52,13 +52,7 @@
         "name": "(MI Area 1) Pink Bowl Small Platform",
         "sections": [{"name":  ""}],
         "map_locations": [{"map":  "MI", "x": 742, "y": 103}]
-      }
-    ]
-  },
-  {
-    "name": "(MI Finale)",
-    "access_rules": [],
-    "children": [
+      },
       {
         "name": "(MI Finale) Bubbly Fan Bottom",
         "sections": [{"name":  ""}],

@@ -18,7 +18,21 @@ LOCATION_MAPPING = {
     [198] = {"@BBA2/(BB Finale) Basic Braining Complete/"},
 
     -- MI
-    [216] = {"@(MI Area 1)/(MI Area 1) Intro Rings Tutorial/"},
+    [216] = {"@MIFL/(MI Area 1) Intro Rings Tutorial/"},
+    [217] = {"@MIFL/(MI Area 1) Dancing Camper Platform 1/"},
+    [218] = {"@MIFL/(MI Area 1) Demon Room/"},
+    [219] = {"@MIFL/(MI Area 1) Windy Ladder Bottom/"},
+    [220] = {"@MIFL/(MI Area 1) Pinball Plunger/"},
+    [221] = {"@MIFL/(MI Area 1) Plunger Party Ledge/"},
+    [222] = {"@MIFL/(MI Area 1) Grindrail Rings/"},
+    [223] = {"@MIFL/(MI Area 1) Censor Hallway/"},
+    [224] = {"@MIFL/(MI Area 1) Pink Bowl Bottom/"},
+    [225] = {"@MIFL/(MI Area 1) Pink Bowl Small Platform/"},
+    [226] = {"@MIFL/(MI Finale) Bubbly Fan Bottom/"},
+    [227] = {"@MIFL/(MI Finale) Bubbly Fan Platform/"},
+    [228] = {"@MIFL/(MI Finale) Bubbly Fan Top/"},
+    [229] = {"@MIFL/(MI Finale) Milla's Party Room/"},
+    [230] = {"@MIFL/(MI Finale) Milla's Dance Party Complete/"},
 
     -- MM
     [265] = {"@MMI1/(MM Neighborhood) Boyd's Fridge/"},
