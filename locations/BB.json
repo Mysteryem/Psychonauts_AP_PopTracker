@@ -21,7 +21,7 @@
       {
         "name": "(BB Area 1) Below the Triple Trampolines",
         "sections": [{"name":  ""}],
-        "map_locations": [{"map":  "BB", "x": 167, "y": 907}]
+        "map_locations": [{"map":  "BB", "x": 170, "y": 891}]
       },
       {
         "name": "BBA2Duster",
@@ -40,17 +40,17 @@
           {
             "name": "(BB Area 2) Giant Soldier Cut-Out",
             "sections": [{"name":  ""}],
-            "map_locations": [{"map":  "BB", "x": 912, "y": 370}]
+            "map_locations": [{"map":  "BB", "x": 887, "y": 368}]
           },
           {
             "name": "(BB Area 2) Dodging Bullets 1",
             "sections": [{"name":  ""}],
-            "map_locations": [{"map":  "BB", "x": 1059, "y": 584}]
+            "map_locations": [{"map":  "BB", "x": 1082, "y": 501}]
           },
           {
             "name": "(BB Area 2) Dodging Bullets 2",
             "sections": [{"name":  ""}],
-            "map_locations": [{"map":  "BB", "x": 1130, "y": 711}]
+            "map_locations": [{"map":  "BB", "x": 1090, "y": 649}]
           },
           {
             "name": "(BB Area 2) Machine Gun Turret",
@@ -60,12 +60,12 @@
           {
             "name": "(BB Area 2) Pole-Swinging Tutorial",
             "sections": [{"name":  ""}],
-            "map_locations": [{"map":  "BB", "x": 1068, "y": 1136}]
+            "map_locations": [{"map":  "BB", "x": 1068, "y": 1184}]
           },
           {
             "name": "(BB Area 2) Trapeze Platform",
             "sections": [{"name":  ""}],
-            "map_locations": [{"map":  "BB", "x": 999, "y": 1397}]
+            "map_locations": [{"map":  "BB", "x": 965, "y": 1453}]
           },
           {
             "name": "(BB Area 2) Inside Plane Wreckage",
