@@ -1,5 +1,36 @@
 -- See https://github.com/Akashortstack/Psychonauts_AP/blob/main/Locations.py for IDs
 LOCATION_MAPPING = {
+    -- CASA
+    [1] = {"@CASA/Sasha's Lab/(CA Lab) Behind Furniture"},
+    [2] = {"@CASA/Sasha's Lab/(CA Lab) Staircase Ledges"},
+    [3] = {"@CASA/Sasha's Lab/(CA Lab) Upper Ledge"},
+
+    -- CAGP
+    [4] = {"@CAGP/(CA GPC) Top of GPC/"},
+    [5] = {"@CAGP/(CA GPC) Under GPC/"},
+    [6] = {"@CAGP/(CA GPC) Mountain Lion Log Bridge/"},
+    [7] = {"@CAGP/(CA GPC) Above Entrance to Lake/"},
+    [8] = {"@CAGP/(CA GPC) Rock Wall Behind Tree/"},
+    [9] = {"@CAGP/(CA GPC) Rock Wall Top/"},
+    [10] = {"@CAGP/(CA GPC) Tree Near Fence/"},
+    [11] = {"@CAGP/(CA GPC) Tree Near Geyser/"},
+    [12] = {"@CAGP/(CA GPC) Fence Behind GPC/"},
+    [13] = {"@CAGP/(CA GPC) Near the Bear/"},
+    [14] = {"@CAGP/(CA GPC) Rocky Platforms Behind GPC Right/"},
+    [15] = {"@CAGP/(CA GPC) Rocky Platforms Behind GPC Left/"},
+    [16] = {"@CAGP/(CA GPC) Top of Log Flume/"},
+    [17] = {"@CAGP/(CA GPC) Ride the Log Flume/"},
+    [18] = {"@CAGP/(CA GPC) Bottom of Log Flume/"},
+    [19] = {"@CAGP/(CA GPC) Big Rock Near Ford/"},
+    [20] = {"@CAGP/(CA GPC) Inside the Ruined Cabin/"},
+    [21] = {"@CAGP/(CA GPC) Branch Swinging Course Start/"},
+    [22] = {"@CAGP/(CA GPC) Branch Swinging Course Mid/"},
+    [23] = {"@CAGP/(CA GPC) Branch Swinging Course End/"},
+    [24] = {"@CAGP/(CA GPC) Branch Above Squirrel/"},
+    [25] = {"@CAGP/(CA GPC) Creek Grate/"},
+    [26] = {"@CAGPSquirrel/(CA GPC) Squirrel's Acorn/"},
+    [27] = {"@CAGPGeyser/(CA GPC) Wedged in the Geyser/"},
+
     -- BB
     [184] = {"@BBA1/(BB Area 1) Jumping Tutorial 1/"},
     [185] = {"@BBA1/(BB Area 1) Jumping Tutorial 2/"},
