@@ -11,7 +11,7 @@
       {
         "name": "(MI Area 1) Dancing Camper Platform 1",
         "sections": [{"name":  ""}],
-        "map_locations": [{"map":  "MI", "x": 281, "y": 1166}]
+        "map_locations": [{"map":  "MI", "x": 264, "y": 1143}]
       },
       {
         "name": "(MI Area 1) Demon Room",
@@ -36,12 +36,12 @@
       {
         "name": "(MI Area 1) Grindrail Rings",
         "sections": [{"name":  ""}],
-        "map_locations": [{"map":  "MI", "x": 358, "y": 523}]
+        "map_locations": [{"map":  "MI", "x": 154, "y": 400}]
       },
       {
         "name": "(MI Area 1) Censor Hallway",
         "sections": [{"name":  ""}],
-        "map_locations": [{"map":  "MI", "x": 572, "y": 356}]
+        "map_locations": [{"map":  "MI", "x": 605, "y": 336}]
       },
       {
         "name": "(MI Area 1) Pink Bowl Bottom",
