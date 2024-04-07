@@ -1,7 +1,6 @@
 [
   {
-    "name": "(CA Ford)",
-    "access_rules": [],
+    "name": "CAJA",
     "children": [
       {
         "name": "(CA Ford) Top of Sanctuary",
@@ -42,8 +41,7 @@
     ]
   },
   {
-    "name": "(CA Lab)",
-    "access_rules": [],
+    "name": "CASA",
     "children": [
       {
         "name": "Sasha's Lab",
@@ -57,8 +55,8 @@
     ]
   },
   {
-    "name": "(CA GPC)",
-    "access_rules": [],
+    "name": "CAGP",
+    "access_rules": ["sasha_button"],
     "children": [
       {
         "name": "(CA GPC) Top of GPC",
@@ -171,14 +169,26 @@
         "map_locations": [{"map": "CA", "x": 1782, "y": 999}]
       },
       {
-        "name": "(CA GPC) Squirrel's Acorn",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2091, "y": 933}]
+        "name": "CAGPSquirrel",
+        "access_rules": ["invisibility"],
+        "children": [
+          {
+            "name": "(CA GPC) Squirrel's Acorn",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2091, "y": 933}]
+          }
+        ]
       },
       {
-        "name": "(CA GPC) Wedged in the Geyser",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2095, "y": 671}]
+        "name": "CAGPGeyser",
+        "access_rules": ["shield"],
+        "children": [
+          {
+            "name": "(CA GPC) Wedged in the Geyser",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2095, "y": 671}]
+          }
+        ]
       }
     ]
   },
