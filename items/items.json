@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Marksmanship",
+    "type": "consumable",
+    "img": "images/items/powers/marksmanship.png",
+    "codes": "marksmanship",
+    "max_quantity": 3
+  },
+  {
+    "name": "Levitation",
+    "type": "consumable",
+    "img": "images/items/powers/levitation.png",
+    "codes": "levitation",
+    "max_quantity": 3
+  },
+  {
+    "name": "Pyrokinesis",
+    "type": "consumable",
+    "img": "images/items/powers/pyrokinesis.png",
+    "codes": "pyrokinesis",
+    "max_quantity": 2
+  },
+  {
+    "name": "Telekinesis",
+    "type": "consumable",
+    "img": "images/items/powers/telekinesis.png",
+    "codes": "telekinesis",
+    "max_quantity": 2
+  },
+  {
+    "name": "Shield",
+    "type": "consumable",
+    "img": "images/items/powers/shield.png",
+    "codes": "shield",
+    "max_quantity": 3
+  },
+  {
+    "name": "Invisibility",
+    "type": "consumable",
+    "img": "images/items/powers/invisibility.png",
+    "codes": "invisibility",
+    "max_quantity": 2
+  },
+  {
+    "name": "Clairvoyance",
+    "type": "consumable",
+    "img": "images/items/powers/clairvoyance.png",
+    "codes": "clairvoyance",
+    "max_quantity": 2
+  },
+  {
+    "name": "Confusion",
+    "type": "consumable",
+    "img": "images/items/powers/confusion.png",
+    "codes": "confusion",
+    "max_quantity": 2
+  },
+  {
+    "name": "Sasha's Button",
+    "type": "toggle",
+    "img": "images/items/world/sasha_button.png",
+    "codes": "sasha_button"
+  },
+  {
+    "name": "Oarsman's Badge",
+    "type": "toggle",
+    "img": "images/items/world/oarsman_badge.png",
+    "codes": "oarsman_badge"
+  },
+  {
+    "name": "Lili's Bracelet",
+    "type": "toggle",
+    "img": "images/items/world/lili_bracelet.png",
+    "codes": "lili_bracelet"
+  },
+  {
+    "name": "Squirrel Roast Dinner",
+    "type": "toggle",
+    "img": "images/items/world/squirrel_roast_dinner.png",
+    "codes": "squirrel_roast_dinner"
+  },
+  {
+    "name": "Lungfish Call",
+    "type": "toggle",
+    "img": "images/items/world/lungfish_call.png",
+    "codes": "lungfish_call"
+  },
+  {
+    "name": "Gloria's Trophy",
+    "type": "toggle",
+    "img": "images/items/world/gloria_trophy.png",
+    "codes": "gloria_trophy"
+  },
+  {
+    "name": "Loboto Painting",
+    "type": "toggle",
+    "img": "images/items/world/loboto_painting.png",
+    "codes": "loboto_painting"
+  },
+  {
+    "name": "Straight Jacket",
+    "type": "toggle",
+    "img": "images/items/world/straight_jacket.png",
+    "codes": "straight_jacket"
+  },
+  {
+    "name": "Birthday Cake",
+    "type": "toggle",
+    "img": "images/items/misc/birthday_cake.png",
+    "codes": "birthday_cake"
+  },
+  {
+    "name": "Adult Coach's Mind",
+    "type": "toggle",
+    "img": "images/heads/coach.png",
+    "codes": "mind_coach"
+  },
+  {
+    "name": "Sasha's Mind",
+    "type": "toggle",
+    "img": "images/heads/sasha.png",
+    "codes": "mind_sasha"
+  },
+  {
+    "name": "Milla's Mind",
+    "type": "toggle",
+    "img": "images/heads/milla.png",
+    "codes": "mind_milla"
+  },
+  {
+    "name": "Linda's Mind",
+    "type": "toggle",
+    "img": "images/heads/linda.png",
+    "codes": "mind_linda"
+  },
+  {
+    "name": "Boyd's Mind",
+    "type": "toggle",
+    "img": "images/heads/boyd.png",
+    "codes": "mind_boyd"
+  },
+  {
+    "name": "Gloria's Mind",
+    "type": "toggle",
+    "img": "images/heads/gloria.png",
+    "codes": "mind_gloria"
+  },
+  {
+    "name": "Fred's Mind",
+    "type": "toggle",
+    "img": "images/heads/fred.png",
+    "codes": "mind_fred"
+  },
+  {
+    "name": "Edgar's Mind",
+    "type": "toggle",
+    "img": "images/heads/edgar.png",
+    "codes": "mind_edgar"
+  },
+  {
+    "name": "Kid Coach's Mind",
+    "type": "toggle",
+    "img": "images/heads/oly.png",
+    "codes": "mind_oly"
+  },
+  {
+    "name": "Camper Brain",
+    "type": "consumable",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "camper_brain",
+    "max_quantity": 19
+  },
+  {
+    "name": "Cobweb Duster",
+    "type": "toggle",
+    "img": "images/items/misc/cobweb_duster.png",
+    "codes": "cobweb_duster"
+  },
+  {
+    "name": "Priceless Coin",
+    "type": "toggle",
+    "img": "images/items/fred/priceless_coin.png",
+    "codes": "fred_coin"
+  },
+  {
+    "name": "Fred's Letter",
+    "type": "toggle",
+    "img": "images/items/fred/letter.png",
+    "codes": "fred_letter"
+  },
+  {
+    "name": "Musket",
+    "type": "toggle",
+    "img": "images/items/fred/musket.png",
+    "codes": "fred_musket"
+  },
+  {
+    "name": "Hedge Trimmers",
+    "type": "toggle",
+    "img": "images/items/boyd/hedge_trimmers.png",
+    "codes": "boyd_hedge_trimmers"
+  },
+  {
+    "name": "Rolling Pin",
+    "type": "toggle",
+    "img": "images/items/boyd/rolling_pin.png",
+    "codes": "boyd_rolling_pin"
+  },
+  {
+    "name": "Plunger",
+    "type": "toggle",
+    "img": "images/items/boyd/plunger.png",
+    "codes": "boyd_plunger"
+  },
+  {
+    "name": "Flowers",
+    "type": "toggle",
+    "img": "images/items/boyd/flowers.png",
+    "codes": "boyd_flowers"
+  },
+  {
+    "name": "Stop Sign",
+    "type": "toggle",
+    "img": "images/items/boyd/stop_sign.png",
+    "codes": "boyd_stop_sign"
+  },
+  {
+    "name": "Megaphone",
+    "type": "toggle",
+    "img": "images/items/gloria/megaphone.png",
+    "codes": "gloria_megaphone"
+  },
+  {
+    "name": "Candle",
+    "type": "consumable",
+    "img": "images/items/gloria/candle.png",
+    "codes": "gloria_candle",
+    "max_quantity": 2
+  },
+  {
+    "name": "Candle 1",
+    "type": "toggle",
+    "img": "images/items/gloria/candle.png",
+    "codes": "gloria_candle1"
+  },
+  {
+    "name": "Candle 2",
+    "type": "toggle",
+    "img": "images/items/gloria/candle.png",
+    "codes": "gloria_candle2"
+  },
+  {
+    "name": "Benny's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_benny"
+  },
+  {
+    "name": "Bobby's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_bobby"
+  },
+  {
+    "name": "Chloe's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_chloe"
+  },
+  {
+    "name": "Clem's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_clem"
+  },
+  {
+    "name": "Chops' Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_chops"
+  },
+  {
+    "name": "Crystal's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_crystal"
+  },
+  {
+    "name": "Dogen's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_dogen"
+  },
+  {
+    "name": "Elka's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_elka"
+  },
+  {
+    "name": "Elton's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_elton"
+  },
+  {
+    "name": "Franke's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_franke"
+  },
+  {
+    "name": "JT's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_jt"
+  },
+  {
+    "name": "Kitty's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_kitty"
+  },
+  {
+    "name": "Maloof's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_maloof"
+  },
+  {
+    "name": "Mikhail's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_mikhail"
+  },
+  {
+    "name": "Milka's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_milka"
+  },
+  {
+    "name": "Nils' Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_nils"
+  },
+  {
+    "name": "Phoebe's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_phoebe"
+  },
+  {
+    "name": "Quentin's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_quentin"
+  },
+  {
+    "name": "Vernon's Brain",
+    "type": "toggle",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_vernon"
+  },
+  {
+    "name": "Small Arrowhead Bundle",
+    "type": "consumable",
+    "img": "images/items/misc/jarred_brain.png",
+    "codes": "brain_vernon"
+  }
+]

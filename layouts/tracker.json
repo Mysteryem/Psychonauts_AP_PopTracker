@@ -1,0 +1,189 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Powers",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "powers_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Camp",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "camp_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Asylum",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "asylum_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Minds",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "mind_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "Right",
+              "content": {
+                "type": "layout",
+                "key": "items_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Camp",
+              "icon": "images/icons/camp.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "CA"
+                ]
+              }
+            },
+            {
+              "title": "Asylum",
+              "icon": "images/heads/sheegor.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "AS"
+                ]
+              }
+            },
+            {
+              "title": "Basic Braining",
+              "icon": "images/heads/coach.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "BB"
+                ]
+              }
+            },
+            {
+              "title": "Sasha's Shooting Gallery",
+              "icon": "images/heads/sasha.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "SA"
+                ]
+              }
+            },
+            {
+              "title": "Milla's Dance Party",
+              "icon": "images/heads/milla.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MI"
+                ]
+              }
+            },
+            {
+              "title": "Brain Tumbler Experiment",
+              "icon": "images/heads/raz.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "BT"
+                ]
+              }
+            },
+            {
+              "title": "Lungfishopolis",
+              "icon": "images/heads/linda.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "LO"
+                ]
+              }
+            },
+            {
+              "title": "The Milkman Conspiracy",
+              "icon": "images/heads/milkman.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MM"
+                ]
+              }
+            },
+            {
+              "title": "Gloria's Theater",
+              "icon": "images/heads/gloria.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "TH"
+                ]
+              }
+            },
+            {
+              "title": "Waterloo World",
+              "icon": "images/heads/fred.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "WW"
+                ]
+              }
+            },
+            {
+              "title": "Black Velvetopia",
+              "icon": "images/heads/edgar.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "BV"
+                ]
+              }
+            },
+            {
+              "title": "Meat Circus",
+              "icon": "images/heads/oly.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "MC"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

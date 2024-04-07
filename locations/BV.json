@@ -1,0 +1,114 @@
+[
+  {
+    "name": "(BV Streets)",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "(BV Streets) Club Street Lady",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 624, "y": 994}]
+      },
+      {
+        "name": "(BV Streets) Club Street Metal Balcony",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 809, "y": 715}]
+      },
+      {
+        "name": "(BV Streets) Heart Street HIGH Balcony",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 669, "y": 471}]
+      },
+      {
+        "name": "(BV Streets) Club Street Gated",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 830, "y": 854}]
+      },
+      {
+        "name": "(BV Streets) Alleyways Ledge",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1311, "y": 475}]
+      },
+      {
+        "name": "(BV Streets) Sewers Main",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1021, "y": 206}]
+      },
+      {
+        "name": "(BV Streets) Near Diego's House",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1132, "y": 897}]
+      },
+      {
+        "name": "(BV Streets) Diego's Bed",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1001, "y": 751}]
+      },
+      {
+        "name": "(BV Streets) Diego's Room",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 929, "y": 869}]
+      },
+      {
+        "name": "(BV Streets) Diego's House Grindrail",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 647, "y": 778}]
+      },
+      {
+        "name": "(BV Streets) Grindrail Balcony",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 712, "y": 784}]
+      },
+      {
+        "name": "(BV Streets) The Garden",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 428, "y": 265}]
+      },
+      {
+        "name": "(BV Streets) Burn the Logs",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 415, "y": 352}]
+      }
+    ]
+  },
+  {
+    "name": "(BV Edgar)",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "(BV Edgar) Sanctuary Ground",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1581, "y": 940}]
+      },
+      {
+        "name": "(BV Edgar) Tiger Wrestler",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1329, "y": 875}]
+      },
+      {
+        "name": "(BV Edgar) Dragon Wrestler",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1453, "y": 1011}]
+      },
+      {
+        "name": "(BV Edgar) Sanctuary Balcony",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1381, "y": 764}]
+      },
+      {
+        "name": "(BV Edgar) Eagle Wrestler",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1481, "y": 768}]
+      },
+      {
+        "name": "(BV Edgar) Cobra Wrestler",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1562, "y": 900}]
+      },
+      {
+        "name": "(BV Edgar) Black Velvetopia Complete",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BV", "x": 1451, "y": 887}]
+      }
+    ]
+  }
+]

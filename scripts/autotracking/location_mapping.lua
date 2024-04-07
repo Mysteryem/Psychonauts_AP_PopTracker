@@ -1,0 +1,48 @@
+-- See https://github.com/Akashortstack/Psychonauts_AP/blob/main/Locations.py for IDs
+LOCATION_MAPPING = {
+    -- BB
+    [184] = {"@(BB Area 1)/(BB Area 1) Jumping Tutorial 1/"},
+    [185] = {"@(BB Area 1)/(BB Area 1) Jumping Tutorial 2/"},
+    [186] = {"@(BB Area 1)/(BB Area 1) Pole-Climbing Tutorial Floor/"},
+    [187] = {"@(BB Area 1)/(BB Area 1) Below the Triple Trampolines/"},
+    [188] = {"@(BB Area 2)/(BB Area 2) Giant Soldier Cut-Out/"},
+    [189] = {"@(BB Area 2)/(BB Area 2) Dodging Bullets 1/"},
+    [190] = {"@(BB Area 2)/(BB Area 2) Dodging Bullets 2/"},
+    [191] = {"@(BB Area 2)/(BB Area 2) Machine Gun Turret/"},
+    [192] = {"@(BB Area 2)/(BB Area 2) Pole-Swinging Tutorial/"},
+    [193] = {"@(BB Area 2)/(BB Area 2) Trapeze Cobweb/"},
+    [194] = {"@(BB Area 2)/(BB Area 2) Trapeze Platform/"},
+    [195] = {"@(BB Area 2)/(BB Area 2) Inside Plane Wreckage/"},
+    [196] = {"@(BB Finale)/End of Obstacle Course/(BB Finale) End of Obstacle Course Left"},
+    [197] = {"@(BB Finale)/End of Obstacle Course/(BB Finale) End of Obstacle Course Right"},
+    [198] = {"@(BB Finale)/(BB Finale) Basic Braining Complete/"},
+
+    -- MI
+    [216] = {"@(MI Area 1)/(MI Area 1) Intro Rings Tutorial/"},
+
+    -- MM
+    [265] = {"@MMI1/(MM Neighborhood) Boyd's Fridge/"},
+    [266] = {"@MMI1BeforeSign/(MM Neighborhood) Inside First House/"},
+    [267] = {"@MMI1BeforeSign/(MM Neighborhood) Inside Second House/"},
+    [268] = {"@MMI1BeforeSign/(MM Neighborhood) Car Trunk 1 (Stop Sign)/"},
+    [269] = {"@MMI1AfterSign/(MM Neighborhood) Roof after Road Crew/"},
+    [270] = {"@MMI1AfterSign/(MM Neighborhood) Car Trunk 2/"},
+    [271] = {"@MMI1AfterSign/(MM Neighborhood) Car House Backyard/"},
+    [272] = {"@MMI1Duster/(MM Neighborhood) Inside Webbed Garage/"},
+    [273] = {"@MMI1AfterSign/(MM Neighborhood) Graveyard Patio/"},
+    [274] = {"@MMI1AfterSign/(MM Neighborhood) Graveyard Behind Tree/"},
+    [275] = {"@MMI1AfterSign/(MM Neighborhood) Behind Graveyard/"},
+    [276] = {"@MMI1AfterSign/(MM Neighborhood) Hedge Maze/"},
+    [277] = {"@MMI1AfterSign/(MM Neighborhood) Car Trunk 3/"},
+    [278] = {"@MMI1AfterSign/(MM Neighborhood) Post Office Roof/"},
+    [279] = {"@MMI1AfterSign/(MM Neighborhood) Post Office Lobby/"},
+    [280] = {"@MMI1Duster/(MM Neighborhood) Post Office Basement/"},
+    [281] = {"@MMI1HedgeTrimmers/(MM Neighborhood) Landscapers House Backyard/"},
+    [282] = {"@MMI1HedgeTrimmers/(MM Neighborhood) Landscapers House Table/"},
+    [283] = {"@MMI1RollingPin/(MM Neighborhood) Landscapers House Kitchen/"},
+    [284] = {"@MMI1Powerlines/(MM Neighborhood) Powerline Island Sandbox/"},
+    [285] = {"@MMI1Powerlines/(MM Neighborhood) Powerline Island Left/"},
+    [286] = {"@MMI1Powerlines/(MM Neighborhood) Powerline Island Right/"},
+    [287] = {"@MMI2/(MM Depository) Behind Book Depository/"},
+    [288] = {"@MMDM/(MM Depository) Milkman Complete/"},
+}

@@ -1,0 +1,90 @@
+{
+  "powers_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+          ["marksmanship", "levitation", "pyrokinesis", "telekinesis"],
+          ["shield", "invisibility", "clairvoyance", "confusion"]
+        ]
+      }
+    ]
+  },
+  "camp_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+          ["sasha_button", "oarsman_badge"],
+          ["lili_bracelet", "squirrel_roast_dinner"]
+        ]
+      }
+    ]
+  },
+  "asylum_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "item_size": 3,
+        "margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+          ["lungfish_call", "gloria_trophy"],
+          ["loboto_painting", "straight_jacket"]
+        ]
+      }
+    ]
+  },
+  "mind_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "item_size": 3,
+        "margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_oly"],
+          ["mind_boyd", "mind_gloria", "mind_fred", "mind_edgar", "camper_brain"]
+        ]
+      }
+    ]
+  },
+  "items_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "item_size": 3,
+        "margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+          ["cobweb_duster", "fred_coin", "fred_letter", "fred_musket", "gloria_megaphone", "gloria_candle"],
+          ["boyd_hedge_trimmers", "boyd_rolling_pin", "boyd_plunger", "boyd_flowers", "boyd_stop_sign", "birthday_cake"]
+        ]
+      }
+    ]
+  }
+}

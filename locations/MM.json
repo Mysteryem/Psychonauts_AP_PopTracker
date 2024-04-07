@@ -1,0 +1,176 @@
+[
+  {
+    "name": "MMI1",
+    "access_rules": ["mind_boyd"],
+    "children": [
+      {
+        "name": "(MM Neighborhood) Boyd's Fridge",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "MM", "x": 182, "y": 628}]
+      },
+      {
+        "name": "MMI1BeforeSign",
+        "access_rules": ["clairvoyance"],
+        "children": [
+          {
+            "name": "(MM Neighborhood) Inside First House",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "MM", "x": 363, "y": 472}]
+          },
+          {
+            "name": "(MM Neighborhood) Inside Second House",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "MM", "x": 488, "y": 423}]
+          },
+          {
+            "name": "(MM Neighborhood) Car Trunk 1 (Stop Sign)",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "MM", "x": 546, "y": 443}]
+          },
+          {
+            "name": "MMI1AfterSign",
+            "access_rules": ["boyd_stop_sign"],
+            "children": [
+              {
+                "name": "(MM Neighborhood) Roof after Road Crew",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 931, "y": 613}]
+              },
+              {
+                "name": "(MM Neighborhood) Car Trunk 2",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1054, "y": 476}]
+              },
+              {
+                "name": "(MM Neighborhood) Car House Backyard",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1070, "y": 408}]
+              },
+              {
+                "name": "(MM Neighborhood) Graveyard Patio",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1587, "y": 699}]
+              },
+              {
+                "name": "(MM Neighborhood) Graveyard Behind Tree",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1662, "y": 725}]
+              },
+              {
+                "name": "(MM Neighborhood) Behind Graveyard",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1486, "y": 1042}]
+              },
+              {
+                "name": "(MM Neighborhood) Hedge Maze",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1776, "y": 576}]
+              },
+              {
+                "name": "(MM Neighborhood) Car Trunk 3",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1620, "y": 239}]
+              },
+              {
+                "name": "(MM Neighborhood) Post Office Roof",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1804, "y": 89}]
+              },
+              {
+                "name": "(MM Neighborhood) Post Office Lobby",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MM", "x": 1741, "y": 136}]
+              },
+              {
+                "name": "MMI1HedgeTrimmers",
+                "access_rules": ["boyd_hedge_trimmers"],
+                "children": [
+                  {
+                    "name": "(MM Neighborhood) Landscapers House Backyard",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MM", "x": 1105, "y": 639}]
+                  },
+                  {
+                    "name": "(MM Neighborhood) Landscapers House Table",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MM", "x": 1117, "y": 619}]
+                  },
+                  {
+                    "name": "MMI1RollingPin",
+                    "access_rules": ["boyd_rolling_pin"],
+                    "children": [
+                      {
+                        "name": "(MM Neighborhood) Landscapers House Kitchen",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MM", "x": 1132, "y": 610}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MMI1Duster",
+                "access_rules": ["cobweb_duster"],
+                "children": [
+                  {
+                    "name": "(MM Neighborhood) Inside Webbed Garage",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MM", "x": 1356, "y": 575}]
+                  },
+                  {
+                    "name": "(MM Neighborhood) Post Office Basement",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MM", "x": 1767, "y": 62}]
+                  }
+                ]
+              },
+              {
+                "name": "MMI2",
+                "access_rules": ["boyd_flowers,boyd_plunger,pyrokinesis,shield"],
+                "children": [
+                  {
+                    "name": "(MM Depository) Behind Book Depository",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MM", "x": 643, "y": 220}]
+                  },
+                  {
+                    "name": "MMI1Powerlines",
+                    "access_rules": ["cobweb_duster"],
+                    "children": [
+                      {
+                        "name": "(MM Neighborhood) Powerline Island Sandbox",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MM", "x": 889, "y": 876}]
+                      },
+                      {
+                        "name": "(MM Neighborhood) Powerline Island Left",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MM", "x": 1127, "y": 990}]
+                      },
+                      {
+                        "name": "(MM Neighborhood) Powerline Island Right",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MM", "x": 944, "y": 870}]
+                      },
+                      {
+                        "name": "MMDM",
+                        "access_rules": ["invisibility"],
+                        "children": [
+                          {
+                            "name": "(MM Depository) Milkman Complete",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "MM", "x": 1166, "y": 33}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

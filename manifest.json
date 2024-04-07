@@ -1,0 +1,18 @@
+{
+    "name": "PsychoRando AP",
+    "package_uid": "PsychoRandoAPTracker",
+    "package_version": "0.0.1",
+    "platform": "pc",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.23.1",
+    "target_poptracker_version": "0.23.1",
+    "game_name": "Psychonauts",
+    "author": "Mysteryem"
+}

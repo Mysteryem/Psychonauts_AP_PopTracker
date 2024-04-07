@@ -1,0 +1,93 @@
+[
+  {
+    "name": "(BB Area 1)",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "(BB Area 1) Jumping Tutorial 1",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 498, "y": 1659}]
+      },
+      {
+        "name": "(BB Area 1) Jumping Tutorial 2",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 485, "y": 1564}]
+      },
+      {
+        "name": "(BB Area 1) Pole-Climbing Tutorial Floor",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 411, "y": 1475}]
+      },
+      {
+        "name": "(BB Area 1) Below the Triple Trampolines",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 167, "y": 907}]
+      }
+    ]
+  },
+  {
+    "name": "(BB Area 2)",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "(BB Area 2) Giant Soldier Cut-Out",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 912, "y": 370}]
+      },
+      {
+        "name": "(BB Area 2) Dodging Bullets 1",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1059, "y": 584}]
+      },
+      {
+        "name": "(BB Area 2) Dodging Bullets 2",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1130, "y": 711}]
+      },
+      {
+        "name": "(BB Area 2) Machine Gun Turret",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1251, "y": 890}]
+      },
+      {
+        "name": "(BB Area 2) Pole-Swinging Tutorial",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1068, "y": 1136}]
+      },
+      {
+        "name": "(BB Area 2) Trapeze Platform",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 999, "y": 1397}]
+      },
+      {
+        "name": "(BB Area 2) Inside Plane Wreckage",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1017, "y": 1431}]
+      },
+      {
+        "name": "(BB Area 2) Trapeze Cobweb",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1043, "y": 1310}]
+      }
+    ]
+  },
+  {
+    "name": "(BB Finale)",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "End of Obstacle Course",
+        "sections": [
+          {"name":  "(BB Finale) End of Obstacle Course Left"},
+          {"name":  "(BB Finale) End of Obstacle Course Right"}
+        ],
+        "map_locations": [{"map":  "BB", "x": 2123, "y": 1354}]
+      },
+      {
+        "name": "(BB Finale) Basic Braining Complete",
+        "sections": [{"name":  ""}],
+        "map_locations": [{"map":  "BB", "x": 1951, "y": 1314}]
+      }
+    ]
+  }
+]
