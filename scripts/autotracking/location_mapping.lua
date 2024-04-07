@@ -31,6 +31,10 @@ LOCATION_MAPPING = {
     [26] = {"@CAGPSquirrel/(CA GPC) Squirrel's Acorn/"},
     [27] = {"@CAGPGeyser/(CA GPC) Wedged in the Geyser/"},
 
+    -- CAJA
+    [109] = {"@CAJA/(CA Ford) Top of Sanctuary/"},
+    [110] = {"@CAJA/(CA Ford) Bottom of Sanctuary/"},
+
     -- BB
     [184] = {"@BBA1/(BB Area 1) Jumping Tutorial 1/"},
     [185] = {"@BBA1/(BB Area 1) Jumping Tutorial 2/"},
