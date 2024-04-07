@@ -1,0 +1,114 @@
+[
+  {
+    "name": "LOMA",
+    "access_rules": ["mind_linda"],
+    "children": [
+      {
+        "name": "(LO Main) Skyscraper Start",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "LO", "x": 49, "y": 842}]
+      },
+      {
+        "name": "(LO Main) Corner Near First Jail",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "LO", "x": 288, "y": 709}]
+      },
+      {
+        "name": "(LO Main) Skyscraper before Dam",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "LO", "x": 463, "y": 528}]
+      },
+      {
+        "name": "LOMAShield",
+        "access_rules": ["shield"],
+        "children": [
+          {
+            "name": "(LO Main) Behind Lasers Left 1",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 256, "y": 357}]
+          },
+          {
+            "name": "(LO Main) Behind Lasers Left 2",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 291, "y": 328}]
+          },
+          {
+            "name": "(LO Main) Behind Lasers Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 410, "y": 240}]
+          },
+          {
+            "name": "(LO Main) Blimp Hop",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 860, "y": 466}]
+          },
+          {
+            "name": "(LO Main) End of Dam",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 752, "y": 811}]
+          },
+          {
+            "name": "(LO Main) End of Dam Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 724, "y": 837}]
+          },
+          {
+            "name": "(LO Main) Skyscraper after Dam",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1033, "y": 387}]
+          },
+          {
+            "name": "(LO Main) Near Battleships",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1153, "y": 381}]
+          },
+          {
+            "name": "(LO Main) On the Bridge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1403, "y": 254}]
+          },
+          {
+            "name": "(LO Main) Ground after Bridge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1580, "y": 180}]
+          },
+          {
+            "name": "(LO Main) Skyscraper after Bridge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1613, "y": 202}]
+          },
+          {
+            "name": "(LO Main) Train Tunnel",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1607, "y": 59}]
+          },
+          {
+            "name": "(LO Main) Final Skyscrapers Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 2009, "y": 55}]
+          },
+          {
+            "name": "(LO Main) Final Skyscrapers Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 2051, "y": 191}]
+          },
+          {
+            "name": "(LO Boss) Kochamara Intro Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1904, "y": 709}]
+          },
+          {
+            "name": "(LO Boss) Kochamara Intro Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1808, "y": 704}]
+          },
+          {
+            "name": "(LO Boss) Lungfishopolis Complete",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "LO", "x": 1908, "y": 853}]
+          }
+        ]
+      }
+    ]
+  }
+]
