@@ -27,6 +27,11 @@ BRAIN_CODES = {
     "brain_chops",
 }
 
+CANDLE_CODES = {
+    "gloria_candle1",
+    "gloria_candle2",
+}
+
 -- Offset from PsychoRando ID to Archipelago ID
 AP_ITEM_OFFSET = 42690000
 AP_LOCATION_OFFSET = AP_ITEM_OFFSET
@@ -102,6 +107,8 @@ function onClear(slot_data)
     end
     -- reset brain count
     clearBrainCount()
+    -- reset candle count
+    clearCandleCount()
 
     if slot_data == nil  then
         print("welp")
@@ -143,18 +150,24 @@ end
 
 function updateBrainCount(received_item_code)
     if has_value(BRAIN_CODES, received_item_code) then
+        -- DEBUG
         print(string.format("updateBrainCount: %s is a brain, incrementing brain count", received_item_code))
-        --count = 0
-        --for _, v in ipairs(BRAIN_CODES) do
-        --    local obj = Tracker:FindObjectForCode(v)
-        --    if obj.Active then
-        --        count = count + 1
-        --    end
-        --end
         local obj = Tracker:FindObjectForCode("camper_brain")
         obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-    else
-        print(string.format("updateBrainCount: %s is not a brain, doing nothing", received_item_code))
+    end
+end
+
+function clearCandleCount()
+    local obj = Tracker:FindObjectForCode("gloria_candle")
+    obj.AcquiredCount = 0
+end
+
+function updateCandleCount(received_item_code)
+    if has_value(CANDLE_CODES, received_item_code) then
+        -- DEBUG
+        print(string.format("updateBrainCount: %s is a candle, incrementing candle count", received_item_code))
+        local obj = Tracker:FindObjectForCode("gloria_candle")
+        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
     end
 end
 
@@ -186,8 +199,9 @@ function onItem(index, ap_item_id, item_name, player_number)
         item_type = v[2]
         if item_type == "toggle" then
             obj.Active = true
-            -- Extra handling for the fake consumable brain item used to show the current total number of brains
+            -- Extra handling for the fake consumable items used to show the current total
             updateBrainCount(item_code)
+            updateCandleCount(item_code)
         elseif item_type == "progressive" then
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
