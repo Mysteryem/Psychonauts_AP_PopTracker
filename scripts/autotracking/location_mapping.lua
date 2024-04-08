@@ -35,6 +35,28 @@ LOCATION_MAPPING = {
     [109] = {"@CAJA/(CA Ford) Top of Sanctuary/"},
     [110] = {"@CAJA/(CA Ford) Bottom of Sanctuary/"},
 
+    -- Rank
+    [111] = {"@RANK5to20/Ranks 5 to 20/(Rank) PSI Rank 05"},
+    [112] = {"@RANK5to20/Ranks 5 to 20/(Rank) PSI Rank 10"},
+    [113] = {"@RANK5to20/Ranks 5 to 20/(Rank) PSI Rank 15"},
+    [114] = {"@RANK5to20/Ranks 5 to 20/(Rank) PSI Rank 20"},
+    [115] = {"@RANK25to40/Ranks 25 to 40/(Rank) PSI Rank 25"},
+    [116] = {"@RANK25to40/Ranks 25 to 40/(Rank) PSI Rank 30"},
+    [117] = {"@RANK25to40/Ranks 25 to 40/(Rank) PSI Rank 35"},
+    [118] = {"@RANK25to40/Ranks 25 to 40/(Rank) PSI Rank 40"},
+    [119] = {"@RANK45to60/Ranks 45 to 60/(Rank) PSI Rank 45"},
+    [120] = {"@RANK45to60/Ranks 45 to 60/(Rank) PSI Rank 50"},
+    [121] = {"@RANK45to60/Ranks 45 to 60/(Rank) PSI Rank 55"},
+    [122] = {"@RANK45to60/Ranks 45 to 60/(Rank) PSI Rank 60"},
+    [123] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 65"},
+    [124] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 70"},
+    [125] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 75"},
+    [126] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 80"},
+    [127] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 85"},
+    [128] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 90"},
+    [129] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 95"},
+    [130] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 101"},
+
     -- BB
     [184] = {"@BBA1/(BB Area 1) Jumping Tutorial 1/"},
     [185] = {"@BBA1/(BB Area 1) Jumping Tutorial 2/"},
