@@ -98,6 +98,27 @@ LOCATION_MAPPING = {
     [87] = {"@CARELev/(CA Reception) Fireplace Tree Top/"},
     [88] = {"@CAREMark/(CA Reception) Hornet Nest/"},
 
+    -- CABH
+    [89] = {"@CABH/(CA Lake) Under the First Bridge/"},
+    [90] = {"@CABH/(CA Lake) Behind Stump/"},
+    [91] = {"@CABH/(CA Lake) Left of Entrance Rock Wall/"},
+    [92] = {"@CABH/(CA Lake) Poles on Lake/"},
+    [93] = {"@CABH/(CA Lake) Bathysphere Roof/"},
+    [94] = {"@CABH/(CA Lake) Bathysphere Dock/"},
+    [95] = {"@CABH/(CA Lake) Metal Roof Above Docks/"},
+    [96] = {"@CABH/(CA Lake) Above Ford Ropes/"},
+    [97] = {"@CABH/(CA Lake) Above Ford Cabin Platform/"},
+    [98] = {"@CABH/(CA Lake) Outside Cougar Cave/"},
+    [99] = {"@CABH/(CA Lake) Inside Cougar Cave/"},
+    [100] = {"@CABH/(CA Lake) Bulletin Board Bushes/"},
+    [101] = {"@CABH/Pink Tree Platform/(CA Lake) Pink Trees Platform Left"},
+    [102] = {"@CABH/Pink Tree Platform/(CA Lake) Pink Trees Platform Right"},
+    [103] = {"@CABH/(CA Lake) Rock Wall Upper/"},
+    [104] = {"@CABH/(CA Lake) Lake Shore/"},
+    [105] = {"@CABH/(CA Lake) Tiny Island/"},
+    [106] = {"@CABHLev/(CA Lake) Top of Big Rock/"},
+    [107] = {"@CABH/(CA Lake) Rock Wall Gap/"},
+
     -- CAJA
     [109] = {"@CAJA/(CA Ford) Top of Sanctuary/"},
     [110] = {"@CAJA/(CA Ford) Bottom of Sanctuary/"},
