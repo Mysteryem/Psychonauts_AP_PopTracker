@@ -601,17 +601,111 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "(CA Lake)",
-    "access_rules": [],
-    "children": [
+      },
       {
-        "name": "(CA Lake) ",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "name": "CABH",
+        "access_rules": ["oarsman_badge"],
+        "children": [
+          {
+            "name": "(CA Lake) Under the First Bridge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1744, "y": 1661}]
+          },
+          {
+            "name": "(CA Lake) Behind Stump",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1945, "y": 1689}]
+          },
+          {
+            "name": "(CA Lake) Left of Entrance Rock Wall",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2055, "y": 1527}]
+          },
+          {
+            "name": "(CA Lake) Poles on Lake",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2283, "y": 1752}]
+          },
+          {
+            "name": "(CA Lake) Bathysphere Roof",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2339, "y": 1996}]
+          },
+          {
+            "name": "(CA Lake) Bathysphere Dock",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2297, "y": 1925}]
+          },
+          {
+            "name": "(CA Lake) Metal Roof Above Docks",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2161, "y": 2115}]
+          },
+          {
+            "name": "(CA Lake) Above Ford Ropes",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2088, "y": 2099}]
+          },
+          {
+            "name": "(CA Lake) Above Ford Cabin Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2048, "y": 2045}]
+          },
+          {
+            "name": "(CA Lake) Outside Cougar Cave",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1932, "y": 2063}]
+          },
+          {
+            "name": "(CA Lake) Inside Cougar Cave",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1882, "y": 2086}]
+          },
+          {
+            "name": "(CA Lake) Bulletin Board Bushes",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1954, "y": 1946}]
+          },
+          {
+            "name": "Pink Tree Platform",
+            "sections": [
+              {"name": "(CA Lake) Pink Trees Platform Left"},
+              {"name": "(CA Lake) Pink Trees Platform Right"}
+            ],
+            "map_locations": [{"map": "CA", "x": 1802, "y": 1811}]
+          },
+          {
+            "name": "(CA Lake) Rock Wall Upper",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1927, "y": 1589}]
+          },
+          {
+            "name": "(CA Lake) Lake Shore",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2246, "y": 1602}]
+          },
+          {
+            "name": "(CA Lake) Tiny Island",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2214, "y": 1972}]
+          },
+          {
+            "name": "(CA Lake) Rock Wall Gap",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1964, "y": 1590}]
+          },
+          {
+            "name": "CABHLev",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "(CA Lake) Top of Big Rock",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2161, "y": 1590}]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
