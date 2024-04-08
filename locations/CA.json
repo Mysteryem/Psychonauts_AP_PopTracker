@@ -367,17 +367,94 @@
             "map_locations": [{"map": "CA", "x": 1221, "y": 1551}]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "(CA Cabins)",
-    "access_rules": [],
-    "children": [
+      },
       {
-        "name": "(CA Cabins) ",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "name": "CAKC",
+        "access_rules": ["lili_bracelet"],
+        "children": [
+          {
+            "name": "(CA Cabins) Grinding on the Roots",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1340, "y": 538}]
+          },
+          {
+            "name": "(CA Cabins) Under Stairs",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1223, "y": 395}]
+          },
+          {
+            "name": "(CA Cabins) Top of Loudspeaker",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1345, "y": 421}]
+          },
+          {
+            "name": "(CA Cabins) Cabin Roof 1",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1299, "y": 261}]
+          },
+          {
+            "name": "(CA Cabins) Trampoline Above Outhouse",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1221, "y": 173}]
+          },
+          {
+            "name": "(CA Cabins) Trampoline Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1254, "y": 191}]
+          },
+          {
+            "name": "(CA Cabins) Cabins Outhouse",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1177, "y": 195}]
+          },
+          {
+            "name": "(CA Cabins) Behind Cabin",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1083, "y": 176}]
+          },
+          {
+            "name": "(CA Cabins) Roof of Cabin 2",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1089, "y": 214}]
+          },
+          {
+            "name": "(CA Cabins) Cave Entrance",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1099, "y": 128}]
+          },
+          {
+            "name": "(CA Cabins) Deep Cave Path",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1161, "y": 256}]
+          },
+          {
+            "name": "(CA Cabins) Deep Cave Ladder",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1066, "y": 294}]
+          },
+          {
+            "name": "CAKCLev",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "(CA Cabins) High-Up Tightrope",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 998, "y": 128}]
+              }
+            ]
+          },
+          {
+            "name": "CAKCPyro",
+            "access_rules": ["pyrokinesis"],
+            "children": [
+              {
+                "name": "(CA Cabins) Cave Refrigerator",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1266, "y": 53}]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
