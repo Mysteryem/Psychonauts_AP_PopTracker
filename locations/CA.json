@@ -243,126 +243,130 @@
             "map_locations": [{"map": "CA", "x": 2095, "y": 671}]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "(CA Main)",
-    "access_rules": [],
-    "children": [
-      {
-        "name": "(CA Main) Fence Near Kids' Cabins",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
       },
       {
-        "name": "(CA Main) Under Lodge Front Steps",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "name": "CAMA",
+        "children": [
+          {
+            "name": "(CA Main) Fence Near Kids' Cabins",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 920, "y": 1520}]
+          },
+          {
+            "name": "(CA Main) Under Lodge Front Steps",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1190, "y": 1668}]
+          },
+          {
+            "name": "(CA Main) Behind Tree Near Lodge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1468, "y": 1824}]
+          },
+          {
+            "name": "(CA Main) Under the Lodge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1285, "y": 1552}]
+          },
+          {
+            "name": "(CA Main) Loudspeaker 1 Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1485, "y": 1658}]
+          },
+          {
+            "name": "(CA Main) Under Lodge Metal Roof",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1310, "y": 1514}]
+          },
+          {
+            "name": "(CA Main) Loudspeaker Tightrope Walk",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1334, "y": 1443}]
+          },
+          {
+            "name": "(CA Main) Loudspeaker 2 Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1252, "y": 1360}]
+          },
+          {
+            "name": "(CA Main) Lodge Roof",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1261, "y": 1509}]
+          },
+          {
+            "name": "(CA Main) Metal Roof Outcropping",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1279, "y": 1622}]
+          },
+          {
+            "name": "(CA Main) Loudspeaker Above Stump",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 991, "y": 1852}]
+          },
+          {
+            "name": "Tree Platform",
+            "sections": [
+              {"name": "(CA Main) Tree Platform Left"},
+              {"name": "(CA Main) Tree Platform Right"}
+            ],
+            "map_locations": [{"map": "CA", "x": 773, "y": 1902}]
+          },
+          {
+            "name": "(CA Main) Rock Wall Top",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 713, "y": 2101}]
+          },
+          {
+            "name": "(CA Main) Parking Lot Arch",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 433, "y": 2098}]
+          },
+          {
+            "name": "(CA Main) Parking Lot Small Log",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 471, "y": 2161}]
+          },
+          {
+            "name": "(CA Main) Oleander's Car",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 482, "y": 2296}]
+          },
+          {
+            "name": "(CA Main) Parking Lot Basketball Hoop",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 191, "y": 2232}]
+          },
+          {
+            "name": "(CA Main) Parking Lot Outhouse",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 341, "y": 1959}]
+          },
+          {
+            "name": "(CA Main) Rock Near Bench",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 689, "y": 1856}]
+          },
+          {
+            "name": "CAMALev",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "(CA Main) Parking Lot History Board",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 341, "y": 2272}]
+              }
+            ]
+          }
+        ]
       },
       {
-        "name": "(CA Main) Behind Tree Near Lodge",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Under the Lodge",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Loudspeaker 1 Platform",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Under Lodge Metal Roof",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Loudspeaker Tightrope Walk",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Loudspeaker 2 Platform",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Lodge Roof",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Metal Roof Outcropping",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Loudspeaker Above Stump",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "Tree Platform",
-        "sections": [
-          {"name": "(CA Main) Tree Platform Left"},
-          {"name": "(CA Main) Tree Platform Right"}
-        ],
-        "map_locations": [{"map": "CA", "x": 773, "y": 1902}]
-      },
-      {
-        "name": "(CA Main) Rock Wall Top",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 699, "y": 2077}]
-      },
-      {
-        "name": "(CA Main) Parking Lot Arch",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 433, "y": 2098}]
-      },
-      {
-        "name": "(CA Main) Parking Lot Small Log",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Oleander's Car",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Parking Lot Basketball Hoop",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 190, "y": 2235}]
-      },
-      {
-        "name": "(CA Main) Parking Lot Outhouse",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 346, "y": 1964}]
-      },
-      {
-        "name": "(CA Main) Rock Near Bench",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
-      },
-      {
-        "name": "(CA Main) Parking Lot History Board",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 343, "y": 2269}]
-      }
-    ]
-  },
-  {
-    "name": "(CA Lodge)",
-    "access_rules": [],
-    "children": [
-      {
-        "name": "(CA Lodge) Main Lodge Rafters",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "name": "CALI",
+        "children": [
+          {
+            "name": "Main Lodge Interior",
+            "sections": [{"name": "(CA Lodge) Main Lodge Rafters"}],
+            "map_locations": [{"map": "CA", "x": 1221, "y": 1551}]
+          }
+        ]
       }
     ]
   },
