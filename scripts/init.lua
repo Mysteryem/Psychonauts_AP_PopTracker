@@ -11,6 +11,9 @@ if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
 end
 
+-- Logic
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+
 -- Items
 Tracker:AddItems("items/items.json")
 
