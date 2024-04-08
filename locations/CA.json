@@ -455,17 +455,152 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "(CA Reception)",
-    "access_rules": [],
-    "children": [
+      },
       {
-        "name": "(CA Reception) ",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 500, "y": 500}]
+        "name": "CARE",
+        "access_rules": ["squirrel_roast_dinner"],
+        "children": [
+          {
+            "name": "(CA Reception) Graveyard Bear",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 271, "y": 1532}]
+          },
+          {
+            "name": "(CA Reception) Near Beehive",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 430, "y": 1267}]
+          },
+          {
+            "name": "(CA Reception) Mineshaft Trailer Entrance",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 600, "y": 1247}]
+          },
+          {
+            "name": "(CA Reception) Tightrope Start",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 562, "y": 1239}]
+          },
+          {
+            "name": "(CA Reception) Tightrope End",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 420, "y": 1140}]
+          },
+          {
+            "name": "(CA Reception) Rocks Near Trailer",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 477, "y": 1025}]
+          },
+          {
+            "name": "(CA Reception) Fireplace Tree Rock",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 600, "y": 873}]
+          },
+          {
+            "name": "(CA Reception) Big Log Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 709, "y": 753}]
+          },
+          {
+            "name": "(CA Reception) Above Waterfall Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 785, "y": 735}]
+          },
+          {
+            "name": "(CA Reception) Above Waterfall Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 894, "y": 657}]
+          },
+          {
+            "name": "(CA Reception) Behind the Waterfall",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 862, "y": 672}]
+          },
+          {
+            "name": "(CA Reception) Weird Tree Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1101, "y": 793}]
+          },
+          {
+            "name": "(CA Reception) Weird Tree Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1069, "y": 828}]
+          },
+          {
+            "name": "(CA Reception) Log Hill Top",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 989, "y": 946}]
+          },
+          {
+            "name": "(CA Reception) Log Hill Behind",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1007, "y": 887}]
+          },
+          {
+            "name": "(CA Reception) Mineshaft Grind Rail",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 825, "y": 1137}]
+          },
+          {
+            "name": "Mineshaft Upper Entrance",
+            "sections": [
+              {"name": "(CA Reception) Mineshaft Upper Entrance"},
+              {"name": "(CA Reception) Mineshaft Above Upper Entrance"}
+            ],
+            "map_locations": [{"map": "CA", "x": 832, "y": 1275}]
+          },
+          {
+            "name": "(CA Reception) Inside Mineshaft",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 825, "y": 1483}]
+          },
+          {
+            "name": "(CA Reception) Mineshaft Bear",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 693, "y": 1458}]
+          },
+          {
+            "name": "(CA Reception) Swamp Bird's Nest",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 810, "y": 933}]
+          },
+          {
+            "name": "(CA Reception) Collapsed Cave",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 659, "y": 700}]
+          },
+          {
+            "name": "CARELev",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "(CA Reception) Fireplace Tree Lower",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 537, "y": 890}]
+              },
+              {
+                "name": "(CA Reception) Fireplace Tree Top",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 570, "y": 865}]
+              },
+              {
+                "name": "(CA Reception) Swamp Skinny Poles",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 738, "y": 834}]
+              }
+            ]
+          },
+          {
+            "name": "CAREMark",
+            "access_rules": ["marksmanship"],
+            "children": [
+              {
+                "name": "(CA Reception) Hornet Nest",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 421, "y": 1302}]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
