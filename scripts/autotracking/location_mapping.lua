@@ -54,6 +54,22 @@ LOCATION_MAPPING = {
     [47] = {"@CAMA/(CA Main) Parking Lot Outhouse/"},
     [48] = {"@CAMA/(CA Main) Rock Near Bench/"},
 
+    -- CAKC
+    [49] = {"@CAKC/(CA Cabins) Grinding on the Roots/"},
+    [50] = {"@CAKC/(CA Cabins) Under Stairs/"},
+    [51] = {"@CAKC/(CA Cabins) Top of Loudspeaker/"},
+    [52] = {"@CAKC/(CA Cabins) Cabin Roof 1/"},
+    [53] = {"@CAKC/(CA Cabins) Trampoline Above Outhouse/"},
+    [54] = {"@CAKC/(CA Cabins) Trampoline Platform/"},
+    [55] = {"@CAKC/(CA Cabins) Cabins Outhouse/"},
+    [56] = {"@CAKC/(CA Cabins) Behind Cabin/"},
+    [57] = {"@CAKC/(CA Cabins) Roof of Cabin 2/"},
+    [58] = {"@CAKC/(CA Cabins) Cave Entrance/"},
+    [59] = {"@CAKC/(CA Cabins) Deep Cave Path/"},
+    [60] = {"@CAKC/(CA Cabins) Deep Cave Ladder/"},
+    [61] = {"@CAKCLev/(CA Cabins) High-Up Tightrope/"},
+    [62] = {"@CAKCPyro/(CA Cabins) Cave Refrigerator/"},
+
     -- CAJA
     [109] = {"@CAJA/(CA Ford) Top of Sanctuary/"},
     [110] = {"@CAJA/(CA Ford) Bottom of Sanctuary/"},
