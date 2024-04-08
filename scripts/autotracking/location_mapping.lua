@@ -119,6 +119,9 @@ LOCATION_MAPPING = {
     [106] = {"@CABHLev/(CA Lake) Top of Big Rock/"},
     [107] = {"@CABH/(CA Lake) Rock Wall Gap/"},
 
+    -- CALI
+    [108] = {"@CALI/Main Lodge Interior/(CA Lodge) Main Lodge Rafters"},
+
     -- CAJA
     [109] = {"@CAJA/(CA Ford) Top of Sanctuary/"},
     [110] = {"@CAJA/(CA Ford) Bottom of Sanctuary/"},
