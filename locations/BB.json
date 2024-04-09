@@ -55,7 +55,7 @@
           {
             "name": "(BB Area 2) Machine Gun Turret",
             "sections": [{"name":  ""}],
-            "map_locations": [{"map":  "BB", "x": 1251, "y": 890}]
+            "map_locations": [{"map":  "BB", "x": 1237, "y": 870}]
           },
           {
             "name": "(BB Area 2) Pole-Swinging Tutorial",
