@@ -182,6 +182,22 @@ LOCATION_MAPPING = {
     [229] = {"@MIFL/(MI Finale) Milla's Party Room/"},
     [230] = {"@MIFL/(MI Finale) Milla's Dance Party Complete/"},
 
+    -- BT/NI
+    [231] = {"@NIMP/(BT Main) Outside Caravan/"},
+    [232] = {"@NIMP/(BT Main) Behind the Egg/"},
+    [233] = {"@NIMP/(BT Main) Shadow Monster Path/"},
+    [234] = {"@NIMPMark/(BT Main) Shadow Monster Blue Mushrooms/"},
+    [235] = {"@NIMPMark/(BT Main) Ledge Behind Shadow Monster/"},
+    [236] = {"@NIMPMark/(BT Main) Below the Steep Ledge/"},
+    [237] = {"@NIMPMark/(BT Main) Forest Path Blue Mushrooms/"},
+    [238] = {"@NIMPMark/(BT Main) Forest Blue Ledge/"},
+    [239] = {"@NIMPMark/(BT Main) Forest High Platform/"},
+    [240] = {"@NIMPMark/(BT Main) Forest Path Thorns/"},
+    [241] = {"@NIMPMark/(BT Main) Behind Thorn Tower Left/"},
+    [242] = {"@NIMPMark/(BT Main) Behind Thorn Tower Mid/"},
+    [243] = {"@NIMPMark/(BT Main) Behind Thorn Tower Right/"},
+    [244] = {"@NIBA/(BT Boss) Brain Tumbler Experiment Complete/"},
+
     -- LO
     [245] = {"@LOMA/(LO Main) Skyscraper Start/"},
     [246] = {"@LOMA/(LO Main) Corner Near First Jail/"},
