@@ -1,0 +1,89 @@
+[
+  {
+    "name": "NIMP",
+    "children": [
+      {
+        "name": "(BT Main) Outside Caravan",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "BT", "x": 243, "y": 361}]
+      },
+      {
+        "name": "(BT Main) Behind the Egg",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "BT", "x": 1175, "y": 954}]
+      },
+      {
+        "name": "(BT Main) Shadow Monster Path",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "BT", "x": 873, "y": 708}]
+      },
+      {
+        "name": "NIMPMark",
+        "access_rules": ["marksmanship"],
+        "children": [
+          {
+            "name": "(BT Main) Shadow Monster Blue Mushrooms",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 626, "y": 778}]
+          },
+          {
+            "name": "(BT Main) Ledge Behind Shadow Monster",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 593, "y": 861}]
+          },
+          {
+            "name": "(BT Main) Below the Steep Ledge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 463, "y": 990}]
+          },
+          {
+            "name": "(BT Main) Forest Path Blue Mushrooms",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 154, "y": 900}]
+          },
+          {
+            "name": "(BT Main) Forest Blue Ledge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 53, "y": 698}]
+          },
+          {
+            "name": "(BT Main) Forest High Platform",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 117, "y": 886}]
+          },
+          {
+            "name": "(BT Main) Forest Path Thorns",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 286, "y": 695}]
+          },
+          {
+            "name": "(BT Main) Behind Thorn Tower Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 607, "y": 126}]
+          },
+          {
+            "name": "(BT Main) Behind Thorn Tower Mid",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 653, "y": 156}]
+          },
+          {
+            "name": "(BT Main) Behind Thorn Tower Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BT", "x": 793, "y": 99}]
+          },
+          {
+            "name": "NIBA",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "(BT Boss) Brain Tumbler Experiment Complete",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "BT", "x": 654, "y": 247}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
