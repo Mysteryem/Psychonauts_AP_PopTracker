@@ -1,0 +1,187 @@
+[
+  {
+    "name": "WWMA",
+    "access_rules": ["mind_fred"],
+    "children": [
+      {
+        "name": "(WW Main) Fred's Room",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 161, "y": 903}]
+      },
+      {
+        "name": "(WW Main) The Fireplace",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 113, "y": 859}]
+      },
+      {
+        "name": "(WW Main) Game Board",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 1066, "y": 946}]
+      },
+      {
+        "name": "(WW Main) Outside Villager 1 House",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 574, "y": 694}]
+      },
+      {
+        "name": "(WW Main) Small Arch Top",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 308, "y": 740}]
+      },
+      {
+        "name": "(WW Main) Small Arch Below",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 287, "y": 756}]
+      },
+      {
+        "name": "(WW Main) Top of Villager 2's House",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 764, "y": 378}]
+      },
+      {
+        "name": "(WW Main) Castle Tower",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 409, "y": 396}]
+      },
+      {
+        "name": "(WW Main) Castle Inside",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 397, "y": 310}]
+      },
+      {
+        "name": "(WW Main) Castle Wall",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 337, "y": 283}]
+      },
+      {
+        "name": "(WW Main) Help the Carpenter",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "WW", "x": 923, "y": 806}]
+      },
+      {
+        "name": "WWMALev",
+        "access_rules": ["levitation"],
+        "children": [
+          {
+            "name": "(WW Main) Top of Villager 3's House",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 435, "y": 664}]
+          },
+          {
+            "name": "(WW Main) Top of Knight's House",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 396, "y": 886}]
+          }
+        ]
+      },
+      {
+        "name": "WWMACarpRoof",
+        "access_rules": ["levitation,invisibility"],
+        "children": [
+          {
+            "name": "(WW Main) Carpenter's Roof",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 906, "y": 802}]
+          },
+          {
+            "name": "(WW Main) Tightrope Room",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 765, "y": 801}]
+          }
+        ]
+      },
+      {
+        "name": "WWMADuster",
+        "access_rules": ["cobweb_duster"],
+        "children": [
+          {
+            "name": "(WW Main) Under the Guillotine",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 674, "y": 664}]
+          },
+          {
+            "name": "(WW Main) Fred's House Basement",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 661, "y": 920}]
+          },
+          {
+            "name": "(WW Main) Blacksmith's Left Building",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 255, "y": 470}]
+          },
+          {
+            "name": "WWMADusterLev",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "(WW Main) Blacksmith's Right Building",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "WW", "x": 365, "y": 498}]
+              },
+              {
+                "name": "WWMADusterLevPyro",
+                "access_rules": ["pyrokinesis"],
+                "children": [
+                  {
+                    "name": "(WW Main) Blacksmith's Haybale",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "WW", "x": 365, "y": 516}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "WWMAV1",
+        "access_rules": ["fred_letter"],
+        "children": [
+          {
+            "name": "(WW Main) Help Villager 1",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 606, "y": 700}]
+          },
+          {
+            "name": "WWMAKnight",
+            "access_rules": ["telekinesis"],
+            "children": [
+              {
+                "name": "(WW Main) Help the Knight",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "WW", "x": 417, "y": 861}]
+              }
+            ]
+          },
+          {
+            "name": "WWMAV2",
+            "access_rules": ["fred_coin,telekinesis"],
+            "children": [
+              {
+                "name": "(WW Main) Help Villager 2",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "WW", "x": 764, "y": 417}]
+              },
+              {
+                "name": "WWMAV3",
+                "access_rules": ["fred_musket"],
+                "children": [
+                  {
+                    "name": "(WW Main) Help Villager 3",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "WW", "x": 452, "y": 639}]
+                  },
+                  {
+                    "name": "(WW Main) Waterloo World Complete",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "WW", "x": 416, "y": 274}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
