@@ -143,10 +143,10 @@ LOCATION_MAPPING = {
     [124] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 70"},
     [125] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 75"},
     [126] = {"@RANK65to80/Ranks 65 to 80/(Rank) PSI Rank 80"},
-    [127] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 85"},
-    [128] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 90"},
-    [129] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 95"},
-    [130] = {"@RANK85to101/Ranks 85 to 101(Rank) PSI Rank 101"},
+    [127] = {"@RANK85to101/Ranks 85 to 101/(Rank) PSI Rank 85"},
+    [128] = {"@RANK85to101/Ranks 85 to 101/(Rank) PSI Rank 90"},
+    [129] = {"@RANK85to101/Ranks 85 to 101/(Rank) PSI Rank 95"},
+    [130] = {"@RANK85to101/Ranks 85 to 101/(Rank) PSI Rank 101"},
 
     -- BB
     [184] = {"@BBA1/(BB Area 1) Jumping Tutorial 1/"},
