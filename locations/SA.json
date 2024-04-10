@@ -1,0 +1,97 @@
+[
+  {
+    "name": "SACU",
+    "access_rules": ["mind_sasha,marksmanship"],
+    "children": [
+      {
+        "name": "(SA Main) On the Bed",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 253, "y": 200}]
+      },
+      {
+        "name": "(SA Main) On the Pillow",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 228, "y": 219}]
+      },
+      {
+        "name": "Building Blocks Left",
+        "sections": [
+          {"name": "(SA Main) Building Blocks Left"},
+          {"name": "(SA Main) Building Blocks Below"}
+        ],
+        "map_locations": [{"map": "SA", "x": 296, "y": 305}]
+      },
+      {
+        "name": "(SA Main) Building Blocks Right",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 155, "y": 62}]
+      },
+      {
+        "name": "(SA Main) Top of Bed Frame",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 132, "y": 220}]
+      },
+      {
+        "name": "(SA Main) Round Platforms Bottom",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 742, "y": 251}]
+      },
+      {
+        "name": "(SA Main) Round Platforms Near Valve",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 695, "y": 409}]
+      },
+      {
+        "name": "(SA Main) Side of Cube Face 3",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 250, "y": 571}]
+      },
+      {
+        "name": "(SA Main) Bottom of Shoebox Ladder",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 275, "y": 709}]
+      },
+      {
+        "name": "(SA Main) Shoebox Pedestal",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 157, "y": 684}]
+      },
+      {
+        "name": "(SA Main) Shoebox Tower Top",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 344, "y": 848}]
+      },
+      {
+        "name": "(SA Main) Flame Tower Steps",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 708, "y": 736}]
+      },
+      {
+        "name": "(SA Main) Flame Tower Top 1",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 797, "y": 711}]
+      },
+      {
+        "name": "(SA Main) Flame Tower Top 2",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 758, "y": 726}]
+      },
+      {
+        "name": "(SA Main) Sasha's Shooting Gallery Complete",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "SA", "x": 513, "y": 509}]
+      },
+      {
+        "name": "SACULev",
+        "access_rules": ["levitation"],
+        "children": [
+          {
+            "name": "(SA Main) Round Platforms Far from Valve",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "SA", "x": 550, "y": 198}]
+          }
+        ]
+      }
+    ]
+  }
+]

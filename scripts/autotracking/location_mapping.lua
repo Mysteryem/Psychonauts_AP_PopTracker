@@ -165,6 +165,25 @@ LOCATION_MAPPING = {
     [197] = {"@BBA2/End of Obstacle Course/(BB Finale) End of Obstacle Course Right"},
     [198] = {"@BBA2/(BB Finale) Basic Braining Complete/"},
 
+    -- SA
+    [199] = {"@SACU/(SA Main) On the Bed/"},
+    [200] = {"@SACU/(SA Main) On the Pillow/"},
+    [201] = {"@SACU/Building Blocks Left/(SA Main) Building Blocks Left"},
+    [202] = {"@SACU/Building Blocks Left/(SA Main) Building Blocks Below"},
+    [203] = {"@SACU/(SA Main) Building Blocks Right/"},
+    [204] = {"@SACU/(SA Main) Top of Bed Frame/"},
+    [205] = {"@SACU/(SA Main) Round Platforms Bottom/"},
+    [206] = {"@SACU/(SA Main) Round Platforms Near Valve/"},
+    [207] = {"@SACULev/(SA Main) Round Platforms Far from Valve/"},
+    [208] = {"@SACU/(SA Main) Side of Cube Face 3/"},
+    [209] = {"@SACU/(SA Main) Bottom of Shoebox Ladder/"},
+    [210] = {"@SACU/(SA Main) Shoebox Pedestal/"},
+    [211] = {"@SACU/(SA Main) Shoebox Tower Top/"},
+    [212] = {"@SACU/(SA Main) Flame Tower Steps/"},
+    [213] = {"@SACU/(SA Main) Flame Tower Top 1/"},
+    [214] = {"@SACU/(SA Main) Flame Tower Top 2/"},
+    [215] = {"@SACU/(SA Main) Sasha's Shooting Gallery Complete/"},
+
     -- MI
     [216] = {"@MIFL/(MI Area 1) Intro Rings Tutorial/"},
     [217] = {"@MIFL/(MI Area 1) Dancing Camper Platform 1/"},
