@@ -27,11 +27,6 @@ BRAIN_CODES = {
     "brain_chops",
 }
 
-CANDLE_CODES = {
-    "gloria_candle1",
-    "gloria_candle2",
-}
-
 -- Offset from PsychoRando ID to Archipelago ID
 AP_ITEM_OFFSET = 42690000
 AP_LOCATION_OFFSET = AP_ITEM_OFFSET
@@ -107,8 +102,6 @@ function onClear(slot_data)
     end
     -- reset brain count
     clearBrainCount()
-    -- reset candle count
-    clearCandleCount()
 
     if slot_data == nil  then
         print("welp")
@@ -157,20 +150,6 @@ function updateBrainCount(received_item_code)
     end
 end
 
-function clearCandleCount()
-    local obj = Tracker:FindObjectForCode("gloria_candle")
-    obj.AcquiredCount = 0
-end
-
-function updateCandleCount(received_item_code)
-    if has_value(CANDLE_CODES, received_item_code) then
-        -- DEBUG
-        print(string.format("updateBrainCount: %s is a candle, incrementing candle count", received_item_code))
-        local obj = Tracker:FindObjectForCode("gloria_candle")
-        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-    end
-end
-
 function onItem(index, ap_item_id, item_name, player_number)
     if index <= CUR_INDEX then
         return
@@ -201,7 +180,6 @@ function onItem(index, ap_item_id, item_name, player_number)
             obj.Active = true
             -- Extra handling for the fake consumable items used to show the current total
             updateBrainCount(item_code)
-            updateCandleCount(item_code)
         elseif item_type == "progressive" then
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1

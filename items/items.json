@@ -238,18 +238,6 @@
     "max_quantity": 2
   },
   {
-    "name": "Candle 1",
-    "type": "toggle",
-    "img": "images/items/gloria/candle.png",
-    "codes": "gloria_candle1"
-  },
-  {
-    "name": "Candle 2",
-    "type": "toggle",
-    "img": "images/items/gloria/candle.png",
-    "codes": "gloria_candle2"
-  },
-  {
     "name": "Benny's Brain",
     "type": "toggle",
     "img": "images/items/misc/jarred_brain.png",

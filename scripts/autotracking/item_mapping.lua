@@ -94,8 +94,8 @@ ITEM_MAPPING = {
     [82] = {"brain_chops", "toggle"},
 
     -- Gloria's Theater
-    [13] = {"gloria_candle1", "toggle"},
-    [14] = {"gloria_candle2", "toggle"},
+    [13] = {"gloria_candle", "consumable"},
+    [14] = {"gloria_candle", "consumable"},
     [15] = {"gloria_megaphone", "toggle"},
 
     -- Waterloo World
