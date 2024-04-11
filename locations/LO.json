@@ -105,7 +105,10 @@
           {
             "name": "(LO Boss) Lungfishopolis Complete",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1908, "y": 853}]
+            "map_locations": [
+              {"map": "LO", "x": 1908, "y": 853},
+              {"map": "CA", "x": 2483, "y": 69}
+            ]
           }
         ]
       }

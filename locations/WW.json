@@ -174,7 +174,10 @@
                   {
                     "name": "(WW Main) Waterloo World Complete",
                     "sections": [{"name": ""}],
-                    "map_locations": [{"map": "WW", "x": 416, "y": 274}]
+                    "map_locations": [
+                      {"map": "WW", "x": 416, "y": 274},
+                      {"map": "CA", "x": 2600, "y": 233}
+                    ]
                   }
                 ]
               }

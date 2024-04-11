@@ -152,7 +152,10 @@
                       {
                         "name": "(BV Edgar) Black Velvetopia Complete",
                         "sections": [{"name": ""}],
-                        "map_locations": [{"map": "BV", "x": 1451, "y": 887}]
+                        "map_locations": [
+                          {"map": "BV", "x": 1451, "y": 887},
+                          {"map": "CA", "x": 2281, "y": 244}
+                        ]
                       }
                     ]
                   }

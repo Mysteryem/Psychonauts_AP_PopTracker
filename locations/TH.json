@@ -114,7 +114,10 @@
                       {
                         "name": "(TH Catwalks) Gloria's Theater Complete",
                         "sections": [{"name": ""}],
-                        "map_locations": [{"map": "TH", "x": 2076, "y": 1373}]
+                        "map_locations": [
+                          {"map": "TH", "x": 2076, "y": 1373},
+                          {"map": "CA", "x": 2306, "y": 105}
+                        ]
                       }
                     ]
                   }

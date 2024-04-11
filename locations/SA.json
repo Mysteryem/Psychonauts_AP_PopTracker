@@ -79,7 +79,10 @@
       {
         "name": "(SA Main) Sasha's Shooting Gallery Complete",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "SA", "x": 513, "y": 509}]
+        "map_locations": [
+          {"map": "SA", "x": 513, "y": 509},
+          {"map": "CA", "x": 2269, "y": 159}
+        ]
       },
       {
         "name": "SACULev",

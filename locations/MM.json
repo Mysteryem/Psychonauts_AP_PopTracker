@@ -159,7 +159,10 @@
                           {
                             "name": "(MM Depository) Milkman Complete",
                             "sections": [{"name": ""}],
-                            "map_locations": [{"map": "MM", "x": 1166, "y": 33}]
+                            "map_locations": [
+                              {"map": "MM", "x": 1166, "y": 33},
+                              {"map": "CA", "x": 2528, "y": 309}
+                            ]
                           }
                         ]
                       }

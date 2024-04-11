@@ -78,7 +78,10 @@
               {
                 "name": "(BT Boss) Brain Tumbler Experiment Complete",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "BT", "x": 654, "y": 247}]
+                "map_locations": [
+                  {"map": "BT", "x": 654, "y": 247},
+                  {"map": "CA", "x": 2558, "y": 91}
+                ]
               }
             ]
           }

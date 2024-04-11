@@ -83,7 +83,10 @@
           {
             "name": "(BB Finale) Basic Braining Complete",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 1951, "y": 1314}]
+            "map_locations": [
+              {"map": "BB", "x": 1951, "y": 1314},
+              {"map": "CA", "x": 2383, "y": 70}
+            ]
           }
         ]
       }

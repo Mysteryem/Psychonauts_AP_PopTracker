@@ -76,7 +76,10 @@
       {
         "name": "(MI Finale) Milla's Dance Party Complete",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 1380, "y": 811}]
+        "map_locations": [
+          {"map": "MI", "x": 1380, "y": 811},
+          {"map": "CA", "x": 2598, "y": 171}
+        ]
       }
     ]
   }
