@@ -334,4 +334,18 @@ LOCATION_MAPPING = {
     [350] = {"@BVESEagle/(BV Edgar) Eagle Wrestler/"},
     [351] = {"@BVESCobra/(BV Edgar) Cobra Wrestler/"},
     [352] = {"@BVESBoss/(BV Edgar) Black Velvetopia Complete/"},
+
+    -- MC
+    [353] = {"@MCTCEscort/(MC Main) Entrance Awning/"},
+    [354] = {"@MCTC/(MC Main) Crumbling Path/"},
+    [355] = {"@MCTC/(MC Main) Crumbling Path End Right/"},
+    [356] = {"@MCTC/(MC Main) Crumbling Path End Left/"},
+    [357] = {"@MCTCEscort/(MC Main) Ollie Escort Floor/"},
+    [358] = {"@MCTCEscort/(MC Main) Ollie Escort Middle/"},
+    [359] = {"@MCTCEscort/Ollie Escort Top/(MC Main) Ollie Escort Top Left"},
+    [360] = {"@MCTCEscort/Ollie Escort Top/(MC Main) Ollie Escort Top Right"},
+    [361] = {"@MCTCEscort/(MC Main) Tunnel of Love Start/"},
+    [362] = {"@MCTCEscort/(MC Main) Tunnel of Love Corner/"},
+    [363] = {"@MCTCEscort/(MC Main) Tunnel of Love Rail/"},
+    [364] = {"@MCTCEscort/(MC Main) Next to the Final Door/"},
 }
