@@ -86,14 +86,12 @@
                 "access_rules": ["boyd_hedge_trimmers"],
                 "children": [
                   {
-                    "name": "(MM Neighborhood) Landscapers House Backyard",
-                    "sections": [{"name": ""}],
+                    "name": "Landscapers House",
+                    "sections": [
+                      {"name": "(MM Neighborhood) Landscapers House Backyard"},
+                      {"name": "(MM Neighborhood) Landscapers House Table"}
+                    ],
                     "map_locations": [{"map": "MM", "x": 1105, "y": 639}]
-                  },
-                  {
-                    "name": "(MM Neighborhood) Landscapers House Table",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MM", "x": 1117, "y": 619}]
                   },
                   {
                     "name": "MMI1RollingPin",
@@ -102,7 +100,7 @@
                       {
                         "name": "(MM Neighborhood) Landscapers House Kitchen",
                         "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 1132, "y": 610}]
+                        "map_locations": [{"map": "MM", "x": 1132, "y": 604}]
                       }
                     ]
                   }
