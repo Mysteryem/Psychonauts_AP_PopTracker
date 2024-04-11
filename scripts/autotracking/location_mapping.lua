@@ -265,6 +265,27 @@ LOCATION_MAPPING = {
     [287] = {"@MMI2/(MM Depository) Behind Book Depository/"},
     [288] = {"@MMDM/(MM Depository) Milkman Complete/"},
 
+    -- TH
+    [289] = {"@THMS/(TH Stage) Near the Critic/"},
+    [290] = {"@THMSLev/(TH Stage) In the Audience/"},
+    [291] = {"@THMS/(TH Stage) Below the Spotlight/"},
+    [292] = {"@THMS/(TH Stage) Behind Stage/"},
+    [293] = {"@THMSDuster/(TH Stage) Behind Stage Cobweb/"},
+    [294] = {"@THMSStorage/(TH Stage) Storage Room Floor/"},
+    [295] = {"@THMSStorage/(TH Stage) Storage Room Left/"},
+    [296] = {"@THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Lower"},
+    [297] = {"@THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Upper"},
+    [298] = {"@THMSStorage/(TH Stage) Bonita's Room/"},
+    [299] = {"@THCW/(TH Catwalks) Doghouse Slicers/"},
+    [300] = {"@THCW/(TH Catwalks) Big Platform 1/"},
+    [301] = {"@THCW/(TH Catwalks) Big Platform 2/"},
+    [302] = {"@THCW/Big Platform Corner/(TH Catwalks) Big Platform 3"},
+    [303] = {"@THCW/Big Platform Corner/(TH Catwalks) Big Platform Above"},
+    [304] = {"@THCW/(TH Catwalks) Next to Oatmeal/"},
+    [305] = {"@THCW/(TH Catwalks) Candle Basket/"},
+    [306] = {"@THCW/(TH Catwalks) Curtain Slide/"},
+    [307] = {"@THFB/(TH Catwalks) Gloria's Theater Complete/"},
+
     -- WW
     [308] = {"@WWMA/(WW Main) Fred's Room/"},
     [309] = {"@WWMA/(WW Main) The Fireplace/"},

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "THMS",
+    "access_rules": ["mind_gloria"],
+    "children": [
+      {
+        "name": "(TH Stage) Near the Critic",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "TH", "x": 169, "y": 876}]
+      },
+      {
+        "name": "(TH Stage) Below the Spotlight",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "TH", "x": 813, "y": 765}]
+      },
+      {
+        "name": "(TH Stage) Behind Stage",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "TH", "x": 245, "y": 397}]
+      },
+      {
+        "name": "THMSLev",
+        "access_rules": ["levitation"],
+        "children": [
+          {
+            "name": "(TH Stage) In the Audience",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 273, "y": 1137}]
+          }
+        ]
+      },
+      {
+        "name": "THMSDuster",
+        "access_rules": ["cobweb_duster"],
+        "children": [
+          {
+            "name": "(TH Stage) Behind Stage Cobweb",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 200, "y": 274}]
+          },
+          {
+            "name": "THMSStorage",
+            "access_rules": ["invisibility"],
+            "children": [
+              {
+                "name": "(TH Stage) Storage Room Floor",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "TH", "x": 951, "y": 293}]
+              },
+              {
+                "name": "(TH Stage) Storage Room Left",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "TH", "x": 911, "y": 110}]
+              },
+              {
+                "name": "Storage Room Right",
+                "sections": [
+                  {"name": "(TH Stage) Storage Room Right Lower"},
+                  {"name": "(TH Stage) Storage Room Right Upper"}
+                ],
+                "map_locations": [{"map": "TH", "x": 1114, "y": 125}]
+              },
+              {
+                "name": "(TH Stage) Bonita's Room",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "TH", "x": 1251, "y": 387}]
+              },
+              {
+                "name": "THCW",
+                "access_rules": ["pyrokinesis,gloria_candle,levitation,gloria_megaphone"],
+                "children": [
+                  {
+                    "name": "(TH Catwalks) Doghouse Slicers",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "TH", "x": 2272, "y": 598}]
+                  },
+                  {
+                    "name": "(TH Catwalks) Big Platform 1",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "TH", "x": 2443, "y": 892}]
+                  },
+                  {
+                    "name": "(TH Catwalks) Big Platform 2",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "TH", "x": 2430, "y": 651}]
+                  },
+                  {
+                    "name": "Big Platform Corner",
+                    "sections": [
+                      {"name": "(TH Catwalks) Big Platform 3"},
+                      {"name": "(TH Catwalks) Big Platform Above"}
+                    ],
+                    "map_locations": [{"map": "TH", "x": 2538, "y": 776}]
+                  },
+                  {
+                    "name": "(TH Catwalks) Next to Oatmeal",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "TH", "x": 2013, "y": 370}]
+                  },
+                  {
+                    "name": "(TH Catwalks) Candle Basket",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "TH", "x": 2076, "y": 919}]
+                  },
+                  {
+                    "name": "(TH Catwalks) Curtain Slide",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "TH", "x": 1941, "y": 545}]
+                  },
+                  {
+                    "name": "THFB",
+                    "access_rules": ["gloria_candle:2"],
+                    "children": [
+                      {
+                        "name": "(TH Catwalks) Gloria's Theater Complete",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "TH", "x": 2076, "y": 1373}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
