@@ -124,7 +124,7 @@
               },
               {
                 "name": "MMI2",
-                "access_rules": ["boyd_flowers,boyd_plunger,pyrokinesis,shield"],
+                "access_rules": ["boyd_flowers,boyd_plunger,pyrokinesis"],
                 "children": [
                   {
                     "name": "(MM Depository) Behind Book Depository",
