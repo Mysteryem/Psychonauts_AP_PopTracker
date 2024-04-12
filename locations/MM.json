@@ -77,11 +77,6 @@
                 "map_locations": [{"map": "MM", "x": 1804, "y": 89}]
               },
               {
-                "name": "(MM Neighborhood) Post Office Lobby",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1741, "y": 136}]
-              },
-              {
                 "name": "MMI1HedgeTrimmers",
                 "access_rules": ["boyd_hedge_trimmers"],
                 "children": [
@@ -103,6 +98,17 @@
                         "map_locations": [{"map": "MM", "x": 1132, "y": 604}]
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "name": "MMI1Duster_optional",
+                "access_rules": ["[cobweb_duster]"],
+                "children": [
+                  {
+                    "name": "(MM Neighborhood) Post Office Lobby",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MM", "x": 1741, "y": 136}]
                   }
                 ]
               },
