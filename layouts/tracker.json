@@ -62,7 +62,7 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Camp",
+              "title": "Camp + CU",
               "icon": "images/icons/camp.png",
               "content": {
                 "type": "map",
