@@ -40,21 +40,6 @@
         "access_rules": ["cobweb_duster"],
         "children": [
           {
-            "name": "(BV Streets) Alleyways Ledge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BV", "x": 1311, "y": 475}]
-          },
-          {
-            "name": "(BV Streets) Sewers Main",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BV", "x": 1021, "y": 206}]
-          },
-          {
-            "name": "(BV Streets) Near Diego's House",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BV", "x": 1132, "y": 897}]
-          },
-          {
             "name": "(BV Streets) Diego's Bed",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "BV", "x": 1001, "y": 751}]
@@ -73,6 +58,27 @@
             "name": "(BV Streets) Grindrail Balcony",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "BV", "x": 712, "y": 784}]
+          }
+        ]
+      },
+      {
+        "name": "BVRBDuster_optional",
+        "access_rules": ["[cobweb_duster]"],
+        "children": [
+          {
+            "name": "(BV Streets) Alleyways Ledge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BV", "x": 1311, "y": 475}]
+          },
+          {
+            "name": "(BV Streets) Sewers Main",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BV", "x": 1021, "y": 206}]
+          },
+          {
+            "name": "(BV Streets) Near Diego's House",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BV", "x": 1132, "y": 897}]
           },
           {
             "name": "BVRBGarden",
@@ -129,7 +135,7 @@
           },
           {
             "name": "BVESEagle",
-            "access_rules": ["cobweb_duster"],
+            "access_rules": ["[cobweb_duster]"],
             "children": [
               {
                 "name": "(BV Edgar) Eagle Wrestler",

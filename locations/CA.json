@@ -16,7 +16,7 @@
   },
   {
     "name": "RANK5to20",
-    "access_rules": ["$rank5to20"],
+    "access_rules": ["[$rank5to20]"],
     "children": [
       {
         "name": "Ranks 5 to 20",
@@ -32,7 +32,7 @@
   },
   {
     "name": "RANK25to40",
-    "access_rules": ["$rank25to40"],
+    "access_rules": ["[$rank25to40]"],
     "children": [
       {
         "name": "Ranks 25 to 40",
@@ -48,7 +48,7 @@
   },
   {
     "name": "RANK45to60",
-    "access_rules": ["$rank45to60"],
+    "access_rules": ["[$rank45to60]"],
     "children": [
       {
         "name": "Ranks 45 to 60",
@@ -64,7 +64,7 @@
   },
   {
     "name": "RANK65to80",
-    "access_rules": ["$rank65to80"],
+    "access_rules": ["[$rank65to80]"],
     "children": [
       {
         "name": "Ranks 65 to 80",
@@ -80,7 +80,7 @@
   },
   {
     "name": "RANK85to101",
-    "access_rules": ["$rank85to101"],
+    "access_rules": ["[$rank85to101]"],
     "children": [
       {
         "name": "Ranks 85 to 101",
@@ -573,11 +573,6 @@
             "access_rules": ["levitation"],
             "children": [
               {
-                "name": "(CA Reception) Fireplace Tree Lower",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 537, "y": 890}]
-              },
-              {
                 "name": "(CA Reception) Fireplace Tree Top",
                 "sections": [{"name": ""}],
                 "map_locations": [{"map": "CA", "x": 570, "y": 865}]
@@ -586,6 +581,17 @@
                 "name": "(CA Reception) Swamp Skinny Poles",
                 "sections": [{"name": ""}],
                 "map_locations": [{"map": "CA", "x": 738, "y": 834}]
+              }
+            ]
+          },
+          {
+            "name": "CARELev_optional",
+            "access_rules": ["[levitation]"],
+            "children": [
+              {
+                "name": "(CA Reception) Fireplace Tree Lower",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 537, "y": 890}]
               }
             ]
           },
@@ -696,7 +702,7 @@
           },
           {
             "name": "CABHLev",
-            "access_rules": ["levitation"],
+            "access_rules": ["[levitation]"],
             "children": [
               {
                 "name": "(CA Lake) Top of Big Rock",

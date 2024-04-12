@@ -20,7 +20,7 @@
       },
       {
         "name": "MCTCEscort",
-        "access_rules": ["telekinesis,levitation"],
+        "access_rules": ["[telekinesis],[levitation]"],
         "children": [
           {
             "name": "(MC Main) Entrance Awning",
@@ -38,32 +38,47 @@
             "map_locations": [{"map": "MC", "x": 1593, "y": 594}]
           },
           {
-            "name": "Ollie Escort Top",
-            "sections": [
-              {"name": "(MC Main) Ollie Escort Top Left"},
-              {"name": "(MC Main) Ollie Escort Top Right"}
-            ],
-            "map_locations": [{"map": "MC", "x": 1785, "y": 227}]
-          },
-          {
-            "name": "(MC Main) Tunnel of Love Start",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 892, "y": 892}]
-          },
-          {
-            "name": "(MC Main) Tunnel of Love Corner",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 816, "y": 797}]
-          },
-          {
-            "name": "(MC Main) Tunnel of Love Rail",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 1012, "y": 1338}]
-          },
-          {
-            "name": "(MC Main) Next to the Final Door",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 1659, "y": 1298}]
+            "name": "MCTCEscortTop",
+            "access_rules": ["levitation"],
+            "children": [
+              {
+                "name": "Ollie Escort Top",
+                "sections": [
+                  {"name": "(MC Main) Ollie Escort Top Left"},
+                  {"name": "(MC Main) Ollie Escort Top Right"}
+                ],
+                "map_locations": [{"map": "MC", "x": 1785, "y": 227}]
+              },
+              {
+                "name": "MCTCToL",
+                "access_rules": [
+                  "telekinesis",
+                  "[telekinesis],confusion"
+                ],
+                "children": [
+                  {
+                    "name": "(MC Main) Tunnel of Love Start",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MC", "x": 892, "y": 892}]
+                  },
+                  {
+                    "name": "(MC Main) Tunnel of Love Corner",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MC", "x": 816, "y": 797}]
+                  },
+                  {
+                    "name": "(MC Main) Tunnel of Love Rail",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MC", "x": 1012, "y": 1338}]
+                  },
+                  {
+                    "name": "(MC Main) Next to the Final Door",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "MC", "x": 1659, "y": 1298}]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

@@ -60,7 +60,7 @@
       },
       {
         "name": "WWMALev",
-        "access_rules": ["levitation"],
+        "access_rules": ["[levitation]"],
         "children": [
           {
             "name": "(WW Main) Top of Villager 3's House",
@@ -76,7 +76,10 @@
       },
       {
         "name": "WWMACarpRoof",
-        "access_rules": ["levitation,invisibility"],
+        "access_rules": [
+          "levitation,[invisibility]",
+          "[levitation],invisibility"
+        ],
         "children": [
           {
             "name": "(WW Main) Carpenter's Roof",
@@ -87,6 +90,20 @@
             "name": "(WW Main) Tightrope Room",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "WW", "x": 765, "y": 801}]
+          }
+        ]
+      },
+      {
+        "name": "WWMABlacksmithLeft",
+        "access_rules": [
+          "cobweb_duster",
+          "[cobweb_duster],levitation"
+        ],
+        "children": [
+          {
+            "name": "(WW Main) Blacksmith's Left Building",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 255, "y": 470}]
           }
         ]
       },
@@ -103,11 +120,6 @@
             "name": "(WW Main) Fred's House Basement",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "WW", "x": 661, "y": 920}]
-          },
-          {
-            "name": "(WW Main) Blacksmith's Left Building",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "WW", "x": 255, "y": 470}]
           },
           {
             "name": "WWMADusterLev",
@@ -134,6 +146,17 @@
         ]
       },
       {
+        "name": "WWMAKnight",
+        "access_rules": ["[fred_letter],telekinesis"],
+        "children": [
+          {
+            "name": "(WW Main) Help the Knight",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 417, "y": 861}]
+          }
+        ]
+      },
+      {
         "name": "WWMAV1",
         "access_rules": ["fred_letter"],
         "children": [
@@ -141,17 +164,6 @@
             "name": "(WW Main) Help Villager 1",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "WW", "x": 606, "y": 700}]
-          },
-          {
-            "name": "WWMAKnight",
-            "access_rules": ["telekinesis"],
-            "children": [
-              {
-                "name": "(WW Main) Help the Knight",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "WW", "x": 417, "y": 861}]
-              }
-            ]
           },
           {
             "name": "WWMAV2",

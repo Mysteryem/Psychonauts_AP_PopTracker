@@ -30,17 +30,27 @@
         ]
       },
       {
-        "name": "THMSDuster",
-        "access_rules": ["cobweb_duster"],
+        "name": "THMSDuster_optional",
+        "access_rules": ["[cobweb_duster]"],
         "children": [
           {
             "name": "(TH Stage) Behind Stage Cobweb",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "TH", "x": 200, "y": 274}]
-          },
+          }
+        ]
+      },
+      {
+        "name": "THMSDuster",
+        "access_rules": ["cobweb_duster"],
+        "children": [
           {
             "name": "THMSStorage",
-            "access_rules": ["invisibility"],
+            "access_rules": [
+              "invisibility",
+              "[invisibility],marksmanship",
+              "[invisibility],@THFB/(TH Catwalks) Gloria's Theater Complete/"
+            ],
             "children": [
               {
                 "name": "(TH Stage) Storage Room Floor",
@@ -64,63 +74,63 @@
                 "name": "(TH Stage) Bonita's Room",
                 "sections": [{"name": ""}],
                 "map_locations": [{"map": "TH", "x": 1251, "y": 387}]
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "THCW",
+        "access_rules": ["[cobweb_duster],[invisibility],pyrokinesis,gloria_candle,levitation,[gloria_megaphone]"],
+        "children": [
+          {
+            "name": "(TH Catwalks) Doghouse Slicers",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 2272, "y": 598}]
+          },
+          {
+            "name": "(TH Catwalks) Big Platform 1",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 2443, "y": 892}]
+          },
+          {
+            "name": "(TH Catwalks) Big Platform 2",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 2430, "y": 651}]
+          },
+          {
+            "name": "Big Platform Corner",
+            "sections": [
+              {"name": "(TH Catwalks) Big Platform 3"},
+              {"name": "(TH Catwalks) Big Platform Above"}
+            ],
+            "map_locations": [{"map": "TH", "x": 2538, "y": 776}]
+          },
+          {
+            "name": "(TH Catwalks) Next to Oatmeal",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 2013, "y": 370}]
+          },
+          {
+            "name": "(TH Catwalks) Candle Basket",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 2076, "y": 919}]
+          },
+          {
+            "name": "(TH Catwalks) Curtain Slide",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 1941, "y": 545}]
+          },
+          {
+            "name": "THFB",
+            "access_rules": ["gloria_candle:2"],
+            "children": [
               {
-                "name": "THCW",
-                "access_rules": ["pyrokinesis,gloria_candle,levitation,gloria_megaphone"],
-                "children": [
-                  {
-                    "name": "(TH Catwalks) Doghouse Slicers",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "TH", "x": 2272, "y": 598}]
-                  },
-                  {
-                    "name": "(TH Catwalks) Big Platform 1",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "TH", "x": 2443, "y": 892}]
-                  },
-                  {
-                    "name": "(TH Catwalks) Big Platform 2",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "TH", "x": 2430, "y": 651}]
-                  },
-                  {
-                    "name": "Big Platform Corner",
-                    "sections": [
-                      {"name": "(TH Catwalks) Big Platform 3"},
-                      {"name": "(TH Catwalks) Big Platform Above"}
-                    ],
-                    "map_locations": [{"map": "TH", "x": 2538, "y": 776}]
-                  },
-                  {
-                    "name": "(TH Catwalks) Next to Oatmeal",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "TH", "x": 2013, "y": 370}]
-                  },
-                  {
-                    "name": "(TH Catwalks) Candle Basket",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "TH", "x": 2076, "y": 919}]
-                  },
-                  {
-                    "name": "(TH Catwalks) Curtain Slide",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "TH", "x": 1941, "y": 545}]
-                  },
-                  {
-                    "name": "THFB",
-                    "access_rules": ["gloria_candle:2"],
-                    "children": [
-                      {
-                        "name": "(TH Catwalks) Gloria's Theater Complete",
-                        "sections": [{"name": ""}],
-                        "map_locations": [
-                          {"map": "TH", "x": 2076, "y": 1373},
-                          {"map": "CA", "x": 2306, "y": 105}
-                        ]
-                      }
-                    ]
-                  }
+                "name": "(TH Catwalks) Gloria's Theater Complete",
+                "sections": [{"name": ""}],
+                "map_locations": [
+                  {"map": "TH", "x": 2076, "y": 1373},
+                  {"map": "CA", "x": 2306, "y": 105}
                 ]
               }
             ]
