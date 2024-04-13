@@ -1,9 +1,9 @@
 -- See https://github.com/Akashortstack/Psychonauts_AP/blob/main/Locations.py for IDs
 LOCATION_MAPPING = {
     -- CASA
-    [1] = {"@CASA/Sasha's Lab/(CA Lab) Behind Furniture"},
-    [2] = {"@CASA/Sasha's Lab/(CA Lab) Staircase Ledges"},
-    [3] = {"@CASA/Sasha's Lab/(CA Lab) Upper Ledge"},
+    [1] = {"@CASA/(CA Lab) Behind Furniture/"},
+    [2] = {"@CASA/(CA Lab) Staircase Ledges/"},
+    [3] = {"@CASA/(CA Lab) Upper Ledge/"},
 
     -- CAGP
     [4] = {"@CAGP/(CA GPC) Top of GPC/"},

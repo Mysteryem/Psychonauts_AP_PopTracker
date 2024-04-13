@@ -98,13 +98,19 @@
     "name": "CASA",
     "children": [
       {
-        "name": "Sasha's Lab",
-        "sections": [
-          {"name": "(CA Lab) Behind Furniture"},
-          {"name": "(CA Lab) Staircase Ledges"},
-          {"name": "(CA Lab) Upper Ledge"}
-        ],
-        "map_locations": [{"map": "CA", "x": 1856, "y": 845}]
+        "name": "(CA Lab) Behind Furniture",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "CA", "x": 2092, "y": 361}]
+      },
+      {
+        "name": "(CA Lab) Staircase Ledges",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "CA", "x": 1845, "y": 378}]
+      },
+      {
+        "name": "(CA Lab) Upper Ledge",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "CA", "x": 2044, "y": 171}]
       }
     ]
   },
