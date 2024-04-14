@@ -32,6 +32,7 @@ Tracker:AddLocations("locations/WW.json")
 Tracker:AddLocations("locations/SA.json")
 Tracker:AddLocations("locations/TH.json")
 Tracker:AddLocations("locations/MC.json")
+Tracker:AddLocations("locations/AS.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.json")

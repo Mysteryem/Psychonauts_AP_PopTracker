@@ -1,0 +1,329 @@
+[
+  {
+    "name": "ASGR",
+    "parent": "CABH",
+    "access_rules": ["lungfish_call"],
+    "children": [
+      {
+        "name": "(AS Grounds) Rock Wall Bottom",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 531, "y": 1695}]
+      },
+      {
+        "name": "(AS Grounds) Rock Wall Ladder",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 441, "y": 1686}]
+      },
+      {
+        "name": "(AS Grounds) Fountain Top",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 506, "y": 1208}]
+      },
+      {
+        "name": "(AS Grounds) Hedge Alcove",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 381, "y": 1379}]
+      },
+      {
+        "name": "(AS Grounds) Asylum Doors Right",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 631, "y": 847}]
+      },
+      {
+        "name": "(AS Grounds) Asylum Doors Left",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 374, "y": 853}]
+      },
+      {
+        "name": "(AS Grounds) Corner Near Fence",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 824, "y": 1423}]
+      },
+      {
+        "name": "(AS Grounds) Ledge Before Gloria",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "AS", "x": 803, "y": 768}]
+      },
+      {
+        "name": "ASGRLev",
+        "access_rules": ["[levitation]"],
+        "children": [
+          {
+            "name": "(AS Grounds) Outside Front Gate",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 415, "y": 1568}]
+          },
+          {
+            "name": "(AS Grounds) Pillar Above Gate",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 538, "y": 1416}]
+          }
+        ]
+      },
+      {
+        "name": "ASCOLev",
+        "access_rules": ["[levitation]"],
+        "children": [
+          {
+            "name": "(AS Courtyard) Above Edgar",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 198, "y": 316}]
+          }
+        ]
+      },
+      {
+        "name": "ASCO",
+        "children": [
+          {
+            "name": "(AS Courtyard) Above Elevator",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 539, "y": 470}]
+          },
+          {
+            "name": "(AS Courtyard) Crow's Basket",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 267, "y": 654}]
+          },
+          {
+            "name": "(AS Courtyard) Ledge Above Fred Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 245, "y": 721}]
+          },
+          {
+            "name": "(AS Courtyard) Ledge Above Fred Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 172, "y": 588}]
+          },
+          {
+            "name": "(AS Courtyard) Ledge Opposite Elevator",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 485, "y": 754}]
+          },
+          {
+            "name": "(AS Courtyard) Edgar's Room",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 30, "y": 367}]
+          },
+          {
+            "name": "(AS Courtyard) Behind Elevator",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 422, "y": 265}]
+          },
+          {
+            "name": "(AS Courtyard) Junk Corner",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 734, "y": 257}]
+          },
+          {
+            "name": "ASUP",
+            "access_rules": ["loboto_painting,straight_jacket,gloria_trophy"],
+            "children": [
+              {
+                "name": "(AS Upper) Behind Mattress Wall",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1710, "y": 1733}]
+              },
+              {
+                "name": "(AS Upper) Checkered Bathroom",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1831, "y": 1624}]
+              },
+              {
+                "name": "(AS Upper) Room Near Checkered Bathroom",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1548, "y": 1525}]
+              },
+              {
+                "name": "(AS Upper) Elevator Shaft",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1701, "y": 1882}]
+              },
+              {
+                "name": "(AS Upper) Room Left of Pipe Slide",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1446, "y": 1309}]
+              },
+              {
+                "name": "(AS Upper) Floating in Hole",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1709, "y": 1231}]
+              },
+              {
+                "name": "(AS Upper) Next to Hole",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1832, "y": 1249}]
+              },
+              {
+                "name": "(AS Upper) Crumbling Outer Wall Planks",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1113, "y": 930}]
+              },
+              {
+                "name": "(AS Upper) Crumbling Outer Wall Pillar",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1315, "y": 929}]
+              },
+              {
+                "name": "(AS Upper) Crumbling Outer Wall Below Platform",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "AS", "x": 1901, "y": 956}]
+              },
+              {
+                "name": "ASUPLev_optional",
+                "access_rules": ["[levitation]"],
+                "children": [
+                  {
+                    "name": "(AS Upper) Crumbling Outer Wall Platform",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1750, "y": 773}]
+                  },
+                  {
+                    "name": "(AS Upper) Room Above Tilted Stairs",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1790, "y": 588}]
+                  },
+                  {
+                    "name": "(AS Upper) Acid Room Floor",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1697, "y": 296}]
+                  },
+                  {
+                    "name": "(AS Upper) Acid Room Table",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1588, "y": 187}]
+                  },
+                  {
+                    "name": "(AS Upper) Acid Room Window",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1883, "y": 293}]
+                  },
+                  {
+                    "name": "(AS Upper) Acid Room Overhang",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1544, "y": 188}]
+                  },
+                  {
+                    "name": "(AS Upper) Small Windows Ledge",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 2400, "y": 1937}]
+                  },
+                  {
+                    "name": "(AS Upper) Round Wood Platform",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 1102, "y": 304}]
+                  },
+                  {
+                    "name": "(AS Upper) Grate Climb Bottom",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 2503, "y": 1651}]
+                  },
+                  {
+                    "name": "(AS Upper) Grate Climb Mid",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "AS", "x": 2353, "y": 1304}]
+                  },
+                  {
+                    "name": "ASUPLev",
+                    "access_rules": ["levitation"],
+                    "children": [
+                      {
+                        "name": "Sink Platform",
+                        "sections": [
+                          {"name": "(AS Upper) Sink Platform Left"},
+                          {"name": "(AS Upper) Sink Platform Right"}
+                        ],
+                        "map_locations": [{"map": "AS", "x": 2617, "y": 933}]
+                      },
+                      {
+                        "name": "(AS Upper) Pipes Below Chair Door",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "AS", "x": 2252, "y": 746}]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ASUPTele",
+                    "access_rules": ["telekinesis"],
+                    "children": [
+                      {
+                        "name": "(AS Upper) Room Opposite Chair Door",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "AS", "x": 2183, "y": 629}]
+                      },
+                      {
+                        "name": "(AS Upper) Pipe Slide Near Chair Door",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "AS", "x": 2561, "y": 302}]
+                      },
+                      {
+                        "name": "(AS Upper) Rafters Above Chair Door",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "AS", "x": 2250, "y": 34}]
+                      },
+                      {
+                        "name": "ASLB",
+                        "children": [
+                          {
+                            "name": "(AS Lab) Lab Caged Crow Left",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 3454, "y": 1713}]
+                          },
+                          {
+                            "name": "(AS Lab) Lab Caged Crow Right",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 3494, "y": 1770}]
+                          },
+                          {
+                            "name": "(AS Lab) Next to Pokeylope",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 3157, "y": 1375}]
+                          },
+                          {
+                            "name": "(AS Lab) Lab Top Railing Left 1",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 2795, "y": 323}]
+                          },
+                          {
+                            "name": "(AS Lab) Lab Top Railing Left 2",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 2936, "y": 187}]
+                          },
+                          {
+                            "name": "(AS Lab) Lab Top Elevator",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 3529, "y": 500}]
+                          },
+                          {
+                            "name": "(AS Lab) Lab Top Railing Right",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 3409, "y": 220}]
+                          },
+                          {
+                            "name": "(AS Lab) Tea Room",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "AS", "x": 3062, "y": 382}]
+                          },
+                          {
+                            "name": "ASLBBoss",
+                            "access_rules": ["birthday_cake,pyrokinesis"],
+                            "children": [
+                              {
+                                "name": "(AS Lab) Oleander Boss Defeated",
+                                "sections": [{"name": ""}],
+                                "map_locations": [{"map": "AS", "x": 3004, "y": 596}]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
