@@ -20,7 +20,10 @@
       },
       {
         "name": "LOMAShield",
-        "access_rules": ["shield"],
+        "access_rules": [
+          "shield",
+          "[shield],levitation"
+        ],
         "children": [
           {
             "name": "(LO Main) Behind Lasers Left 1",
@@ -104,6 +107,7 @@
           },
           {
             "name": "(LO Boss) Lungfishopolis Complete",
+            "access_rules": ["shield"],
             "sections": [{"name": ""}],
             "map_locations": [
               {"map": "LO", "x": 1908, "y": 853},
