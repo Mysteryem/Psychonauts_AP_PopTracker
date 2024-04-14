@@ -61,7 +61,7 @@
   },
   {
     "name": "BV",
-    "location_size": 30,
+    "location_size": 25,
     "location_border_thickness": 1,
     "img": "images/maps/BV.png"
   },
