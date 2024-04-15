@@ -18,11 +18,9 @@ PsychoRando: https://github.com/Akashortstack/PsychoRando/releases
 Many map images were created by taking screenshots on https://noclip.website
 
 ## Todo
-1) Asylum Map
-2) Draw in the missing platforms on the Lake
-3) `StartingLevitation: true` is not supported
-4) Broadcast view
-5) Automatic map changing to match the current game level (will require support from Psychonauts AP and PsychoRando)
-6) Extra view for showing the specific camper brains that have been collected
-7) Extra view(s) for non-important collectibles (baggage, baggage tags, vaults, PSI cards, PSI challenge markers, scavenger hunt items, watering can and crow feather)
-8) Find out if there's a way that locations can be manually marked by the user as baggage that cannot currently be collected 
+1) Draw in the missing platforms on the Lake
+2) `StartingLevitation: true` is not supported
+3) Automatic map changing to match the current game level (will require support from Psychonauts AP and PsychoRando)
+4) Extra view for showing the specific camper brains that have been collected
+5) Extra view(s) for non-important collectibles (baggage, baggage tags, vaults, PSI cards, PSI challenge markers, scavenger hunt items, watering can and crow feather)
+6) Find out if there's a way that locations can be manually marked by the user as baggage that cannot currently be collected 
