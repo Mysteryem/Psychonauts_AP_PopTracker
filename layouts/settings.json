@@ -1,0 +1,25 @@
+{
+  "settings_popup": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 64,
+            "margin": "0,0",
+            "h_alignment": "left",
+            "rows": [
+              ["settings_enable_out_of_logic"]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

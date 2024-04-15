@@ -22,7 +22,7 @@
         "name": "LOMAShield",
         "access_rules": [
           "shield",
-          "[shield],levitation"
+          "settings_enable_out_of_logic,[shield],levitation"
         ],
         "children": [
           {

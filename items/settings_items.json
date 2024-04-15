@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Show out-of-logic accessibility",
+    "type": "toggle",
+    "img": "images/settings/enable_out_of_logic.png",
+    "initial_active_state": true,
+    "codes": "settings_enable_out_of_logic"
+  }
+]

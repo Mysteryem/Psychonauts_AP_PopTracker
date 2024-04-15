@@ -31,7 +31,10 @@
       },
       {
         "name": "THMSDuster_optional",
-        "access_rules": ["[cobweb_duster]"],
+        "access_rules": [
+          "cobweb_duster",
+          "settings_enable_out_of_logic,[cobweb_duster]"
+        ],
         "children": [
           {
             "name": "(TH Stage) Behind Stage Cobweb",
@@ -48,8 +51,8 @@
             "name": "THMSStorage",
             "access_rules": [
               "invisibility",
-              "[invisibility],marksmanship",
-              "[invisibility],@THFB/(TH Catwalks) Gloria's Theater Complete/"
+              "settings_enable_out_of_logic,[invisibility],marksmanship",
+              "settings_enable_out_of_logic,[invisibility],@THFB/(TH Catwalks) Gloria's Theater Complete/"
             ],
             "children": [
               {
@@ -81,7 +84,10 @@
       },
       {
         "name": "THCW",
-        "access_rules": ["[cobweb_duster],[invisibility],pyrokinesis,gloria_candle,levitation,[gloria_megaphone]"],
+        "access_rules": [
+          "cobweb_duster,invisibility,pyrokinesis,gloria_candle,levitation,gloria_megaphone",
+          "settings_enable_out_of_logic,[cobweb_duster],[invisibility],pyrokinesis,gloria_candle,levitation,[gloria_megaphone]"
+        ],
         "children": [
           {
             "name": "(TH Catwalks) Doghouse Slicers",

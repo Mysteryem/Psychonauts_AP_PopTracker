@@ -63,7 +63,10 @@
       },
       {
         "name": "BVRBDuster_optional",
-        "access_rules": ["[cobweb_duster]"],
+        "access_rules": [
+          "cobweb_duster",
+          "settings_enable_out_of_logic,[cobweb_duster]"
+        ],
         "children": [
           {
             "name": "(BV Streets) Alleyways Ledge",
@@ -135,7 +138,10 @@
           },
           {
             "name": "BVESEagle",
-            "access_rules": ["[cobweb_duster]"],
+            "access_rules": [
+              "cobweb_duster",
+              "settings_enable_out_of_logic,[cobweb_duster]"
+            ],
             "children": [
               {
                 "name": "(BV Edgar) Eagle Wrestler",

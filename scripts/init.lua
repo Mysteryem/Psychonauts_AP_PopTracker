@@ -16,6 +16,7 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings_items.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
@@ -38,6 +39,7 @@ Tracker:AddLocations("locations/AS.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/items_broadcast.json")
+Tracker:AddLayouts("layouts/settings.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

@@ -46,7 +46,10 @@
       },
       {
         "name": "ASGRLev",
-        "access_rules": ["[levitation]"],
+        "access_rules": [
+          "levitation",
+          "settings_enable_out_of_logic,[levitation]"
+        ],
         "children": [
           {
             "name": "(AS Grounds) Outside Front Gate",
@@ -62,7 +65,10 @@
       },
       {
         "name": "ASCOLev",
-        "access_rules": ["[levitation]"],
+        "access_rules": [
+          "levitation",
+          "settings_enable_out_of_logic,[levitation]"
+        ],
         "children": [
           {
             "name": "(AS Courtyard) Above Edgar",
@@ -170,7 +176,10 @@
               },
               {
                 "name": "ASUPLev_optional",
-                "access_rules": ["[levitation]"],
+                "access_rules": [
+                  "levitation",
+                  "settings_enable_out_of_logic,[levitation]"
+                ],
                 "children": [
                   {
                     "name": "(AS Upper) Crumbling Outer Wall Platform",

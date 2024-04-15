@@ -80,7 +80,7 @@
                 "name": "MMI1HedgeTrimmers",
                 "access_rules": [
                   "boyd_hedge_trimmers",
-                  "[boyd_hedge_trimmers],@MMDM/(MM Depository) Milkman Complete/"
+                  "settings_enable_out_of_logic,[boyd_hedge_trimmers],@MMDM/(MM Depository) Milkman Complete/"
                 ],
                 "children": [
                   {
@@ -95,7 +95,7 @@
                     "name": "MMI1RollingPin",
                     "access_rules": [
                       "boyd_rolling_pin",
-                      "[boyd_rolling_pin],@MMDM/(MM Depository) Milkman Complete/"
+                      "settings_enable_out_of_logic,[boyd_rolling_pin],@MMDM/(MM Depository) Milkman Complete/"
                     ],
                     "children": [
                       {
@@ -109,7 +109,10 @@
               },
               {
                 "name": "MMI1Duster_optional",
-                "access_rules": ["[cobweb_duster]"],
+                "access_rules": [
+                  "cobweb_duster",
+                  "settings_enable_out_of_logic,[cobweb_duster]"
+                ],
                 "children": [
                   {
                     "name": "(MM Neighborhood) Post Office Lobby",
@@ -136,7 +139,10 @@
               },
               {
                 "name": "MMI2",
-                "access_rules": ["boyd_flowers,[boyd_plunger],pyrokinesis"],
+                "access_rules": [
+                  "boyd_flowers,boyd_plunger,pyrokinesis",
+                  "settings_enable_out_of_logic,boyd_flowers,[boyd_plunger],pyrokinesis"
+                ],
                 "children": [
                   {
                     "name": "(MM Depository) Behind Book Depository",
@@ -147,7 +153,7 @@
                     "name": "MMI1Powerlines",
                     "access_rules": [
                       "cobweb_duster",
-                      "[cobweb_duster],levitation"
+                      "settings_enable_out_of_logic,[cobweb_duster],levitation"
                     ],
                     "children": [
                       {
@@ -169,7 +175,7 @@
                         "name": "MMDM",
                         "access_rules": [
                           "invisibility",
-                          "[invisibility],marksmanship"
+                          "settings_enable_out_of_logic,[invisibility],marksmanship"
                         ],
                         "children": [
                           {

@@ -20,7 +20,10 @@
       },
       {
         "name": "MCTCEscort",
-        "access_rules": ["[telekinesis],[levitation]"],
+        "access_rules": [
+          "telekinesis,levitation",
+          "settings_enable_out_of_logic,[telekinesis],[levitation]"
+        ],
         "children": [
           {
             "name": "(MC Main) Entrance Awning",
@@ -53,7 +56,7 @@
                 "name": "MCTCToL",
                 "access_rules": [
                   "telekinesis",
-                  "[telekinesis],confusion"
+                  "settings_enable_out_of_logic,[telekinesis],confusion"
                 ],
                 "children": [
                   {

@@ -60,7 +60,10 @@
       },
       {
         "name": "WWMALev",
-        "access_rules": ["[levitation]"],
+        "access_rules": [
+          "levitation",
+          "settings_enable_out_of_logic,[levitation]"
+        ],
         "children": [
           {
             "name": "(WW Main) Top of Villager 3's House",
@@ -77,8 +80,9 @@
       {
         "name": "WWMACarpRoof",
         "access_rules": [
-          "levitation,[invisibility]",
-          "[levitation],invisibility"
+          "levitation,invisibility",
+          "settings_enable_out_of_logic,levitation,[invisibility]",
+          "settings_enable_out_of_logic,[levitation],invisibility"
         ],
         "children": [
           {
@@ -97,7 +101,7 @@
         "name": "WWMABlacksmithLeft",
         "access_rules": [
           "cobweb_duster",
-          "[cobweb_duster],levitation"
+          "settings_enable_out_of_logic,[cobweb_duster],levitation"
         ],
         "children": [
           {
@@ -147,7 +151,10 @@
       },
       {
         "name": "WWMAKnight",
-        "access_rules": ["[fred_letter],telekinesis"],
+        "access_rules": [
+          "fred_letter,telekinesis",
+          "settings_enable_out_of_logic,[fred_letter],telekinesis"
+        ],
         "children": [
           {
             "name": "(WW Main) Help the Knight",
