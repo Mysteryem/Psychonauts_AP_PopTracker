@@ -70,11 +70,5 @@
     "location_size": 30,
     "location_border_thickness": 1,
     "img": "images/maps/MC.png"
-  },
-  {
-    "name": "RANK",
-    "location_size": 30,
-    "location_border_thickness": 1,
-    "img": "images/maps/RANK.png"
   }
 ]
