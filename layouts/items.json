@@ -63,8 +63,8 @@
         "margin": "0,0",
         "h_alignment": "left",
         "rows": [
-          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_oly"],
-          ["mind_boyd", "mind_gloria", "mind_fred", "mind_edgar", "camper_brain"]
+          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_boyd"],
+          ["mind_gloria", "mind_fred", "mind_edgar", "mind_oly", "camper_brain"]
         ]
       }
     ]
