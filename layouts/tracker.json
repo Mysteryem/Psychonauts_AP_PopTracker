@@ -113,7 +113,7 @@
             },
             {
               "title": "Brain Tumbler Experiment",
-              "icon": "images/heads/raz.png",
+              "icon": "images/heads/brain_tumbler.png",
               "content": {
                 "type": "map",
                 "maps": [
