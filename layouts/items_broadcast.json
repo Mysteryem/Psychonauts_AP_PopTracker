@@ -1,0 +1,57 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "item_size": 4,
+        "margin": "0,0",
+        "h_alignment": "left",
+        "rows": [
+          ["marksmanship", "levitation", "pyrokinesis", "telekinesis", "shield", "invisibility", "clairvoyance", "confusion"],
+          ["sasha_button", "oarsman_badge", "lili_bracelet", "squirrel_roast_dinner", "lungfish_call", "gloria_trophy", "loboto_painting", "straight_jacket"],
+          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_boyd", "mind_gloria", "mind_fred", "mind_edgar"],
+          ["mind_oly", "camper_brain", "cobweb_duster", "fred_coin", "fred_letter", "fred_musket", "gloria_megaphone", "gloria_candle"],
+          ["boyd_hedge_trimmers", "boyd_rolling_pin", "boyd_plunger", "boyd_flowers", "boyd_stop_sign", "birthday_cake"]
+        ]
+      }
+    ]
+  },
+  "tracker_broadcast_alt_unused": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "powers_grid"
+          },
+          {
+            "type": "layout",
+            "key": "camp_grid"
+          },
+          {
+            "type": "layout",
+            "key": "asylum_grid"
+          },
+          {
+            "type": "layout",
+            "key": "mind_grid"
+          },
+          {
+            "type": "layout",
+            "key": "items_grid"
+          }
+        ]
+      }
+    ]
+  }
+}
