@@ -240,121 +240,349 @@
   {
     "name": "Benny's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_benny.png",
     "codes": "brain_benny"
   },
   {
     "name": "Bobby's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_bobby.png",
     "codes": "brain_bobby"
   },
   {
     "name": "Chloe's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_chloe.png",
     "codes": "brain_chloe"
   },
   {
     "name": "Clem's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_clem.png",
     "codes": "brain_clem"
   },
   {
     "name": "Chops' Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_chops.png",
     "codes": "brain_chops"
   },
   {
     "name": "Crystal's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_crystal.png",
     "codes": "brain_crystal"
   },
   {
     "name": "Dogen's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_dogen.png",
     "codes": "brain_dogen"
   },
   {
     "name": "Elka's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_elka.png",
     "codes": "brain_elka"
   },
   {
     "name": "Elton's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_elton.png",
     "codes": "brain_elton"
   },
   {
     "name": "Franke's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_franke.png",
     "codes": "brain_franke"
   },
   {
     "name": "JT's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_jt.png",
     "codes": "brain_jt"
   },
   {
     "name": "Kitty's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_kitty.png",
     "codes": "brain_kitty"
   },
   {
     "name": "Maloof's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_maloof.png",
     "codes": "brain_maloof"
   },
   {
     "name": "Mikhail's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_mikhail.png",
     "codes": "brain_mikhail"
   },
   {
     "name": "Milka's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_milka.png",
     "codes": "brain_milka"
   },
   {
     "name": "Nils' Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_nils.png",
     "codes": "brain_nils"
   },
   {
     "name": "Phoebe's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_phoebe.png",
     "codes": "brain_phoebe"
   },
   {
     "name": "Quentin's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_quentin.png",
     "codes": "brain_quentin"
   },
   {
     "name": "Vernon's Brain",
     "type": "toggle",
-    "img": "images/items/misc/jarred_brain.png",
+    "img": "images/items/brains/brain_vernon.png",
     "codes": "brain_vernon"
+  },
+  {
+    "name": "Cherry Wood Pipe",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/cherry_wood_pipe.png",
+    "codes": "cherry_wood_pipe"
+  },
+  {
+    "name": "Condor Egg",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/condor_egg.png",
+    "codes": "condor_egg"
+  },
+  {
+    "name": "Dinosaur Bone",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/dinosaur_bone.png",
+    "codes": "dinosaur_bone"
+  },
+  {
+    "name": "Diver's Helmet",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/diver_helmet.png",
+    "codes": "diver_helmet"
+  },
+  {
+    "name": "Eagle Claw",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/eagle_claw.png",
+    "codes": "eagle_claw"
+  },
+  {
+    "name": "Fertility Idol",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/fertility_idol.png",
+    "codes": "fertility_idol"
+  },
+  {
+    "name": "Fossil",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/fossil.png",
+    "codes": "fossil"
+  },
+  {
+    "name": "Glass Eye",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/glass_eye.png",
+    "codes": "glass_eye"
+  },
+  {
+    "name": "Gold Doubloon",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/gold_doubloon.png",
+    "codes": "gold_doubloon"
+  },
+  {
+    "name": "Gold Watch",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/gold_watch.png",
+    "codes": "gold_watch"
+  },
+  {
+    "name": "Golden Acorn",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/golden_acorn.png",
+    "codes": "golden_acorn"
+  },
+  {
+    "name": "Miner's Skull",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/miner_skull.png",
+    "codes": "miner_skull"
+  },
+  {
+    "name": "Pirate Scope",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/pirate_scope.png",
+    "codes": "pirate_scope"
+  },
+  {
+    "name": "Psychonauts Comic",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/psychonauts_comic.png",
+    "codes": "psychonauts_comic"
+  },
+  {
+    "name": "Turkey Sandwich",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/turkey_sandwich.png",
+    "codes": "turkey_sandwich"
+  },
+  {
+    "name": "Voodoo Doll",
+    "type": "toggle",
+    "img": "images/items/scavenger_hunt/voodoo_doll.png",
+    "codes": "voodoo_doll"
+  },
+  {
+    "name": "Dufflebag Tag",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag_tag.png",
+    "codes": "dufflebag_tag",
+    "max_quantity": 10
+  },
+  {
+    "name": "Hatbox Tag",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox_tag.png",
+    "codes": "hatbox_tag",
+    "max_quantity": 10
+  },
+  {
+    "name": "Purse Tag",
+    "type": "consumable",
+    "img": "images/items/baggage/purse_tag.png",
+    "codes": "purse_tag",
+    "max_quantity": 10
+  },
+  {
+    "name": "Steamer Trunk Tag",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk_tag.png",
+    "codes": "steamer_trunk_tag",
+    "max_quantity": 10
+  },
+  {
+    "name": "Suitcase Tag",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase_tag.png",
+    "codes": "suitcase_tag",
+    "max_quantity": 10
+  },
+  {
+    "name": "Dufflebag",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebag",
+    "max_quantity": 10
+  },
+  {
+    "name": "Hatbox",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatbox",
+    "max_quantity": 10
+  },
+  {
+    "name": "Purse",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purse",
+    "max_quantity": 10
+  },
+  {
+    "name": "Steamer Trunk",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamer_trunk",
+    "max_quantity": 10
+  },
+  {
+    "name": "Suitcase",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcase",
+    "max_quantity": 10
   },
   {
     "name": "Small Arrowhead Bundle",
     "type": "consumable",
-    "img": "images/items/misc/jarred_brain.png",
-    "codes": "brain_vernon"
+    "img": "images/items/misc/small_arrowhead_bundle.png",
+    "codes": "small_arrowhead_bundle",
+    "max_quantity": 30
+  },
+  {
+    "name": "Large Arrowhead Bundle",
+    "type": "consumable",
+    "img": "images/items/misc/large_arrowhead_bundle.png",
+    "codes": "large_arrowhead_bundle",
+    "max_quantity": 5
+  },
+  {
+    "name": "Memory Vault",
+    "type": "consumable",
+    "img": "images/items/misc/memory_vault.png",
+    "codes": "memory_vault",
+    "max_quantity": 19
+  },
+  {
+    "name": "PSI Card",
+    "type": "consumable",
+    "img": "images/items/misc/psi_card.png",
+    "codes": "psi_card",
+    "max_quantity": 107
+  },
+  {
+    "name": "PSI Challenge Marker",
+    "type": "consumable",
+    "img": "images/items/misc/psi_challenge_marker.png",
+    "codes": "psi_challenge_marker",
+    "max_quantity": 10
+  },
+  {
+    "name": "Max Ammo Up",
+    "type": "consumable",
+    "img": "images/items/misc/max_ammo_up.png",
+    "codes": "max_ammo_up",
+    "max_quantity": 6
+  },
+  {
+    "name": "Max Lives Up",
+    "type": "consumable",
+    "img": "images/items/misc/max_lives_up.png",
+    "codes": "max_lives_up",
+    "max_quantity": 6
+  },
+  {
+    "name": "Confusion Ammo Up",
+    "type": "consumable",
+    "img": "images/items/misc/max_confusion_ammo_up.png",
+    "codes": "max_confusion_ammo_up",
+    "max_quantity": 4
+  },
+  {
+    "name": "Crow Feather",
+    "type": "toggle",
+    "img": "images/items/misc/crow_feather.png",
+    "codes": "crow_feather"
+  },
+  {
+    "name": "Watering Can",
+    "type": "toggle",
+    "img": "images/items/boyd/watering_can.png",
+    "codes": "boyd_watering_can"
   }
 ]

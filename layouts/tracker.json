@@ -10,53 +10,35 @@
           "type": "dock",
           "dock": "bottom",
           "v_alignment": "stretch",
-          "content": [
-            {
-              "type": "group",
-              "header": "Powers",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "powers_grid"
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Progression",
+                "icon": "images/icons/ap_symbol.png",
+                "content": {
+                  "type": "layout",
+                  "key": "progression_array"
+                }
+              },
+              {
+                "title": "Useful + Junk",
+                "icon": "images/items/misc/psi_card.png",
+                "content": {
+                  "type": "layout",
+                  "key": "useful_and_junk_array"
+                }
+              },
+              {
+                "title": "Brains",
+                "icon": "images/items/misc/jarred_brain.png",
+                "content": {
+                  "type": "layout",
+                  "key": "individual_brains_array"
+                }
               }
-            },
-            {
-              "type": "group",
-              "header": "Camp",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "camp_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Asylum",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "asylum_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Minds",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "mind_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Items",
-              "dock": "Right",
-              "content": {
-                "type": "layout",
-                "key": "items_grid"
-              }
-            }
-          ]
+            ]
+          }
         },
         {
           "type": "tabbed",

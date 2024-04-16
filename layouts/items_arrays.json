@@ -1,0 +1,101 @@
+{
+  "progression_array": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "group",
+        "header": "Powers",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "powers_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Camp",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "camp_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Asylum",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "asylum_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Minds + Brains",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "mind_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Items",
+        "dock": "Right",
+        "content": {
+          "type": "layout",
+          "key": "misc_progression_items_grid"
+        }
+      }
+    ]
+  },
+  "useful_and_junk_array": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "group",
+        "header": "Baggage",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "baggage_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Scavenger Hunt",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "scavenger_hunt_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Miscellaneous",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "misc_grid"
+        }
+      }
+    ]
+  },
+  "individual_brains_array": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "group",
+        "header": "Brains",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "brain_grid"
+        }
+      }
+    ]
+  }
+}

@@ -37,6 +37,7 @@ Tracker:AddLocations("locations/AS.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/items_arrays.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/items_broadcast.json")
 Tracker:AddLayouts("layouts/settings.json")
