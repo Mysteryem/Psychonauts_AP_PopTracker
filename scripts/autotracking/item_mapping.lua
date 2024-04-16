@@ -37,27 +37,8 @@ ITEM_MAPPING = {
     [35] = {"shield", "consumable"},
     [36] = {"shield", "consumable"},
     [37] = {"shield", "consumable"},
---     [19] = {"marksmanship1", "toggle"},
---     [20] = {"marksmanship2", "toggle"},
---     [21] = {"marksmanship3", "toggle"},
---     [22] = {"pyrokinesis1", "toggle"},
---     [23] = {"pyrokinesis2", "toggle"},
---     [24] = {"confusion1", "toggle"},
---     [25] = {"confusion2", "toggle"},
---     [26] = {"levitation1", "toggle"},
---     [27] = {"levitation2", "toggle"},
---     [28] = {"levitation3", "toggle"},
---     [29] = {"telekinesis1", "toggle"},
---     [30] = {"telekinesis2", "toggle"},
---     [31] = {"invisibility1", "toggle"},
---     [32] = {"invisibility2", "toggle"},
---     [33] = {"clairvoyance1", "toggle"},
---     [34] = {"clairvoyance2", "toggle"},
---     [35] = {"shield1", "toggle"},
---     [36] = {"shield2", "toggle"},
---     [37] = {"shield3", "toggle"},
 
-    -- Misc items
+    -- Misc progression items
     [5] = {"birthday_cake", "toggle"},
     [256] = {"cobweb_duster", "toggle"},
 
@@ -110,57 +91,80 @@ ITEM_MAPPING = {
     [10] = {"boyd_hedge_trimmers", "toggle"},
     [11] = {"boyd_rolling_pin", "toggle"},
 
-    -- Max Ammo upgrades
-    -- Ignored for now
-
-    -- Max Lives upgrades
-    -- Ignored for now
-
-    -- Confusion Ammo upgrades
-    -- Ignored for now
-
     -- Scavenger Hunt
-    -- Ignored for now
-
-    -- Suitcase Tags
-    -- Ignored for now
-
-    -- Purse Tags
-    -- Ignored for now
-
-    -- Hatbox Tags
-    -- Ignored for now
-
-    -- Steamer Trunk Tags
-    -- Ignored for now
-
-    -- Dufflebag Tags
-    -- Ignored for now
-
-    -- Suitcases
-    -- Ignored for now
-
-    -- Purses
-    -- Ignored for now
-
-    -- Hatboxes
-    -- Ignored for now
-
-    -- Dufflebags
-    -- Ignored for now
-
-    -- Vaults
-    -- Ignored for now
-
-    -- Small arrowhead bundles
-    -- Ignored for now
-
-    -- Large arrowhead bundles
-    -- Ignored for now
-
-    -- PSI Cards
-    -- Ignored for now
+    [83] = {"gold_doubloon", "toggle"},
+    [84] = {"eagle_claw", "toggle"},
+    [85] = {"diver_helmet", "toggle"},
+    [86] = {"psychonauts_comic", "toggle"},
+    [87] = {"cherry_wood_pipe", "toggle"},
+    [88] = {"turkey_sandwich", "toggle"},
+    [89] = {"voodoo_doll", "toggle"},
+    [90] = {"miner_skull", "toggle"},
+    [91] = {"pirate_scope", "toggle"},
+    [92] = {"golden_acorn", "toggle"},
+    [93] = {"glass_eye", "toggle"},
+    [94] = {"condor_egg", "toggle"},
+    [95] = {"fertility_idol", "toggle"},
+    [96] = {"dinosaur_bone", "toggle"},
+    [97] = {"fossil", "toggle"},
+    [98] = {"gold_watch", "toggle"},
 
     -- Other/useless items (Feather and Watering Can from The Milkman Conspiracy)
-    -- Ignored for now
+    [255] = {"crow_feather", "toggle"},
+    [12] = {"boyd_watering_can", "toggle"},
 }
+
+-- Max Ammo upgrades
+-- Each item is the same, but they are currently considered different items by AP
+for i=38,43 do ITEM_MAPPING[i] = {"max_ammo_up", "consumable"} end
+
+-- Max Lives upgrades
+-- Each item is the same, but they are currently considered different items by AP
+for i=44,49 do ITEM_MAPPING[i] = {"max_lives_up", "consumable"} end
+
+-- Confusion Ammo upgrades
+-- Each item is the same, but they are currently considered different items by AP
+for i=50,53 do ITEM_MAPPING[i] = {"max_confusion_ammo_up", "consumable"} end
+
+-- PSI Challenge Markers
+-- Each item is the same, but they are currently considered different items by AP
+for i=54,63 do ITEM_MAPPING[i] = {"psi_challenge_marker", "consumable"} end
+
+-- Baggage and Baggage Tags
+-- There are 10 of each item which are the same as one another, but they are currently considered different items by AP
+ORDERED_BAGGAGE_CODES = {
+    "suitcase_tag",
+    "purse_tag",
+    "hatbox_tag",
+    "steamer_trunk_tag",
+    "dufflebag_tag",
+    "suitcase",
+    "purse",
+    "hatbox",
+    "steamer_trunk",
+    "dufflebag",
+}
+BAGGAGE_COUNT_PER_TYPE = 10
+BAGGAGE_START = 99
+--BAGGAGE_LAST = 198
+for i,v in ipairs(ORDERED_BAGGAGE_CODES) do
+    for j=0,(BAGGAGE_COUNT_PER_TYPE - 1) do
+        ITEM_MAPPING[BAGGAGE_START + (i-1) * BAGGAGE_COUNT_PER_TYPE + j] = {v, "consumable"}
+    end
+end
+
+-- Memory Vaults
+-- Each item is the same, but they are currently considered different items by AP
+for i=199,217 do ITEM_MAPPING[i] = {"memory_vault", "consumable"} end
+
+-- Small Arrowhead Bundles
+-- Each item is the same, but they are currently considered different items by AP
+for i=218,247 do ITEM_MAPPING[i] = {"small_arrowhead_bundle", "consumable"} end
+
+-- Large Arrowhead Bundles
+-- Each item is the same, but they are currently considered different items by AP
+for i=248,252 do ITEM_MAPPING[i] = {"large_arrowhead_bundle", "consumable"} end
+
+-- PSI Cards
+-- Each item is the same, but they are currently considered different items by AP
+for i=267,373 do ITEM_MAPPING[i] = {"psi_card", "consumable"} end
