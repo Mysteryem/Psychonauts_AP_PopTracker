@@ -7,6 +7,13 @@ Latest release: https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/
 
 ![image](https://github.com/Mysteryem/Psychonauts_AP_PopTracker/assets/495015/68bfb3f9-9128-411a-858a-0a8cfa2d6991)
 
+## Out-of-logic access (yellow locations)
+Out-of-logic access can be turned off in the Pack Settings (between Broadcast View and AP autotracking toggle), turning
+all yellow locations red instead.
+
+A document of the out-of-logic tricks considered by the tracker can be found at
+https://docs.google.com/document/d/1uU1mTWPzr8egxItp6NtZd2CH_gCGtziaCdZgQ4BHQss/edit?usp=sharing 
+
 ---
 
 PopTracker: https://github.com/black-sliver/PopTracker/
