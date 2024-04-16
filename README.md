@@ -5,6 +5,8 @@ To connect the tracker to AP to enable auto-tracking, click the "AP" at the top 
 
 Latest release: https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/latest
 
+![image](https://github.com/Mysteryem/Psychonauts_AP_PopTracker/assets/495015/68bfb3f9-9128-411a-858a-0a8cfa2d6991)
+
 ---
 
 PopTracker: https://github.com/black-sliver/PopTracker/
