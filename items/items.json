@@ -544,14 +544,14 @@
     "max_quantity": 19
   },
   {
-    "name": "PSI Card",
+    "name": "PsiCard",
     "type": "consumable",
     "img": "images/items/misc/psi_card.png",
     "codes": "psi_card",
     "max_quantity": 107
   },
   {
-    "name": "PSI Challenge Marker",
+    "name": "PsiChallengeMarker",
     "type": "consumable",
     "img": "images/items/misc/psi_challenge_marker.png",
     "codes": "psi_challenge_marker",
