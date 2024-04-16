@@ -232,17 +232,17 @@
                     "map_locations": [{"map": "AS", "x": 2353, "y": 1304}]
                   },
                   {
+                    "name": "Sink Platform",
+                    "sections": [
+                      {"name": "(AS Upper) Sink Platform Left"},
+                      {"name": "(AS Upper) Sink Platform Right"}
+                    ],
+                    "map_locations": [{"map": "AS", "x": 2617, "y": 933}]
+                  },
+                  {
                     "name": "ASUPLev",
                     "access_rules": ["levitation"],
                     "children": [
-                      {
-                        "name": "Sink Platform",
-                        "sections": [
-                          {"name": "(AS Upper) Sink Platform Left"},
-                          {"name": "(AS Upper) Sink Platform Right"}
-                        ],
-                        "map_locations": [{"map": "AS", "x": 2617, "y": 933}]
-                      },
                       {
                         "name": "(AS Upper) Pipes Below Chair Door",
                         "sections": [{"name": ""}],
