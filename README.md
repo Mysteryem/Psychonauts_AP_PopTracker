@@ -3,9 +3,7 @@ PopTracker pack for Psychonauts AP using the PsychoRando randomizer.
 
 To connect the tracker to AP to enable auto-tracking, click the "AP" at the top of the tracker once the pack is loaded.
 
-Preview download: https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/heads/main.zip
-
-Latest releases: https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/latest
+Latest release: https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/latest
 
 ---
 
@@ -19,8 +17,7 @@ Many map images were created by taking screenshots on https://noclip.website
 
 ## Todo
 1) Draw in the missing platforms on the Lake
-2) `StartingLevitation: true` is not supported
+2) Add support for `StartingLevitation: true` (will require support from Psychonauts AP)
 3) Automatic map changing to match the current game level (will require support from Psychonauts AP and PsychoRando)
-4) Extra view for showing the specific camper brains that have been collected
-5) Extra view(s) for non-important collectibles (baggage, baggage tags, vaults, PSI cards, PSI challenge markers, scavenger hunt items, watering can and crow feather)
-6) Find out if there's a way that locations can be manually marked by the user as baggage that cannot currently be collected 
+4) Find out if there's a way that locations can be manually marked by the user as baggage that cannot currently be collected
+5) Mark baggage that is in logic, but cannot be collected, as visible (will require support from Psychonauts AP)
