@@ -27,6 +27,14 @@ BRAIN_CODES = {
     "brain_chops",
 }
 
+BAGGAGE_TO_TAG = {
+    ["suitcase"] = "suitcase_tag",
+    ["purse"] = "purse_tag",
+    ["hatbox"] = "hatbox_tag",
+    ["steamer_trunk"] = "steamer_trunk_tag",
+    ["dufflebag"] = "dufflebag_tag",
+}
+
 -- Offset from PsychoRando ID to Archipelago ID
 AP_ITEM_OFFSET = 42690000
 AP_LOCATION_OFFSET = AP_ITEM_OFFSET
@@ -150,6 +158,16 @@ function updateBrainCount(received_item_code)
     end
 end
 
+function decrementBaggageTagCount(received_item_code)
+    local tag_code = BAGGAGE_TO_TAG[received_item_code]
+    if tag_code then
+        -- DEBUG
+        print(string.format("decrementBaggageTagCount: %s is baggage, decrementing tag count", received_item_code))
+        local obj = Tracker:FindObjectForCode(tag_code)
+        obj.AcquiredCount = obj.AcquiredCount - obj.Increment
+    end
+end
+
 function onItem(index, ap_item_id, item_name, player_number)
     if index <= CUR_INDEX then
         return
@@ -188,6 +206,8 @@ function onItem(index, ap_item_id, item_name, player_number)
             end
         elseif item_type == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            -- If the item is baggage, decrement the count of the corresponding baggage tag
+            decrementBaggageTagCount(item_code)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end

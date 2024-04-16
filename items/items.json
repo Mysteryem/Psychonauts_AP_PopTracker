@@ -452,35 +452,40 @@
     "type": "consumable",
     "img": "images/items/baggage/dufflebag_tag.png",
     "codes": "dufflebag_tag",
-    "max_quantity": 10
+    "max_quantity": 10,
+    "min_quantity": -10
   },
   {
     "name": "Hatbox Tag",
     "type": "consumable",
     "img": "images/items/baggage/hatbox_tag.png",
     "codes": "hatbox_tag",
-    "max_quantity": 10
+    "max_quantity": 10,
+    "min_quantity": -10
   },
   {
     "name": "Purse Tag",
     "type": "consumable",
     "img": "images/items/baggage/purse_tag.png",
     "codes": "purse_tag",
-    "max_quantity": 10
+    "max_quantity": 10,
+    "min_quantity": -10
   },
   {
     "name": "Steamer Trunk Tag",
     "type": "consumable",
     "img": "images/items/baggage/steamer_trunk_tag.png",
     "codes": "steamer_trunk_tag",
-    "max_quantity": 10
+    "max_quantity": 10,
+    "min_quantity": -10
   },
   {
     "name": "Suitcase Tag",
     "type": "consumable",
     "img": "images/items/baggage/suitcase_tag.png",
     "codes": "suitcase_tag",
-    "max_quantity": 10
+    "max_quantity": 10,
+    "min_quantity": -10
   },
   {
     "name": "Dufflebag",
