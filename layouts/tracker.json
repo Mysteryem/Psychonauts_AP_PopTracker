@@ -36,6 +36,14 @@
                   "type": "layout",
                   "key": "individual_brains_array"
                 }
+              },
+              {
+                "title": "Settings",
+                "icon": "images/items/settings/starting_mental_magnet.png",
+                "content": {
+                  "type": "layout",
+                  "key": "settings_array"
+                }
               }
             ]
           }

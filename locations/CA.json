@@ -15,6 +15,24 @@
     ]
   },
   {
+    "name": "CAJABrains",
+    "access_rules": ["$brainhunt_goal"],
+    "children": [
+      {
+        "name": "Goal - Brain Hunt",
+        "sections": [{"name": "(CA Ford) Redeemed Required Brains"}],
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 461,
+            "y": 96,
+            "force_invisibility_rules": "$not_has|setting_brains_required"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "RANK5to20",
     "access_rules": [
       "$rank5to20",

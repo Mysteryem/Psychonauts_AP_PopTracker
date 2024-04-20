@@ -1,9 +1,55 @@
 [
   {
-    "name": "Show out-of-logic accessibility",
+    "name": "BrainTankGoal",
     "type": "toggle",
-    "img": "images/settings/enable_out_of_logic.png",
-    "initial_active_state": true,
-    "codes": "settings_enable_out_of_logic"
+    "img": "images/items/settings/brain_tank_goal.png",
+    "codes": "setting_brain_tank_goal",
+    "initial_active_state": true
+  },
+  {
+    "name": "BrainsRequired",
+    "type": "consumable",
+    "img": "images/items/misc/jarred_brain.png",
+    "initial_quantity": 0,
+    "max_quantity": 19,
+    "codes": "setting_brains_required"
+  },
+  {
+    "name": "RequireMeatCircus",
+    "type": "toggle",
+    "img": "images/heads/butcher.png",
+    "codes": "setting_require_meat_circus",
+    "initial_active_state": true
+  },
+  {
+    "name": "EasyFlightMode",
+    "type": "toggle",
+    "img": "images/items/settings/easy_flight_mode.png",
+    "codes": "setting_easy_flight_mode"
+  },
+  {
+    "name": "EasyMillaRace",
+    "type": "toggle",
+    "img": "images/items/settings/easy_milla_race.png",
+    "codes": "setting_easy_milla_race"
+  },
+  {
+    "name": "InstantDeathMode",
+    "type": "toggle",
+    "img": "images/items/settings/instant_death_mode.png",
+    "codes": "setting_instant_death_mode"
+  },
+  {
+    "name": "StartingMentalMagnet",
+    "type": "toggle",
+    "img": "images/items/settings/starting_mental_magnet.png",
+    "codes": "setting_starting_mental_magnet",
+    "initial_active_state": true
+  },
+  {
+    "name": "StartingLevitation",
+    "type": "toggle",
+    "img": "images/items/powers/levitation.png",
+    "codes": "setting_starting_levitation"
   }
 ]

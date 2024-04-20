@@ -314,12 +314,22 @@
                           },
                           {
                             "name": "ASLBBoss",
-                            "access_rules": ["birthday_cake,pyrokinesis"],
+                            "access_rules": [
+                              "birthday_cake,pyrokinesis,$brainhunt_goal",
+                              "settings_enable_out_of_logic,birthday_cake,pyrokinesis,[$brainhunt_goal]"
+                            ],
                             "children": [
                               {
-                                "name": "(AS Lab) Oleander Boss Defeated",
-                                "sections": [{"name": ""}],
-                                "map_locations": [{"map": "AS", "x": 3004, "y": 596}]
+                                "name": "Goal - Asylum Brain Tank",
+                                "sections": [{"name": "(AS Lab) Oleander Boss Defeated"}],
+                                "map_locations": [
+                                  {
+                                    "map": "AS",
+                                    "x": 3004,
+                                    "y": 596,
+                                    "force_invisibility_rules": "$not_has|setting_brain_tank_goal"
+                                  }
+                                ]
                               }
                             ]
                           }

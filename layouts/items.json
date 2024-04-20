@@ -137,5 +137,38 @@
       ["crow_feather", "small_arrowhead_bundle", "psi_card", "max_ammo_up", "max_lives_up"],
       ["boyd_watering_can", "large_arrowhead_bundle", "psi_challenge_marker", "max_confusion_ammo_up", "memory_vault"]
     ]
+  },
+  "settings_goal_grid": {
+    "type": "itemgrid",
+    "item_margin": "0, 0",
+    "item_size": 3,
+    "margin": "0,0",
+    "h_alignment": "left",
+    "rows": [
+      ["setting_brain_tank_goal", "setting_require_meat_circus"],
+      ["setting_brains_required"]
+    ]
+  },
+  "settings_starting_item_grid": {
+    "type": "itemgrid",
+    "item_margin": "0, 0",
+    "item_size": 3,
+    "margin": "0,0",
+    "h_alignment": "left",
+    "rows": [
+      ["setting_starting_mental_magnet"],
+      ["setting_starting_levitation"]
+    ]
+  },
+  "settings_difficulty_grid": {
+    "type": "itemgrid",
+    "item_margin": "0, 0",
+    "item_size": 3,
+    "margin": "0,0",
+    "h_alignment": "left",
+    "rows": [
+      ["setting_easy_flight_mode", "setting_instant_death_mode"],
+      ["setting_easy_milla_race"]
+    ]
   }
 }

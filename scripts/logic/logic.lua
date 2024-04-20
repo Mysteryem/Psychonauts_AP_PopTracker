@@ -3,6 +3,12 @@ function has(item)
     return count > 0
 end
 
+-- It seems that negation in access rules is not provided, so we have to do this ourselves.
+function not_has(item)
+    local count = Tracker:ProviderCountForCode(item)
+    return count <= 0
+end
+
 function checksSum(boolArray)
     local sum = 0
     for _, check in ipairs(boolArray) do
@@ -104,4 +110,22 @@ function rank85to101()
         hasDuster and hasPyrokinesis and hasTelekinesis and has("mind_fred") and has("fred_letter") and has("fred_coin") and has ("fred_musket")
     }
     return checksSum(checks) >= 7
+end
+
+function brainhunt_goal()
+    local required_brain_count = Tracker:ProviderCountForCode("setting_brains_required")
+    if required_brain_count == 0 then
+        -- 0 is not a valid value for the "BrainsRequired" yaml option, but 0 is being used here to indicate that the
+        -- goal is not required, because the brain hunt is a requirement for the brain tank/meat circus bosses when
+        -- enabled.
+        return true
+    end
+    local brain_count = Tracker:ProviderCountForCode("camper_brain")
+    if brain_count >= required_brain_count then
+        -- Can complete the goal
+        return true
+    else
+        -- More brains are required to complete the goal
+        return false
+    end
 end

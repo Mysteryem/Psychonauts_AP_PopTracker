@@ -409,4 +409,10 @@ LOCATION_MAPPING = {
     [362] = {"@MCTCToL/(MC Main) Tunnel of Love Corner/"},
     [363] = {"@MCTCToL/(MC Main) Tunnel of Love Rail/"},
     [364] = {"@MCTCToL/(MC Main) Next to the Final Door/"},
+
+    -- Events (goals)
+    -- Note: These locations do not currently get sent upon completing them.
+    [365] = {"@MCTCBoss/Goal - Meat Circus Bosses/(MC Boss) Final Boss Defeated"},
+    [366] = {"@CAJABrains/Goal - Brain Hunt/(CA Ford) Redeemed Required Brains"},
+    [367] = {"@ASLBBoss/Goal - Asylum Brain Tank/(AS Lab) Oleander Boss Defeated"},
 }

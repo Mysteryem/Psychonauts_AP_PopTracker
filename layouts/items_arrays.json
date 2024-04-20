@@ -97,5 +97,38 @@
         }
       }
     ]
+  },
+  "settings_array": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "group",
+        "header": "Goals",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "settings_goal_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Starting Items",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "settings_starting_item_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Difficulty",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "settings_difficulty_grid"
+        }
+      }
+    ]
   }
 }
