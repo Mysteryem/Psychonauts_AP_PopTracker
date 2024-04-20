@@ -412,7 +412,7 @@ LOCATION_MAPPING = {
 
     -- Events (goals)
     -- Note: These locations do not currently get sent upon completing them.
-    [365] = {"@MCTCBoss/Goal - Meat Circus Bosses/(MC Boss) Final Boss Defeated"},
-    [366] = {"@CAJABrains/Goal - Brain Hunt/(CA Ford) Redeemed Required Brains"},
-    [367] = {"@ASLBBoss/Goal - Asylum Brain Tank/(AS Lab) Oleander Boss Defeated"},
+    [365] = {"@MCTCBoss/Goal - Meat Circus Bosses/(MC Boss) Final Boss Defeated (no item)"},
+    [366] = {"@CAJABrains/Goal - Brain Hunt/(CA Ford) Redeemed Required Brains (no item)"},
+    [367] = {"@ASLBBoss/Goal - Asylum Brain Tank/(AS Lab) Oleander Boss Defeated (no item)"},
 }

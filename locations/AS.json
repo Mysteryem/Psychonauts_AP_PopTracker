@@ -321,7 +321,7 @@
                             "children": [
                               {
                                 "name": "Goal - Asylum Brain Tank",
-                                "sections": [{"name": "(AS Lab) Oleander Boss Defeated"}],
+                                "sections": [{"name": "(AS Lab) Oleander Boss Defeated (no item)"}],
                                 "map_locations": [
                                   {
                                     "map": "AS",
