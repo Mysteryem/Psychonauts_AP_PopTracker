@@ -9,6 +9,21 @@
         "map_locations": [{"map": "BV", "x": 624, "y": 994}]
       },
       {
+        "name": "(BV Streets) Alleyways Ledge",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "BV", "x": 1311, "y": 475}]
+      },
+      {
+        "name": "(BV Streets) Sewers Main",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "BV", "x": 1021, "y": 206}]
+      },
+      {
+        "name": "(BV Streets) Near Diego's House",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "BV", "x": 1132, "y": 897}]
+      },
+      {
         "name": "BVRBLev",
         "access_rules": ["levitation"],
         "children": [
@@ -32,6 +47,22 @@
             "name": "(BV Streets) Club Street Gated",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "BV", "x": 830, "y": 854}]
+          },
+          {
+            "name": "(BV Streets) The Garden",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BV", "x": 428, "y": 265}]
+          },
+          {
+            "name": "BVRBLogs",
+            "access_rules": ["pyrokinesis"],
+            "children": [
+              {
+                "name": "(BV Streets) Burn the Logs",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "BV", "x": 415, "y": 352}]
+              }
+            ]
           }
         ]
       },
@@ -62,52 +93,6 @@
         ]
       },
       {
-        "name": "BVRBDuster_optional",
-        "access_rules": [
-          "cobweb_duster",
-          "settings_enable_out_of_logic,[cobweb_duster]"
-        ],
-        "children": [
-          {
-            "name": "(BV Streets) Alleyways Ledge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BV", "x": 1311, "y": 475}]
-          },
-          {
-            "name": "(BV Streets) Sewers Main",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BV", "x": 1021, "y": 206}]
-          },
-          {
-            "name": "(BV Streets) Near Diego's House",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BV", "x": 1132, "y": 897}]
-          },
-          {
-            "name": "BVRBGarden",
-            "access_rules": ["telekinesis"],
-            "children": [
-              {
-                "name": "(BV Streets) The Garden",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BV", "x": 428, "y": 265}]
-              },
-              {
-                "name": "BVRBLogs",
-                "access_rules": ["pyrokinesis"],
-                "children": [
-                  {
-                    "name": "(BV Streets) Burn the Logs",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "BV", "x": 415, "y": 352}]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "BVES",
         "children": [
           {
@@ -126,6 +111,11 @@
             "map_locations": [{"map": "BV", "x": 1453, "y": 1011}]
           },
           {
+            "name": "(BV Edgar) Eagle Wrestler",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "BV", "x": 1481, "y": 768}]
+          },
+          {
             "name": "BVESLev",
             "access_rules": ["levitation"],
             "children": [
@@ -137,38 +127,24 @@
             ]
           },
           {
-            "name": "BVESEagle",
-            "access_rules": [
-              "cobweb_duster",
-              "settings_enable_out_of_logic,[cobweb_duster]"
-            ],
+            "name": "BVESCobra",
+            "access_rules": ["confusion"],
             "children": [
               {
-                "name": "(BV Edgar) Eagle Wrestler",
+                "name": "(BV Edgar) Cobra Wrestler",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "BV", "x": 1481, "y": 768}]
+                "map_locations": [{"map": "BV", "x": 1562, "y": 900}]
               },
               {
-                "name": "BVESCobra",
-                "access_rules": ["confusion"],
+                "name": "BVESBoss",
+                "access_rules": ["telekinesis"],
                 "children": [
                   {
-                    "name": "(BV Edgar) Cobra Wrestler",
+                    "name": "(BV Edgar) Black Velvetopia Complete",
                     "sections": [{"name": ""}],
-                    "map_locations": [{"map": "BV", "x": 1562, "y": 900}]
-                  },
-                  {
-                    "name": "BVESBoss",
-                    "access_rules": ["telekinesis"],
-                    "children": [
-                      {
-                        "name": "(BV Edgar) Black Velvetopia Complete",
-                        "sections": [{"name": ""}],
-                        "map_locations": [
-                          {"map": "BV", "x": 1451, "y": 887},
-                          {"map": "CA", "x": 2281, "y": 244}
-                        ]
-                      }
+                    "map_locations": [
+                      {"map": "BV", "x": 1451, "y": 887},
+                      {"map": "CA", "x": 2281, "y": 244}
                     ]
                   }
                 ]
