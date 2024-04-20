@@ -151,10 +151,7 @@
       },
       {
         "name": "WWMAKnight",
-        "access_rules": [
-          "fred_letter,telekinesis",
-          "settings_enable_out_of_logic,[fred_letter],telekinesis"
-        ],
+        "access_rules": ["telekinesis"],
         "children": [
           {
             "name": "(WW Main) Help the Knight",
@@ -191,11 +188,17 @@
                     "map_locations": [{"map": "WW", "x": 452, "y": 639}]
                   },
                   {
-                    "name": "(WW Main) Waterloo World Complete",
-                    "sections": [{"name": ""}],
-                    "map_locations": [
-                      {"map": "WW", "x": 416, "y": 274},
-                      {"map": "CA", "x": 2600, "y": 233}
+                    "name": "WWMADone",
+                    "access_rules": ["levitation"],
+                    "children": [
+                      {
+                        "name": "(WW Main) Waterloo World Complete",
+                        "sections": [{"name": ""}],
+                        "map_locations": [
+                          {"map": "WW", "x": 416, "y": 274},
+                          {"map": "CA", "x": 2600, "y": 233}
+                        ]
+                      }
                     ]
                   }
                 ]

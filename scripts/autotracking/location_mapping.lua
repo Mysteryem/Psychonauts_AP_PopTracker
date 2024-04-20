@@ -372,7 +372,7 @@ LOCATION_MAPPING = {
     [329] = {"@WWMAKnight/(WW Main) Help the Knight/"},
     [330] = {"@WWMAV2/(WW Main) Help Villager 2/"},
     [331] = {"@WWMAV3/(WW Main) Help Villager 3/"},
-    [332] = {"@WWMAV3/(WW Main) Waterloo World Complete/"},
+    [332] = {"@WWMADone/(WW Main) Waterloo World Complete/"},
 
     -- BV
     [333] = {"@BVRB/(BV Streets) Club Street Lady/"},
