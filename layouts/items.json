@@ -141,34 +141,31 @@
   "settings_goal_grid": {
     "type": "itemgrid",
     "item_margin": "0, 0",
-    "item_size": 3,
+    "item_size": 5,
     "margin": "0,0",
     "h_alignment": "left",
     "rows": [
-      ["setting_brain_tank_goal", "setting_require_meat_circus"],
-      ["setting_brains_required"]
+      ["setting_brains_required","setting_brain_tank_goal", "setting_require_meat_circus"]
     ]
   },
   "settings_starting_item_grid": {
     "type": "itemgrid",
     "item_margin": "0, 0",
-    "item_size": 3,
+    "item_size": 5,
     "margin": "0,0",
     "h_alignment": "left",
     "rows": [
-      ["setting_starting_mental_magnet"],
-      ["setting_starting_levitation"]
+      ["setting_starting_mental_magnet", "setting_starting_levitation"]
     ]
   },
   "settings_difficulty_grid": {
     "type": "itemgrid",
     "item_margin": "0, 0",
-    "item_size": 3,
+    "item_size": 5,
     "margin": "0,0",
     "h_alignment": "left",
     "rows": [
-      ["setting_easy_flight_mode", "setting_instant_death_mode"],
-      ["setting_easy_milla_race"]
+      ["setting_easy_flight_mode", "setting_easy_milla_race", ,"setting_instant_death_mode"]
     ]
   }
 }
