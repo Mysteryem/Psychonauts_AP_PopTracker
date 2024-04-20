@@ -43,6 +43,9 @@ Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/items_broadcast.json")
 Tracker:AddLayouts("layouts/settings.json")
 
+-- Item code watches
+ScriptHost:LoadScript("scripts/item_code_watches.lua")
+
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/archipelago.lua")

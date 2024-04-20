@@ -51,5 +51,11 @@
     "type": "toggle",
     "img": "images/items/powers/levitation.png",
     "codes": "setting_starting_levitation"
+  },
+  {
+    "name": "Internal StartingLevitation Counter",
+    "type": "toggle",
+    "img": "images/items/powers/levitation.png",
+    "codes": "_internal_setting_starting_levitation_counter"
   }
 ]
