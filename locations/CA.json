@@ -26,6 +26,7 @@
             "map": "CA",
             "x": 461,
             "y": 96,
+            "size": 60,
             "force_invisibility_rules": "$not_has|setting_brains_required"
           }
         ]

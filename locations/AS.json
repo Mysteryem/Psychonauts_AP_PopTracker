@@ -327,6 +327,7 @@
                                     "map": "AS",
                                     "x": 3004,
                                     "y": 596,
+                                    "size": 60,
                                     "force_invisibility_rules": "$not_has|setting_brain_tank_goal"
                                   }
                                 ]

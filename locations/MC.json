@@ -94,6 +94,7 @@
                             "map": "MC",
                             "x": 1943,
                             "y": 1309,
+                            "size": 60,
                             "force_invisibility_rules": "$not_has|setting_require_meat_circus"
                           }
                         ]
