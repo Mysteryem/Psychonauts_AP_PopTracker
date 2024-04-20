@@ -397,11 +397,11 @@ LOCATION_MAPPING = {
     [352] = {"@BVESBoss/(BV Edgar) Black Velvetopia Complete/"},
 
     -- MC
-    [353] = {"@MCTCEscort/(MC Main) Entrance Awning/"},
+    [353] = {"@MCTCLev/(MC Main) Entrance Awning/"},
     [354] = {"@MCTC/(MC Main) Crumbling Path/"},
     [355] = {"@MCTC/(MC Main) Crumbling Path End Right/"},
     [356] = {"@MCTC/(MC Main) Crumbling Path End Left/"},
-    [357] = {"@MCTCEscort/(MC Main) Ollie Escort Floor/"},
+    [357] = {"@MCTC/(MC Main) Ollie Escort Floor/"},
     [358] = {"@MCTCEscort/(MC Main) Ollie Escort Middle/"},
     [359] = {"@MCTCEscortTop/Ollie Escort Top/(MC Main) Ollie Escort Top Left"},
     [360] = {"@MCTCEscortTop/Ollie Escort Top/(MC Main) Ollie Escort Top Right"},

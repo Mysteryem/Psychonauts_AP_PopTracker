@@ -19,10 +19,15 @@
         "map_locations": [{"map": "MC", "x": 94, "y": 1369}]
       },
       {
-        "name": "MCTCEscort",
+        "name": "(MC Main) Ollie Escort Floor",
+        "sections": [{"name": ""}],
+        "map_locations": [{"map": "MC", "x": 1553, "y": 835}]
+      },
+      {
+        "name": "MCTCLev",
         "access_rules": [
-          "telekinesis,levitation",
-          "settings_enable_out_of_logic,[telekinesis],[levitation]"
+          "levitation",
+          "settings_enable_out_of_logic,[levitation]"
         ],
         "children": [
           {
@@ -31,71 +36,75 @@
             "map_locations": [{"map": "MC", "x": 478, "y": 1205}]
           },
           {
-            "name": "(MC Main) Ollie Escort Floor",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 1553, "y": 835}]
-          },
-          {
-            "name": "(MC Main) Ollie Escort Middle",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 1593, "y": 594}]
-          },
-          {
-            "name": "MCTCEscortTop",
-            "access_rules": ["levitation"],
+            "name": "MCTCEscort",
+            "access_rules": [
+              "telekinesis",
+              "settings_enable_out_of_logic,[telekinesis]"
+            ],
             "children": [
               {
-                "name": "Ollie Escort Top",
-                "sections": [
-                  {"name": "(MC Main) Ollie Escort Top Left"},
-                  {"name": "(MC Main) Ollie Escort Top Right"}
-                ],
-                "map_locations": [{"map": "MC", "x": 1785, "y": 227}]
+                "name": "(MC Main) Ollie Escort Middle",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "MC", "x": 1593, "y": 594}]
               },
               {
-                "name": "MCTCToL",
-                "access_rules": [
-                  "telekinesis",
-                  "settings_enable_out_of_logic,[telekinesis],confusion"
-                ],
+                "name": "MCTCEscortTop",
+                "access_rules": ["levitation"],
                 "children": [
                   {
-                    "name": "(MC Main) Tunnel of Love Start",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MC", "x": 892, "y": 892}]
+                    "name": "Ollie Escort Top",
+                    "sections": [
+                      {"name": "(MC Main) Ollie Escort Top Left"},
+                      {"name": "(MC Main) Ollie Escort Top Right"}
+                    ],
+                    "map_locations": [{"map": "MC", "x": 1785, "y": 227}]
                   },
                   {
-                    "name": "(MC Main) Tunnel of Love Corner",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MC", "x": 816, "y": 797}]
-                  },
-                  {
-                    "name": "(MC Main) Tunnel of Love Rail",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MC", "x": 1012, "y": 1338}]
-                  },
-                  {
-                    "name": "(MC Main) Next to the Final Door",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MC", "x": 1659, "y": 1298}]
-                  },
-                  {
-                    "name": "MCTCBoss",
+                    "name": "MCTCToL",
                     "access_rules": [
-                      "@CAJABrains/Goal - Brain Hunt,$not_has|setting_brain_tank_goal",
-                      "@CAJABrains/Goal - Brain Hunt,setting_brain_tank_goal,@ASLBBoss/Goal - Asylum Brain Tank"
+                      "telekinesis",
+                      "settings_enable_out_of_logic,[telekinesis],confusion"
                     ],
                     "children": [
                       {
-                        "name": "Goal - Meat Circus Bosses",
-                        "sections": [{"name": "(MC Boss) Final Boss Defeated (no item)"}],
-                        "map_locations": [
+                        "name": "(MC Main) Tunnel of Love Start",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MC", "x": 892, "y": 892}]
+                      },
+                      {
+                        "name": "(MC Main) Tunnel of Love Corner",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MC", "x": 816, "y": 797}]
+                      },
+                      {
+                        "name": "(MC Main) Tunnel of Love Rail",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MC", "x": 1012, "y": 1338}]
+                      },
+                      {
+                        "name": "(MC Main) Next to the Final Door",
+                        "sections": [{"name": ""}],
+                        "map_locations": [{"map": "MC", "x": 1659, "y": 1298}]
+                      },
+                      {
+                        "name": "MCTCBoss",
+                        "access_rules": [
+                          "@CAJABrains/Goal - Brain Hunt,$not_has|setting_brain_tank_goal",
+                          "@CAJABrains/Goal - Brain Hunt,setting_brain_tank_goal,@ASLBBoss/Goal - Asylum Brain Tank"
+                        ],
+                        "children": [
                           {
-                            "map": "MC",
-                            "x": 1943,
-                            "y": 1309,
-                            "size": 60,
-                            "force_invisibility_rules": "$not_has|setting_require_meat_circus"
+                            "name": "Goal - Meat Circus Bosses",
+                            "sections": [{"name": "(MC Boss) Final Boss Defeated (no item)"}],
+                            "map_locations": [
+                              {
+                                "map": "MC",
+                                "x": 1943,
+                                "y": 1309,
+                                "size": 60,
+                                "force_invisibility_rules": "$not_has|setting_require_meat_circus"
+                              }
+                            ]
                           }
                         ]
                       }
