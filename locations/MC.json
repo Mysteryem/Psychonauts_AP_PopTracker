@@ -89,8 +89,8 @@
                       {
                         "name": "MCTCBoss",
                         "access_rules": [
-                          "@CAJABrains/Goal - Brain Hunt,$not_has|setting_brain_tank_goal",
-                          "@CAJABrains/Goal - Brain Hunt,setting_brain_tank_goal,@ASLBBoss/Goal - Asylum Brain Tank"
+                          "telekinesis,@CAJABrains/Goal - Brain Hunt,$not_has|setting_brain_tank_goal",
+                          "telekinesis,@CAJABrains/Goal - Brain Hunt,setting_brain_tank_goal,@ASLBBoss/Goal - Asylum Brain Tank"
                         ],
                         "children": [
                           {
