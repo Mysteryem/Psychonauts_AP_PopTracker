@@ -1,0 +1,18 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.0.0.zip",
+            "sha256": "afab90756bb261ad70d568700f2a407b0dfe19eda3816999cb811adbcd9a27e7",
+            "changelog": [
+                "First release with all maps, items and locations present with AP autotracking.",
+                "Supports Psychonauts AP World v0.3.3.",
+                "Special AP autotracking features:",
+                " - Collecting Baggage reduces the count of the corresponding Baggage Tag when collected so that the Tag count matches the number of tags of that type in Raz's inventory.",
+                " - The total count of Camper Brains is automatically increased when a Brain is collected. The specific found/missing Brains can be seen in the Brains tab.",
+                "Adds accessible, but out-of-logic access (yellow locations)",
+                "Out-of-logic access can be turned off in the Pack Settings (between Broadcast View and AP autotracking toggle), turning all yellow locations red instead."
+            ]
+        }
+    ]
+}
