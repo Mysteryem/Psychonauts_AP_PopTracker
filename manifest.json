@@ -14,5 +14,6 @@
     "min_poptracker_version": "0.26.0",
     "target_poptracker_version": "0.26.0",
     "game_name": "Psychonauts",
-    "author": "Mysteryem"
+    "author": "Mysteryem",
+    "versions_url": "https://raw.githubusercontent.com/Mysteryem/Psychonauts_AP_PopTracker/main/versions.json"
 }
