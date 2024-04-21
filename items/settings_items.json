@@ -34,10 +34,43 @@
     "codes": "setting_easy_milla_race"
   },
   {
-    "name": "InstantDeathMode",
-    "type": "toggle",
-    "img": "images/items/settings/instant_death_mode.png",
-    "codes": "setting_instant_death_mode"
+    "name": "Enemy Damage Multiplier",
+    "type": "progressive",
+    "codes": "setting_damage_multiplier",
+    "loop": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "inherit_codes": false,
+    "stages": [
+      {
+        "img": "images/items/settings/damage_multiplier_0.png",
+        "codes": "setting_damage_multiplier_0"
+      },
+      {
+        "img": "images/items/settings/damage_multiplier_1.png",
+        "codes": "setting_damage_multiplier_1"
+      },
+      {
+        "img": "images/items/settings/damage_multiplier_2.png",
+        "codes": "setting_damage_multiplier_2"
+      },
+      {
+        "img": "images/items/settings/damage_multiplier_3.png",
+        "codes": "setting_damage_multiplier_3"
+      },
+      {
+        "img": "images/items/settings/damage_multiplier_4.png",
+        "codes": "setting_damage_multiplier_4"
+      },
+      {
+        "img": "images/items/settings/damage_multiplier_5.png",
+        "codes": "setting_damage_multiplier_5"
+      },
+      {
+        "img": "images/items/settings/damage_multiplier_infinite.png",
+        "codes": "setting_damage_multiplier_infinite"
+      }
+    ]
   },
   {
     "name": "StartingMentalMagnet",

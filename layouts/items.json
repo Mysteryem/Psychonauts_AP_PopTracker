@@ -165,7 +165,7 @@
     "margin": "0,0",
     "h_alignment": "left",
     "rows": [
-      ["setting_easy_flight_mode", "setting_easy_milla_race", ,"setting_instant_death_mode"]
+      ["setting_easy_flight_mode", "setting_easy_milla_race", "setting_damage_multiplier"]
     ]
   }
 }

@@ -3,7 +3,6 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 -- Assuming this tracks the received order of items
 CUR_INDEX = -1
---SLOT_DATA = nil
 
 BRAIN_CODES = {
     "brain_elton",
@@ -39,6 +38,11 @@ BAGGAGE_TO_TAG = {
 AP_ITEM_OFFSET = 42690000
 AP_LOCATION_OFFSET = AP_ITEM_OFFSET
 
+-- The "Goal" yaml option's value retrieved through AP slot_data is provided as a numeric value.
+BRAIN_TANK_ONLY = 0
+BRAIN_HUNT_ONLY = 1
+BRAIN_TANK_AND_HUNT = 2
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return true end
@@ -68,7 +72,6 @@ end
 
 
 function onClear(slot_data)
-    --SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
@@ -85,8 +88,8 @@ function onClear(slot_data)
     end
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
-        item_code = v[1]
-        item_type = v[2]
+        local item_code = v[1]
+        local item_type = v[2]
         if item_code and item_type then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: clearing item %s of type %s", item_code, item_type))
@@ -112,36 +115,112 @@ function onClear(slot_data)
     clearBrainCount()
 
     if slot_data == nil  then
-        print("welp")
+        -- Even when empty, slot_data should still exist, so unsure if/how this could happen.
+        print("warning: slot data is missing")
         return
     end
 
-    -- ahit important slot_data variables
+    -- Read AP slot_data to set settings based on the player's yaml options.
+    -- slot_data value example:
     --[[
-    slot_data["RandomizeHatOrder"]  --not handling this atm, assuming it's on
-    ["Hat5"]
-    ["Hat2"]
-    ["Hat4"]
-    ["Hat1"]
-    ["Hat3"]
-    ["SprintYarnCost"]
-    ["BrewingYarnCost"]
-    ["IceYarnCost"]
-    ["DwellerYarnCost"]
-    ["TimeStopYarnCost"]
-
-    ["ShuffleActContracts"]  --not handling this atm, assuming it's on
-    ["ShuffleStorybookPages"]  --not handling this atm, assuming it's on
-    ["CTRWithSprint"]
-    ["SDJLogic"]
-
-    -- I think the above marked variables don't even need handling, they'd
-    -- still get tracked but are just hidden from view - so no changes necessary
-    -- also I believe the Hat1..5 slot data still exists with hat rando off
-    -- (just populated 0..4) so that would still work too
+    {
+        ["LootboxVaults"] = 1,
+        ["StartingMentalMagnet"] = 1,
+        ["Goal"] = 0,
+        ["EasyFlightMode"] = 0,
+        ["RequireMeatCircus"] = 1,
+        ["StartingLevitation"] = 1,
+        ["EnemyDamageMultiplier"] = 1,
+        ["EasyMillaRace"] = 0,
+        ["BrainsRequired"] = 10,
+        ["InstantDeathMode"] = 0,
+    }
     ]]--
 
+    print("Reading slot_data")
+
+    -- Older apworld versions that don't have anything in slot_data are protected against by checking for nil values.
+
+    -- Goals
+    local brains_required = slot_data["BrainsRequired"]
+    local goal = slot_data["Goal"]
+
+    if goal ~= nil and brains_required ~= nil then
+        local brain_tank_toggle = Tracker:FindObjectForCode("setting_brain_tank_goal")
+        local brains_required_consumable = Tracker:FindObjectForCode("setting_brains_required")
+
+        brain_tank_toggle.Active = goal == BRAIN_TANK_ONLY or goal == BRAIN_TANK_AND_HUNT
+
+        -- BrainsRequired and Goal are combined together to only display a non-zero number of required brains when the
+        -- brain hunt goal is enabled.
+        if goal == BRAIN_HUNT_ONLY or goal == BRAIN_TANK_AND_HUNT then
+            brains_required_consumable.AcquiredCount = brains_required
+        else
+            brains_required_consumable.AcquiredCount = 0
+        end
+    end
+
+    local require_meat_circus = slot_data["RequireMeatCircus"]
+    if require_meat_circus ~= nil then
+        local require_meat_circus_toggle = Tracker:FindObjectForCode("setting_require_meat_circus")
+        require_meat_circus_toggle.Active = require_meat_circus == 1
+    end
+
+    -- Starting items
+    local starting_mental_magnet = slot_data["StartingMentalMagnet"]
+    if starting_mental_magnet ~= nil then
+        local starting_mental_magnet_toggle = Tracker:FindObjectForCode("setting_starting_mental_magnet")
+        starting_mental_magnet_toggle.Active = starting_mental_magnet == 1
+    end
+
+    local starting_levitation = slot_data["StartingLevitation"]
+    local starting_levitation_toggle = Tracker:FindObjectForCode("setting_starting_levitation")
+    -- Toggle off first to reset the internal StartingLevitation counter (_internal_setting_starting_levitation_counter)
+    -- because the current count of "levitation" will have been set to zero earlier in this function.
+    starting_levitation_toggle.Active = false
+    if starting_levitation ~= nil then
+        starting_levitation_toggle.Active = starting_levitation == 1
+    end
+
+    -- Difficulty
+    local easy_flight_mode = slot_data["EasyFlightMode"]
+    if easy_flight_mode ~= nil then
+        -- Note that EasyFlightMode is not considered by any out-of-logic access to locations.
+        -- For example, it would allow for skipping almost all of The Milkman Conspiracy.
+        local easy_flight_mode_toggle = Tracker:FindObjectForCode("setting_easy_flight_mode")
+        easy_flight_mode_toggle.Active = easy_flight_mode == 1
+    end
+
+    local easy_milla_race = slot_data["EasyMillaRace"]
+    if easy_milla_race ~= nil then
+        -- Removes Bobby from the race and makes Raz 1.5 times faster.
+        local easy_milla_race_toggle = Tracker:FindObjectForCode("setting_easy_milla_race")
+        easy_milla_race_toggle.Active = easy_milla_race == 1
+    end
+
+    local enemy_damage_multiplier = slot_data["EnemyDamageMultiplier"]
+    local damage_multiplier_progressive = Tracker:FindObjectForCode("setting_damage_multiplier")
+    if enemy_damage_multiplier ~= nil then
+        -- Clamp the value in the [0,5] range.
+        -- If the range for EnemyDamageMultiplier is changed in the future, this and the setting_damage_multiplier item
+        -- will need to be adjusted.
+        damage_multiplier_progressive.CurrentStage = math.max(0, math.min(enemy_damage_multiplier, 5))
+    end
+
+    local instant_death_mode = slot_data["InstantDeathMode"]
+    if instant_death_mode == 1 then
+        -- When enabled, InstantDeathMode overrides the EnemyDamageMultiplier option.
+        -- The last stage of setting_damage_multiplier shows an infinity symbol.
+        damage_multiplier_progressive.CurrentStage = 6
+    end
+
+    -- Other
+    --slot_data["LootboxVaults"]
+    -- Showing this is not yet implemented.
+
+    --print("slot data dump begin")
     --print(dump_table(slot_data))
+    --print("slot data dump end")
 end
 
 function clearBrainCount()
