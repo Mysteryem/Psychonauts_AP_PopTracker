@@ -1,6 +1,28 @@
 {
     "versions": [
         {
+            "package_version": "1.1.0",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.1.0.zip",
+            "sha256": "47f968254a942e796ed61c2a2d5827e411fee1a6c08381e6cfa150361c0c7c1e",
+            "changelog": [
+                "Supports Psychonauts AP World v0.4.0.",
+                "Logic has been updated to match the new AP World version.",
+                "",
+                "The pack now checks for new versions being available.",
+                "",
+                "Added a Settings tab for AP yaml settings.",
+                " - Settings will automatically read their values from Slot Data when connecting to AP.",
+                " - Goal locations are added to the tracker when the relevant goals are enabled in the Settings tab.",
+                " - The goal settings are split into separate toggles for the Brain Tank goal and RequireMeatCircus.",
+                " - The Brain Hunt goal is enabled whenever the BrainsRequired is above zero.",
+                " - The number of BrainsRequired is automatically set to zero when the brain hunt goal is not enabled.",
+                " - One level of Levitation is automatically added/removed when the StartingLevitation setting is toggled.",
+                " - InstantDeathMode and EnemyDamageMultiplier are combined into one setting with the damage multiplier displaying as infinite when InstantDeathMode is enabled.",
+                "",
+                "Added out-of-logic access to (AS Upper) Sink Platform Left/Right without Levitation."
+            ]
+        },
+        {
             "package_version": "1.0.0",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.0.0.zip",
             "sha256": "afab90756bb261ad70d568700f2a407b0dfe19eda3816999cb811adbcd9a27e7",
