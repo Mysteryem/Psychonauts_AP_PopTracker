@@ -26,7 +26,6 @@ Many map images were created by taking screenshots on https://noclip.website
 
 ## Todo
 1) Draw in the missing platforms on the Lake
-2) Add support for `StartingLevitation: true` (will require support from Psychonauts AP)
-3) Automatic map changing to match the current game level (will require support from Psychonauts AP and PsychoRando)
-4) Find out if there's a way that locations can be manually marked by the user as baggage that cannot currently be collected
-5) Mark baggage that is in logic, but cannot be collected, as visible (will require support from Psychonauts AP)
+2) Automatic map changing to match the current game level (will require support from Psychonauts AP and PsychoRando)
+3) Find out if there's a way that locations can be manually marked by the user as baggage that cannot currently be collected
+4) Mark baggage that is in logic, but cannot be collected, as visible (will require support from Psychonauts AP)
