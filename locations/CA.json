@@ -387,7 +387,7 @@
           },
           {
             "name": "CAMALev",
-            "access_rules": ["levitation"],
+            "access_rules": ["[levitation]"],
             "children": [
               {
                 "name": "(CA Main) Parking Lot History Board",
