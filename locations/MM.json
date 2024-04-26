@@ -113,14 +113,23 @@
                 ]
               },
               {
-                "name": "MMI1Duster",
-                "access_rules": ["cobweb_duster"],
+                "name": "MMI1Duster_optional",
+                "access_rules": [
+                  "cobweb_duster",
+                  "settings_enable_out_of_logic,[cobweb_duster],marksmanship"
+                ],
                 "children": [
                   {
                     "name": "(MM Neighborhood) Inside Webbed Garage",
                     "sections": [{"name": ""}],
                     "map_locations": [{"map": "MM", "x": 1356, "y": 575}]
-                  },
+                  }
+                ]
+              },
+              {
+                "name": "MMI1Duster",
+                "access_rules": ["cobweb_duster"],
+                "children": [
                   {
                     "name": "(MM Neighborhood) Post Office Basement",
                     "sections": [{"name": ""}],
