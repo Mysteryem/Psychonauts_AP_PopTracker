@@ -141,7 +141,8 @@
                 "name": "MMI2",
                 "access_rules": [
                   "boyd_flowers,boyd_plunger,pyrokinesis,shield",
-                  "settings_enable_out_of_logic,boyd_flowers,[boyd_plunger],pyrokinesis,[shield]"
+                  "settings_enable_out_of_logic,boyd_flowers,[boyd_plunger],pyrokinesis,[shield]",
+                  "settings_enable_out_of_logic,[boyd_flowers],[boyd_plunger],[pyrokinesis],[shield],marksmanship"
                 ],
                 "children": [
                   {
