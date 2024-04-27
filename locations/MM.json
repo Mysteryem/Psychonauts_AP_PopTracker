@@ -141,8 +141,8 @@
                 "name": "MMI2",
                 "access_rules": [
                   "boyd_flowers,boyd_plunger,pyrokinesis,shield",
-                  "settings_enable_out_of_logic,boyd_flowers,[boyd_plunger],pyrokinesis,[shield]",
-                  "settings_enable_out_of_logic,[boyd_flowers],[boyd_plunger],[pyrokinesis],[shield],marksmanship"
+                  "settings_enable_out_of_logic,boyd_flowers,[boyd_plunger],pyrokinesis,[shield],@CALI/Main Lodge Interior",
+                  "settings_enable_out_of_logic,[boyd_flowers],[boyd_plunger],[pyrokinesis],[shield],marksmanship,@CALI/Main Lodge Interior"
                 ],
                 "children": [
                   {
@@ -154,7 +154,7 @@
                     "name": "MMI1Powerlines",
                     "access_rules": [
                       "cobweb_duster",
-                      "settings_enable_out_of_logic,[cobweb_duster],levitation"
+                      "settings_enable_out_of_logic,[cobweb_duster],levitation,@CALI/Main Lodge Interior"
                     ],
                     "children": [
                       {
