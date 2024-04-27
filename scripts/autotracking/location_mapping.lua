@@ -376,7 +376,7 @@ LOCATION_MAPPING = {
 
     -- BV
     [333] = {"@BVRB/(BV Streets) Club Street Lady/"},
-    [334] = {"@BVRBLev/(BV Streets) Club Street Metal Balcony/"},
+    [334] = {"@BVRBLev_optional/(BV Streets) Club Street Metal Balcony/"},
     [335] = {"@BVRBLev/(BV Streets) Heart Street HIGH Balcony/"},
     [336] = {"@BVRB/(BV Streets) Alleyways Ledge/"},
     [337] = {"@BVRB/(BV Streets) Sewers Main/"},

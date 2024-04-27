@@ -24,14 +24,23 @@
         "map_locations": [{"map": "BV", "x": 1132, "y": 897}]
       },
       {
-        "name": "BVRBLev",
-        "access_rules": ["levitation"],
+        "name": "BVRBLev_optional",
+        "access_rules": [
+          "levitation",
+          "settings_enable_out_of_logic,[levitation]"
+        ],
         "children": [
           {
             "name": "(BV Streets) Club Street Metal Balcony",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "BV", "x": 809, "y": 715}]
-          },
+          }
+        ]
+      },
+      {
+        "name": "BVRBLev",
+        "access_rules": ["levitation"],
+        "children": [
           {
             "name": "(BV Streets) Heart Street HIGH Balcony",
             "sections": [{"name": ""}],
