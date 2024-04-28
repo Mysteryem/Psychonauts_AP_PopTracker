@@ -195,7 +195,7 @@ LOCATION_MAPPING = {
     [170] = {"@ASUPLev_optional/Sink Platform/(AS Upper) Sink Platform Left"},
     [171] = {"@ASUPLev_optional/Sink Platform/(AS Upper) Sink Platform Right"},
     [172] = {"@ASUPLev/(AS Upper) Pipes Below Chair Door/"},
-    [173] = {"@ASUPTele/(AS Upper) Room Opposite Chair Door/"},
+    [173] = {"@ASUPTele_optional/(AS Upper) Room Opposite Chair Door/"},
     [174] = {"@ASUPTele/(AS Upper) Pipe Slide Near Chair Door/"},
     [175] = {"@ASUPTele/(AS Upper) Rafters Above Chair Door/"},
 

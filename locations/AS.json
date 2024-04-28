@@ -251,14 +251,23 @@
                     ]
                   },
                   {
-                    "name": "ASUPTele",
-                    "access_rules": ["telekinesis"],
+                    "name": "ASUPTele_optional",
+                    "access_rules": [
+                      "telekinesis",
+                      "settings_enable_out_of_logic,[telekinesis],marksmanship"
+                    ],
                     "children": [
                       {
                         "name": "(AS Upper) Room Opposite Chair Door",
                         "sections": [{"name": ""}],
                         "map_locations": [{"map": "AS", "x": 2183, "y": 629}]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ASUPTele",
+                    "access_rules": ["telekinesis"],
+                    "children": [
                       {
                         "name": "(AS Upper) Pipe Slide Near Chair Door",
                         "sections": [{"name": ""}],
