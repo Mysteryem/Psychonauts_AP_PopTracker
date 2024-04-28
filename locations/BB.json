@@ -25,7 +25,10 @@
       },
       {
         "name": "BBA2Duster",
-        "access_rules": ["cobweb_duster"],
+        "access_rules": [
+          "cobweb_duster",
+          "settings_enable_out_of_logic,[cobweb_duster],marksmanship"
+        ],
         "children": [
           {
             "name": "(BB Area 2) Trapeze Cobweb",
