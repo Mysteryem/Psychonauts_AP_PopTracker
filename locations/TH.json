@@ -20,7 +20,10 @@
       },
       {
         "name": "THMSLev",
-        "access_rules": ["levitation"],
+        "access_rules": [
+          "levitation",
+          "settings_enable_out_of_logic,[levitation]"
+        ],
         "children": [
           {
             "name": "(TH Stage) In the Audience",
