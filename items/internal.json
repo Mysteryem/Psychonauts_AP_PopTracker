@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Force Logic Update",
+    "type": "toggle",
+    "codes": "force_logic_update"
+  }
+]

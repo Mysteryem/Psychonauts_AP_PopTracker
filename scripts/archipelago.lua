@@ -70,6 +70,10 @@ function dump_table(o, depth)
     end
 end
 
+function forceLogicUpdate()
+    local update = Tracker:FindObjectForCode("force_logic_update")
+    update.Active = not update.Active
+end
 
 function onClear(slot_data)
     CUR_INDEX = -1
@@ -222,6 +226,20 @@ function onClear(slot_data)
     --print("slot data dump end")
 end
 
+function onClearHandler(slot_data)
+    -- Disable tracker updates.
+    Tracker.BulkUpdate = true
+    -- Use a protected call so that tracker updates always get enabled again, even if an error occurred.
+    local ok, err = pcall(onClear, slot_data)
+    -- Enable tracker updates.
+    Tracker.BulkUpdate = false
+    if ok then
+        forceLogicUpdate()
+    else
+        print(err)
+    end
+end
+
 function clearBrainCount()
     local obj = Tracker:FindObjectForCode("camper_brain")
     obj.AcquiredCount = 0
@@ -323,7 +341,7 @@ end
 --function onEventsLaunch()
 --end
 
-Archipelago:AddClearHandler("clear handler", onClear)
+Archipelago:AddClearHandler("clear handler", onClearHandler)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 --Archipelago:AddSetReplyHandler("event handler", onEvent)

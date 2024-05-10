@@ -15,6 +15,7 @@ end
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
+Tracker:AddItems("items/internal.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/pack_settings_items.json")
 Tracker:AddItems("items/settings_items.json")
