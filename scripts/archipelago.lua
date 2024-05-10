@@ -87,15 +87,14 @@ function onClear(slot_data)
         end
     end
     -- reset items
-    for _, v in pairs(ITEM_MAPPING) do
-        local item_code = v[1]
-        local item_type = v[2]
+    for _, item_code in pairs(ITEM_MAPPING) do
         if item_code and item_type then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: clearing item %s of type %s", item_code, item_type))
             end
             local obj = Tracker:FindObjectForCode(item_code)
             if obj then
+                local item_type = obj.Type
                 if item_type == "toggle" then
                     obj.Active = false
                 elseif item_type == "progressive" then
@@ -256,14 +255,7 @@ function onItem(index, ap_item_id, item_name, player_number)
 
     local item_id = ap_item_id - AP_ITEM_OFFSET
 
-    local v = ITEM_MAPPING[item_id]
-    if not v then
-        --DEBUG
-        print(string.format("onItem: could not find item mapping for id %s", item_id))
-        return
-    end
-
-    local item_code = v[1]
+    local item_code = ITEM_MAPPING[item_id]
     if not item_code then
         --DEBUG
         print(string.format("onItem: could not find item mapping for id %s", item_id))
@@ -272,7 +264,7 @@ function onItem(index, ap_item_id, item_name, player_number)
 
     local obj = Tracker:FindObjectForCode(item_code)
     if obj then
-        item_type = v[2]
+        item_type = obj.Type
         if item_type == "toggle" then
             obj.Active = true
             -- Extra handling for the fake consumable items used to show the current total
@@ -288,12 +280,12 @@ function onItem(index, ap_item_id, item_name, player_number)
             -- If the item is baggage, decrement the count of the corresponding baggage tag
             decrementBaggageTagCount(item_code)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
+            print(string.format("onItem: unknown item type %s for code %s", item_type, item_code))
         end
         --DEBUG
-        print("onItem: Updated item check "..v[1])
+        print("onItem: Updated item check "..item_code)
     else
-        print(string.format("onItem: could not find object for code %s", v[1]))
+        print(string.format("onItem: could not find object for code %s", item_code))
     end
 end
 
