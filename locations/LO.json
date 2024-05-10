@@ -1,6 +1,8 @@
 [
   {
     "name": "LOMA",
+    "chest_unopened_img": "images/icons/vault_closed.png",
+    "chest_opened_img": "images/icons/vault_open.png",
     "access_rules": ["mind_linda"],
     "children": [
       {

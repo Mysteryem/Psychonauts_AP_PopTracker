@@ -1,759 +1,768 @@
 [
   {
-    "name": "CAJA",
+    "name": "CA",
+    "chest_unopened_img": "images/icons/vault_closed.png",
+    "chest_opened_img": "images/icons/vault_open.png",
     "children": [
       {
-        "name": "(CA Ford) Top of Sanctuary",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 327, "y": 499}]
-      },
-      {
-        "name": "(CA Ford) Bottom of Sanctuary",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 243, "y": 522}]
-      }
-    ]
-  },
-  {
-    "name": "CAJABrains",
-    "access_rules": ["$brainhunt_goal"],
-    "children": [
-      {
-        "name": "Goal - Brain Hunt",
-        "sections": [{"name": "(CA Ford) Redeemed Required Brains (no item)"}],
-        "map_locations": [
-          {
-            "map": "CA",
-            "x": 461,
-            "y": 96,
-            "size": 60,
-            "force_invisibility_rules": "$not_has|setting_brains_required"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "RANK5to20",
-    "access_rules": [
-      "$rank5to20",
-      "settings_enable_out_of_logic,[$rank5to20]"
-    ],
-    "children": [
-      {
-        "name": "Ranks 5 to 20",
-        "sections": [
-          {"name": "(Rank) PSI Rank 05"},
-          {"name": "(Rank) PSI Rank 10"},
-          {"name": "(Rank) PSI Rank 15"},
-          {"name": "(Rank) PSI Rank 20"}
-        ],
-        "map_locations": [{"map": "CA", "x": 171, "y": 406}]
-      }
-    ]
-  },
-  {
-    "name": "RANK25to40",
-    "access_rules": [
-      "$rank25to40",
-      "settings_enable_out_of_logic,[$rank25to40]"
-    ],
-    "children": [
-      {
-        "name": "Ranks 25 to 40",
-        "sections": [
-          {"name": "(Rank) PSI Rank 25"},
-          {"name": "(Rank) PSI Rank 30"},
-          {"name": "(Rank) PSI Rank 35"},
-          {"name": "(Rank) PSI Rank 40"}
-        ],
-        "map_locations": [{"map": "CA", "x": 217, "y": 406}]
-      }
-    ]
-  },
-  {
-    "name": "RANK45to60",
-    "access_rules": [
-      "$rank45to60",
-      "settings_enable_out_of_logic,[$rank45to60]"
-    ],
-    "children": [
-      {
-        "name": "Ranks 45 to 60",
-        "sections": [
-          {"name": "(Rank) PSI Rank 45"},
-          {"name": "(Rank) PSI Rank 50"},
-          {"name": "(Rank) PSI Rank 55"},
-          {"name": "(Rank) PSI Rank 60"}
-        ],
-        "map_locations": [{"map": "CA", "x": 263, "y": 406}]
-      }
-    ]
-  },
-  {
-    "name": "RANK65to80",
-    "access_rules": [
-      "$rank65to80",
-      "settings_enable_out_of_logic,[$rank65to80]"
-    ],
-    "children": [
-      {
-        "name": "Ranks 65 to 80",
-        "sections": [
-          {"name": "(Rank) PSI Rank 65"},
-          {"name": "(Rank) PSI Rank 70"},
-          {"name": "(Rank) PSI Rank 75"},
-          {"name": "(Rank) PSI Rank 80"}
-        ],
-        "map_locations": [{"map": "CA", "x": 309, "y": 406}]
-      }
-    ]
-  },
-  {
-    "name": "RANK85to101",
-    "access_rules": [
-      "$rank85to101",
-      "settings_enable_out_of_logic,[$rank85to101]"
-    ],
-    "children": [
-      {
-        "name": "Ranks 85 to 101",
-        "sections": [
-          {"name": "(Rank) PSI Rank 85"},
-          {"name": "(Rank) PSI Rank 90"},
-          {"name": "(Rank) PSI Rank 95"},
-          {"name": "(Rank) PSI Rank 101"}
-        ],
-        "map_locations": [{"map": "CA", "x": 355, "y": 406}]
-      }
-    ]
-  },
-  {
-    "name": "CASA",
-    "children": [
-      {
-        "name": "(CA Lab) Behind Furniture",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2092, "y": 361}]
-      },
-      {
-        "name": "(CA Lab) Staircase Ledges",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1845, "y": 378}]
-      },
-      {
-        "name": "(CA Lab) Upper Ledge",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2044, "y": 171}]
-      }
-    ]
-  },
-  {
-    "name": "CAGP",
-    "access_rules": ["sasha_button"],
-    "children": [
-      {
-        "name": "(CA GPC) Top of GPC",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1856, "y": 795}]
-      },
-      {
-        "name": "(CA GPC) Under GPC",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1925, "y": 699}]
-      },
-      {
-        "name": "(CA GPC) Mountain Lion Log Bridge",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1675, "y": 1015}]
-      },
-      {
-        "name": "(CA GPC) Above Entrance to Lake",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1983, "y": 1124}]
-      },
-      {
-        "name": "(CA GPC) Rock Wall Behind Tree",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2108, "y": 1075}]
-      },
-      {
-        "name": "(CA GPC) Rock Wall Top",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2154, "y": 998}]
-      },
-      {
-        "name": "(CA GPC) Tree Near Fence",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2031, "y": 764}]
-      },
-      {
-        "name": "(CA GPC) Tree Near Geyser",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2120, "y": 774}]
-      },
-      {
-        "name": "(CA GPC) Fence Behind GPC",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2000, "y": 622}]
-      },
-      {
-        "name": "(CA GPC) Near the Bear",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1837, "y": 615}]
-      },
-      {
-        "name": "(CA GPC) Rocky Platforms Behind GPC Right",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1683, "y": 649}]
-      },
-      {
-        "name": "(CA GPC) Rocky Platforms Behind GPC Left",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1594, "y": 732}]
-      },
-      {
-        "name": "(CA GPC) Top of Log Flume",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1519, "y": 821}]
-      },
-      {
-        "name": "(CA GPC) Ride the Log Flume",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1421, "y": 906}]
-      },
-      {
-        "name": "(CA GPC) Bottom of Log Flume",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1329, "y": 981}]
-      },
-      {
-        "name": "(CA GPC) Big Rock Near Ford",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1608, "y": 934}]
-      },
-      {
-        "name": "(CA GPC) Inside the Ruined Cabin",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1502, "y": 880}]
-      },
-      {
-        "name": "(CA GPC) Branch Swinging Course Start",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1818, "y": 697}]
-      },
-      {
-        "name": "(CA GPC) Branch Swinging Course Mid",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1934, "y": 796}]
-      },
-      {
-        "name": "(CA GPC) Branch Swinging Course End",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1892, "y": 856}]
-      },
-      {
-        "name": "(CA GPC) Branch Above Squirrel",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 2028, "y": 901}]
-      },
-      {
-        "name": "(CA GPC) Creek Grate",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "CA", "x": 1782, "y": 999}]
-      },
-      {
-        "name": "CAGPSquirrel",
-        "access_rules": ["invisibility"],
+        "name": "CAJA",
         "children": [
           {
-            "name": "(CA GPC) Squirrel's Acorn",
+            "name": "(CA Ford) Top of Sanctuary",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2091, "y": 933}]
+            "map_locations": [{"map": "CA", "x": 327, "y": 499}]
+          },
+          {
+            "name": "(CA Ford) Bottom of Sanctuary",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 243, "y": 522}]
           }
         ]
       },
       {
-        "name": "CAGPGeyser",
-        "access_rules": ["shield"],
+        "name": "CAJABrains",
+        "access_rules": ["$brainhunt_goal"],
         "children": [
           {
-            "name": "(CA GPC) Wedged in the Geyser",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2095, "y": 671}]
+            "name": "Goal - Brain Hunt",
+            "chest_unopened_img": "images/items/misc/jarred_brain.png",
+            "chest_opened_img": "images/items/misc/jarred_brain_bw.png",
+            "sections": [{"name": "(CA Ford) Redeemed Required Brains (no item)"}],
+            "map_locations": [
+              {
+                "map": "CA",
+                "x": 461,
+                "y": 96,
+                "size": 60,
+                "force_invisibility_rules": "$not_has|setting_brains_required"
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CAMA",
+        "name": "RANK5to20",
+        "access_rules": [
+          "$rank5to20",
+          "settings_enable_out_of_logic,[$rank5to20]"
+        ],
         "children": [
           {
-            "name": "(CA Main) Fence Near Kids' Cabins",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 920, "y": 1520}]
-          },
-          {
-            "name": "(CA Main) Under Lodge Front Steps",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1190, "y": 1668}]
-          },
-          {
-            "name": "(CA Main) Behind Tree Near Lodge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1468, "y": 1824}]
-          },
-          {
-            "name": "(CA Main) Under the Lodge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1285, "y": 1552}]
-          },
-          {
-            "name": "(CA Main) Loudspeaker 1 Platform",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1485, "y": 1658}]
-          },
-          {
-            "name": "(CA Main) Under Lodge Metal Roof",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1310, "y": 1514}]
-          },
-          {
-            "name": "(CA Main) Loudspeaker Tightrope Walk",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1334, "y": 1443}]
-          },
-          {
-            "name": "(CA Main) Loudspeaker 2 Platform",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1252, "y": 1360}]
-          },
-          {
-            "name": "(CA Main) Lodge Roof",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1261, "y": 1509}]
-          },
-          {
-            "name": "(CA Main) Metal Roof Outcropping",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1279, "y": 1622}]
-          },
-          {
-            "name": "(CA Main) Loudspeaker Above Stump",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 991, "y": 1852}]
-          },
-          {
-            "name": "Tree Platform",
+            "name": "Ranks 5 to 20",
             "sections": [
-              {"name": "(CA Main) Tree Platform Left"},
-              {"name": "(CA Main) Tree Platform Right"}
+              {"name": "(Rank) PSI Rank 05"},
+              {"name": "(Rank) PSI Rank 10"},
+              {"name": "(Rank) PSI Rank 15"},
+              {"name": "(Rank) PSI Rank 20"}
             ],
-            "map_locations": [{"map": "CA", "x": 773, "y": 1902}]
-          },
-          {
-            "name": "(CA Main) Rock Wall Top",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 713, "y": 2101}]
-          },
-          {
-            "name": "(CA Main) Parking Lot Arch",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 433, "y": 2098}]
-          },
-          {
-            "name": "(CA Main) Parking Lot Small Log",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 471, "y": 2161}]
-          },
-          {
-            "name": "(CA Main) Oleander's Car",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 482, "y": 2296}]
-          },
-          {
-            "name": "(CA Main) Parking Lot Basketball Hoop",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 191, "y": 2232}]
-          },
-          {
-            "name": "(CA Main) Parking Lot Outhouse",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 341, "y": 1959}]
-          },
-          {
-            "name": "(CA Main) Rock Near Bench",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 689, "y": 1856}]
-          },
-          {
-            "name": "CAMALev",
-            "access_rules": ["[levitation]"],
-            "children": [
-              {
-                "name": "(CA Main) Parking Lot History Board",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 341, "y": 2272}]
-              }
-            ]
+            "map_locations": [{"map": "CA", "x": 171, "y": 406}]
           }
         ]
       },
       {
-        "name": "CALI",
+        "name": "RANK25to40",
+        "access_rules": [
+          "$rank25to40",
+          "settings_enable_out_of_logic,[$rank25to40]"
+        ],
         "children": [
           {
-            "name": "Main Lodge Interior",
-            "sections": [{"name": "(CA Lodge) Main Lodge Rafters"}],
-            "map_locations": [{"map": "CA", "x": 1221, "y": 1551}]
-          }
-        ]
-      },
-      {
-        "name": "CAKC",
-        "access_rules": ["lili_bracelet"],
-        "children": [
-          {
-            "name": "(CA Cabins) Grinding on the Roots",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1340, "y": 538}]
-          },
-          {
-            "name": "(CA Cabins) Under Stairs",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1223, "y": 395}]
-          },
-          {
-            "name": "(CA Cabins) Top of Loudspeaker",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1345, "y": 421}]
-          },
-          {
-            "name": "(CA Cabins) Cabin Roof 1",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1299, "y": 261}]
-          },
-          {
-            "name": "(CA Cabins) Trampoline Above Outhouse",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1221, "y": 173}]
-          },
-          {
-            "name": "(CA Cabins) Trampoline Platform",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1254, "y": 191}]
-          },
-          {
-            "name": "(CA Cabins) Cabins Outhouse",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1177, "y": 195}]
-          },
-          {
-            "name": "(CA Cabins) Behind Cabin",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1083, "y": 176}]
-          },
-          {
-            "name": "(CA Cabins) Roof of Cabin 2",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1089, "y": 214}]
-          },
-          {
-            "name": "(CA Cabins) Cave Entrance",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1099, "y": 128}]
-          },
-          {
-            "name": "(CA Cabins) Deep Cave Path",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1161, "y": 256}]
-          },
-          {
-            "name": "(CA Cabins) Deep Cave Ladder",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1066, "y": 294}]
-          },
-          {
-            "name": "CAKCLev",
-            "access_rules": ["levitation"],
-            "children": [
-              {
-                "name": "(CA Cabins) High-Up Tightrope",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 998, "y": 128}]
-              }
-            ]
-          },
-          {
-            "name": "CAKCPyro",
-            "access_rules": ["pyrokinesis"],
-            "children": [
-              {
-                "name": "(CA Cabins) Cave Refrigerator",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 1266, "y": 53}]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "CARE",
-        "access_rules": ["squirrel_roast_dinner"],
-        "children": [
-          {
-            "name": "(CA Reception) Graveyard Bear",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 271, "y": 1532}]
-          },
-          {
-            "name": "(CA Reception) Near Beehive",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 430, "y": 1267}]
-          },
-          {
-            "name": "(CA Reception) Mineshaft Trailer Entrance",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 600, "y": 1247}]
-          },
-          {
-            "name": "(CA Reception) Tightrope Start",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 562, "y": 1239}]
-          },
-          {
-            "name": "(CA Reception) Tightrope End",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 420, "y": 1140}]
-          },
-          {
-            "name": "(CA Reception) Rocks Near Trailer",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 477, "y": 1025}]
-          },
-          {
-            "name": "(CA Reception) Fireplace Tree Rock",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 600, "y": 873}]
-          },
-          {
-            "name": "(CA Reception) Big Log Platform",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 709, "y": 753}]
-          },
-          {
-            "name": "(CA Reception) Above Waterfall Left",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 785, "y": 735}]
-          },
-          {
-            "name": "(CA Reception) Above Waterfall Right",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 894, "y": 657}]
-          },
-          {
-            "name": "(CA Reception) Behind the Waterfall",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 862, "y": 672}]
-          },
-          {
-            "name": "(CA Reception) Weird Tree Left",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1101, "y": 793}]
-          },
-          {
-            "name": "(CA Reception) Weird Tree Right",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1069, "y": 828}]
-          },
-          {
-            "name": "(CA Reception) Log Hill Top",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 989, "y": 946}]
-          },
-          {
-            "name": "(CA Reception) Log Hill Behind",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1007, "y": 887}]
-          },
-          {
-            "name": "(CA Reception) Mineshaft Grind Rail",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 825, "y": 1137}]
-          },
-          {
-            "name": "Mineshaft Upper Entrance",
+            "name": "Ranks 25 to 40",
             "sections": [
-              {"name": "(CA Reception) Mineshaft Upper Entrance"},
-              {"name": "(CA Reception) Mineshaft Above Upper Entrance"}
+              {"name": "(Rank) PSI Rank 25"},
+              {"name": "(Rank) PSI Rank 30"},
+              {"name": "(Rank) PSI Rank 35"},
+              {"name": "(Rank) PSI Rank 40"}
             ],
-            "map_locations": [{"map": "CA", "x": 832, "y": 1275}]
-          },
+            "map_locations": [{"map": "CA", "x": 217, "y": 406}]
+          }
+        ]
+      },
+      {
+        "name": "RANK45to60",
+        "access_rules": [
+          "$rank45to60",
+          "settings_enable_out_of_logic,[$rank45to60]"
+        ],
+        "children": [
           {
-            "name": "(CA Reception) Inside Mineshaft",
+            "name": "Ranks 45 to 60",
+            "sections": [
+              {"name": "(Rank) PSI Rank 45"},
+              {"name": "(Rank) PSI Rank 50"},
+              {"name": "(Rank) PSI Rank 55"},
+              {"name": "(Rank) PSI Rank 60"}
+            ],
+            "map_locations": [{"map": "CA", "x": 263, "y": 406}]
+          }
+        ]
+      },
+      {
+        "name": "RANK65to80",
+        "access_rules": [
+          "$rank65to80",
+          "settings_enable_out_of_logic,[$rank65to80]"
+        ],
+        "children": [
+          {
+            "name": "Ranks 65 to 80",
+            "sections": [
+              {"name": "(Rank) PSI Rank 65"},
+              {"name": "(Rank) PSI Rank 70"},
+              {"name": "(Rank) PSI Rank 75"},
+              {"name": "(Rank) PSI Rank 80"}
+            ],
+            "map_locations": [{"map": "CA", "x": 309, "y": 406}]
+          }
+        ]
+      },
+      {
+        "name": "RANK85to101",
+        "access_rules": [
+          "$rank85to101",
+          "settings_enable_out_of_logic,[$rank85to101]"
+        ],
+        "children": [
+          {
+            "name": "Ranks 85 to 101",
+            "sections": [
+              {"name": "(Rank) PSI Rank 85"},
+              {"name": "(Rank) PSI Rank 90"},
+              {"name": "(Rank) PSI Rank 95"},
+              {"name": "(Rank) PSI Rank 101"}
+            ],
+            "map_locations": [{"map": "CA", "x": 355, "y": 406}]
+          }
+        ]
+      },
+      {
+        "name": "CASA",
+        "children": [
+          {
+            "name": "(CA Lab) Behind Furniture",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 825, "y": 1483}]
+            "map_locations": [{"map": "CA", "x": 2092, "y": 361}]
           },
           {
-            "name": "(CA Reception) Mineshaft Bear",
+            "name": "(CA Lab) Staircase Ledges",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 693, "y": 1458}]
+            "map_locations": [{"map": "CA", "x": 1845, "y": 378}]
           },
           {
-            "name": "(CA Reception) Swamp Bird's Nest",
+            "name": "(CA Lab) Upper Ledge",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 810, "y": 933}]
-          },
+            "map_locations": [{"map": "CA", "x": 2044, "y": 171}]
+          }
+        ]
+      },
+      {
+        "name": "CAGP",
+        "access_rules": ["sasha_button"],
+        "children": [
           {
-            "name": "(CA Reception) Collapsed Cave",
+            "name": "(CA GPC) Top of GPC",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 659, "y": 700}]
+            "map_locations": [{"map": "CA", "x": 1856, "y": 795}]
           },
           {
-            "name": "CARELev",
-            "access_rules": ["levitation"],
+            "name": "(CA GPC) Under GPC",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1925, "y": 699}]
+          },
+          {
+            "name": "(CA GPC) Mountain Lion Log Bridge",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1675, "y": 1015}]
+          },
+          {
+            "name": "(CA GPC) Above Entrance to Lake",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1983, "y": 1124}]
+          },
+          {
+            "name": "(CA GPC) Rock Wall Behind Tree",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2108, "y": 1075}]
+          },
+          {
+            "name": "(CA GPC) Rock Wall Top",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2154, "y": 998}]
+          },
+          {
+            "name": "(CA GPC) Tree Near Fence",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2031, "y": 764}]
+          },
+          {
+            "name": "(CA GPC) Tree Near Geyser",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2120, "y": 774}]
+          },
+          {
+            "name": "(CA GPC) Fence Behind GPC",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2000, "y": 622}]
+          },
+          {
+            "name": "(CA GPC) Near the Bear",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1837, "y": 615}]
+          },
+          {
+            "name": "(CA GPC) Rocky Platforms Behind GPC Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1683, "y": 649}]
+          },
+          {
+            "name": "(CA GPC) Rocky Platforms Behind GPC Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1594, "y": 732}]
+          },
+          {
+            "name": "(CA GPC) Top of Log Flume",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1519, "y": 821}]
+          },
+          {
+            "name": "(CA GPC) Ride the Log Flume",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1421, "y": 906}]
+          },
+          {
+            "name": "(CA GPC) Bottom of Log Flume",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1329, "y": 981}]
+          },
+          {
+            "name": "(CA GPC) Big Rock Near Ford",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1608, "y": 934}]
+          },
+          {
+            "name": "(CA GPC) Inside the Ruined Cabin",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1502, "y": 880}]
+          },
+          {
+            "name": "(CA GPC) Branch Swinging Course Start",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1818, "y": 697}]
+          },
+          {
+            "name": "(CA GPC) Branch Swinging Course Mid",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1934, "y": 796}]
+          },
+          {
+            "name": "(CA GPC) Branch Swinging Course End",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1892, "y": 856}]
+          },
+          {
+            "name": "(CA GPC) Branch Above Squirrel",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 2028, "y": 901}]
+          },
+          {
+            "name": "(CA GPC) Creek Grate",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "CA", "x": 1782, "y": 999}]
+          },
+          {
+            "name": "CAGPSquirrel",
+            "access_rules": ["invisibility"],
             "children": [
               {
-                "name": "(CA Reception) Fireplace Tree Top",
+                "name": "(CA GPC) Squirrel's Acorn",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 570, "y": 865}]
+                "map_locations": [{"map": "CA", "x": 2091, "y": 933}]
+              }
+            ]
+          },
+          {
+            "name": "CAGPGeyser",
+            "access_rules": ["shield"],
+            "children": [
+              {
+                "name": "(CA GPC) Wedged in the Geyser",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2095, "y": 671}]
+              }
+            ]
+          },
+          {
+            "name": "CAMA",
+            "children": [
+              {
+                "name": "(CA Main) Fence Near Kids' Cabins",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 920, "y": 1520}]
               },
               {
-                "name": "(CA Reception) Swamp Skinny Poles",
+                "name": "(CA Main) Under Lodge Front Steps",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 738, "y": 834}]
+                "map_locations": [{"map": "CA", "x": 1190, "y": 1668}]
+              },
+              {
+                "name": "(CA Main) Behind Tree Near Lodge",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1468, "y": 1824}]
+              },
+              {
+                "name": "(CA Main) Under the Lodge",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1285, "y": 1552}]
+              },
+              {
+                "name": "(CA Main) Loudspeaker 1 Platform",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1485, "y": 1658}]
+              },
+              {
+                "name": "(CA Main) Under Lodge Metal Roof",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1310, "y": 1514}]
+              },
+              {
+                "name": "(CA Main) Loudspeaker Tightrope Walk",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1334, "y": 1443}]
+              },
+              {
+                "name": "(CA Main) Loudspeaker 2 Platform",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1252, "y": 1360}]
+              },
+              {
+                "name": "(CA Main) Lodge Roof",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1261, "y": 1509}]
+              },
+              {
+                "name": "(CA Main) Metal Roof Outcropping",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1279, "y": 1622}]
+              },
+              {
+                "name": "(CA Main) Loudspeaker Above Stump",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 991, "y": 1852}]
+              },
+              {
+                "name": "Tree Platform",
+                "sections": [
+                  {"name": "(CA Main) Tree Platform Left"},
+                  {"name": "(CA Main) Tree Platform Right"}
+                ],
+                "map_locations": [{"map": "CA", "x": 773, "y": 1902}]
+              },
+              {
+                "name": "(CA Main) Rock Wall Top",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 713, "y": 2101}]
+              },
+              {
+                "name": "(CA Main) Parking Lot Arch",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 433, "y": 2098}]
+              },
+              {
+                "name": "(CA Main) Parking Lot Small Log",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 471, "y": 2161}]
+              },
+              {
+                "name": "(CA Main) Oleander's Car",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 482, "y": 2296}]
+              },
+              {
+                "name": "(CA Main) Parking Lot Basketball Hoop",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 191, "y": 2232}]
+              },
+              {
+                "name": "(CA Main) Parking Lot Outhouse",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 341, "y": 1959}]
+              },
+              {
+                "name": "(CA Main) Rock Near Bench",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 689, "y": 1856}]
+              },
+              {
+                "name": "CAMALev",
+                "access_rules": ["[levitation]"],
+                "children": [
+                  {
+                    "name": "(CA Main) Parking Lot History Board",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 341, "y": 2272}]
+                  }
+                ]
               }
             ]
           },
           {
-            "name": "CARELev_optional",
-            "access_rules": [
-              "levitation",
-              "settings_enable_out_of_logic,[levitation]"
-            ],
+            "name": "CALI",
             "children": [
               {
-                "name": "(CA Reception) Fireplace Tree Lower",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 537, "y": 890}]
+                "name": "Main Lodge Interior",
+                "sections": [{"name": "(CA Lodge) Main Lodge Rafters"}],
+                "map_locations": [{"map": "CA", "x": 1221, "y": 1551}]
               }
             ]
           },
           {
-            "name": "CAREMark",
-            "access_rules": ["marksmanship"],
+            "name": "CAKC",
+            "access_rules": ["lili_bracelet"],
             "children": [
               {
-                "name": "(CA Reception) Hornet Nest",
+                "name": "(CA Cabins) Grinding on the Roots",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 421, "y": 1302}]
+                "map_locations": [{"map": "CA", "x": 1340, "y": 538}]
+              },
+              {
+                "name": "(CA Cabins) Under Stairs",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1223, "y": 395}]
+              },
+              {
+                "name": "(CA Cabins) Top of Loudspeaker",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1345, "y": 421}]
+              },
+              {
+                "name": "(CA Cabins) Cabin Roof 1",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1299, "y": 261}]
+              },
+              {
+                "name": "(CA Cabins) Trampoline Above Outhouse",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1221, "y": 173}]
+              },
+              {
+                "name": "(CA Cabins) Trampoline Platform",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1254, "y": 191}]
+              },
+              {
+                "name": "(CA Cabins) Cabins Outhouse",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1177, "y": 195}]
+              },
+              {
+                "name": "(CA Cabins) Behind Cabin",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1083, "y": 176}]
+              },
+              {
+                "name": "(CA Cabins) Roof of Cabin 2",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1089, "y": 214}]
+              },
+              {
+                "name": "(CA Cabins) Cave Entrance",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1099, "y": 128}]
+              },
+              {
+                "name": "(CA Cabins) Deep Cave Path",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1161, "y": 256}]
+              },
+              {
+                "name": "(CA Cabins) Deep Cave Ladder",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1066, "y": 294}]
+              },
+              {
+                "name": "CAKCLev",
+                "access_rules": ["levitation"],
+                "children": [
+                  {
+                    "name": "(CA Cabins) High-Up Tightrope",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 998, "y": 128}]
+                  }
+                ]
+              },
+              {
+                "name": "CAKCPyro",
+                "access_rules": ["pyrokinesis"],
+                "children": [
+                  {
+                    "name": "(CA Cabins) Cave Refrigerator",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 1266, "y": 53}]
+                  }
+                ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "CABH",
-        "access_rules": ["oarsman_badge"],
-        "children": [
-          {
-            "name": "(CA Lake) Under the First Bridge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1744, "y": 1661}]
           },
           {
-            "name": "(CA Lake) Behind Stump",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1945, "y": 1689}]
-          },
-          {
-            "name": "(CA Lake) Left of Entrance Rock Wall",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2055, "y": 1527}]
-          },
-          {
-            "name": "(CA Lake) Poles on Lake",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2283, "y": 1752}]
-          },
-          {
-            "name": "(CA Lake) Bathysphere Roof",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2339, "y": 1996}]
-          },
-          {
-            "name": "(CA Lake) Bathysphere Dock",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2297, "y": 1925}]
-          },
-          {
-            "name": "(CA Lake) Metal Roof Above Docks",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2161, "y": 2115}]
-          },
-          {
-            "name": "(CA Lake) Above Ford Ropes",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2088, "y": 2099}]
-          },
-          {
-            "name": "(CA Lake) Above Ford Cabin Platform",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2048, "y": 2045}]
-          },
-          {
-            "name": "(CA Lake) Outside Cougar Cave",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1932, "y": 2063}]
-          },
-          {
-            "name": "(CA Lake) Inside Cougar Cave",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1882, "y": 2086}]
-          },
-          {
-            "name": "(CA Lake) Bulletin Board Bushes",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1954, "y": 1946}]
-          },
-          {
-            "name": "Pink Tree Platform",
-            "sections": [
-              {"name": "(CA Lake) Pink Trees Platform Left"},
-              {"name": "(CA Lake) Pink Trees Platform Right"}
-            ],
-            "map_locations": [{"map": "CA", "x": 1802, "y": 1811}]
-          },
-          {
-            "name": "(CA Lake) Rock Wall Upper",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1927, "y": 1589}]
-          },
-          {
-            "name": "(CA Lake) Lake Shore",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2246, "y": 1602}]
-          },
-          {
-            "name": "(CA Lake) Tiny Island",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 2214, "y": 1972}]
-          },
-          {
-            "name": "(CA Lake) Rock Wall Gap",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1964, "y": 1590}]
-          },
-          {
-            "name": "CABHLev",
-            "access_rules": [
-              "levitation",
-              "settings_enable_out_of_logic,[levitation]"
-            ],
+            "name": "CARE",
+            "access_rules": ["squirrel_roast_dinner"],
             "children": [
               {
-                "name": "(CA Lake) Top of Big Rock",
+                "name": "(CA Reception) Graveyard Bear",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 2161, "y": 1590}]
+                "map_locations": [{"map": "CA", "x": 271, "y": 1532}]
+              },
+              {
+                "name": "(CA Reception) Near Beehive",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 430, "y": 1267}]
+              },
+              {
+                "name": "(CA Reception) Mineshaft Trailer Entrance",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 600, "y": 1247}]
+              },
+              {
+                "name": "(CA Reception) Tightrope Start",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 562, "y": 1239}]
+              },
+              {
+                "name": "(CA Reception) Tightrope End",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 420, "y": 1140}]
+              },
+              {
+                "name": "(CA Reception) Rocks Near Trailer",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 477, "y": 1025}]
+              },
+              {
+                "name": "(CA Reception) Fireplace Tree Rock",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 600, "y": 873}]
+              },
+              {
+                "name": "(CA Reception) Big Log Platform",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 709, "y": 753}]
+              },
+              {
+                "name": "(CA Reception) Above Waterfall Left",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 785, "y": 735}]
+              },
+              {
+                "name": "(CA Reception) Above Waterfall Right",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 894, "y": 657}]
+              },
+              {
+                "name": "(CA Reception) Behind the Waterfall",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 862, "y": 672}]
+              },
+              {
+                "name": "(CA Reception) Weird Tree Left",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1101, "y": 793}]
+              },
+              {
+                "name": "(CA Reception) Weird Tree Right",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1069, "y": 828}]
+              },
+              {
+                "name": "(CA Reception) Log Hill Top",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 989, "y": 946}]
+              },
+              {
+                "name": "(CA Reception) Log Hill Behind",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1007, "y": 887}]
+              },
+              {
+                "name": "(CA Reception) Mineshaft Grind Rail",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 825, "y": 1137}]
+              },
+              {
+                "name": "Mineshaft Upper Entrance",
+                "sections": [
+                  {"name": "(CA Reception) Mineshaft Upper Entrance"},
+                  {"name": "(CA Reception) Mineshaft Above Upper Entrance"}
+                ],
+                "map_locations": [{"map": "CA", "x": 832, "y": 1275}]
+              },
+              {
+                "name": "(CA Reception) Inside Mineshaft",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 825, "y": 1483}]
+              },
+              {
+                "name": "(CA Reception) Mineshaft Bear",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 693, "y": 1458}]
+              },
+              {
+                "name": "(CA Reception) Swamp Bird's Nest",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 810, "y": 933}]
+              },
+              {
+                "name": "(CA Reception) Collapsed Cave",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 659, "y": 700}]
+              },
+              {
+                "name": "CARELev",
+                "access_rules": ["levitation"],
+                "children": [
+                  {
+                    "name": "(CA Reception) Fireplace Tree Top",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 570, "y": 865}]
+                  },
+                  {
+                    "name": "(CA Reception) Swamp Skinny Poles",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 738, "y": 834}]
+                  }
+                ]
+              },
+              {
+                "name": "CARELev_optional",
+                "access_rules": [
+                  "levitation",
+                  "settings_enable_out_of_logic,[levitation]"
+                ],
+                "children": [
+                  {
+                    "name": "(CA Reception) Fireplace Tree Lower",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 537, "y": 890}]
+                  }
+                ]
+              },
+              {
+                "name": "CAREMark",
+                "access_rules": ["marksmanship"],
+                "children": [
+                  {
+                    "name": "(CA Reception) Hornet Nest",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 421, "y": 1302}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "CABH",
+            "access_rules": ["oarsman_badge"],
+            "children": [
+              {
+                "name": "(CA Lake) Under the First Bridge",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1744, "y": 1661}]
+              },
+              {
+                "name": "(CA Lake) Behind Stump",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1945, "y": 1689}]
+              },
+              {
+                "name": "(CA Lake) Left of Entrance Rock Wall",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2055, "y": 1527}]
+              },
+              {
+                "name": "(CA Lake) Poles on Lake",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2283, "y": 1752}]
+              },
+              {
+                "name": "(CA Lake) Bathysphere Roof",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2339, "y": 1996}]
+              },
+              {
+                "name": "(CA Lake) Bathysphere Dock",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2297, "y": 1925}]
+              },
+              {
+                "name": "(CA Lake) Metal Roof Above Docks",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2161, "y": 2115}]
+              },
+              {
+                "name": "(CA Lake) Above Ford Ropes",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2088, "y": 2099}]
+              },
+              {
+                "name": "(CA Lake) Above Ford Cabin Platform",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2048, "y": 2045}]
+              },
+              {
+                "name": "(CA Lake) Outside Cougar Cave",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1932, "y": 2063}]
+              },
+              {
+                "name": "(CA Lake) Inside Cougar Cave",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1882, "y": 2086}]
+              },
+              {
+                "name": "(CA Lake) Bulletin Board Bushes",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1954, "y": 1946}]
+              },
+              {
+                "name": "Pink Tree Platform",
+                "sections": [
+                  {"name": "(CA Lake) Pink Trees Platform Left"},
+                  {"name": "(CA Lake) Pink Trees Platform Right"}
+                ],
+                "map_locations": [{"map": "CA", "x": 1802, "y": 1811}]
+              },
+              {
+                "name": "(CA Lake) Rock Wall Upper",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1927, "y": 1589}]
+              },
+              {
+                "name": "(CA Lake) Lake Shore",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2246, "y": 1602}]
+              },
+              {
+                "name": "(CA Lake) Tiny Island",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 2214, "y": 1972}]
+              },
+              {
+                "name": "(CA Lake) Rock Wall Gap",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "CA", "x": 1964, "y": 1590}]
+              },
+              {
+                "name": "CABHLev",
+                "access_rules": [
+                  "levitation",
+                  "settings_enable_out_of_logic,[levitation]"
+                ],
+                "children": [
+                  {
+                    "name": "(CA Lake) Top of Big Rock",
+                    "sections": [{"name": ""}],
+                    "map_locations": [{"map": "CA", "x": 2161, "y": 1590}]
+                  }
+                ]
               }
             ]
           }

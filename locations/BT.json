@@ -1,6 +1,8 @@
 [
   {
     "name": "NIMP",
+    "chest_unopened_img": "images/icons/vault_closed.png",
+    "chest_opened_img": "images/icons/vault_open.png",
     "children": [
       {
         "name": "(BT Main) Outside Caravan",

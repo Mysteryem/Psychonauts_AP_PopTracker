@@ -2,6 +2,8 @@
   {
     "name": "ASGR",
     "parent": "CABH",
+    "chest_unopened_img": "images/icons/vault_closed.png",
+    "chest_opened_img": "images/icons/vault_open.png",
     "access_rules": ["lungfish_call"],
     "children": [
       {
@@ -330,6 +332,8 @@
                             "children": [
                               {
                                 "name": "Goal - Asylum Brain Tank",
+                                "chest_unopened_img": "images/items/settings/brain_tank_goal.png",
+                                "chest_opened_img": "images/items/settings/brain_tank_goal_bw.png",
                                 "sections": [{"name": "(AS Lab) Oleander Boss Defeated (no item)"}],
                                 "map_locations": [
                                   {

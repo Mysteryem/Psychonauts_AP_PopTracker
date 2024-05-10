@@ -1,6 +1,8 @@
 [
   {
     "name": "MCTC",
+    "chest_unopened_img": "images/icons/vault_closed.png",
+    "chest_opened_img": "images/icons/vault_open.png",
     "access_rules": ["cobweb_duster,mind_oly"],
     "children": [
       {
@@ -95,6 +97,8 @@
                         "children": [
                           {
                             "name": "Goal - Meat Circus Bosses",
+                            "chest_unopened_img": "images/heads/butcher.png",
+                            "chest_opened_img": "images/heads/butcher_bw.png",
                             "sections": [{"name": "(MC Boss) Final Boss Defeated (no item)"}],
                             "map_locations": [
                               {
