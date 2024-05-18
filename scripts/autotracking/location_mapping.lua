@@ -162,7 +162,7 @@ LOCATION_MAPPING = {
 
     -- ASCO
     [141] = {"@ASCO/(AS Courtyard) Above Elevator/"},
-    [142] = {"@ASCO/(AS Courtyard) Crow's Basket/"},
+    [142] = {"@ASCOInvis/(AS Courtyard) Crow's Basket/"},
     [143] = {"@ASCO/(AS Courtyard) Ledge Above Fred Left/"},
     [144] = {"@ASCO/(AS Courtyard) Ledge Above Fred Right/"},
     [145] = {"@ASCO/(AS Courtyard) Ledge Opposite Elevator/"},

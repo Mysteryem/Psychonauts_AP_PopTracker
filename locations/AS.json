@@ -80,17 +80,23 @@
         ]
       },
       {
+        "name": "ASCOInvis",
+        "access_rules": ["invisibility"],
+        "children": [
+          {
+            "name": "(AS Courtyard) Crow's Basket",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "AS", "x": 267, "y": 654}]
+          }
+        ]
+      },
+      {
         "name": "ASCO",
         "children": [
           {
             "name": "(AS Courtyard) Above Elevator",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "AS", "x": 539, "y": 470}]
-          },
-          {
-            "name": "(AS Courtyard) Crow's Basket",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "AS", "x": 267, "y": 654}]
           },
           {
             "name": "(AS Courtyard) Ledge Above Fred Left",
