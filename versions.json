@@ -1,6 +1,33 @@
 {
     "versions": [
         {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.1.1.zip",
+            "sha256": "60fe7584bf54b77643b3b29ed0d306fe063975819d32e225cffef08b4006fa34",
+            "changelog": [
+                "Supports Psychonauts AP World v0.5.0.",
+                "",
+                "General Changes",
+                "- The Asylum, Gloria's Theater and Meat Circus maps have been made brighter",
+                "- Sped up connecting to an in-progress AP slot by briefly disabling tracker updates while all the items from AP are received",
+                "- The default Chest icons on locations have been replaced with Memory Vault icons",
+                "- The Goal locations' Chest icons have been replaced with the icon for that Goal",
+                "",
+                "Logic Changes",
+                "- Updated `(AS Courtyard) Crow's Basket` for the new Invisibility requirement",
+                "",
+                "Out-of-logic Changes",
+                "- Added missing Main Lodge access to reach Book Depository without Shield (to be able to buy Dream Fluffs)",
+                "- Added `(CA Main) Parking Lot History Board` without Levitation",
+                "- Added `(MM Neighborhood) Inside Webbed Garage` without Cobweb Duster, using Marksmanship",
+                "- Added Book Depository access without Flowers or Pyrokinesis, using Marksmanship",
+                "- Added `(BV Streets) Club Street Metal Balcony` without Levitation",
+                "- Added `(AS Upper) Room Opposite Chair Door` without Telekinesis, using Marksmanship",
+                "- Added `(BB Area 2) Trapeze Cobweb` without Cobweb Duster, using Marksmanship",
+                "- Added `(TH Stage) In the Audience` without Levitation"
+            ]
+        },
+        {
             "package_version": "1.1.0",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.1.0.zip",
             "sha256": "47f968254a942e796ed61c2a2d5827e411fee1a6c08381e6cfa150361c0c7c1e",
