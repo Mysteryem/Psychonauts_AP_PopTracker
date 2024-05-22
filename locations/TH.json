@@ -53,11 +53,25 @@
         "access_rules": ["cobweb_duster"],
         "children": [
           {
-            "name": "THMSStorage",
+            "name": "THMSBonita",
             "access_rules": [
               "invisibility",
               "settings_enable_out_of_logic,[invisibility],marksmanship",
               "settings_enable_out_of_logic,[invisibility],@THFB/(TH Catwalks) Gloria's Theater Complete/"
+            ],
+            "children": [
+              {
+                "name": "(TH Stage) Bonita's Room",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "TH", "x": 1251, "y": 387}]
+              }
+            ]
+          },
+          {
+            "name": "THMSStorage",
+            "access_rules": [
+              "@THMSDuster/THMSBonita",
+              "settings_enable_out_of_logic,[invisibility],gloria_candle,pyrokinesis"
             ],
             "children": [
               {
@@ -77,11 +91,6 @@
                   {"name": "(TH Stage) Storage Room Right Upper"}
                 ],
                 "map_locations": [{"map": "TH", "x": 1114, "y": 125}]
-              },
-              {
-                "name": "(TH Stage) Bonita's Room",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "TH", "x": 1251, "y": 387}]
               }
             ]
           }
