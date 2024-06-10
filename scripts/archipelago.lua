@@ -92,7 +92,7 @@ function onClear(slot_data)
     end
     -- reset items
     for _, item_code in pairs(ITEM_MAPPING) do
-        if item_code and item_type then
+        if item_code then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: clearing item %s of type %s", item_code, item_type))
             end
