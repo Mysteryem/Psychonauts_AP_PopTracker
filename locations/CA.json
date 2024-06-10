@@ -683,9 +683,12 @@
                 "map_locations": [{"map": "CA", "x": 2283, "y": 1752}]
               },
               {
-                "name": "(CA Lake) Bathysphere Roof",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 2339, "y": 1996}]
+                "name": "Bathysphere",
+                "sections": [
+                  {"name": "(CA Lake) Bathysphere Roof"},
+                  {"name": "(CA Lake) Lungfish Boss Complete"}
+                ],
+                "map_locations": [{"map": "CA", "x": 2344, "y": 1997}]
               },
               {
                 "name": "(CA Lake) Bathysphere Dock",

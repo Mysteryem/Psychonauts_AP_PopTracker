@@ -103,7 +103,7 @@ LOCATION_MAPPING = {
     [90] = {"@CABH/(CA Lake) Behind Stump/"},
     [91] = {"@CABH/(CA Lake) Left of Entrance Rock Wall/"},
     [92] = {"@CABH/(CA Lake) Poles on Lake/"},
-    [93] = {"@CABH/(CA Lake) Bathysphere Roof/"},
+    [93] = {"@CABH/Bathysphere/(CA Lake) Bathysphere Roof"},
     [94] = {"@CABH/(CA Lake) Bathysphere Dock/"},
     [95] = {"@CABH/(CA Lake) Metal Roof Above Docks/"},
     [96] = {"@CABH/(CA Lake) Above Ford Ropes/"},
@@ -118,6 +118,7 @@ LOCATION_MAPPING = {
     [105] = {"@CABH/(CA Lake) Tiny Island/"},
     [106] = {"@CABHLev/(CA Lake) Top of Big Rock/"},
     [107] = {"@CABH/(CA Lake) Rock Wall Gap/"},
+    [365] = {"@CABH/Bathysphere/(CA Lake) Lungfish Boss Complete"},
 
     -- CALI
     [108] = {"@CALI/Main Lodge Interior/(CA Lodge) Main Lodge Rafters"},

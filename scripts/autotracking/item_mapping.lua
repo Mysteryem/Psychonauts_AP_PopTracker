@@ -28,6 +28,7 @@ ITEM_MAPPING = {
     -- Misc progression items
     [5] = "birthday_cake",
     [9] = "cobweb_duster",
+    [93] = "dowsing_rod",
 
     -- Mind unlocks
     [21] = "mind_coach",
@@ -98,6 +99,7 @@ ITEM_MAPPING = {
     -- Other/useless items (Feather and Watering Can from The Milkman Conspiracy)
     [91] = "crow_feather",
     [92] = "boyd_watering_can",
+    [94] = "super_palm_bomb",
 
     -- Max Ammo upgrades
     [38] = "max_ammo_up",

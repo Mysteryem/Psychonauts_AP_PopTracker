@@ -589,5 +589,17 @@
     "type": "toggle",
     "img": "images/items/boyd/watering_can.png",
     "codes": "boyd_watering_can"
+  },
+  {
+    "name": "Dowsing Rod",
+    "type": "toggle",
+    "img": "images/items/misc/dowsing_rod.png",
+    "codes": "dowsing_rod"
+  },
+  {
+    "name": "Super Palm Bomb",
+    "type": "toggle",
+    "img": "images/items/misc/super_palm_bomb.png",
+    "codes": "super_palm_bomb"
   }
 ]
