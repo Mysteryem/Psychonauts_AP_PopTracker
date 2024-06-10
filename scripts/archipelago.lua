@@ -78,15 +78,11 @@ end
 function onClear(slot_data)
     CUR_INDEX = -1
     -- reset locations
-    for _, v in pairs(LOCATION_MAPPING) do
-        if v[1] then
-            local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
-                if v[1]:sub(1, 1) == "@" then
-                    obj.AvailableChestCount = obj.ChestCount
-                else
-                    obj.Active = false
-                end
+    for _, location_section_name in pairs(LOCATION_MAPPING) do
+        if location_section_name then
+            local location = Tracker:FindObjectForCode(location_section_name)
+            if location then
+                location.AvailableChestCount = location.ChestCount
             end
         end
     end
@@ -322,25 +318,15 @@ end
 function onLocation(ap_location_id, location_name)
     local location_id = ap_location_id - AP_LOCATION_OFFSET
 
-    local v = LOCATION_MAPPING[location_id]
-    if not v then
+    local location_section_name = LOCATION_MAPPING[location_id]
+    if not location_section_name then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
 
-    local location_code = v[1]
-    if not location_code then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
-        return
-    end
-
-    local obj = Tracker:FindObjectForCode(location_code)
-    if obj then
-        if location_code:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
-        else
-            obj.Active = true
-        end
+    local location = Tracker:FindObjectForCode(location_section_name)
+    if location then
+        location.AvailableChestCount = location.AvailableChestCount - 1
         -- DEBUG
         print("onLocation: checked spot "..location_code)
     else
