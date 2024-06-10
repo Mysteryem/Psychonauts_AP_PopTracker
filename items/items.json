@@ -452,7 +452,6 @@
     "type": "consumable",
     "img": "images/items/baggage/dufflebag_tag.png",
     "codes": "dufflebag_tag",
-    "max_quantity": 10,
     "min_quantity": -10
   },
   {
@@ -460,7 +459,6 @@
     "type": "consumable",
     "img": "images/items/baggage/hatbox_tag.png",
     "codes": "hatbox_tag",
-    "max_quantity": 10,
     "min_quantity": -10
   },
   {
@@ -468,7 +466,6 @@
     "type": "consumable",
     "img": "images/items/baggage/purse_tag.png",
     "codes": "purse_tag",
-    "max_quantity": 10,
     "min_quantity": -10
   },
   {
@@ -476,7 +473,6 @@
     "type": "consumable",
     "img": "images/items/baggage/steamer_trunk_tag.png",
     "codes": "steamer_trunk_tag",
-    "max_quantity": 10,
     "min_quantity": -10
   },
   {
@@ -484,7 +480,6 @@
     "type": "consumable",
     "img": "images/items/baggage/suitcase_tag.png",
     "codes": "suitcase_tag",
-    "max_quantity": 10,
     "min_quantity": -10
   },
   {
@@ -526,57 +521,49 @@
     "name": "Small Arrowhead Bundle",
     "type": "consumable",
     "img": "images/items/misc/small_arrowhead_bundle.png",
-    "codes": "small_arrowhead_bundle",
-    "max_quantity": 30
+    "codes": "small_arrowhead_bundle"
   },
   {
     "name": "Large Arrowhead Bundle",
     "type": "consumable",
     "img": "images/items/misc/large_arrowhead_bundle.png",
-    "codes": "large_arrowhead_bundle",
-    "max_quantity": 5
+    "codes": "large_arrowhead_bundle"
   },
   {
     "name": "Memory Vault",
     "type": "consumable",
     "img": "images/items/misc/memory_vault.png",
-    "codes": "memory_vault",
-    "max_quantity": 19
+    "codes": "memory_vault"
   },
   {
     "name": "PsiCard",
     "type": "consumable",
     "img": "images/items/misc/psi_card.png",
-    "codes": "psi_card",
-    "max_quantity": 107
+    "codes": "psi_card"
   },
   {
     "name": "PsiChallengeMarker",
     "type": "consumable",
     "img": "images/items/misc/psi_challenge_marker.png",
-    "codes": "psi_challenge_marker",
-    "max_quantity": 10
+    "codes": "psi_challenge_marker"
   },
   {
     "name": "Max Ammo Up",
     "type": "consumable",
     "img": "images/items/misc/max_ammo_up.png",
-    "codes": "max_ammo_up",
-    "max_quantity": 6
+    "codes": "max_ammo_up"
   },
   {
     "name": "Max Lives Up",
     "type": "consumable",
     "img": "images/items/misc/max_lives_up.png",
-    "codes": "max_lives_up",
-    "max_quantity": 6
+    "codes": "max_lives_up"
   },
   {
     "name": "Confusion Ammo Up",
     "type": "consumable",
     "img": "images/items/misc/max_confusion_ammo_up.png",
-    "codes": "max_confusion_ammo_up",
-    "max_quantity": 4
+    "codes": "max_confusion_ammo_up"
   },
   {
     "name": "Crow Feather",
