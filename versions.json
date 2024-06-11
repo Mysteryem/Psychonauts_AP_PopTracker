@@ -1,6 +1,24 @@
 {
     "versions": [
         {
+            "package_version": "1.2.0",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.2.0.zip",
+            "sha256": "77f3786d4a693f6f80e91d55e67fecb37cf13cb285ce0d87742c9f641ee5d38d",
+            "changelog": [
+                "Supports Psychonauts AP World v0.6.0.",
+                "Updated the item IDs to match the AP World.",
+                "Added the new Dowsing Rod and Super Palm Bomb items to the tracker.",
+                "Added the (CA Lake) Lungfish Boss Complete location.",
+                "Deep Arrowhead and Mental Cobweb locations are not implemented yet.",
+                "",
+                "General Changes",
+                "- Because the maximum quantity of certain items can now vary, the maximum quantity has been removed from most 'consumable' type items",
+                "",
+                "Out-of-logic Changes",
+                "- Added Gloria's Theater Storage Room access without Invisibility, using a Candle and Pyrokinesis"
+            ]
+        },
+        {
             "package_version": "1.1.1",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.1.1.zip",
             "sha256": "60fe7584bf54b77643b3b29ed0d306fe063975819d32e225cffef08b4006fa34",
