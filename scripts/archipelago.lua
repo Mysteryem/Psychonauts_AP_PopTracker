@@ -328,9 +328,9 @@ function onLocation(ap_location_id, location_name)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
         -- DEBUG
-        print("onLocation: checked spot "..location_code)
+        print("onLocation: checked spot "..location_section_name)
     else
-        print(string.format("onLocation: could not find object for code %s", location_code))
+        print(string.format("onLocation: could not find object for code %s", location_section_name))
     end
 end
 
