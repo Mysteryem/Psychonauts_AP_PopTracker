@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.2.1.zip",
+            "sha256": "43b24efa49df9768e0cc02a26b7157a6fb7c97902c63401cd8cd971f31676469",
+            "changelog": [
+                "Added a temporary tracker variant to support the Item IDs of the v0.5.0 AP World.",
+                "Use this if you are connecting to a slot generated with an AP world version older than v0.6.0."
+            ]
+        },
+        {
             "package_version": "1.2.0",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.2.0.zip",
             "sha256": "77f3786d4a693f6f80e91d55e67fecb37cf13cb285ce0d87742c9f641ee5d38d",
