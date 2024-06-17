@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.2",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.2.2.zip",
+            "sha256": "0c3d0a8322195b9d8ef29f8acefd12f689c242c952b36917735e73a4c25548be",
+            "changelog": [
+                "The Dowsing Rod and Super Palm Bomb images were missing and have now been added."
+            ]
+        },
+        {
             "package_version": "1.2.1",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.2.1.zip",
             "sha256": "43b24efa49df9768e0cc02a26b7157a6fb7c97902c63401cd8cd971f31676469",
