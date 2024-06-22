@@ -34,6 +34,34 @@ BAGGAGE_TO_TAG = {
     ["dufflebag"] = "dufflebag_tag",
 }
 
+local tabCA = "Camp + CU"
+local tabAS = "Asylum"
+local tabBB = "Basic Braining"
+local tabSA = "Sasha's Shooting Gallery"
+local tabMI = "Milla's Dance Party"
+local tabBT = "Brain Tumbler Experiment"
+local tabLO = "Lungfishopolis"
+local tabMM = "The Milkman Conspiracy"
+local tabTH = "Gloria's Theater"
+local tabWW = "Waterloo World"
+local tabBV = "Black Velvetopia"
+local tabMC = "Meat Circus"
+local LEVEL_PREFIX_TO_TAB = {
+    CA = tabCA,
+    LL = tabCA,
+    AS = tabAS,
+    BB = tabBB,
+    SA = tabSA,
+    MI = tabMI,
+    NI = tabBT,--NI for 'Nightmare in the Brain Tumbler'
+    LO = tabLO,
+    MM = tabMM,
+    TH = tabTH,
+    WW = tabWW,
+    BV = tabBV,
+    MC = tabMC,
+}
+
 -- Offset from PsychoRando ID to Archipelago ID
 AP_ITEM_OFFSET = 42690000
 AP_LOCATION_OFFSET = AP_ITEM_OFFSET
@@ -271,6 +299,23 @@ function decrementBaggageTagCount(received_item_code)
     end
 end
 
+function onMap(levelName)
+    if not levelName then
+        return
+    end
+
+    if levelName == "CABU" then
+        -- Ignore the file select menu.
+        return
+    end
+
+    local levelPrefix = string.sub(levelName, 1, 2)
+    local tabName = LEVEL_PREFIX_TO_TAB[levelPrefix]
+    if tabName then
+        Tracker:UiHint("ActivateTab", tabName)
+    end
+end
+
 function onItem(index, ap_item_id, item_name, player_number)
     if index <= CUR_INDEX then
         return
@@ -334,6 +379,21 @@ function onLocation(ap_location_id, location_name)
     end
 end
 
+--called when receiving a Bounced message
+function onBounced(value)
+    if not value then
+        return
+    end
+
+    local data = value["data"]
+    if not data then
+        return
+    end
+
+    -- The key is specified in the AP client.
+    onMap(data["psychonauts_level_name"])
+end
+
 --called when Get("events") returns
 --function onEventsLaunch()
 --end
@@ -341,5 +401,6 @@ end
 Archipelago:AddClearHandler("clear handler", onClearHandler)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddBouncedHandler("map handler", onBounced)
 --Archipelago:AddSetReplyHandler("event handler", onEvent)
 --Archipelago:AddRetrievedHandler("event launch handler", onEventsLaunch)
