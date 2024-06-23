@@ -167,5 +167,15 @@
     "rows": [
       ["setting_easy_flight_mode", "setting_easy_milla_race", "setting_damage_multiplier"]
     ]
+  },
+  "settings_shuffle_grid": {
+    "type": "itemgrid",
+    "item_margin": "0, 0",
+    "item_size": 5,
+    "margin": "0,0",
+    "h_alignment": "center",
+    "rows": [
+      ["setting_deep_arrowhead_shuffle", "setting_mental_cobweb_shuffle"]
+    ]
   }
 }

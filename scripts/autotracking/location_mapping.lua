@@ -31,6 +31,23 @@ LOCATION_MAPPING = {
     [26] = "@CAGPSquirrel/(CA GPC) Squirrel's Acorn/",
     [27] = "@CAGPGeyser/(CA GPC) Wedged in the Geyser/",
 
+    -- CAGP Deep Arrowheads
+    [512] = "@CAGPDeepAH/(CA GPC Deep AH) In River Before Grate/",
+    [513] = "@CAGPDeepAH/(CA GPC Deep AH) Inside GPC Fence North/",
+    [514] = "@CAGPDeepAH/(CA GPC Deep AH) Near Stump/",
+    [515] = "@CAGPDeepAH/(CA GPC Deep AH) Near Squirrel/",
+    [516] = "@CAGPDeepAH/(CA GPC Deep AH) In River Near Ruined Cabin/",
+    [517] = "@CAGPDeepAH/(CA GPC Deep AH) Inside GPC Fence South West/",
+    [518] = "@CAGPDeepAH/(CA GPC Deep AH) Larger Rock by Lake Entrance/",
+    [519] = "@CAGPDeepAH/(CA GPC Deep AH) Near Geyser/",
+    [520] = "@CAGPDeepAH/(CA GPC Deep AH) Near Bear/",
+    [521] = "@CAGPDeepAH/(CA GPC Deep AH) Big Rock Near Ford/",
+    [522] = "@CAGPDeepAH/(CA GPC Deep AH) Opposite River From Stump/",
+    [523] = "@CAGPDeepAH/(CA GPC Deep AH) Before Entrance to Camp/",
+    [524] = "@CAGPDeepAH/(CA GPC Deep AH) Before Entrance to Lake/",
+    [525] = "@CAGPDeepAH/(CA GPC Deep AH) Smaller Rock by Lake Entrance/",
+    [526] = "@CAGPDeepAH/(CA GPC Deep AH) Inside GPC Fence South East/",
+
     -- CAMA
     [28] = "@CAMA/(CA Main) Fence Near Kids' Cabins/",
     [29] = "@CAMA/(CA Main) Under Lodge Front Steps/",
@@ -53,6 +70,17 @@ LOCATION_MAPPING = {
     [46] = "@CAMALev/(CA Main) Parking Lot History Board/",
     [47] = "@CAMA/(CA Main) Parking Lot Outhouse/",
     [48] = "@CAMA/(CA Main) Rock Near Bench/",
+
+    -- CAMA Deep Arrowheads
+    [503] = "@CAMADeepAH/(CA Main Deep AH) Trash Can North of Lodge/",
+    [504] = "@CAMADeepAH/(CA Main Deep AH) Lodge Front Steps Corner/",
+    [505] = "@CAMADeepAH/(CA Main Deep AH) Under Lake Bridge/",
+    [506] = "@CAMADeepAH/(CA Main Deep AH) GPC Path Before Cougar/",
+    [507] = "@CAMADeepAH/(CA Main Deep AH) West of Stump/",
+    [508] = "@CAMADeepAH/(CA Main Deep AH) Reception Entrance/",
+    [509] = "@CAMADeepAH/(CA Main Deep AH) Parking Lot Log Fence/",
+    [510] = "@CAMADeepAH/(CA Main Deep AH) Under the Lodge/",
+    [511] = "@CAMADeepAH/(CA Main Deep AH) Rock Wall Top/",
 
     -- CAKC
     [49] = "@CAKC/(CA Cabins) Grinding on the Roots/",
@@ -98,6 +126,26 @@ LOCATION_MAPPING = {
     [87] = "@CARELev/(CA Reception) Fireplace Tree Top/",
     [88] = "@CAREMark/(CA Reception) Hornet Nest/",
 
+    -- CARE Deep Arrowheads
+    [527] = "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Bear/",
+    [528] = "@CAREDeepAH/(CA Reception Deep AH) Shallow Water East/",
+    [529] = "@CAREDeepAH/(CA Reception Deep AH) Shallow Water West/",
+    [530] = "@CAREDeepAH/(CA Reception Deep AH) Collapsed Cave/",
+    [531] = "@CAREDeepAH/(CA Reception Deep AH) Fireplace Tree/",
+    [532] = "@CAREDeepAH/(CA Reception Deep AH) South of Trailer/",
+    [533] = "@CAREDeepAH/(CA Reception Deep AH) East of Trailer/",
+    [534] = "@CAREDeepAH/(CA Reception Deep AH) Graveyard Tree/",
+    [535] = "@CAREDeepAH/(CA Reception Deep AH) In Front of Graveyard/",
+    [536] = "@CAREDeepAH/(CA Reception Deep AH) Graveyard Corner/",
+    [537] = "@CAREDeepAH/(CA Reception Deep AH) West of Campfire/",
+    [538] = "@CAREDeepAH/(CA Reception Deep AH) North East of Campfire/",
+    [539] = "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Lower Entrance/",
+    [540] = "@CAREDeepAH/(CA Reception Deep AH) By Stump/",
+    [541] = "@CAREDeepAH/(CA Reception Deep AH) Waterfall River Split/",
+    [542] = "@CAREDeepAH/(CA Reception Deep AH) Log Hill Lower/",
+    [543] = "@CAREDeepAH/(CA Reception Deep AH) Log Hill Top/",
+    [544] = "@CAREDeepAH/(CA Reception Deep AH) Below Tightrope Platform/",
+
     -- CABH
     [89] = "@CABH/(CA Lake) Under the First Bridge/",
     [90] = "@CABH/(CA Lake) Behind Stump/",
@@ -119,6 +167,15 @@ LOCATION_MAPPING = {
     [106] = "@CABHLev/(CA Lake) Top of Big Rock/",
     [107] = "@CABH/(CA Lake) Rock Wall Gap/",
     [365] = "@CABH/Bathysphere/(CA Lake) Lungfish Boss Complete",
+
+    -- CABH Deep Arrowheads
+    [545] = "@CABHDeepAH/(CA Lake Deep AH) By Stump/",
+    [546] = "@CABHDeepAH/(CA Lake Deep AH) Lake Shore/",
+    [547] = "@CABHDeepAH/(CA Lake Deep AH) Bathysphere Rock/",
+    [548] = "@CABHDeepAH/(CA Lake Deep AH) GPC Tunnel Entrance/",
+    [549] = "@CABHDeepAH/(CA Lake Deep AH) Rock Wall Upper/",
+    [550] = "@CABHDeepAH/(CA Lake Deep AH) Boathouse Entrance/",
+    [551] = "@CABHDeepAH/(CA Lake Deep AH) Right of Entrance/",
 
     -- CALI
     [108] = "@CALI/Main Lodge Interior/(CA Lodge) Main Lodge Rafters",

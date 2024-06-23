@@ -241,6 +241,19 @@ function onClear(slot_data)
         damage_multiplier_progressive.CurrentStage = 6
     end
 
+    -- Shuffle/sanity options
+    local deep_arrowhead_shuffle = slot_data["DeepArrowheadShuffle"]
+    if deepArrowheadShuffle ~= nil then
+        local deep_arrowhead_shuffle_toggle = Tracker:FindObjectForCode("setting_deep_arrowhead_shuffle")
+        deep_arrowhead_shuffle_toggle.Active = deepArrowheadShuffle == 1
+    end
+
+    local mental_cobweb_shuffle = slot_data["MentalCobwebShuffle"]
+    if mental_cobweb_shuffle ~= nil then
+        local mental_cobweb_shuffle_toggle = Tracker:FindObjectForCode("setting_mental_cobweb_shuffle")
+        mental_cobweb_shuffle_toggle.Active = mental_cobweb_shuffle == 1
+    end
+
     -- Other
     --slot_data["LootboxVaults"]
     -- Showing this is not yet implemented.

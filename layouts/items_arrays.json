@@ -128,6 +128,15 @@
           "type": "layout",
           "key": "settings_difficulty_grid"
         }
+      },
+      {
+        "type": "group",
+        "header": "Shuffle",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "settings_shuffle_grid"
+        }
       }
     ]
   }

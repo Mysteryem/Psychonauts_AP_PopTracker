@@ -90,5 +90,19 @@
     "type": "toggle",
     "img": "images/items/powers/levitation.png",
     "codes": "_internal_setting_starting_levitation_counter"
+  },
+  {
+    "name": "Deep Arrowhead Shuffle",
+    "type": "toggle",
+    "img": "images/items/misc/dowsing_rod.png",
+    "codes": "setting_deep_arrowhead_shuffle",
+    "initial_active_state": true
+  },
+  {
+    "name": "Mental Cobweb Shuffle",
+    "type": "toggle",
+    "img": "images/items/misc/cobweb_duster.png",
+    "codes": "setting_mental_cobweb_shuffle",
+    "initial_active_state": true
   }
 ]
