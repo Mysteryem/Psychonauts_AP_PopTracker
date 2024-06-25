@@ -102,7 +102,7 @@
       {
         "name": "WWMABlacksmithLeft",
         "access_rules": [
-          "cobweb_duster",
+          "@WWMA/WWMADuster",
           "settings_enable_out_of_logic,[cobweb_duster],levitation"
         ],
         "children": [
@@ -110,6 +110,20 @@
             "name": "(WW Main) Blacksmith's Left Building",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "WW", "x": 255, "y": 470}]
+          }
+        ]
+      },
+      {
+        "name": "WWMABlacksmithRight",
+        "access_rules": [
+          "@WWMA/WWMADuster/WWMADusterLev",
+          "settings_enable_out_of_logic,[cobweb_duster],levitation"
+        ],
+        "children": [
+          {
+            "name": "(WW Main) Blacksmith's Right Building",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 365, "y": 498}]
           }
         ]
       },
@@ -131,11 +145,6 @@
             "name": "WWMADusterLev",
             "access_rules": ["levitation"],
             "children": [
-              {
-                "name": "(WW Main) Blacksmith's Right Building",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "WW", "x": 365, "y": 498}]
-              },
               {
                 "name": "WWMADusterLevPyro",
                 "access_rules": ["pyrokinesis"],
