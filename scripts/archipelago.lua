@@ -62,6 +62,32 @@ local LEVEL_PREFIX_TO_TAB = {
     MC = tabMC,
 }
 
+-- Map locations which reference multiple sections do not update their color correctly as the referenced sections are
+-- cleared. Forcing a tracker update will cause them to update however. This may be a PopTracker bug.
+-- Only need to force update after clearing these when Deep Arrowhead Shuffle is enabled.
+local _DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS = {
+  "@CAGP/(CA GPC) Big Rock Near Ford/",
+  "@CAGPDeepAH/(CA GPC Deep AH) Big Rock Near Ford/",
+  "@CAGP/(CA GPC) Tree Near Geyser/",
+  "@CAGPDeepAH/(CA GPC Deep AH) Near Geyser/",
+  "@CAMA/(CA Main) Under the Lodge/",
+  "@CAMADeepAH/(CA Main Deep AH) Under the Lodge/",
+  "@CARE/(CA Reception) Collapsed Cave/",
+  "@CAREDeepAH/(CA Reception Deep AH) Collapsed Cave/",
+  "@CARE/(CA Reception) Mineshaft Trailer Entrance/",
+  "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Lower Entrance/",
+  "@CARE/(CA Reception) Mineshaft Bear/",
+  "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Bear/",
+  "@CARE/(CA Reception) Graveyard Bear/",
+  "@CAREDeepAH/(CA Reception Deep AH) Graveyard Corner/",
+  "@CABH/(CA Lake) Rock Wall Upper/",
+  "@CABHDeepAH/(CA Lake Deep AH) Rock Wall Upper/",
+}
+local DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS = {}
+for _, v in ipairs(_DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS) do
+    DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS[v] = true
+end
+
 -- Offset from PsychoRando ID to Archipelago ID
 AP_ITEM_OFFSET = 42690000
 AP_LOCATION_OFFSET = AP_ITEM_OFFSET
@@ -387,6 +413,10 @@ function onLocation(ap_location_id, location_name)
         location.AvailableChestCount = location.AvailableChestCount - 1
         -- DEBUG
         print("onLocation: checked spot "..location_section_name)
+        local deep_ah_setting = Tracker:FindObjectForCode("setting_deep_arrowhead_shuffle")
+        if deep_ah_setting.Active and DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS[location_section_name] then
+            forceLogicUpdate()
+        end
     else
         print(string.format("onLocation: could not find object for code %s", location_section_name))
     end
