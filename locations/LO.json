@@ -18,7 +18,43 @@
       {
         "name": "(LO Main) Skyscraper before Dam",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "LO", "x": 463, "y": 528}]
+        "map_locations": [
+          {
+            "map": "LO",
+            "x": 463,
+            "y": 528,
+            "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+          }
+        ]
+      },
+      {
+        "name": "LOMACobweb",
+        "chest_unopened_img": "images/icons/cobweb.png",
+        "chest_opened_img": "images/icons/cobweb_gray.png",
+        "access_rules": ["cobweb_duster"],
+        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "children": [
+          {
+            "name": "(LO Main Cobweb) Skyscraper Before Dam",
+            "sections": [{"name": ""}]
+          },
+          {
+            "name": "Skyscraper Before Dam",
+            "sections": [
+              {"name": "(LO Main) Skyscraper before Dam", "ref": "LOMA/(LO Main) Skyscraper before Dam/"},
+              {"name": "(LO Main Cobweb) Skyscraper Before Dam", "ref": "LOMACobweb/(LO Main Cobweb) Skyscraper Before Dam/"}
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 463,
+                "y": 528,
+                "size": 40,
+                "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "LOMAShield",
@@ -50,12 +86,19 @@
           {
             "name": "(LO Main) End of Dam",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 752, "y": 811}]
+            "map_locations": [{"map": "LO", "x": 787, "y": 773}]
           },
           {
             "name": "(LO Main) End of Dam Platform",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 724, "y": 837}]
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 724,
+                "y": 837,
+                "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+              }
+            ]
           },
           {
             "name": "(LO Main) Skyscraper after Dam",
@@ -75,7 +118,7 @@
           {
             "name": "(LO Main) Ground after Bridge",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1580, "y": 180}]
+            "map_locations": [{"map": "LO", "x": 1568, "y": 203}]
           },
           {
             "name": "(LO Main) Skyscraper after Bridge",
@@ -114,6 +157,50 @@
             "map_locations": [
               {"map": "LO", "x": 1908, "y": 853},
               {"map": "CA", "x": 2483, "y": 69}
+            ]
+          },
+          {
+            "name": "LOMAShieldCobweb",
+            "chest_unopened_img": "images/icons/cobweb.png",
+            "chest_opened_img": "images/icons/cobweb_gray.png",
+            "access_rules": ["cobweb_duster"],
+            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "children": [
+              {
+                "name": "(LO Main Cobweb) Skyscrapers Before Tunnel",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "LO", "x": 1195, "y": 190, "size": 25}]
+              },
+              {
+                "name": "(LO Main Cobweb) Behind Lasers",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "LO", "x": 385, "y": 326, "size": 25}]
+              },
+              {
+                "name": "(LO Main Cobweb) End of Dam",
+                "sections": [{"name": ""}]
+              },
+              {
+                "name": "(LO Main Cobweb) Ground after Bridge",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "LO", "x": 1574, "y": 155, "size": 25}]
+              },
+              {
+                "name": "End of Dam",
+                "sections": [
+                  {"name": "(LO Main) End of Dam Platform", "ref": "LOMAShield/(LO Main) End of Dam Platform/"},
+                  {"name": "(LO Main Cobweb) End of Dam", "ref": "LOMAShieldCobweb/(LO Main Cobweb) End of Dam/"}
+                ],
+                "map_locations": [
+                  {
+                    "map": "LO",
+                    "x": 716,
+                    "y": 844,
+                    "size": 40,
+                    "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                  }
+                ]
+              }
             ]
           }
         ]
