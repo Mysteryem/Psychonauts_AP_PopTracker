@@ -96,6 +96,40 @@
             "map_locations": [{"map": "SA", "x": 550, "y": 198}]
           }
         ]
+      },
+      {
+        "name": "SACUCobweb",
+        "chest_unopened_img": "images/icons/cobweb.png",
+        "chest_opened_img": "images/icons/cobweb_gray.png",
+        "access_rules": ["cobweb_duster"],
+        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "children": [
+          {
+            "name": "(SA Main Cobweb) Block Arch Left",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "SA", "x": 353, "y": 247, "size": 17}]
+          },
+          {
+            "name": "(SA Main Cobweb) Block Arch Right",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "SA", "x": 168, "y": 128, "size": 17}]
+          },
+          {
+            "name": "(SA Main Cobweb) Back of Shoebox Tower",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "SA", "x": 316, "y": 817, "size": 17}]
+          },
+          {
+            "name": "(SA Main Cobweb) Shoebox Tower",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "SA", "x": 375, "y": 726, "size": 17}]
+          },
+          {
+            "name": "(SA Main Cobweb) Flame Tower Arch",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "SA", "x": 868, "y": 805, "size": 17}]
+          }
+        ]
       }
     ]
   }
