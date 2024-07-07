@@ -66,6 +66,8 @@ local LEVEL_PREFIX_TO_TAB = {
 -- cleared. Forcing a tracker update will cause them to update however. This may be a PopTracker bug.
 -- Only need to force update after clearing these when Deep Arrowhead Shuffle is enabled.
 local _DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS = {
+  "@CAGP/(CA GPC) Near the Bear/",
+  "@CAGPDeepAH/(CA GPC Deep AH) Near Bear/",
   "@CAGP/(CA GPC) Big Rock Near Ford/",
   "@CAGPDeepAH/(CA GPC Deep AH) Big Rock Near Ford/",
   "@CAGP/(CA GPC) Tree Near Geyser/",

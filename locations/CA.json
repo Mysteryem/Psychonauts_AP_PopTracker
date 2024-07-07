@@ -214,7 +214,14 @@
           {
             "name": "(CA GPC) Near the Bear",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "CA", "x": 1837, "y": 615}]
+            "map_locations": [
+              {
+                "map": "CA",
+                "x": 1837,
+                "y": 615,
+                "force_invisibility_rules": ["setting_deep_arrowhead_shuffle"]
+              }
+            ]
           },
           {
             "name": "(CA GPC) Rocky Platforms Behind GPC Right",
@@ -353,8 +360,7 @@
               },
               {
                 "name": "(CA GPC Deep AH) Near Bear",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "CA", "x": 1808, "y": 619, "size": 25}]
+                "sections": [{"name": ""}]
               },
               {
                 "name": "(CA GPC Deep AH) Big Rock Near Ford",
@@ -384,6 +390,22 @@
                 "name": "(CA GPC Deep AH) Inside GPC Fence South East",
                 "sections": [{"name": ""}],
                 "map_locations": [{"map": "CA", "x": 1944, "y": 935, "size": 25}]
+              },
+              {
+                "name": "Near Bear",
+                "sections": [
+                  {"name": "(CA GPC) Near the Bear", "ref": "CAGP/(CA GPC) Near the Bear/"},
+                  {"name": "(CA GPC Deep AH) Near Bear", "ref": "CAGPDeepAH/(CA GPC Deep AH) Near Bear/"}
+                ],
+                "map_locations": [
+                  {
+                    "map": "CA",
+                    "x": 1828,
+                    "y": 615,
+                    "size": 40,
+                    "restrict_visibility_rules": ["setting_deep_arrowhead_shuffle"]
+                  }
+                ]
               },
               {
                 "name": "Near Geyser",
