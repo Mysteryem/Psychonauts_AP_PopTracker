@@ -51,7 +51,14 @@
           {
             "name": "(BT Main) Forest High Platform",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 117, "y": 886}]
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 117,
+                "y": 886,
+                "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+              }
+            ]
           },
           {
             "name": "(BT Main) Forest Path Thorns",
@@ -83,6 +90,55 @@
                 "map_locations": [
                   {"map": "BT", "x": 654, "y": 247},
                   {"map": "CA", "x": 2558, "y": 91}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NIMPCobweb",
+            "chest_unopened_img": "images/icons/cobweb.png",
+            "chest_opened_img": "images/icons/cobweb_gray.png",
+            "access_rules": ["cobweb_duster"],
+            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "children": [
+              {
+                "name": "(BT Main Cobweb) Shadow Monster Meat",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "BT", "x": 591, "y": 818, "size": 17}]
+              },
+              {
+                "name": "(BT Main Cobweb) Forest High Platform",
+                "sections": [{"name": ""}]
+              },
+              {
+                "name": "(BT Main Cobweb) Forest Path Thorns",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "BT", "x": 168, "y": 581, "size": 17}]
+              },
+              {
+                "name": "(BT Main Cobweb) Bathtub Drain",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "BT", "x": 555, "y": 578, "size": 17}]
+              },
+              {
+                "name": "(BT Main Cobweb) Thorn Tower Right",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "BT", "x": 769, "y": 439, "size": 17}]
+              },
+              {
+                "name": "Forest High Platform",
+                "sections": [
+                  {"name": "(BT Main) Forest High Platform", "ref": "NIMPMark/(BT Main) Forest High Platform/"},
+                  {"name": "(BT Main Cobweb) Forest High Platform", "ref": "NIMPCobweb/(BT Main Cobweb) Forest High Platform/"}
+                ],
+                "map_locations": [
+                  {
+                    "map": "BT",
+                    "x": 117,
+                    "y": 886,
+                    "size": 27,
+                    "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                  }
                 ]
               }
             ]
