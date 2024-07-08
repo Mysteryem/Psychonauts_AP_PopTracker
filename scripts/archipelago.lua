@@ -62,32 +62,64 @@ local LEVEL_PREFIX_TO_TAB = {
     MC = tabMC,
 }
 
--- Map locations which reference multiple sections do not update their color correctly as the referenced sections are
--- cleared. Forcing a tracker update will cause them to update however. This may be a PopTracker bug.
+-- Map locations which reference sections and have more than 1 section do not update their color correctly as the
+-- referenced sections are cleared. Forcing a tracker update will cause them to update however. This may be a PopTracker
+-- bug.
 -- Only need to force update after clearing these when Deep Arrowhead Shuffle is enabled.
 local _DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS = {
-  "@CAGP/(CA GPC) Near the Bear/",
-  "@CAGPDeepAH/(CA GPC Deep AH) Near Bear/",
-  "@CAGP/(CA GPC) Big Rock Near Ford/",
-  "@CAGPDeepAH/(CA GPC Deep AH) Big Rock Near Ford/",
-  "@CAGP/(CA GPC) Tree Near Geyser/",
-  "@CAGPDeepAH/(CA GPC Deep AH) Near Geyser/",
-  "@CAMA/(CA Main) Under the Lodge/",
-  "@CAMADeepAH/(CA Main Deep AH) Under the Lodge/",
-  "@CARE/(CA Reception) Collapsed Cave/",
-  "@CAREDeepAH/(CA Reception Deep AH) Collapsed Cave/",
-  "@CARE/(CA Reception) Mineshaft Trailer Entrance/",
-  "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Lower Entrance/",
-  "@CARE/(CA Reception) Mineshaft Bear/",
-  "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Bear/",
-  "@CARE/(CA Reception) Graveyard Bear/",
-  "@CAREDeepAH/(CA Reception Deep AH) Graveyard Corner/",
-  "@CABH/(CA Lake) Rock Wall Upper/",
-  "@CABHDeepAH/(CA Lake Deep AH) Rock Wall Upper/",
+    "@CAGP/(CA GPC) Near the Bear/",
+    "@CAGPDeepAH/(CA GPC Deep AH) Near Bear/",
+    "@CAGP/(CA GPC) Big Rock Near Ford/",
+    "@CAGPDeepAH/(CA GPC Deep AH) Big Rock Near Ford/",
+    "@CAGP/(CA GPC) Tree Near Geyser/",
+    "@CAGPDeepAH/(CA GPC Deep AH) Near Geyser/",
+    "@CAMA/(CA Main) Under the Lodge/",
+    "@CAMADeepAH/(CA Main Deep AH) Under the Lodge/",
+    "@CARE/(CA Reception) Collapsed Cave/",
+    "@CAREDeepAH/(CA Reception Deep AH) Collapsed Cave/",
+    "@CARE/(CA Reception) Mineshaft Trailer Entrance/",
+    "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Lower Entrance/",
+    "@CARE/(CA Reception) Mineshaft Bear/",
+    "@CAREDeepAH/(CA Reception Deep AH) Mineshaft Bear/",
+    "@CARE/(CA Reception) Graveyard Bear/",
+    "@CAREDeepAH/(CA Reception Deep AH) Graveyard Corner/",
+    "@CABH/(CA Lake) Rock Wall Upper/",
+    "@CABHDeepAH/(CA Lake Deep AH) Rock Wall Upper/",
 }
 local DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS = {}
 for _, v in ipairs(_DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS) do
     DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS[v] = true
+end
+
+-- Only need to force update after clearing these when Mental Cobweb Shuffle is enabled.
+local _MENTAL_COBWEB_SHUFFLE_FORCE_UPDATE_LOCATIONS = {
+    "@BBA2Duster/(BB Area 2) Trapeze Cobweb/",
+    "@BBA2Cobweb/(BB Area 2 Cobweb) Trapeze Cobweb/",
+    "@BBA2/(BB Finale) Basic Braining Complete/",
+    "@BBA2Cobweb/(BB Finale Cobweb) Bunny Room Door/",
+    "@NIMPMark/(BT Main) Forest High Platform/",
+    "@NIMPCobweb/(BT Main Cobweb) Forest High Platform/",
+    "@LOMA/(LO Main) Skyscraper before Dam/",
+    "@LOMACobweb/(LO Main Cobweb) Skyscraper Before Dam/",
+    "@LOMAShield/(LO Main) End of Dam Platform/",
+    "@LOMAShieldCobweb/(LO Main Cobweb) End of Dam/",
+    "@MMI1AfterSign/(MM Neighborhood) Post Office Lobby/",
+    "@MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Post Office Lobby/",
+    "@MMI1Duster_optional/(MM Neighborhood) Inside Webbed Garage/",
+    "@MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Webbed Garage/",
+    "@THMSStorage/(TH Stage) Storage Room Left/",
+    "@THMSStorageCobweb/(TH Stage Cobweb) Storage Room Left/",
+    "@THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Lower",
+    "@THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Upper",
+    "@THMSStorageCobweb/(TH Stage Cobweb) Storage Room Right/",
+    "@THMSDuster_optional/(TH Stage) Behind Stage Cobweb/",
+    "@THMSCobweb/(TH Stage Cobweb) Behind Stage/",
+    "@WWMA/(WW Main) Small Arch Top/",
+    "@WWMACobweb/(WW Main Cobweb) Beneath Small Arch/",
+}
+local MENTAL_COBWEB_SHUFFLE_FORCE_UPDATE_LOCATIONS = {}
+for _, v in ipairs(_MENTAL_COBWEB_SHUFFLE_FORCE_UPDATE_LOCATIONS) do
+    MENTAL_COBWEB_SHUFFLE_FORCE_UPDATE_LOCATIONS[v] = true
 end
 
 -- Offset from PsychoRando ID to Archipelago ID
@@ -415,9 +447,17 @@ function onLocation(ap_location_id, location_name)
         location.AvailableChestCount = location.AvailableChestCount - 1
         -- DEBUG
         print("onLocation: checked spot "..location_section_name)
-        local deep_ah_setting = Tracker:FindObjectForCode("setting_deep_arrowhead_shuffle")
-        if deep_ah_setting.Active and DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS[location_section_name] then
-            forceLogicUpdate()
+        -- Workaround for possible PopTracker bug: Force a logic update for locations with multiple referenced sections.
+        if DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS[location_section_name] then
+            local deep_ah_setting = Tracker:FindObjectForCode("setting_deep_arrowhead_shuffle")
+            if deep_ah_setting.Active then
+                forceLogicUpdate()
+            end
+        elseif MENTAL_COBWEB_SHUFFLE_FORCE_UPDATE_LOCATIONS[location_section_name] then
+            local mental_cobweb_setting = Tracker:FindObjectForCode("setting_mental_cobweb_shuffle")
+            if mental_cobweb_setting.Active then
+                forceLogicUpdate()
+            end
         end
     else
         print(string.format("onLocation: could not find object for code %s", location_section_name))
