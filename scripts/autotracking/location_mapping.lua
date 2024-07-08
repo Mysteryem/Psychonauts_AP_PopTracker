@@ -284,6 +284,13 @@ LOCATION_MAPPING = {
     [197] = "@BBA2/End of Obstacle Course/(BB Finale) End of Obstacle Course Right",
     [198] = "@BBA2/(BB Finale) Basic Braining Complete/",
 
+    -- BB Mental Cobwebs
+    [552] = "@BBA2Cobweb/(BB Area 2 Cobweb) Trapeze Cobweb/",
+    [553] = "@BBA2Cobweb/(BB Area 2 Cobweb) Tightrope Tutorial/",
+    [554] = "@BBA2Cobweb/(BB Area 2 Cobweb) Grindrail Wall/",
+    [555] = "@BBA2Cobweb/(BB Finale Cobweb) Bunny Room Door/",
+    [556] = "@BBA2Cobweb/(BB Finale Cobweb) Tunnel of Logs End/",
+
     -- SA
     [199] = "@SACU/(SA Main) On the Bed/",
     [200] = "@SACU/(SA Main) On the Pillow/",
@@ -303,6 +310,13 @@ LOCATION_MAPPING = {
     [214] = "@SACU/(SA Main) Flame Tower Top 2/",
     [215] = "@SACU/(SA Main) Sasha's Shooting Gallery Complete/",
 
+    -- SA Mental Cobwebs
+    [557] = "@SACUCobweb/(SA Main Cobweb) Block Arch Left/",
+    [558] = "@SACUCobweb/(SA Main Cobweb) Block Arch Right/",
+    [559] = "@SACUCobweb/(SA Main Cobweb) Back of Shoebox Tower/",
+    [560] = "@SACUCobweb/(SA Main Cobweb) Shoebox Tower/",
+    [561] = "@SACUCobweb/(SA Main Cobweb) Flame Tower Arch/",
+
     -- MI
     [216] = "@MIFL/(MI Area 1) Intro Rings Tutorial/",
     [217] = "@MIFL/(MI Area 1) Dancing Camper Platform 1/",
@@ -320,6 +334,13 @@ LOCATION_MAPPING = {
     [229] = "@MIFL/(MI Finale) Milla's Party Room/",
     [230] = "@MIFL/(MI Finale) Milla's Dance Party Complete/",
 
+    -- MI Mental Cobwebs
+    [562] = "@MIFLCobweb/(MI Area 1 Cobweb) Intro Statue Corner/",
+    [563] = "@MIFLCobweb/(MI Area 1 Cobweb) Behind Pinball Ladder/",
+    [564] = "@MIFLCobweb/(MI Area 1 Cobweb) Grindrail Rings/",
+    [565] = "@MIFLCobweb/(MI Finale Cobweb) Fan Room Entrance/",
+    [566] = "@MIFLCobweb/(MI Finale Cobweb) Party Room Floor/",
+
     -- BT/NI
     [231] = "@NIMP/(BT Main) Outside Caravan/",
     [232] = "@NIMP/(BT Main) Behind the Egg/",
@@ -335,6 +356,13 @@ LOCATION_MAPPING = {
     [242] = "@NIMPMark/(BT Main) Behind Thorn Tower Mid/",
     [243] = "@NIMPMark/(BT Main) Behind Thorn Tower Right/",
     [244] = "@NIBA/(BT Boss) Brain Tumbler Experiment Complete/",
+
+    -- BT/NI Mental Cobwebs
+    [567] = "@NIMPCobweb/(BT Main Cobweb) Shadow Monster Meat/",
+    [568] = "@NIMPCobweb/(BT Main Cobweb) Forest High Platform/",
+    [569] = "@NIMPCobweb/(BT Main Cobweb) Forest Path Thorns/",
+    [570] = "@NIMPCobweb/(BT Main Cobweb) Bathtub Drain/",
+    [571] = "@NIMPCobweb/(BT Main Cobweb) Thorn Tower Right/",
 
     -- LO
     [245] = "@LOMA/(LO Main) Skyscraper Start/",
@@ -357,6 +385,13 @@ LOCATION_MAPPING = {
     [262] = "@LOMAShield/(LO Boss) Kochamara Intro Left/",
     [263] = "@LOMAShield/(LO Boss) Kochamara Intro Right/",
     [264] = "@LOMAShield/(LO Boss) Lungfishopolis Complete/",
+
+    -- LO Mental Cobwebs
+    [572] = "@LOMACobweb/(LO Main Cobweb) Skyscraper Before Dam/",
+    [573] = "@LOMAShieldCobweb/(LO Main Cobweb) Skyscrapers Before Tunnel/",
+    [574] = "@LOMAShieldCobweb/(LO Main Cobweb) Behind Lasers/",
+    [575] = "@LOMAShieldCobweb/(LO Main Cobweb) End of Dam/",
+    [576] = "@LOMAShieldCobweb/(LO Main Cobweb) Ground after Bridge/",
 
     -- MM
     [265] = "@MMI1/(MM Neighborhood) Boyd's Fridge/",
@@ -384,6 +419,13 @@ LOCATION_MAPPING = {
     [287] = "@MMI2/(MM Depository) Behind Book Depository/",
     [288] = "@MMDM/(MM Depository) Milkman Complete/",
 
+    -- MM Mental Cobwebs
+    [577] = "@MMI1BeforeSignCobweb/(MM Neighborhood Cobweb) Third House/",
+    [578] = "@MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Post Office Lobby/",
+    [579] = "@MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Right House before Post Office/",
+    [580] = "@MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Webbed Garage/",
+    [581] = "@MMI2Cobweb/(MM Depository Cobweb) Book Depository/",
+
     -- TH
     [289] = "@THMS/(TH Stage) Near the Critic/",
     [290] = "@THMSLev/(TH Stage) In the Audience/",
@@ -404,6 +446,15 @@ LOCATION_MAPPING = {
     [305] = "@THCW/(TH Catwalks) Candle Basket/",
     [306] = "@THCW/(TH Catwalks) Curtain Slide/",
     [307] = "@THFB/(TH Catwalks) Gloria's Theater Complete/",
+
+    -- TH Mental Cobwebs
+    [582] = "@THMSCobweb/(TH Stage Cobweb) Backstage Corridor/",
+    [583] = "@THMSCobweb/(TH Stage Cobweb) Below Teleporter/",
+    [584] = "@THMSStorageCobweb/(TH Stage Cobweb) Storage Room Left/",
+    [585] = "@THMSLevCobweb/(TH Stage Cobweb) In the Audience/",
+    [586] = "@THMSCobweb/(TH Stage Cobweb) Below the Critic/",
+    [587] = "@THMSCobweb/(TH Stage Cobweb) Behind Stage/",
+    [588] = "@THMSStorageCobweb/(TH Stage Cobweb) Storage Room Right/",
 
     -- WW
     [308] = "@WWMA/(WW Main) Fred's Room/",
@@ -432,6 +483,15 @@ LOCATION_MAPPING = {
     [331] = "@WWMAV3/(WW Main) Help Villager 3/",
     [332] = "@WWMADone/(WW Main) Waterloo World Complete/",
 
+    -- WW Mental Cobwebs
+    [589] = "@WWMACobweb/(WW Main Cobweb) Beneath Small Arch/",
+    [590] = "@WWMACobweb/(WW Main Cobweb) Blacksmith's Right Building Window/",
+    [591] = "@WWMACobweb/(WW Main Cobweb) Blacksmith's Left Building/",
+    [592] = "@WWMABlacksmithRightCobweb/(WW Main Cobweb) Blacksmith's Right Building Roof/",
+    [593] = "@WWMACobweb/(WW Main Cobweb) Carpenter's House/",
+    [594] = "@WWMACobweb/(WW Main Cobweb) Fred's House Basement/",
+    [595] = "@WWMACobweb/(WW Main Cobweb) Under the Guillotine/",
+
     -- BV
     [333] = "@BVRB/(BV Streets) Club Street Lady/",
     [334] = "@BVRBLev_optional/(BV Streets) Club Street Metal Balcony/",
@@ -454,6 +514,15 @@ LOCATION_MAPPING = {
     [351] = "@BVESCobra/(BV Edgar) Cobra Wrestler/",
     [352] = "@BVESBoss/(BV Edgar) Black Velvetopia Complete/",
 
+    -- BV Mental Cobwebs
+    [596] = "@BVRBDusterCobweb/(BV Streets Cobweb) Diego's House Grindrail/",
+    [597] = "@BVRBCobweb/(BV Streets Cobweb) Diego's House/",
+    [598] = "@BVRBCobweb/(BV Streets Cobweb) Sewer Shower Tunnel/",
+    [599] = "@BVRBCobweb/(BV Streets Cobweb) Above Queen of Hearts/",
+    [600] = "@BVRBCobweb/(BV Streets Cobweb) Sewer Before Gate/",
+    [601] = "@BVRBDusterCobweb/(BV Streets Cobweb) Diego's House Fireplace/",
+    [602] = "@BVRBCobweb/(BV Streets Cobweb) Near Diego's House/",
+
     -- MC
     [353] = "@MCTCLev/(MC Main) Entrance Awning/",
     [354] = "@MCTC/(MC Main) Crumbling Path/",
@@ -467,6 +536,11 @@ LOCATION_MAPPING = {
     [362] = "@MCTCToL/(MC Main) Tunnel of Love Corner/",
     [363] = "@MCTCToL/(MC Main) Tunnel of Love Rail/",
     [364] = "@MCTCToL/(MC Main) Next to the Final Door/",
+
+    -- MC Mental Cobwebs
+    [603] = "@MCTCToLCobweb/(MC Main Cobweb) Tunnel of Love Ollie Escort Exit/",
+    [604] = "@MCTCCobweb/(MC Main Cobweb) Entrance Hall/",
+    [605] = "@MCTCCobweb/(MC Main Cobweb) Entrance Hall/",
 
     -- Events (goals)
     -- Note: These locations do not currently get sent upon completing them.
