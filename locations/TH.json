@@ -31,6 +31,20 @@
             "name": "(TH Stage) In the Audience",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "TH", "x": 273, "y": 1137}]
+          },
+          {
+            "name": "THMSLevCobweb",
+            "chest_unopened_img": "images/icons/cobweb.png",
+            "chest_opened_img": "images/icons/cobweb_gray.png",
+            "access_rules": ["cobweb_duster"],
+            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "children": [
+              {
+                "name": "(TH Stage Cobweb) In the Audience",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "TH", "x": 657, "y": 1174, "size": 25}]
+              }
+            ]
           }
         ]
       },
@@ -44,7 +58,14 @@
           {
             "name": "(TH Stage) Behind Stage Cobweb",
             "sections": [{"name": ""}],
-            "map_locations": [{"map": "TH", "x": 200, "y": 274}]
+            "map_locations": [
+              {
+                "map": "TH",
+                "x": 200,
+                "y": 274,
+                "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+              }
+            ]
           }
         ]
       },
@@ -82,7 +103,14 @@
               {
                 "name": "(TH Stage) Storage Room Left",
                 "sections": [{"name": ""}],
-                "map_locations": [{"map": "TH", "x": 911, "y": 110}]
+                "map_locations": [
+                  {
+                    "map": "TH",
+                    "x": 911,
+                    "y": 110,
+                    "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                  }
+                ]
               },
               {
                 "name": "Storage Room Right",
@@ -90,7 +118,108 @@
                   {"name": "(TH Stage) Storage Room Right Lower"},
                   {"name": "(TH Stage) Storage Room Right Upper"}
                 ],
-                "map_locations": [{"map": "TH", "x": 1114, "y": 125}]
+                "map_locations": [
+                  {
+                    "map": "TH",
+                    "x": 1114,
+                    "y": 125,
+                    "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                  }
+                ]
+              },
+              {
+                "name": "THMSStorageCobweb",
+                "chest_unopened_img": "images/icons/cobweb.png",
+                "chest_opened_img": "images/icons/cobweb_gray.png",
+                "access_rules": ["cobweb_duster"],
+                "visibility_rules": ["setting_mental_cobweb_shuffle"],
+                "children": [
+                  {
+                    "name": "(TH Stage Cobweb) Storage Room Left",
+                    "sections": [{"name": ""}]
+                  },
+                  {
+                    "name": "(TH Stage Cobweb) Storage Room Right",
+                    "sections": [{"name": ""}]
+                  },
+                  {
+                    "name": "Storage Room Left",
+                    "sections": [
+                      {"name": "(TH Stage) Storage Room Left", "ref": "THMSStorage/(TH Stage) Storage Room Left/"},
+                      {"name": "(TH Stage Cobweb) Storage Room Left", "ref": "THMSStorageCobweb/(TH Stage Cobweb) Storage Room Left/"}
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "TH",
+                        "x": 911,
+                        "y": 110,
+                        "size": 40,
+                        "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Storage Room Right",
+                    "sections": [
+                      {"name": "(TH Stage) Storage Room Right Lower", "ref": "THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Lower"},
+                      {"name": "(TH Stage) Storage Room Right Upper", "ref": "THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Upper"},
+                      {"name": "(TH Stage Cobweb) Storage Room Right", "ref": "THMSStorageCobweb/(TH Stage Cobweb) Storage Room Right/"}
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "TH",
+                        "x": 1114,
+                        "y": 125,
+                        "size": 40,
+                        "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "THMSCobweb",
+        "chest_unopened_img": "images/icons/cobweb.png",
+        "chest_opened_img": "images/icons/cobweb_gray.png",
+        "access_rules": ["cobweb_duster"],
+        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "children": [
+          {
+            "name": "(TH Stage Cobweb) Backstage Corridor",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 882, "y": 420, "size": 25}]
+          },
+          {
+            "name": "(TH Stage Cobweb) Below Teleporter",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 311, "y": 949, "size": 25}]
+          },
+          {
+            "name": "(TH Stage Cobweb) Below the Critic",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "TH", "x": 187, "y": 1021, "size": 25}]
+          },
+          {
+            "name": "(TH Stage Cobweb) Behind Stage",
+            "sections": [{"name": ""}]
+          },
+          {
+            "name": "Behind Stage",
+            "sections": [
+              {"name": "(TH Stage) Behind Stage Cobweb", "ref": "THMSDuster_optional/(TH Stage) Behind Stage Cobweb/"},
+              {"name": "(TH Stage Cobweb) Behind Stage", "ref": "THMSCobweb/(TH Stage Cobweb) Behind Stage/"}
+            ],
+            "map_locations": [
+              {
+                "map": "TH",
+                "x": 200,
+                "y": 274,
+                "size": 40,
+                "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
               }
             ]
           }
