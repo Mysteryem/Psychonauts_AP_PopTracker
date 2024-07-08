@@ -28,7 +28,14 @@
       {
         "name": "(WW Main) Small Arch Top",
         "sections": [{"name": ""}],
-        "map_locations": [{"map": "WW", "x": 308, "y": 740}]
+        "map_locations": [
+          {
+            "map": "WW",
+            "x": 308,
+            "y": 740,
+            "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+          }
+        ]
       },
       {
         "name": "(WW Main) Small Arch Below",
@@ -124,6 +131,20 @@
             "name": "(WW Main) Blacksmith's Right Building",
             "sections": [{"name": ""}],
             "map_locations": [{"map": "WW", "x": 365, "y": 498}]
+          },
+          {
+            "name": "WWMABlacksmithRightCobweb",
+            "chest_unopened_img": "images/icons/cobweb.png",
+            "chest_opened_img": "images/icons/cobweb_gray.png",
+            "access_rules": ["cobweb_duster"],
+            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "children": [
+              {
+                "name": "(WW Main Cobweb) Blacksmith's Right Building Roof",
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "WW", "x": 348, "y": 552, "size": 12}]
+              }
+            ]
           }
         ]
       },
@@ -213,6 +234,60 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "WWMACobweb",
+        "chest_unopened_img": "images/icons/cobweb.png",
+        "chest_opened_img": "images/icons/cobweb_gray.png",
+        "access_rules": ["cobweb_duster"],
+        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "children": [
+          {
+            "name": "(WW Main Cobweb) Beneath Small Arch",
+            "sections": [{"name": ""}]
+          },
+          {
+            "name": "(WW Main Cobweb) Blacksmith's Right Building Window",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 327, "y": 498, "size": 12}]
+          },
+          {
+            "name": "(WW Main Cobweb) Blacksmith's Left Building",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 200, "y": 487, "size": 12}]
+          },
+          {
+            "name": "(WW Main Cobweb) Carpenter's House",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 942, "y": 808, "size": 12}]
+          },
+          {
+            "name": "(WW Main Cobweb) Fred's House Basement",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 640, "y": 914, "size": 12}]
+          },
+          {
+            "name": "(WW Main Cobweb) Under the Guillotine",
+            "sections": [{"name": ""}],
+            "map_locations": [{"map": "WW", "x": 689, "y": 659, "size": 12}]
+          },
+          {
+            "name": "Small Arch",
+            "sections": [
+              {"name": "(WW Main) Small Arch Top", "ref": "WWMA/(WW Main) Small Arch Top/"},
+              {"name": "(WW Main Cobweb) Beneath Small Arch", "ref": "WWMACobweb/(WW Main Cobweb) Beneath Small Arch/"}
+            ],
+            "map_locations": [
+              {
+                "map": "WW",
+                "x": 308,
+                "y": 740,
+                "size": 20,
+                "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
               }
             ]
           }
