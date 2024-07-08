@@ -6,6 +6,26 @@
     "access_rules": ["cobweb_duster,mind_oly"],
     "children": [
       {
+        "name": "MCTCCobweb",
+        "chest_unopened_img": "images/icons/cobweb.png",
+        "chest_opened_img": "images/icons/cobweb_gray.png",
+        "access_rules": ["cobweb_duster"],
+        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "children": [
+          {
+            "name": "(MC Main Cobweb) Entrance Hall",
+            "sections": [
+              {
+                "name": "",
+                "item_count": 2,
+                "clear_as_group": false
+              }
+            ],
+            "map_locations": [{"map": "MC", "x": 455, "y": 1285, "size": 25}]
+          }
+        ]
+      },
+      {
         "name": "(MC Main) Crumbling Path",
         "sections": [{"name": ""}],
         "map_locations": [{"map": "MC", "x": 201, "y": 1299}]
@@ -68,6 +88,20 @@
                       "settings_enable_out_of_logic,[telekinesis],confusion"
                     ],
                     "children": [
+                      {
+                        "name": "MCTCToLCobweb",
+                        "chest_unopened_img": "images/icons/cobweb.png",
+                        "chest_opened_img": "images/icons/cobweb_gray.png",
+                        "access_rules": ["cobweb_duster"],
+                        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+                        "children": [
+                          {
+                            "name": "(MC Main Cobweb) Tunnel of Love Ollie Escort Exit",
+                            "sections": [{"name": ""}],
+                            "map_locations": [{"map": "MC", "x": 689, "y": 933, "size": 25}]
+                          }
+                        ]
+                      },
                       {
                         "name": "(MC Main) Tunnel of Love Start",
                         "sections": [{"name": ""}],
