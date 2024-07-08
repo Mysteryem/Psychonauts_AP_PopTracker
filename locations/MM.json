@@ -273,8 +273,8 @@
                       {
                         "name": "MMDM",
                         "access_rules": [
-                          "invisibility",
-                          "settings_enable_out_of_logic,[invisibility],marksmanship"
+                          "invisibility,telekinesis",
+                          "settings_enable_out_of_logic,[invisibility],telekinesis,marksmanship"
                         ],
                         "children": [
                           {
