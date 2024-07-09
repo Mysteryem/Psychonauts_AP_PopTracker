@@ -244,7 +244,7 @@
                       {
                         "name": "(MM Depository Cobweb) Book Depository",
                         "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 780, "y": 216}]
+                        "map_locations": [{"map": "MM", "x": 780, "y": 216, "size": 25}]
                       }
                     ]
                   },
