@@ -23,93 +23,107 @@ function hasUpperAsylumAccessItems()
     return has("straight_jacket") and has("gloria_trophy") and has("loboto_painting")
 end
 
+function hasRankLogic(name)
+    local logic_location = Tracker:FindObjectForCode("@Rank Logic/"..name)
+    return logic_location.AccessibilityLevel == AccessibilityLevel.Normal
+end
+
+function hasMostSashaMindAccess()
+    return has("mind_sasha") and has("marksmanship")
+end
+
+function hasMostMillaMindAccess()
+    return has("mind_milla") and has("levitation")
+end
+
+function hasMostBoydMindAccess()
+    return has()
+end
+
 function rank5to20()
     local checks = {
         has("sasha_button"),
         has("mind_coach"),
-        has("marksmanship") and has("mind_sasha"),
-        has("levitation") and has("mind_milla"),
+        hasRankLogic("mostSashaMindAccess"),
+        hasRankLogic("mostMillaMindAccess"),
         has("mind_linda"),
+        hasRankLogic("mostBoydMindAccess"),
+        hasRankLogic("halfGloriaMindAccess"),
         has("mind_fred"),
-        has("mind_edgar") and has("cobweb_duster")
-    }
-    return checksSum(checks) >= 3
-end
-
-function rank25to40()
-    local hasDuster = has("cobweb_duster")
-    local hasLevitation = has("levitation")
-    local hasTelekinesis = has("telekinesis")
-    local hasPyrokinesis = has("pyrokinesis")
-    local checks = {
-        has("sasha_button"),
-        hasLevitation and has("mind_milla"),
-        has("shield") and has("mind_linda"),
-        has("marksmanship") and has("mind_sasha"),
-        hasDuster and (has("mind_edgar") or has("mind_oly")),
-        has("clairvoyance") and has("boyd_stop_sign") and has("mind_boyd"),
-        hasLevitation and hasTelekinesis and has("oarsman_badge") and has("lungfish_call") and hasUpperAsylumAccessItems(),
-        hasDuster and hasPyrokinesis and has("mind_gloria") and has("gloria_candle") and has("invisibility") and has("gloria_megaphone"),
-        hasDuster and hasPyrokinesis and hasTelekinesis and has("mind_fred") and has("fred_letter") and has("fred_coin") and has ("fred_musket")
-    }
-    return checksSum(checks) >= 3
-end
-
-function rank45to60()
-    local hasDuster = has("cobweb_duster")
-    local hasLevitation = has("levitation")
-    local hasTelekinesis = has("telekinesis")
-    local hasPyrokinesis = has("pyrokinesis")
-    local checks = {
-        has("oarsman_badge") and has("squirrel_roast_dinner") and has("lili_bracelet"),
-        hasLevitation and has("mind_milla"),
-        has("shield") and has("mind_linda"),
-        has("marksmanship") and has("mind_sasha"),
-        hasDuster and (has("mind_edgar") or has("mind_oly")),
-        has("clairvoyance") and has("boyd_stop_sign") and has("mind_boyd"),
-        hasLevitation and hasTelekinesis and has("oarsman_badge") and has("lungfish_call") and hasUpperAsylumAccessItems(),
-        hasDuster and hasPyrokinesis and has("mind_gloria") and has("gloria_candle") and has("invisibility") and has("gloria_megaphone"),
-        hasDuster and hasPyrokinesis and hasTelekinesis and has("mind_fred") and has("fred_letter") and has("fred_coin") and has ("fred_musket")
+        has("mind_edgar"),
     }
     return checksSum(checks) >= 4
 end
 
-function rank65to80()
-    local hasDuster = has("cobweb_duster")
-    local hasLevitation = has("levitation")
-    local hasTelekinesis = has("telekinesis")
-    local hasPyrokinesis = has("pyrokinesis")
+function rank25to40()
     local checks = {
-        has("oarsman_badge") and has("squirrel_roast_dinner") and has("lili_bracelet"),
-        hasLevitation and has("mind_milla"),
-        has("shield") and has("mind_linda"),
-        has("marksmanship") and has("mind_sasha"),
-        hasDuster and has("mind_edgar") and has("mind_oly"), -- `and` now instead of `or`
-        has("clairvoyance") and has("boyd_stop_sign") and has("mind_boyd"),
-        hasLevitation and hasTelekinesis and has("oarsman_badge") and has("lungfish_call") and hasUpperAsylumAccessItems(),
-        hasDuster and hasPyrokinesis and has("mind_gloria") and has("gloria_candle") and has("invisibility") and has("gloria_megaphone"),
-        hasDuster and hasPyrokinesis and hasTelekinesis and has("mind_fred") and has("fred_letter") and has("fred_coin") and has ("fred_musket")
+        has("sasha_button") and hasRankLogic("oneExtraCampAccess"),
+        has("mind_coach"),
+        hasRankLogic("mostSashaMindAccess"),
+        hasRankLogic("mostMillaMindAccess"),
+        hasRankLogic("mostLindaMindAccess"),
+        hasRankLogic("mostBoydMindAccess"),
+        hasRankLogic("halfGloriaMindAccess"),
+        hasRankLogic("mostFredMindAccess"),
+        has("mind_edgar"),
+        hasRankLogic("halfOlyMindAccess"),
+    }
+    return checksSum(checks) >= 5
+end
+
+function rank45to60()
+    if not has("sasha_button") then
+        return false
+    end
+
+    local checks = {
+        hasRankLogic("allExtraCampAccess"),
+        has("mind_coach"),
+        hasRankLogic("mostSashaMindAccess"),
+        hasRankLogic("mostMillaMindAccess"),
+        hasRankLogic("mostLindaMindAccess"),
+        hasRankLogic("mostBoydMindAccess"),
+        hasRankLogic("mostGloriaMindAccess"),
+        hasRankLogic("mostFredMindAccess"),
+        has("mind_edgar"),
+        hasRankLogic("mostAsylumAccess"),
+        hasRankLogic("mostOlyMindAccess"),
     }
     return checksSum(checks) >= 6
 end
 
-function rank85to101()
-    local hasDuster = has("cobweb_duster")
-    local hasLevitation = has("levitation")
-    local hasTelekinesis = has("telekinesis")
-    local hasPyrokinesis = has("pyrokinesis")
+function rank65to80()
     local checks = {
-        has("oarsman_badge") and has("squirrel_roast_dinner") and has("lili_bracelet"),
-        hasLevitation and has("mind_milla"),
-        has("shield") and has("mind_linda"),
-        has("marksmanship") and has("mind_sasha"),
-        hasDuster and has("mind_edgar") and has("mind_oly"), -- `and` now instead of `or`
-        has("clairvoyance") and has("boyd_stop_sign") and has("mind_boyd"),
-        hasLevitation and hasTelekinesis and has("oarsman_badge") and has("lungfish_call") and hasUpperAsylumAccessItems(),
-        hasDuster and hasPyrokinesis and has("mind_gloria") and has("gloria_candle") and has("invisibility") and has("gloria_megaphone"),
-        hasDuster and hasPyrokinesis and hasTelekinesis and has("mind_fred") and has("fred_letter") and has("fred_coin") and has ("fred_musket")
+        hasRankLogic("allExtraCampAccess"),
+        has("mind_coach"),
+        hasRankLogic("mostSashaMindAccess"),
+        hasRankLogic("mostMillaMindAccess"),
+        hasRankLogic("mostLindaMindAccess"),
+        hasRankLogic("mostBoydMindAccess"),
+        hasRankLogic("mostGloriaMindAccess"),
+        hasRankLogic("mostFredMindAccess"),
+        hasRankLogic("mostEdgarMindAccess"),
+        hasRankLogic("mostAsylumAccess"),
+        hasRankLogic("mostOlyMindAccess"),
     }
     return checksSum(checks) >= 7
+end
+
+function rank85to101()
+    local checks = {
+        hasRankLogic("allExtraCampAccess"),
+        has("mind_coach"),
+        hasRankLogic("mostSashaMindAccess"),
+        hasRankLogic("mostMillaMindAccess"),
+        hasRankLogic("mostLindaMindAccess"),
+        hasRankLogic("mostBoydMindAccess"),
+        hasRankLogic("mostGloriaMindAccess"),
+        hasRankLogic("mostFredMindAccess"),
+        hasRankLogic("mostEdgarMindAccess"),
+        hasRankLogic("mostAsylumAccess"),
+        hasRankLogic("mostOlyMindAccess"),
+    }
+    return checksSum(checks) >= 8
 end
 
 function brainhunt_goal()

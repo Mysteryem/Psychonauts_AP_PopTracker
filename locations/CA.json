@@ -56,82 +56,82 @@
               {"name": "(Rank) PSI Rank 20"}
             ],
             "map_locations": [{"map": "CA", "x": 171, "y": 406}]
-          }
-        ]
-      },
-      {
-        "name": "RANK25to40",
-        "access_rules": [
-          "$rank25to40",
-          "settings_enable_out_of_logic,[$rank25to40]"
-        ],
-        "children": [
+          },
           {
-            "name": "Ranks 25 to 40",
-            "sections": [
-              {"name": "(Rank) PSI Rank 25"},
-              {"name": "(Rank) PSI Rank 30"},
-              {"name": "(Rank) PSI Rank 35"},
-              {"name": "(Rank) PSI Rank 40"}
+            "name": "RANK25to40",
+            "access_rules": [
+              "$rank25to40",
+              "settings_enable_out_of_logic,[$rank25to40]"
             ],
-            "map_locations": [{"map": "CA", "x": 217, "y": 406}]
-          }
-        ]
-      },
-      {
-        "name": "RANK45to60",
-        "access_rules": [
-          "$rank45to60",
-          "settings_enable_out_of_logic,[$rank45to60]"
-        ],
-        "children": [
-          {
-            "name": "Ranks 45 to 60",
-            "sections": [
-              {"name": "(Rank) PSI Rank 45"},
-              {"name": "(Rank) PSI Rank 50"},
-              {"name": "(Rank) PSI Rank 55"},
-              {"name": "(Rank) PSI Rank 60"}
-            ],
-            "map_locations": [{"map": "CA", "x": 263, "y": 406}]
-          }
-        ]
-      },
-      {
-        "name": "RANK65to80",
-        "access_rules": [
-          "$rank65to80",
-          "settings_enable_out_of_logic,[$rank65to80]"
-        ],
-        "children": [
-          {
-            "name": "Ranks 65 to 80",
-            "sections": [
-              {"name": "(Rank) PSI Rank 65"},
-              {"name": "(Rank) PSI Rank 70"},
-              {"name": "(Rank) PSI Rank 75"},
-              {"name": "(Rank) PSI Rank 80"}
-            ],
-            "map_locations": [{"map": "CA", "x": 309, "y": 406}]
-          }
-        ]
-      },
-      {
-        "name": "RANK85to101",
-        "access_rules": [
-          "$rank85to101",
-          "settings_enable_out_of_logic,[$rank85to101]"
-        ],
-        "children": [
-          {
-            "name": "Ranks 85 to 101",
-            "sections": [
-              {"name": "(Rank) PSI Rank 85"},
-              {"name": "(Rank) PSI Rank 90"},
-              {"name": "(Rank) PSI Rank 95"},
-              {"name": "(Rank) PSI Rank 101"}
-            ],
-            "map_locations": [{"map": "CA", "x": 355, "y": 406}]
+            "children": [
+              {
+                "name": "Ranks 25 to 40",
+                "sections": [
+                  {"name": "(Rank) PSI Rank 25"},
+                  {"name": "(Rank) PSI Rank 30"},
+                  {"name": "(Rank) PSI Rank 35"},
+                  {"name": "(Rank) PSI Rank 40"}
+                ],
+                "map_locations": [{"map": "CA", "x": 217, "y": 406}]
+              },
+              {
+                "name": "RANK45to60",
+                "access_rules": [
+                  "$rank45to60",
+                  "settings_enable_out_of_logic,[$rank45to60]"
+                ],
+                "children": [
+                  {
+                    "name": "Ranks 45 to 60",
+                    "sections": [
+                      {"name": "(Rank) PSI Rank 45"},
+                      {"name": "(Rank) PSI Rank 50"},
+                      {"name": "(Rank) PSI Rank 55"},
+                      {"name": "(Rank) PSI Rank 60"}
+                    ],
+                    "map_locations": [{"map": "CA", "x": 263, "y": 406}]
+                  },
+                  {
+                    "name": "RANK65to80",
+                    "access_rules": [
+                      "$rank65to80",
+                      "settings_enable_out_of_logic,[$rank65to80]"
+                    ],
+                    "children": [
+                      {
+                        "name": "Ranks 65 to 80",
+                        "sections": [
+                          {"name": "(Rank) PSI Rank 65"},
+                          {"name": "(Rank) PSI Rank 70"},
+                          {"name": "(Rank) PSI Rank 75"},
+                          {"name": "(Rank) PSI Rank 80"}
+                        ],
+                        "map_locations": [{"map": "CA", "x": 309, "y": 406}]
+                      },
+                      {
+                        "name": "RANK85to101",
+                        "access_rules": [
+                          "$rank85to101",
+                          "settings_enable_out_of_logic,[$rank85to101]"
+                        ],
+                        "children": [
+                          {
+                            "name": "Ranks 85 to 101",
+                            "sections": [
+                              {"name": "(Rank) PSI Rank 85"},
+                              {"name": "(Rank) PSI Rank 90"},
+                              {"name": "(Rank) PSI Rank 95"},
+                              {"name": "(Rank) PSI Rank 101"}
+                            ],
+                            "map_locations": [{"map": "CA", "x": 355, "y": 406}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },

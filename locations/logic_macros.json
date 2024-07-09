@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Rank Logic",
+    "children": [
+      {
+        "name": "mostSashaMindAccess",
+        "access_rules": ["mind_sasha, marksmanship"]
+      },
+      {
+        "name": "mostMillaMindAccess",
+        "access_rules": ["mind_milla, levitation"]
+      },
+      {
+        "name": "mostLindaMindAccess",
+        "access_rules": ["mind_linda, shield"]
+      },
+      {
+        "name": "mostBoydMindAccess",
+        "access_rules": ["mind_boyd, clairvoyance, boyd_stop_sign"]
+      },
+      {
+        "name": "halfGloriaMindAccess",
+        "access_rules": ["mind_gloria, cobweb_duster, invisibility"]
+      },
+      {
+        "name": "mostGloriaMindAccess",
+        "access_rules": [
+          [
+            "mind_gloria",
+            "cobweb_duster",
+            "gloria_candle",
+            "pyrokinesis",
+            "levitation",
+            "invisibility",
+            "gloria_megaphone"
+          ]
+        ]
+      },
+      {
+        "name": "mostFredMindAccess",
+        "access_rules": ["mind_fred, cobweb_duster"]
+      },
+      {
+        "name": "mostEdgarMindAccess",
+        "access_rules": ["mind_edgar, cobweb_duster"]
+      },
+      {
+        "name": "halfOlyMindAccess",
+        "access_rules": ["mind_oly, cobweb_duster"]
+      },
+      {
+        "name": "mostOlyMindAccess",
+        "access_rules": ["mind_oly, cobweb_duster, levitation, telekinesis"]
+      },
+      {
+        "name": "oneExtraCampAccess",
+        "access_rules": [
+          "oarsman_badge",
+          "squirrel_roast_dinner",
+          "lili_bracelet"
+        ]
+      },
+      {
+        "name": "allExtraCampAccess",
+        "access_rules": ["oarsman_badge, squirrel_roast_dinner, lili_bracelet"]
+      },
+      {
+        "name": "upperAsylumAccess",
+        "access_rules": ["loboto_painting, straight_jacket, gloria_trophy"]
+      },
+      {
+        "name": "mostAsylumAccess",
+        "access_rules": ["@Rank Logic/upperAsylumAccess, telekinesis, levitation, oarsman_badge, lungfish_call"]
+      }
+    ]
+  }
+]
