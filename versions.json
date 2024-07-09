@@ -1,6 +1,25 @@
 {
     "versions": [
         {
+            "package_version": "1.3.1",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.3.1.zip",
+            "sha256": "fce0bfdd878c0f813be357724765e034385a23c08c1b387eb248efeae21d8c72",
+            "changelog": [
+                "Supports Psychonauts AP World v0.7.0.",
+                "Adds automatic Map Tracking when connected to AP",
+                "Adds Deep Arrowhead Shuffle locations and setting (read when connecting to AP)",
+                "Adds Mental Cobweb Shuffle locations and setting (read when connecting to AP)",
+                "",
+                "The opened vault icon used for locations that have been cleared has been changed to grayscale",
+                "The background color of maps has been made slightly brighter",
+                "Fix Baggage Tag counts resetting to -1 instead of 0 when reloading the pack",
+                "",
+                "Updated Rank logic to match the v0.7.0 AP World",
+                "Updated (MM Depository) Milkman Complete logic to match the v0.7.0 AP World",
+                "Added out-of-logic (WW Main) Blacksmith's Right Building with levitation"
+            ]
+        },
+        {
             "package_version": "1.2.2",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.2.2.zip",
             "sha256": "0c3d0a8322195b9d8ef29f8acefd12f689c242c952b36917735e73a4c25548be",
