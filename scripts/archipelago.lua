@@ -211,16 +211,18 @@ function onClear(slot_data)
     -- slot_data value example:
     --[[
     {
-        ["LootboxVaults"] = 1,
-        ["StartingMentalMagnet"] = 1,
-        ["Goal"] = 0,
+        ["BrainsRequired"] = 16,
+        ["DeepArrowheadShuffle"] = 0,
         ["EasyFlightMode"] = 0,
-        ["RequireMeatCircus"] = 1,
-        ["StartingLevitation"] = 1,
-        ["EnemyDamageMultiplier"] = 1,
-        ["EasyMillaRace"] = 0,
-        ["BrainsRequired"] = 10,
+        ["EasyMillaRace"] = 1,
+        ["EnemyDamageMultiplier"] = 3,
+        ["Goal"] = 2,
         ["InstantDeathMode"] = 0,
+        ["LootboxVaults"] = 1,
+        ["MentalCobwebShuffle"] = 1,
+        ["RequireMeatCircus"] = 0,
+        ["StartingLevitation"] = 0,
+        ["StartingMentalMagnet"] = 1,
     }
     ]]--
 
