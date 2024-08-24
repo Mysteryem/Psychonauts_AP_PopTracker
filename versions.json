@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.3.2",
+            "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.3.2.zip",
+            "sha256": "7b1b62435b36d267d635904049528d988fca1768a1940e3a6164ffecf278ed88",
+            "changelog": [
+                "Fix autotracking of Brain Tumbler Mental Cobwebs clearing the wrong cobweb locations",
+                "Fix processing map changes from other slots in the multiworld",
+                "Fix the Deep Arrowhead Shuffle yaml option not being loaded correctly from AP"
+            ]
+        },
+        {
             "package_version": "1.3.1",
             "download_url": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/archive/refs/tags/v1.3.1.zip",
             "sha256": "fce0bfdd878c0f813be357724765e034385a23c08c1b387eb248efeae21d8c72",
