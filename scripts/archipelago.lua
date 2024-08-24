@@ -303,9 +303,9 @@ function onClear(slot_data)
 
     -- Shuffle/sanity options
     local deep_arrowhead_shuffle = slot_data["DeepArrowheadShuffle"]
-    if deepArrowheadShuffle ~= nil then
+    if deep_arrowhead_shuffle ~= nil then
         local deep_arrowhead_shuffle_toggle = Tracker:FindObjectForCode("setting_deep_arrowhead_shuffle")
-        deep_arrowhead_shuffle_toggle.Active = deepArrowheadShuffle == 1
+        deep_arrowhead_shuffle_toggle.Active = deep_arrowhead_shuffle == 1
     end
 
     local mental_cobweb_shuffle = slot_data["MentalCobwebShuffle"]
