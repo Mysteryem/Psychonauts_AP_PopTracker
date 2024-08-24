@@ -323,12 +323,6 @@ function onClear(slot_data)
     --print("slot data dump end")
 end
 
-function bulkUpdateFinished(duration)
-    print("Finished sleeping for " .. duration .. " seconds")
-    Tracker.BulkUpdate = false
-    forceLogicUpdate()
-end
-
 function onClearHandler(slot_data)
     -- Disable tracker updates.
     Tracker.BulkUpdate = true
@@ -336,11 +330,15 @@ function onClearHandler(slot_data)
     local ok, err = pcall(onClear, slot_data)
     -- Enable tracker updates again.
     if ok then
-        -- The 10ms sleep duration is entirely arbitrary, it may be better to increase it to account for slower
-        -- computers.
-        -- Sleep for 10ms before disabling `Tracker.BulkUpdate` to give some time for items and locations received from
-        -- AP be updated in the tracker and then re-enable tracker logic updates afterwards.
-        ScriptHost:RunScriptAsync("scripts/sleep.lua", 0.01, bulkUpdateFinished, nil)
+        -- Defer re-enabling tracker updates until the next frame, which doesn't happen until all items/locations
+        -- received/cleared from AP have been processed.
+        local handlerName = "AP onClearHandler"
+        local function frameCallback()
+            ScriptHost:RemoveOnFrameHandler(handlerName)
+            Tracker.BulkUpdate = false
+            forceLogicUpdate()
+        end
+        ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
     else
         Tracker.BulkUpdate = false
         print("Error: onClear failed:")
