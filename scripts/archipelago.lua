@@ -468,6 +468,13 @@ function onBounced(value)
         return
     end
 
+    local slots = value["slots"]
+    -- Lua does not support `slots ~= {Archipelago.PlayerNumber}`, so check the first and second values in the table.
+    if not slots or not (slots[1] == Archipelago.PlayerNumber and slots[2] == nil) then
+        -- All Bounced messages to be processed by this tracker are expected to target the player's slot specifically.
+        return
+    end
+
     local data = value["data"]
     if not data then
         return
