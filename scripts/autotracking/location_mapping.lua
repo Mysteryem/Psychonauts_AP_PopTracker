@@ -358,10 +358,10 @@ LOCATION_MAPPING = {
     [244] = "@NIBA/(BT Boss) Brain Tumbler Experiment Complete/",
 
     -- BT/NI Mental Cobwebs
-    [567] = "@NIMPCobweb/(BT Main Cobweb) Shadow Monster Meat/",
-    [568] = "@NIMPCobweb/(BT Main Cobweb) Forest High Platform/",
-    [569] = "@NIMPCobweb/(BT Main Cobweb) Forest Path Thorns/",
-    [570] = "@NIMPCobweb/(BT Main Cobweb) Bathtub Drain/",
+    [567] = "@NIMPCobweb/(BT Main Cobweb) Bathtub Drain/",
+    [568] = "@NIMPCobweb/(BT Main Cobweb) Forest Path Thorns/",
+    [569] = "@NIMPCobweb/(BT Main Cobweb) Forest High Platform/",
+    [570] = "@NIMPCobweb/(BT Main Cobweb) Shadow Monster Meat/",
     [571] = "@NIMPCobweb/(BT Main Cobweb) Thorn Tower Right/",
 
     -- LO
