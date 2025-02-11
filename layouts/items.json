@@ -81,8 +81,8 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["cobweb_duster", "dowsing_rod", "fred_letter", "fred_coin", "fred_musket", "gloria_megaphone", "gloria_candle"],
-          ["boyd_stop_sign", "boyd_flowers", "boyd_plunger", "boyd_hedge_trimmers", "boyd_rolling_pin", "birthday_cake"]
+          ["cobweb_duster", "dowsing_rod", "boyd_stop_sign", "boyd_flowers", "boyd_plunger", "boyd_hedge_trimmers", "boyd_rolling_pin"],
+          ["gloria_megaphone", "gloria_candle", "fred_letter", "fred_coin", "fred_musket", "birthday_cake"]
         ]
       }
     ]

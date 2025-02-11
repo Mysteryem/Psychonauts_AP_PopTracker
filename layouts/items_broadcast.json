@@ -18,7 +18,7 @@
           // Minds + Cobweb Duster
           ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_boyd", "mind_gloria", "mind_fred", "mind_edgar", "mind_oly", "cobweb_duster"],
           // Mind items
-          ["fred_letter", "fred_coin", "fred_musket", "gloria_megaphone", "gloria_candle", "boyd_stop_sign", "boyd_flowers", "boyd_plunger", "boyd_hedge_trimmers", "boyd_rolling_pin"]
+          ["boyd_stop_sign", "boyd_flowers", "boyd_plunger", "boyd_hedge_trimmers", "boyd_rolling_pin", "gloria_megaphone", "gloria_candle", "fred_letter", "fred_coin", "fred_musket"]
         ]
       }
     ]
