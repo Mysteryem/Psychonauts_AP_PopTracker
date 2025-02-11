@@ -447,18 +447,6 @@ function onLocation(ap_location_id, location_name)
         location.AvailableChestCount = location.AvailableChestCount - 1
         -- DEBUG
         print("onLocation: checked spot "..location_section_name)
-        -- Workaround for possible PopTracker bug: Force a logic update for locations with multiple referenced sections.
-        if DEEP_AH_SHUFFLE_FORCE_UPDATE_LOCATIONS[location_section_name] then
-            local deep_ah_setting = Tracker:FindObjectForCode("setting_deep_arrowhead_shuffle")
-            if deep_ah_setting.Active then
-                forceLogicUpdate()
-            end
-        elseif MENTAL_COBWEB_SHUFFLE_FORCE_UPDATE_LOCATIONS[location_section_name] then
-            local mental_cobweb_setting = Tracker:FindObjectForCode("setting_mental_cobweb_shuffle")
-            if mental_cobweb_setting.Active then
-                forceLogicUpdate()
-            end
-        end
     else
         print(string.format("onLocation: could not find object for code %s", location_section_name))
     end
