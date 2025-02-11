@@ -335,6 +335,9 @@
                               "birthday_cake,pyrokinesis,$brainhunt_goal",
                               "settings_enable_out_of_logic,birthday_cake,pyrokinesis,[$brainhunt_goal]"
                             ],
+                            "visibility_rules": [
+                              "setting_brain_tank_goal"
+                            ],
                             "children": [
                               {
                                 "name": "Goal - Asylum Brain Tank",
@@ -346,8 +349,7 @@
                                     "map": "AS",
                                     "x": 3004,
                                     "y": 596,
-                                    "size": 60,
-                                    "force_invisibility_rules": "$not_has|setting_brain_tank_goal"
+                                    "size": 60
                                   }
                                 ]
                               }
@@ -362,6 +364,270 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Asylum Grounds",
+    "map_locations": [
+      {
+        "map": "CA",
+        "x": 2522,
+        "y": 2242
+      }
+    ],
+    "sections": [
+      {
+        "name": "(AS Grounds) Rock Wall Bottom",
+        "ref": "ASGR/(AS Grounds) Rock Wall Bottom/"
+      },
+      {
+        "name": "(AS Grounds) Rock Wall Ladder",
+        "ref": "ASGR/(AS Grounds) Rock Wall Ladder/"
+      },
+      {
+        "name": "(AS Grounds) Outside Front Gate",
+        "ref": "ASGRLev/(AS Grounds) Outside Front Gate/"
+      },
+      {
+        "name": "(AS Grounds) Pillar Above Gate",
+        "ref": "ASGRLev/(AS Grounds) Pillar Above Gate/"
+      },
+      {
+        "name": "(AS Grounds) Fountain Top",
+        "ref": "ASGR/(AS Grounds) Fountain Top/"
+      },
+      {
+        "name": "(AS Grounds) Hedge Alcove",
+        "ref": "ASGR/(AS Grounds) Hedge Alcove/"
+      },
+      {
+        "name": "(AS Grounds) Asylum Doors Left",
+        "ref": "ASGR/(AS Grounds) Asylum Doors Left/"
+      },
+      {
+        "name": "(AS Grounds) Asylum Doors Right",
+        "ref": "ASGR/(AS Grounds) Asylum Doors Right/"
+      },
+      {
+        "name": "(AS Grounds) Corner Near Fence",
+        "ref": "ASGR/(AS Grounds) Corner Near Fence/"
+      },
+      {
+        "name": "(AS Grounds) Ledge Before Gloria",
+        "ref": "ASGR/(AS Grounds) Ledge Before Gloria/"
+      }
+    ]
+  },
+  {
+    "name": "Asylum Courtyard",
+    "map_locations": [
+      {
+        "map": "CA",
+        "x": 2522,
+        "y": 2196
+      }
+    ],
+    "sections": [
+      {
+        "name": "(AS Courtyard) Crow's Basket",
+        "ref": "ASCOInvis/(AS Courtyard) Crow's Basket/"
+      },
+      {
+        "name": "(AS Courtyard) Ledge Above Fred Right",
+        "ref": "ASCO/(AS Courtyard) Ledge Above Fred Right/"
+      },
+      {
+        "name": "(AS Courtyard) Ledge Above Fred Left",
+        "ref": "ASCO/(AS Courtyard) Ledge Above Fred Left/"
+      },
+      {
+        "name": "(AS Courtyard) Ledge Opposite Elevator",
+        "ref": "ASCO/(AS Courtyard) Ledge Opposite Elevator/"
+      },
+      {
+        "name": "(AS Courtyard) Edgar's Room",
+        "ref": "ASCO/(AS Courtyard) Edgar's Room/"
+      },
+      {
+        "name": "(AS Courtyard) Above Edgar",
+        "ref": "ASCOLev/(AS Courtyard) Above Edgar/"
+      },
+      {
+        "name": "(AS Courtyard) Above Elevator",
+        "ref": "ASCO/(AS Courtyard) Above Elevator/"
+      },
+      {
+        "name": "(AS Courtyard) Behind Elevator",
+        "ref": "ASCO/(AS Courtyard) Behind Elevator/"
+      },
+      {
+        "name": "(AS Courtyard) Junk Corner",
+        "ref": "ASCO/(AS Courtyard) Junk Corner/"
+      }
+    ]
+  },
+  {
+    "name": "Asylum Upper",
+    "map_locations": [
+      {
+        "map": "CA",
+        "x": 2522,
+        "y": 2150
+      }
+    ],
+    "sections": [
+      {
+        "name": "(AS Upper) Behind Mattress Wall",
+        "ref": "ASUP/(AS Upper) Behind Mattress Wall/"
+      },
+      {
+        "name": "(AS Upper) Checkered Bathroom",
+        "ref": "ASUP/(AS Upper) Checkered Bathroom/"
+      },
+      {
+        "name": "(AS Upper) Room Near Checkered Bathroom",
+        "ref": "ASUP/(AS Upper) Room Near Checkered Bathroom/"
+      },
+      {
+        "name": "(AS Upper) Elevator Shaft",
+        "ref": "ASUP/(AS Upper) Elevator Shaft/"
+      },
+      {
+        "name": "(AS Upper) Room Left of Pipe Slide",
+        "ref": "ASUP/(AS Upper) Room Left of Pipe Slide/"
+      },
+      {
+        "name": "(AS Upper) Floating in Hole",
+        "ref": "ASUP/(AS Upper) Floating in Hole/"
+      },
+      {
+        "name": "(AS Upper) Next to Hole",
+        "ref": "ASUP/(AS Upper) Next to Hole/"
+      },
+      {
+        "name": "(AS Upper) Crumbling Outer Wall Planks",
+        "ref": "ASUP/(AS Upper) Crumbling Outer Wall Planks/"
+      },
+      {
+        "name": "(AS Upper) Crumbling Outer Wall Pillar",
+        "ref": "ASUP/(AS Upper) Crumbling Outer Wall Pillar/"
+      },
+      {
+        "name": "(AS Upper) Crumbling Outer Wall Below Platform",
+        "ref": "ASUP/(AS Upper) Crumbling Outer Wall Below Platform/"
+      },
+      {
+        "name": "(AS Upper) Crumbling Outer Wall Platform",
+        "ref": "ASUPLev_optional/(AS Upper) Crumbling Outer Wall Platform/"
+      },
+      {
+        "name": "(AS Upper) Room Above Tilted Stairs",
+        "ref": "ASUPLev_optional/(AS Upper) Room Above Tilted Stairs/"
+      },
+      {
+        "name": "(AS Upper) Acid Room Floor",
+        "ref": "ASUPLev_optional/(AS Upper) Acid Room Floor/"
+      },
+      {
+        "name": "(AS Upper) Acid Room Window",
+        "ref": "ASUPLev_optional/(AS Upper) Acid Room Window/"
+      },
+      {
+        "name": "(AS Upper) Acid Room Table",
+        "ref": "ASUPLev_optional/(AS Upper) Acid Room Table/"
+      },
+      {
+        "name": "(AS Upper) Acid Room Overhang",
+        "ref": "ASUPLev_optional/(AS Upper) Acid Room Overhang/"
+      },
+      {
+        "name": "(AS Upper) Round Wood Platform",
+        "ref": "ASUPLev_optional/(AS Upper) Round Wood Platform/"
+      },
+      {
+        "name": "(AS Upper) Small Windows Ledge",
+        "ref": "ASUPLev_optional/(AS Upper) Small Windows Ledge/"
+      },
+      {
+        "name": "(AS Upper) Grate Climb Bottom",
+        "ref": "ASUPLev_optional/(AS Upper) Grate Climb Bottom/"
+      },
+      {
+        "name": "(AS Upper) Grate Climb Mid",
+        "ref": "ASUPLev_optional/(AS Upper) Grate Climb Mid/"
+      },
+      {
+        "name": "(AS Upper) Sink Platform Left",
+        "ref": "ASUPLev_optional/Sink Platform/(AS Upper) Sink Platform Left"
+      },
+      {
+        "name": "(AS Upper) Sink Platform Right",
+        "ref": "ASUPLev_optional/Sink Platform/(AS Upper) Sink Platform Right"
+      },
+      {
+        "name": "(AS Upper) Pipes Below Chair Door",
+        "ref": "ASUPLev/(AS Upper) Pipes Below Chair Door/"
+      },
+      {
+        "name": "(AS Upper) Room Opposite Chair Door",
+        "ref": "ASUPTele_optional/(AS Upper) Room Opposite Chair Door/"
+      },
+      {
+        "name": "(AS Upper) Pipe Slide Near Chair Door",
+        "ref": "ASUPTele/(AS Upper) Pipe Slide Near Chair Door/"
+      },
+      {
+        "name": "(AS Upper) Rafters Above Chair Door",
+        "ref": "ASUPTele/(AS Upper) Rafters Above Chair Door/"
+      }
+    ]
+  },
+  {
+    "name": "Asylum Lab",
+    "map_locations": [
+      {
+        "map": "CA",
+        "x": 2522,
+        "y": 2104
+      }
+    ],
+    "sections": [
+      {
+        "name": "(AS Lab) Lab Caged Crow Left",
+        "ref": "ASLB/(AS Lab) Lab Caged Crow Left/"
+      },
+      {
+        "name": "(AS Lab) Lab Caged Crow Right",
+        "ref": "ASLB/(AS Lab) Lab Caged Crow Right/"
+      },
+      {
+        "name": "(AS Lab) Next to Pokeylope",
+        "ref": "ASLB/(AS Lab) Next to Pokeylope/"
+      },
+      {
+        "name": "(AS Lab) Lab Top Railing Left 1",
+        "ref": "ASLB/(AS Lab) Lab Top Railing Left 1/"
+      },
+      {
+        "name": "(AS Lab) Lab Top Railing Left 2",
+        "ref": "ASLB/(AS Lab) Lab Top Railing Left 2/"
+      },
+      {
+        "name": "(AS Lab) Lab Top Elevator",
+        "ref": "ASLB/(AS Lab) Lab Top Elevator/"
+      },
+      {
+        "name": "(AS Lab) Lab Top Railing Right",
+        "ref": "ASLB/(AS Lab) Lab Top Railing Right/"
+      },
+      {
+        "name": "(AS Lab) Tea Room",
+        "ref": "ASLB/(AS Lab) Tea Room/"
+      },
+      {
+        "name": "(AS Lab) Oleander Boss Defeated (no item)",
+        "ref": "ASLBBoss/Goal - Asylum Brain Tank/(AS Lab) Oleander Boss Defeated (no item)"
       }
     ]
   }
