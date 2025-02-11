@@ -128,6 +128,9 @@
                           "telekinesis,@CAJABrains/Goal - Brain Hunt,$not_has|setting_brain_tank_goal",
                           "telekinesis,@CAJABrains/Goal - Brain Hunt,setting_brain_tank_goal,@ASLBBoss/Goal - Asylum Brain Tank"
                         ],
+                        "visibility_rules": [
+                          "setting_require_meat_circus"
+                        ],
                         "children": [
                           {
                             "name": "Goal - Meat Circus Bosses",
@@ -139,8 +142,7 @@
                                 "map": "MC",
                                 "x": 1943,
                                 "y": 1309,
-                                "size": 60,
-                                "force_invisibility_rules": "$not_has|setting_require_meat_circus"
+                                "size": 60
                               }
                             ]
                           }

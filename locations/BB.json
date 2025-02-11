@@ -97,7 +97,6 @@
             "sections": [{"name": ""}],
             "map_locations": [
               {"map": "BB", "x": 1951, "y": 1314, "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]},
-              {"map": "CA", "x": 2383, "y": 70}
             ]
           },
           {

@@ -1,0 +1,1067 @@
+[
+  {
+    "name": "Collective Unconscious",
+    "children": [
+      {
+        "name": "Basic Braining",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2383,
+            "y": 70
+          }
+        ],
+        "sections": [
+          {
+            "name": "(BB Area 1) Jumping Tutorial 1",
+            "ref": "BBA1/(BB Area 1) Jumping Tutorial 1/"
+          },
+          {
+            "name": "(BB Area 1) Jumping Tutorial 2",
+            "ref": "BBA1/(BB Area 1) Jumping Tutorial 2/"
+          },
+          {
+            "name": "(BB Area 1) Pole-Climbing Tutorial Floor",
+            "ref": "BBA1/(BB Area 1) Pole-Climbing Tutorial Floor/"
+          },
+          {
+            "name": "(BB Area 1) Below the Triple Trampolines",
+            "ref": "BBA1/(BB Area 1) Below the Triple Trampolines/"
+          },
+          {
+            "name": "(BB Area 2) Giant Soldier Cut-Out",
+            "ref": "BBA2/(BB Area 2) Giant Soldier Cut-Out/"
+          },
+          {
+            "name": "(BB Area 2) Dodging Bullets 1",
+            "ref": "BBA2/(BB Area 2) Dodging Bullets 1/"
+          },
+          {
+            "name": "(BB Area 2) Dodging Bullets 2",
+            "ref": "BBA2/(BB Area 2) Dodging Bullets 2/"
+          },
+          {
+            "name": "(BB Area 2) Machine Gun Turret",
+            "ref": "BBA2/(BB Area 2) Machine Gun Turret/"
+          },
+          {
+            "name": "(BB Area 2) Pole-Swinging Tutorial",
+            "ref": "BBA2/(BB Area 2) Pole-Swinging Tutorial/"
+          },
+          {
+            "name": "(BB Area 2 Cobweb) Tightrope Tutorial",
+            "ref": "BBA2Cobweb/(BB Area 2 Cobweb) Tightrope Tutorial/"
+          },
+          {
+            "name": "(BB Area 2) Trapeze Cobweb",
+            "ref": "BBA2Duster/(BB Area 2) Trapeze Cobweb/"
+          },
+          {
+            "name": "(BB Area 2 Cobweb) Trapeze Cobweb",
+            "ref": "BBA2Cobweb/(BB Area 2 Cobweb) Trapeze Cobweb/"
+          },
+          {
+            "name": "(BB Area 2) Trapeze Platform",
+            "ref": "BBA2/(BB Area 2) Trapeze Platform/"
+          },
+          {
+            "name": "(BB Area 2) Inside Plane Wreckage",
+            "ref": "BBA2/(BB Area 2) Inside Plane Wreckage/"
+          },
+          {
+            "name": "(BB Area 2 Cobweb) Grindrail Wall",
+            "ref": "BBA2Cobweb/(BB Area 2 Cobweb) Grindrail Wall/"
+          },
+          {
+            "name": "(BB Finale Cobweb) Tunnel of Logs End",
+            "ref": "BBA2Cobweb/(BB Finale Cobweb) Tunnel of Logs End/"
+          },
+          {
+            "name": "(BB Finale) End of Obstacle Course Left",
+            "ref": "BBA2/End of Obstacle Course/(BB Finale) End of Obstacle Course Left"
+          },
+          {
+            "name": "(BB Finale) End of Obstacle Course Right",
+            "ref": "BBA2/End of Obstacle Course/(BB Finale) End of Obstacle Course Right"
+          },
+          {
+            "name": "(BB Finale Cobweb) Bunny Room Door",
+            "ref": "BBA2Cobweb/(BB Finale Cobweb) Bunny Room Door/"
+          },
+          {
+            "name": "(BB Finale) Basic Braining Complete",
+            "ref": "BBA2/(BB Finale) Basic Braining Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Sasha's Shooting Gallery",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2269,
+            "y": 159
+          }
+        ],
+        "sections": [
+          {
+            "name": "(SA Main) On the Bed",
+            "ref": "SACU/(SA Main) On the Bed/"
+          },
+          {
+            "name": "(SA Main) On the Pillow",
+            "ref": "SACU/(SA Main) On the Pillow/"
+          },
+          {
+            "name": "(SA Main) Building Blocks Left",
+            "ref": "SACU/Building Blocks Left/(SA Main) Building Blocks Left"
+          },
+          {
+            "name": "(SA Main) Building Blocks Below",
+            "ref": "SACU/Building Blocks Left/(SA Main) Building Blocks Below"
+          },
+          {
+            "name": "(SA Main Cobweb) Block Arch Left",
+            "ref": "SACUCobweb/(SA Main Cobweb) Block Arch Left/"
+          },
+          {
+            "name": "(SA Main) Building Blocks Right",
+            "ref": "SACU/(SA Main) Building Blocks Right/"
+          },
+          {
+            "name": "(SA Main Cobweb) Block Arch Right",
+            "ref": "SACUCobweb/(SA Main Cobweb) Block Arch Right/"
+          },
+          {
+            "name": "(SA Main) Top of Bed Frame",
+            "ref": "SACU/(SA Main) Top of Bed Frame/"
+          },
+          {
+            "name": "(SA Main) Round Platforms Bottom",
+            "ref": "SACU/(SA Main) Round Platforms Bottom/"
+          },
+          {
+            "name": "(SA Main) Round Platforms Near Valve",
+            "ref": "SACU/(SA Main) Round Platforms Near Valve/"
+          },
+          {
+            "name": "(SA Main) Round Platforms Far from Valve",
+            "ref": "SACULev/(SA Main) Round Platforms Far from Valve/"
+          },
+          {
+            "name": "(SA Main) Side of Cube Face 3",
+            "ref": "SACU/(SA Main) Side of Cube Face 3/"
+          },
+          {
+            "name": "(SA Main) Bottom of Shoebox Ladder",
+            "ref": "SACU/(SA Main) Bottom of Shoebox Ladder/"
+          },
+          {
+            "name": "(SA Main Cobweb) Back of Shoebox Tower",
+            "ref": "SACUCobweb/(SA Main Cobweb) Back of Shoebox Tower/"
+          },
+          {
+            "name": "(SA Main) Shoebox Pedestal",
+            "ref": "SACU/(SA Main) Shoebox Pedestal/"
+          },
+          {
+            "name": "(SA Main) Shoebox Tower Top",
+            "ref": "SACU/(SA Main) Shoebox Tower Top/"
+          },
+          {
+            "name": "(SA Main Cobweb) Shoebox Tower",
+            "ref": "SACUCobweb/(SA Main Cobweb) Shoebox Tower/"
+          },
+          {
+            "name": "(SA Main) Flame Tower Steps",
+            "ref": "SACU/(SA Main) Flame Tower Steps/"
+          },
+          {
+            "name": "(SA Main Cobweb) Flame Tower Arch",
+            "ref": "SACUCobweb/(SA Main Cobweb) Flame Tower Arch/"
+          },
+          {
+            "name": "(SA Main) Flame Tower Top 1",
+            "ref": "SACU/(SA Main) Flame Tower Top 1/"
+          },
+          {
+            "name": "(SA Main) Flame Tower Top 2",
+            "ref": "SACU/(SA Main) Flame Tower Top 2/"
+          },
+          {
+            "name": "(SA Main) Sasha's Shooting Gallery Complete",
+            "ref": "SACU/(SA Main) Sasha's Shooting Gallery Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Milla's Dance Party",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2598,
+            "y": 171
+          }
+        ],
+        "sections": [
+          {
+            "name": "(MI Area 1) Intro Rings Tutorial",
+            "ref": "MIFL/(MI Area 1) Intro Rings Tutorial/"
+          },
+          {
+            "name": "(MI Area 1 Cobweb) Intro Statue Corner",
+            "ref": "MIFLCobweb/(MI Area 1 Cobweb) Intro Statue Corner/"
+          },
+          {
+            "name": "(MI Area 1) Dancing Camper Platform 1",
+            "ref": "MIFL/(MI Area 1) Dancing Camper Platform 1/"
+          },
+          {
+            "name": "(MI Area 1) Demon Room",
+            "ref": "MIFL/(MI Area 1) Demon Room/"
+          },
+          {
+            "name": "(MI Area 1) Windy Ladder Bottom",
+            "ref": "MIFL/(MI Area 1) Windy Ladder Bottom/"
+          },
+          {
+            "name": "(MI Area 1) Pinball Plunger",
+            "ref": "MIFL/(MI Area 1) Pinball Plunger/"
+          },
+          {
+            "name": "(MI Area 1 Cobweb) Behind Pinball Ladder",
+            "ref": "MIFLCobweb/(MI Area 1 Cobweb) Behind Pinball Ladder/"
+          },
+          {
+            "name": "(MI Area 1) Plunger Party Ledge",
+            "ref": "MIFL/(MI Area 1) Plunger Party Ledge/"
+          },
+          {
+            "name": "(MI Area 1) Grindrail Rings",
+            "ref": "MIFL/(MI Area 1) Grindrail Rings/"
+          },
+          {
+            "name": "(MI Area 1 Cobweb) Grindrail Rings",
+            "ref": "MIFLCobweb/(MI Area 1 Cobweb) Grindrail Rings/"
+          },
+          {
+            "name": "(MI Area 1) Censor Hallway",
+            "ref": "MIFL/(MI Area 1) Censor Hallway/"
+          },
+          {
+            "name": "(MI Area 1) Pink Bowl Bottom",
+            "ref": "MIFL/(MI Area 1) Pink Bowl Bottom/"
+          },
+          {
+            "name": "(MI Area 1) Pink Bowl Small Platform",
+            "ref": "MIFL/(MI Area 1) Pink Bowl Small Platform/"
+          },
+          {
+            "name": "(MI Finale Cobweb) Fan Room Entrance",
+            "ref": "MIFLCobweb/(MI Finale Cobweb) Fan Room Entrance/"
+          },
+          {
+            "name": "(MI Finale) Bubbly Fan Bottom",
+            "ref": "MIFL/(MI Finale) Bubbly Fan Bottom/"
+          },
+          {
+            "name": "(MI Finale) Bubbly Fan Platform",
+            "ref": "MIFL/(MI Finale) Bubbly Fan Platform/"
+          },
+          {
+            "name": "(MI Finale) Bubbly Fan Top",
+            "ref": "MIFL/(MI Finale) Bubbly Fan Top/"
+          },
+          {
+            "name": "(MI Finale) Milla's Party Room",
+            "ref": "MIFL/(MI Finale) Milla's Party Room/"
+          },
+          {
+            "name": "(MI Finale Cobweb) Party Room Floor",
+            "ref": "MIFLCobweb/(MI Finale Cobweb) Party Room Floor/"
+          },
+          {
+            "name": "(MI Finale) Milla's Dance Party Complete",
+            "ref": "MIFL/(MI Finale) Milla's Dance Party Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Brain Tumbler Experiment",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2558,
+            "y": 91
+          }
+        ],
+        "sections": [
+          {
+            "name": "(BT Main) Outside Caravan",
+            "ref": "NIMP/(BT Main) Outside Caravan/"
+          },
+          {
+            "name": "(BT Main) Behind the Egg",
+            "ref": "NIMP/(BT Main) Behind the Egg/"
+          },
+          {
+            "name": "(BT Main) Shadow Monster Path",
+            "ref": "NIMP/(BT Main) Shadow Monster Path/"
+          },
+          {
+            "name": "(BT Main) Shadow Monster Blue Mushrooms",
+            "ref": "NIMPMark/(BT Main) Shadow Monster Blue Mushrooms/"
+          },
+          {
+            "name": "(BT Main Cobweb) Shadow Monster Meat",
+            "ref": "NIMPCobweb/(BT Main Cobweb) Shadow Monster Meat/"
+          },
+          {
+            "name": "(BT Main) Ledge Behind Shadow Monster",
+            "ref": "NIMPMark/(BT Main) Ledge Behind Shadow Monster/"
+          },
+          {
+            "name": "(BT Main) Below the Steep Ledge",
+            "ref": "NIMPMark/(BT Main) Below the Steep Ledge/"
+          },
+          {
+            "name": "(BT Main) Forest Path Blue Mushrooms",
+            "ref": "NIMPMark/(BT Main) Forest Path Blue Mushrooms/"
+          },
+          {
+            "name": "(BT Main) Forest Blue Ledge",
+            "ref": "NIMPMark/(BT Main) Forest Blue Ledge/"
+          },
+          {
+            "name": "(BT Main) Forest High Platform",
+            "ref": "NIMPMark/(BT Main) Forest High Platform/"
+          },
+          {
+            "name": "(BT Main Cobweb) Forest High Platform",
+            "ref": "NIMPCobweb/(BT Main Cobweb) Forest High Platform/"
+          },
+          {
+            "name": "(BT Main Cobweb) Forest Path Thorns",
+            "ref": "NIMPCobweb/(BT Main Cobweb) Forest Path Thorns/"
+          },
+          {
+            "name": "(BT Main) Forest Path Thorns",
+            "ref": "NIMPMark/(BT Main) Forest Path Thorns/"
+          },
+          {
+            "name": "(BT Main Cobweb) Bathtub Drain",
+            "ref": "NIMPCobweb/(BT Main Cobweb) Bathtub Drain/"
+          },
+          {
+            "name": "(BT Main Cobweb) Thorn Tower Right",
+            "ref": "NIMPCobweb/(BT Main Cobweb) Thorn Tower Right/"
+          },
+          {
+            "name": "(BT Main) Behind Thorn Tower Mid",
+            "ref": "NIMPMark/(BT Main) Behind Thorn Tower Mid/"
+          },
+          {
+            "name": "(BT Main) Behind Thorn Tower Right",
+            "ref": "NIMPMark/(BT Main) Behind Thorn Tower Right/"
+          },
+          {
+            "name": "(BT Main) Behind Thorn Tower Left",
+            "ref": "NIMPMark/(BT Main) Behind Thorn Tower Left/"
+          },
+          {
+            "name": "(BT Boss) Brain Tumbler Experiment Complete",
+            "ref": "NIBA/(BT Boss) Brain Tumbler Experiment Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Lungfishopolis",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2483,
+            "y": 69
+          }
+        ],
+        "sections": [
+          {
+            "name": "(LO Main) Skyscraper Start",
+            "ref": "LOMA/(LO Main) Skyscraper Start/"
+          },
+          {
+            "name": "(LO Main) Corner Near First Jail",
+            "ref": "LOMA/(LO Main) Corner Near First Jail/"
+          },
+          {
+            "name": "(LO Main) Skyscraper before Dam",
+            "ref": "LOMA/(LO Main) Skyscraper before Dam/"
+          },
+          {
+            "name": "(LO Main Cobweb) Skyscraper Before Dam",
+            "ref": "LOMACobweb/(LO Main Cobweb) Skyscraper Before Dam/"
+          },
+          {
+            "name": "(LO Main) Behind Lasers Left 1",
+            "ref": "LOMAShield/(LO Main) Behind Lasers Left 1/"
+          },
+          {
+            "name": "(LO Main) Behind Lasers Left 2",
+            "ref": "LOMAShield/(LO Main) Behind Lasers Left 2/"
+          },
+          {
+            "name": "(LO Main Cobweb) Behind Lasers",
+            "ref": "LOMAShieldCobweb/(LO Main Cobweb) Behind Lasers/"
+          },
+          {
+            "name": "(LO Main) Behind Lasers Right",
+            "ref": "LOMAShield/(LO Main) Behind Lasers Right/"
+          },
+          {
+            "name": "(LO Main) Blimp Hop",
+            "ref": "LOMAShield/(LO Main) Blimp Hop/"
+          },
+          {
+            "name": "(LO Main) End of Dam",
+            "ref": "LOMAShield/(LO Main) End of Dam/"
+          },
+          {
+            "name": "(LO Main) End of Dam Platform",
+            "ref": "LOMAShield/(LO Main) End of Dam Platform/"
+          },
+          {
+            "name": "(LO Main Cobweb) End of Dam",
+            "ref": "LOMAShieldCobweb/(LO Main Cobweb) End of Dam/"
+          },
+          {
+            "name": "(LO Main) Skyscraper after Dam",
+            "ref": "LOMAShield/(LO Main) Skyscraper after Dam/"
+          },
+          {
+            "name": "(LO Main) Near Battleships",
+            "ref": "LOMAShield/(LO Main) Near Battleships/"
+          },
+          {
+            "name": "(LO Main) On the Bridge",
+            "ref": "LOMAShield/(LO Main) On the Bridge/"
+          },
+          {
+            "name": "(LO Main) Ground after Bridge",
+            "ref": "LOMAShield/(LO Main) Ground after Bridge/"
+          },
+          {
+            "name": "(LO Main Cobweb) Ground after Bridge",
+            "ref": "LOMAShieldCobweb/(LO Main Cobweb) Ground after Bridge/"
+          },
+          {
+            "name": "(LO Main) Skyscraper after Bridge",
+            "ref": "LOMAShield/(LO Main) Skyscraper after Bridge/"
+          },
+          {
+            "name": "(LO Main Cobweb) Skyscrapers Before Tunnel",
+            "ref": "LOMAShieldCobweb/(LO Main Cobweb) Skyscrapers Before Tunnel/"
+          },
+          {
+            "name": "(LO Main) Train Tunnel",
+            "ref": "LOMAShield/(LO Main) Train Tunnel/"
+          },
+          {
+            "name": "(LO Main) Final Skyscrapers Left",
+            "ref": "LOMAShield/(LO Main) Final Skyscrapers Left/"
+          },
+          {
+            "name": "(LO Main) Final Skyscrapers Right",
+            "ref": "LOMAShield/(LO Main) Final Skyscrapers Right/"
+          },
+          {
+            "name": "(LO Boss) Kochamara Intro Left",
+            "ref": "LOMAShield/(LO Boss) Kochamara Intro Left/"
+          },
+          {
+            "name": "(LO Boss) Kochamara Intro Right",
+            "ref": "LOMAShield/(LO Boss) Kochamara Intro Right/"
+          },
+          {
+            "name": "(LO Boss) Lungfishopolis Complete",
+            "ref": "LOMAShield/(LO Boss) Lungfishopolis Complete/"
+          }
+        ]
+      },
+      {
+        "name": "The Milkman Conspiracy",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2528,
+            "y": 309
+          }
+        ],
+        "sections": [
+          {
+            "name": "(MM Neighborhood) Boyd's Fridge",
+            "ref": "MMI1/(MM Neighborhood) Boyd's Fridge/"
+          },
+          {
+            "name": "(MM Neighborhood) Inside First House",
+            "ref": "MMI1BeforeSign/(MM Neighborhood) Inside First House/"
+          },
+          {
+            "name": "(MM Neighborhood) Inside Second House",
+            "ref": "MMI1BeforeSign/(MM Neighborhood) Inside Second House/"
+          },
+          {
+            "name": "(MM Neighborhood) Car Trunk 1 (Stop Sign)",
+            "ref": "MMI1BeforeSign/(MM Neighborhood) Car Trunk 1 (Stop Sign)/"
+          },
+          {
+            "name": "(MM Neighborhood Cobweb) Third House",
+            "ref": "MMI1BeforeSignCobweb/(MM Neighborhood Cobweb) Third House/"
+          },
+          {
+            "name": "(MM Neighborhood) Roof after Road Crew",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Roof after Road Crew/"
+          },
+          {
+            "name": "(MM Neighborhood) Car Trunk 2",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Car Trunk 2/"
+          },
+          {
+            "name": "(MM Neighborhood) Car House Backyard",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Car House Backyard/"
+          },
+          {
+            "name": "(MM Neighborhood) Inside Webbed Garage",
+            "ref": "MMI1Duster_optional/(MM Neighborhood) Inside Webbed Garage/"
+          },
+          {
+            "name": "(MM Neighborhood Cobweb) Webbed Garage",
+            "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Webbed Garage/"
+          },
+          {
+            "name": "(MM Neighborhood) Graveyard Patio",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Graveyard Patio/"
+          },
+          {
+            "name": "(MM Neighborhood) Graveyard Behind Tree",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Graveyard Behind Tree/"
+          },
+          {
+            "name": "(MM Neighborhood) Behind Graveyard",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Behind Graveyard/"
+          },
+          {
+            "name": "(MM Neighborhood) Hedge Maze",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Hedge Maze/"
+          },
+          {
+            "name": "(MM Neighborhood Cobweb) Right House before Post Office",
+            "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Right House before Post Office/"
+          },
+          {
+            "name": "(MM Neighborhood) Car Trunk 3",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Car Trunk 3/"
+          },
+          {
+            "name": "(MM Neighborhood) Post Office Roof",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Post Office Roof/"
+          },
+          {
+            "name": "(MM Neighborhood) Post Office Lobby",
+            "ref": "MMI1AfterSign/(MM Neighborhood) Post Office Lobby/"
+          },
+          {
+            "name": "(MM Neighborhood Cobweb) Post Office Lobby",
+            "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Post Office Lobby/"
+          },
+          {
+            "name": "(MM Neighborhood) Post Office Basement",
+            "ref": "MMI1Duster/(MM Neighborhood) Post Office Basement/"
+          },
+          {
+            "name": "(MM Neighborhood) Landscapers House Backyard",
+            "ref": "MMI1HedgeTrimmers/Landscapers House/(MM Neighborhood) Landscapers House Backyard"
+          },
+          {
+            "name": "(MM Neighborhood) Landscapers House Table",
+            "ref": "MMI1HedgeTrimmers/Landscapers House/(MM Neighborhood) Landscapers House Table"
+          },
+          {
+            "name": "(MM Neighborhood) Landscapers House Kitchen",
+            "ref": "MMI1RollingPin/(MM Neighborhood) Landscapers House Kitchen/"
+          },
+          {
+            "name": "(MM Neighborhood) Powerline Island Sandbox",
+            "ref": "MMI1Powerlines/(MM Neighborhood) Powerline Island Sandbox/"
+          },
+          {
+            "name": "(MM Neighborhood) Powerline Island Left",
+            "ref": "MMI1Powerlines/(MM Neighborhood) Powerline Island Left/"
+          },
+          {
+            "name": "(MM Neighborhood) Powerline Island Right",
+            "ref": "MMI1Powerlines/(MM Neighborhood) Powerline Island Right/"
+          },
+          {
+            "name": "(MM Depository) Behind Book Depository",
+            "ref": "MMI2/(MM Depository) Behind Book Depository/"
+          },
+          {
+            "name": "(MM Depository Cobweb) Book Depository",
+            "ref": "MMI2Cobweb/(MM Depository Cobweb) Book Depository/"
+          },
+          {
+            "name": "(MM Depository) Milkman Complete",
+            "ref": "MMDM/(MM Depository) Milkman Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Gloria's Theater",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2306,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "name": "(TH Stage) Near the Critic",
+            "ref": "THMS/(TH Stage) Near the Critic/"
+          },
+          {
+            "name": "(TH Stage Cobweb) Below Teleporter",
+            "ref": "THMSCobweb/(TH Stage Cobweb) Below Teleporter/"
+          },
+          {
+            "name": "(TH Stage Cobweb) Below the Critic",
+            "ref": "THMSCobweb/(TH Stage Cobweb) Below the Critic/"
+          },
+          {
+            "name": "(TH Stage) Below the Spotlight",
+            "ref": "THMS/(TH Stage) Below the Spotlight/"
+          },
+          {
+            "name": "(TH Stage Cobweb) In the Audience",
+            "ref": "THMSLevCobweb/(TH Stage Cobweb) In the Audience/"
+          },
+          {
+            "name": "(TH Stage) In the Audience",
+            "ref": "THMSLev/(TH Stage) In the Audience/"
+          },
+          {
+            "name": "(TH Stage) Behind Stage",
+            "ref": "THMS/(TH Stage) Behind Stage/"
+          },
+          {
+            "name": "(TH Stage) Behind Stage Cobweb",
+            "ref": "THMSDuster_optional/(TH Stage) Behind Stage Cobweb/"
+          },
+          {
+            "name": "(TH Stage Cobweb) Behind Stage",
+            "ref": "THMSCobweb/(TH Stage Cobweb) Behind Stage/"
+          },
+          {
+            "name": "(TH Stage Cobweb) Backstage Corridor",
+            "ref": "THMSCobweb/(TH Stage Cobweb) Backstage Corridor/"
+          },
+          {
+            "name": "(TH Stage) Bonita's Room",
+            "ref": "THMSBonita/(TH Stage) Bonita's Room/"
+          },
+          {
+            "name": "(TH Stage) Storage Room Floor",
+            "ref": "THMSStorage/(TH Stage) Storage Room Floor/"
+          },
+          {
+            "name": "(TH Stage) Storage Room Left",
+            "ref": "THMSStorage/(TH Stage) Storage Room Left/"
+          },
+          {
+            "name": "(TH Stage Cobweb) Storage Room Left",
+            "ref": "THMSStorageCobweb/(TH Stage Cobweb) Storage Room Left/"
+          },
+          {
+            "name": "(TH Stage) Storage Room Right Lower",
+            "ref": "THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Lower"
+          },
+          {
+            "name": "(TH Stage) Storage Room Right Upper",
+            "ref": "THMSStorage/Storage Room Right/(TH Stage) Storage Room Right Upper"
+          },
+          {
+            "name": "(TH Stage Cobweb) Storage Room Right",
+            "ref": "THMSStorageCobweb/(TH Stage Cobweb) Storage Room Right/"
+          },
+          {
+            "name": "(TH Catwalks) Curtain Slide",
+            "ref": "THCW/(TH Catwalks) Curtain Slide/"
+          },
+          {
+            "name": "(TH Catwalks) Doghouse Slicers",
+            "ref": "THCW/(TH Catwalks) Doghouse Slicers/"
+          },
+          {
+            "name": "(TH Catwalks) Big Platform 1",
+            "ref": "THCW/(TH Catwalks) Big Platform 1/"
+          },
+          {
+            "name": "(TH Catwalks) Big Platform 2",
+            "ref": "THCW/(TH Catwalks) Big Platform 2/"
+          },
+          {
+            "name": "(TH Catwalks) Big Platform 3",
+            "ref": "THCW/Big Platform Corner/(TH Catwalks) Big Platform 3"
+          },
+          {
+            "name": "(TH Catwalks) Big Platform Above",
+            "ref": "THCW/Big Platform Corner/(TH Catwalks) Big Platform Above"
+          },
+          {
+            "name": "(TH Catwalks) Next to Oatmeal",
+            "ref": "THCW/(TH Catwalks) Next to Oatmeal/"
+          },
+          {
+            "name": "(TH Catwalks) Candle Basket",
+            "ref": "THCW/(TH Catwalks) Candle Basket/"
+          },
+          {
+            "name": "(TH Catwalks) Gloria's Theater Complete",
+            "ref": "THFB/(TH Catwalks) Gloria's Theater Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Waterloo World",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2600,
+            "y": 233
+          }
+        ],
+        "sections": [
+          {
+            "name": "(WW Main) Fred's Room",
+            "ref": "WWMA/(WW Main) Fred's Room/"
+          },
+          {
+            "name": "(WW Main) The Fireplace",
+            "ref": "WWMA/(WW Main) The Fireplace/"
+          },
+          {
+            "name": "(WW Main) Game Board",
+            "ref": "WWMA/(WW Main) Game Board/"
+          },
+          {
+            "name": "(WW Main) Help the Carpenter",
+            "ref": "WWMA/(WW Main) Help the Carpenter/"
+          },
+          {
+            "name": "(WW Main Cobweb) Carpenter's House",
+            "ref": "WWMACobweb/(WW Main Cobweb) Carpenter's House/"
+          },
+          {
+            "name": "(WW Main) Under the Guillotine",
+            "ref": "WWMADuster/(WW Main) Under the Guillotine/"
+          },
+          {
+            "name": "(WW Main Cobweb) Under the Guillotine",
+            "ref": "WWMACobweb/(WW Main Cobweb) Under the Guillotine/"
+          },
+          {
+            "name": "(WW Main) Fred's House Basement",
+            "ref": "WWMADuster/(WW Main) Fred's House Basement/"
+          },
+          {
+            "name": "(WW Main Cobweb) Fred's House Basement",
+            "ref": "WWMACobweb/(WW Main Cobweb) Fred's House Basement/"
+          },
+          {
+            "name": "(WW Main) Top of Knight's House",
+            "ref": "WWMALev/(WW Main) Top of Knight's House/"
+          },
+          {
+            "name": "(WW Main) Outside Villager 1 House",
+            "ref": "WWMA/(WW Main) Outside Villager 1 House/"
+          },
+          {
+            "name": "(WW Main) Tightrope Room",
+            "ref": "WWMACarpRoof/(WW Main) Tightrope Room/"
+          },
+          {
+            "name": "(WW Main) Carpenter's Roof",
+            "ref": "WWMACarpRoof/(WW Main) Carpenter's Roof/"
+          },
+          {
+            "name": "(WW Main) Top of Villager 2's House",
+            "ref": "WWMA/(WW Main) Top of Villager 2's House/"
+          },
+          {
+            "name": "(WW Main) Top of Villager 3's House",
+            "ref": "WWMALev/(WW Main) Top of Villager 3's House/"
+          },
+          {
+            "name": "(WW Main) Small Arch Top",
+            "ref": "WWMA/(WW Main) Small Arch Top/"
+          },
+          {
+            "name": "(WW Main) Small Arch Below",
+            "ref": "WWMA/(WW Main) Small Arch Below/"
+          },
+          {
+            "name": "(WW Main Cobweb) Beneath Small Arch",
+            "ref": "WWMACobweb/(WW Main Cobweb) Beneath Small Arch/"
+          },
+          {
+            "name": "(WW Main Cobweb) Blacksmith's Right Building Window",
+            "ref": "WWMACobweb/(WW Main Cobweb) Blacksmith's Right Building Window/"
+          },
+          {
+            "name": "(WW Main) Castle Inside",
+            "ref": "WWMA/(WW Main) Castle Inside/"
+          },
+          {
+            "name": "(WW Main) Castle Tower",
+            "ref": "WWMA/(WW Main) Castle Tower/"
+          },
+          {
+            "name": "(WW Main) Castle Wall",
+            "ref": "WWMA/(WW Main) Castle Wall/"
+          },
+          {
+            "name": "(WW Main Cobweb) Blacksmith's Left Building",
+            "ref": "WWMACobweb/(WW Main Cobweb) Blacksmith's Left Building/"
+          },
+          {
+            "name": "(WW Main) Blacksmith's Left Building",
+            "ref": "WWMABlacksmithLeft/(WW Main) Blacksmith's Left Building/"
+          },
+          {
+            "name": "(WW Main Cobweb) Blacksmith's Right Building Roof",
+            "ref": "WWMABlacksmithRightCobweb/(WW Main Cobweb) Blacksmith's Right Building Roof/"
+          },
+          {
+            "name": "(WW Main) Blacksmith's Right Building",
+            "ref": "WWMABlacksmithRight/(WW Main) Blacksmith's Right Building/"
+          },
+          {
+            "name": "(WW Main) Blacksmith's Haybale",
+            "ref": "WWMADusterLevPyro/(WW Main) Blacksmith's Haybale/"
+          },
+          {
+            "name": "(WW Main) Help the Knight",
+            "ref": "WWMAKnight/(WW Main) Help the Knight/"
+          },
+          {
+            "name": "(WW Main) Help Villager 1",
+            "ref": "WWMAV1/(WW Main) Help Villager 1/"
+          },
+          {
+            "name": "(WW Main) Help Villager 2",
+            "ref": "WWMAV2/(WW Main) Help Villager 2/"
+          },
+          {
+            "name": "(WW Main) Help Villager 3",
+            "ref": "WWMAV3/(WW Main) Help Villager 3/"
+          },
+          {
+            "name": "(WW Main) Waterloo World Complete",
+            "ref": "WWMADone/(WW Main) Waterloo World Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Black Velvetopia",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2281,
+            "y": 244
+          }
+        ],
+        "sections": [
+          {
+            "name": "(BV Streets) Club Street Lady",
+            "ref": "BVRB/(BV Streets) Club Street Lady/"
+          },
+          {
+            "name": "(BV Streets) Club Street Gated",
+            "ref": "BVRBTele/(BV Streets) Club Street Gated/"
+          },
+          {
+            "name": "(BV Streets) Club Street Metal Balcony",
+            "ref": "BVRBLev_optional/(BV Streets) Club Street Metal Balcony/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Above Queen of Hearts",
+            "ref": "BVRBCobweb/(BV Streets Cobweb) Above Queen of Hearts/"
+          },
+          {
+            "name": "(BV Streets) Heart Street HIGH Balcony",
+            "ref": "BVRBLev/(BV Streets) Heart Street HIGH Balcony/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Sewer Shower Tunnel",
+            "ref": "BVRBCobweb/(BV Streets Cobweb) Sewer Shower Tunnel/"
+          },
+          {
+            "name": "(BV Streets) Sewers Main",
+            "ref": "BVRB/(BV Streets) Sewers Main/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Sewer Before Gate",
+            "ref": "BVRBCobweb/(BV Streets Cobweb) Sewer Before Gate/"
+          },
+          {
+            "name": "(BV Streets) Burn the Logs",
+            "ref": "BVRBLogs/(BV Streets) Burn the Logs/"
+          },
+          {
+            "name": "(BV Streets) The Garden",
+            "ref": "BVRBTele/(BV Streets) The Garden/"
+          },
+          {
+            "name": "(BV Streets) Alleyways Ledge",
+            "ref": "BVRB/(BV Streets) Alleyways Ledge/"
+          },
+          {
+            "name": "(BV Streets) Near Diego's House",
+            "ref": "BVRB/(BV Streets) Near Diego's House/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Near Diego's House",
+            "ref": "BVRBCobweb/(BV Streets Cobweb) Near Diego's House/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Diego's House",
+            "ref": "BVRBCobweb/(BV Streets Cobweb) Diego's House/"
+          },
+          {
+            "name": "(BV Streets) Diego's Bed",
+            "ref": "BVRBDuster/(BV Streets) Diego's Bed/"
+          },
+          {
+            "name": "(BV Streets) Diego's Room",
+            "ref": "BVRBDuster/(BV Streets) Diego's Room/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Diego's House Fireplace",
+            "ref": "BVRBDusterCobweb/(BV Streets Cobweb) Diego's House Fireplace/"
+          },
+          {
+            "name": "(BV Streets) Diego's House Grindrail",
+            "ref": "BVRBDuster/(BV Streets) Diego's House Grindrail/"
+          },
+          {
+            "name": "(BV Streets Cobweb) Diego's House Grindrail",
+            "ref": "BVRBDusterCobweb/(BV Streets Cobweb) Diego's House Grindrail/"
+          },
+          {
+            "name": "(BV Streets) Grindrail Balcony",
+            "ref": "BVRBDuster/(BV Streets) Grindrail Balcony/"
+          },
+          {
+            "name": "(BV Edgar) Sanctuary Balcony",
+            "ref": "BVESLev/(BV Edgar) Sanctuary Balcony/"
+          },
+          {
+            "name": "(BV Edgar) Sanctuary Ground",
+            "ref": "BVES/(BV Edgar) Sanctuary Ground/"
+          },
+          {
+            "name": "(BV Edgar) Tiger Wrestler",
+            "ref": "BVES/(BV Edgar) Tiger Wrestler/"
+          },
+          {
+            "name": "(BV Edgar) Dragon Wrestler",
+            "ref": "BVES/(BV Edgar) Dragon Wrestler/"
+          },
+          {
+            "name": "(BV Edgar) Eagle Wrestler",
+            "ref": "BVES/(BV Edgar) Eagle Wrestler/"
+          },
+          {
+            "name": "(BV Edgar) Cobra Wrestler",
+            "ref": "BVESCobra/(BV Edgar) Cobra Wrestler/"
+          },
+          {
+            "name": "(BV Edgar) Black Velvetopia Complete",
+            "ref": "BVESBoss/(BV Edgar) Black Velvetopia Complete/"
+          }
+        ]
+      },
+      {
+        "name": "Meat Circus",
+        "map_locations": [
+          {
+            "map": "CA",
+            "x": 2332,
+            "y": 296
+          }
+        ],
+        "sections": [
+          {
+            "name": "(MC Main Cobweb) Entrance Hall",
+            "ref": "MCTCCobweb/(MC Main Cobweb) Entrance Hall/"
+          },
+          {
+            "name": "(MC Main) Crumbling Path",
+            "ref": "MCTC/(MC Main) Crumbling Path/"
+          },
+          {
+            "name": "(MC Main) Crumbling Path End Left",
+            "ref": "MCTC/(MC Main) Crumbling Path End Left/"
+          },
+          {
+            "name": "(MC Main) Crumbling Path End Right",
+            "ref": "MCTC/(MC Main) Crumbling Path End Right/"
+          },
+          {
+            "name": "(MC Main) Entrance Awning",
+            "ref": "MCTCLev/(MC Main) Entrance Awning/"
+          },
+          {
+            "name": "(MC Main) Ollie Escort Floor",
+            "ref": "MCTC/(MC Main) Ollie Escort Floor/"
+          },
+          {
+            "name": "(MC Main) Ollie Escort Middle",
+            "ref": "MCTCEscort/(MC Main) Ollie Escort Middle/"
+          },
+          {
+            "name": "(MC Main) Ollie Escort Top Left",
+            "ref": "MCTCEscortTop/Ollie Escort Top/(MC Main) Ollie Escort Top Left"
+          },
+          {
+            "name": "(MC Main) Ollie Escort Top Right",
+            "ref": "MCTCEscortTop/Ollie Escort Top/(MC Main) Ollie Escort Top Right"
+          },
+          {
+            "name": "(MC Main Cobweb) Tunnel of Love Ollie Escort Exit",
+            "ref": "MCTCToLCobweb/(MC Main Cobweb) Tunnel of Love Ollie Escort Exit/"
+          },
+          {
+            "name": "(MC Main) Tunnel of Love Corner",
+            "ref": "MCTCToL/(MC Main) Tunnel of Love Corner/"
+          },
+          {
+            "name": "(MC Main) Tunnel of Love Start",
+            "ref": "MCTCToL/(MC Main) Tunnel of Love Start/"
+          },
+          {
+            "name": "(MC Main) Tunnel of Love Rail",
+            "ref": "MCTCToL/(MC Main) Tunnel of Love Rail/"
+          },
+          {
+            "name": "(MC Main) Next to the Final Door",
+            "ref": "MCTCToL/(MC Main) Next to the Final Door/"
+          },
+          {
+            "name": "(MC Boss) Final Boss Defeated (no item)",
+            "ref": "MCTCBoss/Goal - Meat Circus Bosses/(MC Boss) Final Boss Defeated (no item)"
+          }
+        ]
+      }
+    ]
+  }
+]
