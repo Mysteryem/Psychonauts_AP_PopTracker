@@ -9,13 +9,16 @@
         "item_margin": "0, 0",
         "item_size": 4,
         "margin": "0,0",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "rows": [
-          ["marksmanship", "levitation", "pyrokinesis", "telekinesis", "shield", "invisibility", "clairvoyance", "confusion"],
-          ["sasha_button", "oarsman_badge", "lili_bracelet", "squirrel_roast_dinner", "lungfish_call", "gloria_trophy", "loboto_painting", "straight_jacket"],
-          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_boyd", "mind_gloria", "mind_fred", "mind_edgar"],
-          ["mind_oly", "camper_brain", "cobweb_duster", "fred_coin", "fred_letter", "fred_musket", "gloria_megaphone", "gloria_candle"],
-          ["boyd_hedge_trimmers", "boyd_rolling_pin", "boyd_plunger", "boyd_flowers", "boyd_stop_sign", "birthday_cake"]
+          // Powers + Brains
+          ["marksmanship", "levitation", "pyrokinesis", "telekinesis", "shield", "invisibility", "clairvoyance", "confusion", "camper_brain"],
+          // Real-world items + Dowsing Rod
+          ["sasha_button", "oarsman_badge", "lili_bracelet", "squirrel_roast_dinner", "lungfish_call", "gloria_trophy", "loboto_painting", "straight_jacket", "dowsing_rod", "birthday_cake"],
+          // Minds + Cobweb Duster
+          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_boyd", "mind_gloria", "mind_fred", "mind_edgar", "mind_oly", "cobweb_duster"],
+          // Mind items
+          ["fred_coin", "fred_letter", "fred_musket", "gloria_megaphone", "gloria_candle", "boyd_stop_sign", "boyd_flowers", "boyd_plunger", "boyd_hedge_trimmers", "boyd_rolling_pin"]
         ]
       }
     ]
