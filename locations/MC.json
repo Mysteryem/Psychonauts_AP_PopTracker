@@ -142,7 +142,8 @@
                                 "map": "MC",
                                 "x": 1943,
                                 "y": 1309,
-                                "size": 60
+                                "size": 60,
+                                "shape": "diamond"
                               }
                             ]
                           }
