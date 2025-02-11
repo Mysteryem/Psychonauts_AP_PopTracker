@@ -9,12 +9,6 @@
             "flags": [
                 "ap"
             ]
-        },
-        "variant_old": {
-            "display_name": "Map Tracker (temporary v0.5.0 AP World item autotracking support)",
-            "flags": [
-                "ap"
-            ]
         }
     },
     "min_poptracker_version": "0.30.1",
