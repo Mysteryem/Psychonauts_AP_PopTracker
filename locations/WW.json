@@ -164,7 +164,10 @@
           },
           {
             "name": "WWMADusterLev",
-            "access_rules": ["levitation"],
+            "access_rules": [
+              "levitation",
+              "settings_enable_out_of_logic,[levitation]"
+            ],
             "children": [
               {
                 "name": "WWMADusterLevPyro",
