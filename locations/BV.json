@@ -28,6 +28,7 @@
       {
         "name": "BVRBLev_optional",
         "access_rules": [
+          // Can also reach from the rear entrance of Diego's house, requiring Cobweb Duster
           "levitation",
           "settings_enable_out_of_logic,[levitation]"
         ],
