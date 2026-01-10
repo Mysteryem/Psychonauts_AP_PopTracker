@@ -320,6 +320,11 @@ function onClear(slot_data)
     local ranksanity_toggle = Tracker:FindObjectForCode("setting_ranksanity")
     ranksanity_toggle.Active = ranksanity == 1
 
+    local progressive_baggage_enabled = slot_data["ProgressiveBaggage"] or 0 -- 0 or 1
+    local progressive_baggage_count = slot_data["MaximumProgressiveBaggage"] or 0 -- [0, 10]
+    local progressive_baggage_setting = Tracker:FindObjectForCode("setting_progressive_baggage_count")
+    progressive_baggage_setting.AcquiredCount = progressive_baggage_enabled * progressive_baggage_count
+
     -- Other
     --slot_data["LootboxVaults"]
     -- Showing this is not yet implemented.

@@ -110,5 +110,12 @@
     "type": "toggle",
     "img": "images/items/misc/psi_challenge_marker.png",
     "codes": "setting_ranksanity"
+  },
+  {
+    "name": "Progressive Baggage Count",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "setting_progressive_baggage_count",
+    "max_quantity": 10
   }
 ]

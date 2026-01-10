@@ -509,7 +509,7 @@
     "max_quantity": 10
   },
   {
-    "name": "Steamer Trunk",
+    "name": "Steamertrunk",
     "type": "consumable",
     "img": "images/items/baggage/steamer_trunk.png",
     "codes": "steamer_trunk",

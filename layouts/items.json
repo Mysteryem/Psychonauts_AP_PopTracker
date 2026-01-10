@@ -302,7 +302,8 @@
       [
         "setting_deep_arrowhead_shuffle",
         "setting_mental_cobweb_shuffle",
-        "setting_ranksanity"
+        "setting_ranksanity",
+        "setting_progressive_baggage_count"
       ]
     ]
   }
