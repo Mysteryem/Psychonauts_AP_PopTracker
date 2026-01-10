@@ -80,18 +80,6 @@
     "initial_active_state": true
   },
   {
-    "name": "StartingLevitation",
-    "type": "toggle",
-    "img": "images/items/powers/levitation.png",
-    "codes": "setting_starting_levitation"
-  },
-  {
-    "name": "Internal StartingLevitation Counter",
-    "type": "toggle",
-    "img": "images/items/powers/levitation.png",
-    "codes": "_internal_setting_starting_levitation_counter"
-  },
-  {
     "name": "Deep Arrowhead Shuffle",
     "type": "toggle",
     "img": "images/items/misc/dowsing_rod.png",

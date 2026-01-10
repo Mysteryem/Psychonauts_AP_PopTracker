@@ -262,15 +262,6 @@ function onClear(slot_data)
         starting_mental_magnet_toggle.Active = starting_mental_magnet == 1
     end
 
-    local starting_levitation = slot_data["StartingLevitation"]
-    local starting_levitation_toggle = Tracker:FindObjectForCode("setting_starting_levitation")
-    -- Toggle off first to reset the internal StartingLevitation counter (_internal_setting_starting_levitation_counter)
-    -- because the current count of "levitation" will have been set to zero earlier in this function.
-    starting_levitation_toggle.Active = false
-    if starting_levitation ~= nil then
-        starting_levitation_toggle.Active = starting_levitation == 1
-    end
-
     -- Difficulty
     local easy_flight_mode = slot_data["EasyFlightMode"]
     if easy_flight_mode ~= nil then
