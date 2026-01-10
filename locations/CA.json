@@ -70,26 +70,116 @@
         ]
       },
       {
-        "name": "RANK5to20",
+        "name": "RANK2to20",
         "access_rules": [
-          "$rank5to20",
-          "settings_enable_out_of_logic, [$rank5to20]"
+          "$rank2to20",
+          "settings_enable_out_of_logic, [$rank2to20]"
         ],
         "children": [
           {
-            "name": "Ranks 5 to 20",
+            "name": "Ranks 2 to 20",
             "sections": [
               {
-                "name": "(Rank) PSI Rank 05"
+                "name": "(Rank Up) PSI Rank 02",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 10"
+                "name": "(Rank Up) PSI Rank 03",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 15"
+                "name": "(Rank Up) PSI Rank 04",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 20"
+                "name": "(Rank Up) PSI Rank 05"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 06",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 07",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 08",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 09",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 10"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 11",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 12",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 13",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 14",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 15"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 16",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 17",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 18",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 19",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 20"
               }
             ],
             "map_locations": [
@@ -103,26 +193,122 @@
         ]
       },
       {
-        "name": "RANK25to40",
+        "name": "RANK21to40",
         "access_rules": [
-          "@CA/RANK5to20, $rank25to40",
-          "settings_enable_out_of_logic, @CA/RANK5to20, [$rank25to40]"
+          "@CA/RANK2to20, $rank21to40",
+          "settings_enable_out_of_logic, @CA/RANK2to20, [$rank21to40]"
         ],
         "children": [
           {
-            "name": "Ranks 25 to 40",
+            "name": "Ranks 21 to 40",
             "sections": [
               {
-                "name": "(Rank) PSI Rank 25"
+                "name": "(Rank Up) PSI Rank 21",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 30"
+                "name": "(Rank Up) PSI Rank 22",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 35"
+                "name": "(Rank Up) PSI Rank 23",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 40"
+                "name": "(Rank Up) PSI Rank 24",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 25"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 26",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 27",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 28",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 29",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 30"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 31",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 32",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 33",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 34",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 35"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 36",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 37",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 38",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 39",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 40"
               }
             ],
             "map_locations": [
@@ -136,26 +322,122 @@
         ]
       },
       {
-        "name": "RANK45to60",
+        "name": "RANK41to60",
         "access_rules": [
-          "@CA/RANK25to40, $rank45to60",
-          "settings_enable_out_of_logic, @CA/RANK25to40, [$rank45to60]"
+          "@CA/RANK21to40, $rank41to60",
+          "settings_enable_out_of_logic, @CA/RANK21to40, [$rank41to60]"
         ],
         "children": [
           {
-            "name": "Ranks 45 to 60",
+            "name": "Ranks 41 to 60",
             "sections": [
               {
-                "name": "(Rank) PSI Rank 45"
+                "name": "(Rank Up) PSI Rank 41",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 50"
+                "name": "(Rank Up) PSI Rank 42",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 55"
+                "name": "(Rank Up) PSI Rank 43",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 60"
+                "name": "(Rank Up) PSI Rank 44",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 45"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 46",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 47",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 48",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 49",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 50"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 51",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 52",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 53",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 54",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 55"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 56",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 57",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 58",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 59",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 60"
               }
             ],
             "map_locations": [
@@ -169,26 +451,122 @@
         ]
       },
       {
-        "name": "RANK65to80",
+        "name": "RANK61to80",
         "access_rules": [
-          "@CA/RANK45to60, $rank65to80",
-          "settings_enable_out_of_logic, @CA/RANK45to60, [$rank65to80]"
+          "@CA/RANK41to60, $rank61to80",
+          "settings_enable_out_of_logic, @CA/RANK41to60, [$rank61to80]"
         ],
         "children": [
           {
-            "name": "Ranks 65 to 80",
+            "name": "Ranks 61 to 80",
             "sections": [
               {
-                "name": "(Rank) PSI Rank 65"
+                "name": "(Rank Up) PSI Rank 61",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 70"
+                "name": "(Rank Up) PSI Rank 62",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 75"
+                "name": "(Rank Up) PSI Rank 63",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 80"
+                "name": "(Rank Up) PSI Rank 64",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 65"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 66",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 67",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 68",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 69",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 70"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 71",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 72",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 73",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 74",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 75"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 76",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 77",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 78",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 79",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 80"
               }
             ],
             "map_locations": [
@@ -202,26 +580,128 @@
         ]
       },
       {
-        "name": "RANK85to101",
+        "name": "RANK81to101",
         "access_rules": [
-          "@CA/RANK65to80, $rank85to101",
-          "settings_enable_out_of_logic, @CA/RANK65to80, [$rank85to101]"
+          "@CA/RANK61to80, $rank81to101",
+          "settings_enable_out_of_logic, @CA/RANK61to80, [$rank81to101]"
         ],
         "children": [
           {
             "name": "Ranks 85 to 101",
             "sections": [
               {
-                "name": "(Rank) PSI Rank 85"
+                "name": "(Rank Up) PSI Rank 81",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 90"
+                "name": "(Rank Up) PSI Rank 82",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 95"
+                "name": "(Rank Up) PSI Rank 83",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               },
               {
-                "name": "(Rank) PSI Rank 101"
+                "name": "(Rank Up) PSI Rank 84",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 85"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 86",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 87",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 88",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 89",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 90"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 91",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 92",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 93",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 94",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 95"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 96",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 97",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 98",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 99",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
+              },
+              {
+                "name": "(Rank Up) PSI Rank 100"
+              },
+              {
+                "name": "(Rank Up) PSI Rank 101",
+                "visibility_rules": [
+                  "setting_ranksanity"
+                ]
               }
             ],
             "map_locations": [

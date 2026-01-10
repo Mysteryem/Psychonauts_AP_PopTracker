@@ -175,7 +175,7 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["setting_deep_arrowhead_shuffle", "setting_mental_cobweb_shuffle"]
+      ["setting_deep_arrowhead_shuffle", "setting_mental_cobweb_shuffle", "setting_ranksanity"]
     ]
   }
 }

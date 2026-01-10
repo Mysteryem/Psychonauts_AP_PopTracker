@@ -316,6 +316,10 @@ function onClear(slot_data)
         mental_cobweb_shuffle_toggle.Active = mental_cobweb_shuffle == 1
     end
 
+    local ranksanity = slot_data["RankSanity"] or 0
+    local ranksanity_toggle = Tracker:FindObjectForCode("setting_ranksanity")
+    ranksanity_toggle.Active = ranksanity == 1
+
     -- Other
     --slot_data["LootboxVaults"]
     -- Showing this is not yet implemented.

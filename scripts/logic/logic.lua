@@ -40,7 +40,7 @@ function hasMostBoydMindAccess()
     return has()
 end
 
-function rank5to20()
+function rank2to20()
     local checks = {
         has("sasha_button"),
         has("mind_coach"),
@@ -55,7 +55,7 @@ function rank5to20()
     return checksSum(checks) >= 4
 end
 
-function rank25to40()
+function rank21to40()
     local checks = {
         has("sasha_button") and hasRankLogic("oneExtraCampAccess"),
         has("mind_coach"),
@@ -71,7 +71,7 @@ function rank25to40()
     return checksSum(checks) >= 5
 end
 
-function rank45to60()
+function rank41to60()
     if not has("sasha_button") then
         return false
     end
@@ -92,7 +92,7 @@ function rank45to60()
     return checksSum(checks) >= 6
 end
 
-function rank65to80()
+function rank61to80()
     local checks = {
         hasRankLogic("allExtraCampAccess"),
         has("mind_coach"),
@@ -109,7 +109,7 @@ function rank65to80()
     return checksSum(checks) >= 7
 end
 
-function rank85to101()
+function rank81to101()
     local checks = {
         hasRankLogic("allExtraCampAccess"),
         has("mind_coach"),

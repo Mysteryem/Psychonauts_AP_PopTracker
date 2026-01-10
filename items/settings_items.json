@@ -104,5 +104,11 @@
     "img": "images/items/misc/cobweb_duster.png",
     "codes": "setting_mental_cobweb_shuffle",
     "initial_active_state": true
+  },
+  {
+    "name": "Ranksanity",
+    "type": "toggle",
+    "img": "images/items/misc/psi_challenge_marker.png",
+    "codes": "setting_ranksanity"
   }
 ]
