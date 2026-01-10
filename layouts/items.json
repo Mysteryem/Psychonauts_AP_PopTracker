@@ -10,8 +10,18 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["marksmanship", "levitation", "pyrokinesis", "telekinesis"],
-          ["shield", "invisibility", "clairvoyance", "confusion"]
+          [
+            "marksmanship",
+            "levitation",
+            "pyrokinesis",
+            "telekinesis"
+          ],
+          [
+            "shield",
+            "invisibility",
+            "clairvoyance",
+            "confusion"
+          ]
         ]
       }
     ]
@@ -27,8 +37,14 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["sasha_button", "oarsman_badge"],
-          ["lili_bracelet", "squirrel_roast_dinner"]
+          [
+            "sasha_button",
+            "oarsman_badge"
+          ],
+          [
+            "lili_bracelet",
+            "squirrel_roast_dinner"
+          ]
         ]
       }
     ]
@@ -45,8 +61,14 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["lungfish_call", "gloria_trophy"],
-          ["loboto_painting", "straight_jacket"]
+          [
+            "lungfish_call",
+            "gloria_trophy"
+          ],
+          [
+            "loboto_painting",
+            "straight_jacket"
+          ]
         ]
       }
     ]
@@ -63,8 +85,20 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["mind_coach", "mind_sasha", "mind_milla", "mind_linda", "mind_boyd"],
-          ["mind_gloria", "mind_fred", "mind_edgar", "mind_oly", "camper_brain"]
+          [
+            "mind_coach",
+            "mind_sasha",
+            "mind_milla",
+            "mind_linda",
+            "mind_boyd"
+          ],
+          [
+            "mind_gloria",
+            "mind_fred",
+            "mind_edgar",
+            "mind_oly",
+            "camper_brain"
+          ]
         ]
       }
     ]
@@ -81,8 +115,23 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["cobweb_duster", "dowsing_rod", "boyd_stop_sign", "boyd_flowers", "boyd_plunger", "boyd_hedge_trimmers", "boyd_rolling_pin"],
-          ["gloria_megaphone", "gloria_candle", "fred_letter", "fred_coin", "fred_musket", "birthday_cake"]
+          [
+            "cobweb_duster",
+            "dowsing_rod",
+            "boyd_stop_sign",
+            "boyd_flowers",
+            "boyd_plunger",
+            "boyd_hedge_trimmers",
+            "boyd_rolling_pin"
+          ],
+          [
+            "gloria_megaphone",
+            "gloria_candle",
+            "fred_letter",
+            "fred_coin",
+            "fred_musket",
+            "birthday_cake"
+          ]
         ]
       }
     ]
@@ -99,8 +148,29 @@
         "margin": "0,0",
         "h_alignment": "center",
         "rows": [
-          ["brain_benny", "brain_bobby", "brain_chloe", "brain_clem", "brain_chops", "brain_crystal", "brain_dogen", "brain_elka", "brain_elton", "brain_franke"],
-          ["brain_jt", "brain_kitty", "brain_maloof", "brain_mikhail", "brain_milka", "brain_nils", "brain_phoebe", "brain_quentin", "brain_vernon"]
+          [
+            "brain_benny",
+            "brain_bobby",
+            "brain_chloe",
+            "brain_clem",
+            "brain_chops",
+            "brain_crystal",
+            "brain_dogen",
+            "brain_elka",
+            "brain_elton",
+            "brain_franke"
+          ],
+          [
+            "brain_jt",
+            "brain_kitty",
+            "brain_maloof",
+            "brain_mikhail",
+            "brain_milka",
+            "brain_nils",
+            "brain_phoebe",
+            "brain_quentin",
+            "brain_vernon"
+          ]
         ]
       }
     ]
@@ -112,8 +182,26 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["golden_acorn", "dinosaur_bone", "diver_helmet", "eagle_claw", "condor_egg", "fossil", "glass_eye", "gold_doubloon"],
-      ["fertility_idol", "miner_skull", "cherry_wood_pipe", "pirate_scope", "psychonauts_comic", "turkey_sandwich", "voodoo_doll", "gold_watch"]
+      [
+        "golden_acorn",
+        "dinosaur_bone",
+        "diver_helmet",
+        "eagle_claw",
+        "condor_egg",
+        "fossil",
+        "glass_eye",
+        "gold_doubloon"
+      ],
+      [
+        "fertility_idol",
+        "miner_skull",
+        "cherry_wood_pipe",
+        "pirate_scope",
+        "psychonauts_comic",
+        "turkey_sandwich",
+        "voodoo_doll",
+        "gold_watch"
+      ]
     ]
   },
   "baggage_grid": {
@@ -123,8 +211,20 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["dufflebag_tag", "hatbox_tag", "purse_tag", "steamer_trunk_tag", "suitcase_tag"],
-      ["dufflebag", "hatbox", "purse", "steamer_trunk", "suitcase"]
+      [
+        "dufflebag_tag",
+        "hatbox_tag",
+        "purse_tag",
+        "steamer_trunk_tag",
+        "suitcase_tag"
+      ],
+      [
+        "dufflebag",
+        "hatbox",
+        "purse",
+        "steamer_trunk",
+        "suitcase"
+      ]
     ]
   },
   "misc_grid": {
@@ -134,8 +234,21 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["crow_feather", "small_arrowhead_bundle", "psi_card", "max_ammo_up", "max_lives_up", "super_palm_bomb"],
-      ["boyd_watering_can", "large_arrowhead_bundle", "psi_challenge_marker", "max_confusion_ammo_up", "memory_vault"]
+      [
+        "crow_feather",
+        "small_arrowhead_bundle",
+        "psi_card",
+        "max_ammo_up",
+        "max_lives_up",
+        "super_palm_bomb"
+      ],
+      [
+        "boyd_watering_can",
+        "large_arrowhead_bundle",
+        "psi_challenge_marker",
+        "max_confusion_ammo_up",
+        "memory_vault"
+      ]
     ]
   },
   "settings_goal_grid": {
@@ -145,7 +258,11 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["setting_brains_required","setting_brain_tank_goal", "setting_require_meat_circus"]
+      [
+        "setting_brains_required",
+        "setting_brain_tank_goal",
+        "setting_require_meat_circus"
+      ]
     ]
   },
   "settings_starting_item_grid": {
@@ -155,7 +272,10 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["setting_starting_mental_magnet", "setting_starting_levitation"]
+      [
+        "setting_starting_mental_magnet",
+        "setting_starting_levitation"
+      ]
     ]
   },
   "settings_difficulty_grid": {
@@ -165,7 +285,11 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["setting_easy_flight_mode", "setting_easy_milla_race", "setting_damage_multiplier"]
+      [
+        "setting_easy_flight_mode",
+        "setting_easy_milla_race",
+        "setting_damage_multiplier"
+      ]
     ]
   },
   "settings_shuffle_grid": {
@@ -175,7 +299,11 @@
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
-      ["setting_deep_arrowhead_shuffle", "setting_mental_cobweb_shuffle", "setting_ranksanity"]
+      [
+        "setting_deep_arrowhead_shuffle",
+        "setting_mental_cobweb_shuffle",
+        "setting_ranksanity"
+      ]
     ]
   }
 }
