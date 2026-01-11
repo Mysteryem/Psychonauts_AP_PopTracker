@@ -3,27 +3,69 @@
     "name": "BBA1",
     "chest_unopened_img": "images/icons/vault_closed.png",
     "chest_opened_img": "images/icons/vault_open.png",
-    "access_rules": ["mind_coach"],
+    "access_rules": [
+      "mind_coach"
+    ],
     "children": [
       {
         "name": "(BB Area 1) Jumping Tutorial 1",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BB", "x": 498, "y": 1659}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BB",
+            "x": 498,
+            "y": 1659
+          }
+        ]
       },
       {
         "name": "(BB Area 1) Jumping Tutorial 2",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BB", "x": 485, "y": 1564}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BB",
+            "x": 485,
+            "y": 1564
+          }
+        ]
       },
       {
         "name": "(BB Area 1) Pole-Climbing Tutorial Floor",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BB", "x": 411, "y": 1475}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BB",
+            "x": 411,
+            "y": 1475
+          }
+        ]
       },
       {
         "name": "(BB Area 1) Below the Triple Trampolines",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BB", "x": 170, "y": 891}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BB",
+            "x": 170,
+            "y": 891
+          }
+        ]
       },
       {
         "name": "BBA2Duster",
@@ -34,13 +76,19 @@
         "children": [
           {
             "name": "(BB Area 2) Trapeze Cobweb",
-            "sections": [{"name": ""}],
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
             "map_locations": [
               {
                 "map": "BB",
                 "x": 1043,
                 "y": 1310,
-                "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                "force_invisibility_rules": [
+                  "setting_mental_cobweb_shuffle"
+                ]
               }
             ]
           }
@@ -51,90 +99,234 @@
         "children": [
           {
             "name": "(BB Area 2) Giant Soldier Cut-Out",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 887, "y": 368}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 887,
+                "y": 368
+              }
+            ]
           },
           {
             "name": "(BB Area 2) Dodging Bullets 1",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 1082, "y": 501}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 1082,
+                "y": 501
+              }
+            ]
           },
           {
             "name": "(BB Area 2) Dodging Bullets 2",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 1090, "y": 649}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 1090,
+                "y": 649
+              }
+            ]
           },
           {
             "name": "(BB Area 2) Machine Gun Turret",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 1237, "y": 870}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 1237,
+                "y": 870
+              }
+            ]
           },
           {
             "name": "(BB Area 2) Pole-Swinging Tutorial",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 1068, "y": 1184}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 1068,
+                "y": 1184
+              }
+            ]
           },
           {
             "name": "(BB Area 2) Trapeze Platform",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 965, "y": 1453}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 965,
+                "y": 1453
+              }
+            ]
           },
           {
             "name": "(BB Area 2) Inside Plane Wreckage",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BB", "x": 1017, "y": 1431}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 1017,
+                "y": 1431
+              }
+            ]
           },
           {
             "name": "End of Obstacle Course",
             "sections": [
-              {"name": "(BB Finale) End of Obstacle Course Left"},
-              {"name": "(BB Finale) End of Obstacle Course Right"}
+              {
+                "name": "(BB Finale) End of Obstacle Course Left"
+              },
+              {
+                "name": "(BB Finale) End of Obstacle Course Right"
+              }
             ],
-            "map_locations": [{"map": "BB", "x": 2123, "y": 1354}]
+            "map_locations": [
+              {
+                "map": "BB",
+                "x": 2123,
+                "y": 1354
+              }
+            ]
           },
           {
             "name": "(BB Finale) Basic Braining Complete",
-            "sections": [{"name": ""}],
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
             "map_locations": [
-              {"map": "BB", "x": 1951, "y": 1314, "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]},
+              {
+                "map": "BB",
+                "x": 1951,
+                "y": 1314,
+                "force_invisibility_rules": [
+                  "setting_mental_cobweb_shuffle"
+                ]
+              }
             ]
           },
           {
             "name": "BBA2Cobweb",
             "chest_unopened_img": "images/icons/cobweb.png",
             "chest_opened_img": "images/icons/cobweb_gray.png",
-            "access_rules": ["cobweb_duster"],
-            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "access_rules": [
+              "cobweb_duster"
+            ],
+            "visibility_rules": [
+              "setting_mental_cobweb_shuffle"
+            ],
             "children": [
               {
                 "name": "(BB Area 2 Cobweb) Trapeze Cobweb",
-                "sections": [{"name": ""}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ]
               },
               {
                 "name": "(BB Area 2 Cobweb) Tightrope Tutorial",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BB", "x": 1082, "y": 1276, "size": 25}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BB",
+                    "x": 1082,
+                    "y": 1276,
+                    "size": 25
+                  }
+                ]
               },
               {
                 "name": "(BB Area 2 Cobweb) Grindrail Wall",
-                "access_rules": ["levitation"],
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BB", "x": 807, "y": 1529, "size": 25}]
+                "access_rules": [
+                  "levitation"
+                ],
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BB",
+                    "x": 807,
+                    "y": 1529,
+                    "size": 25
+                  }
+                ]
               },
               {
                 "name": "(BB Finale Cobweb) Bunny Room Door",
-                "sections": [{"name": ""}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ]
               },
               {
                 "name": "(BB Finale Cobweb) Tunnel of Logs End",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BB", "x": 1879, "y": 924, "size": 25}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BB",
+                    "x": 1879,
+                    "y": 924,
+                    "size": 25
+                  }
+                ]
               },
               {
                 "name": "Trapeze Cobweb",
                 "sections": [
-                  {"name": "(BB Area 2) Trapeze Cobweb", "ref": "BBA2Duster/(BB Area 2) Trapeze Cobweb/"},
-                  {"name": "(BB Area 2 Cobweb) Trapeze Cobweb", "ref": "BBA2Cobweb/(BB Area 2 Cobweb) Trapeze Cobweb/"}
+                  {
+                    "name": "(BB Area 2) Trapeze Cobweb",
+                    "ref": "BBA2Duster/(BB Area 2) Trapeze Cobweb/"
+                  },
+                  {
+                    "name": "(BB Area 2 Cobweb) Trapeze Cobweb",
+                    "ref": "BBA2Cobweb/(BB Area 2 Cobweb) Trapeze Cobweb/"
+                  }
                 ],
                 "map_locations": [
                   {
@@ -142,15 +334,23 @@
                     "x": 1043,
                     "y": 1310,
                     "size": 40,
-                    "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                    "restrict_visibility_rules": [
+                      "setting_mental_cobweb_shuffle"
+                    ]
                   }
                 ]
               },
               {
                 "name": "Bunny Room",
                 "sections": [
-                  {"name": "(BB Finale) Basic Braining Complete", "ref": "BBA2/(BB Finale) Basic Braining Complete/"},
-                  {"name": "(BB Finale Cobweb) Bunny Room Door", "ref": "BBA2Cobweb/(BB Finale Cobweb) Bunny Room Door/"}
+                  {
+                    "name": "(BB Finale) Basic Braining Complete",
+                    "ref": "BBA2/(BB Finale) Basic Braining Complete/"
+                  },
+                  {
+                    "name": "(BB Finale Cobweb) Bunny Room Door",
+                    "ref": "BBA2Cobweb/(BB Finale Cobweb) Bunny Room Door/"
+                  }
                 ],
                 "map_locations": [
                   {
@@ -158,7 +358,9 @@
                     "x": 1951,
                     "y": 1314,
                     "size": 40,
-                    "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                    "restrict_visibility_rules": [
+                      "setting_mental_cobweb_shuffle"
+                    ]
                   }
                 ]
               }

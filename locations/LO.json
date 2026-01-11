@@ -3,27 +3,55 @@
     "name": "LOMA",
     "chest_unopened_img": "images/icons/vault_closed.png",
     "chest_opened_img": "images/icons/vault_open.png",
-    "access_rules": ["mind_linda"],
+    "access_rules": [
+      "mind_linda"
+    ],
     "children": [
       {
         "name": "(LO Main) Skyscraper Start",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "LO", "x": 49, "y": 842}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "LO",
+            "x": 49,
+            "y": 842
+          }
+        ]
       },
       {
         "name": "(LO Main) Corner Near First Jail",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "LO", "x": 288, "y": 709}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "LO",
+            "x": 288,
+            "y": 709
+          }
+        ]
       },
       {
         "name": "(LO Main) Skyscraper before Dam",
-        "sections": [{"name": ""}],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
         "map_locations": [
           {
             "map": "LO",
             "x": 463,
             "y": 528,
-            "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+            "force_invisibility_rules": [
+              "setting_mental_cobweb_shuffle"
+            ]
           }
         ]
       },
@@ -31,18 +59,32 @@
         "name": "LOMACobweb",
         "chest_unopened_img": "images/icons/cobweb.png",
         "chest_opened_img": "images/icons/cobweb_gray.png",
-        "access_rules": ["cobweb_duster"],
-        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "access_rules": [
+          "cobweb_duster"
+        ],
+        "visibility_rules": [
+          "setting_mental_cobweb_shuffle"
+        ],
         "children": [
           {
             "name": "(LO Main Cobweb) Skyscraper Before Dam",
-            "sections": [{"name": ""}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ]
           },
           {
             "name": "Skyscraper Before Dam",
             "sections": [
-              {"name": "(LO Main) Skyscraper before Dam", "ref": "LOMA/(LO Main) Skyscraper before Dam/"},
-              {"name": "(LO Main Cobweb) Skyscraper Before Dam", "ref": "LOMACobweb/(LO Main Cobweb) Skyscraper Before Dam/"}
+              {
+                "name": "(LO Main) Skyscraper before Dam",
+                "ref": "LOMA/(LO Main) Skyscraper before Dam/"
+              },
+              {
+                "name": "(LO Main Cobweb) Skyscraper Before Dam",
+                "ref": "LOMACobweb/(LO Main Cobweb) Skyscraper Before Dam/"
+              }
             ],
             "map_locations": [
               {
@@ -50,7 +92,9 @@
                 "x": 463,
                 "y": 528,
                 "size": 40,
-                "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                "restrict_visibility_rules": [
+                  "setting_mental_cobweb_shuffle"
+                ]
               }
             ]
           }
@@ -65,130 +109,343 @@
         "children": [
           {
             "name": "(LO Main) Behind Lasers Left 1",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 256, "y": 357}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 256,
+                "y": 357
+              }
+            ]
           },
           {
             "name": "(LO Main) Behind Lasers Left 2",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 291, "y": 328}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 291,
+                "y": 328
+              }
+            ]
           },
           {
             "name": "(LO Main) Behind Lasers Right",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 410, "y": 240}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 410,
+                "y": 240
+              }
+            ]
           },
           {
             "name": "(LO Main) Blimp Hop",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 860, "y": 466}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 860,
+                "y": 466
+              }
+            ]
           },
           {
             "name": "(LO Main) End of Dam",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 787, "y": 773}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 787,
+                "y": 773
+              }
+            ]
           },
           {
             "name": "(LO Main) End of Dam Platform",
-            "sections": [{"name": ""}],
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
             "map_locations": [
               {
                 "map": "LO",
                 "x": 724,
                 "y": 837,
-                "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                "force_invisibility_rules": [
+                  "setting_mental_cobweb_shuffle"
+                ]
               }
             ]
           },
           {
             "name": "(LO Main) Skyscraper after Dam",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1033, "y": 387}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1033,
+                "y": 387
+              }
+            ]
           },
           {
             "name": "(LO Main) Near Battleships",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1153, "y": 381}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1153,
+                "y": 381
+              }
+            ]
           },
           {
             "name": "(LO Main) On the Bridge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1403, "y": 254}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1403,
+                "y": 254
+              }
+            ]
           },
           {
             "name": "(LO Main) Ground after Bridge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1568, "y": 203}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1568,
+                "y": 203
+              }
+            ]
           },
           {
             "name": "(LO Main) Skyscraper after Bridge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1613, "y": 202}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1613,
+                "y": 202
+              }
+            ]
           },
           {
             "name": "(LO Main) Train Tunnel",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1607, "y": 59}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1607,
+                "y": 59
+              }
+            ]
           },
           {
             "name": "(LO Main) Final Skyscrapers Left",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 2009, "y": 55}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 2009,
+                "y": 55
+              }
+            ]
           },
           {
             "name": "(LO Main) Final Skyscrapers Right",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 2051, "y": 191}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 2051,
+                "y": 191
+              }
+            ]
           },
           {
             "name": "(LO Boss) Kochamara Intro Left",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1904, "y": 709}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1904,
+                "y": 709
+              }
+            ]
           },
           {
             "name": "(LO Boss) Kochamara Intro Right",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "LO", "x": 1808, "y": 704}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "LO",
+                "x": 1808,
+                "y": 704
+              }
+            ]
           },
           {
             "name": "(LO Boss) Lungfishopolis Complete",
-            "access_rules": ["shield"],
-            "sections": [{"name": ""}],
+            "access_rules": [
+              "shield"
+            ],
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
             "map_locations": [
-              {"map": "LO", "x": 1908, "y": 853}
+              {
+                "map": "LO",
+                "x": 1908,
+                "y": 853
+              }
             ]
           },
           {
             "name": "LOMAShieldCobweb",
             "chest_unopened_img": "images/icons/cobweb.png",
             "chest_opened_img": "images/icons/cobweb_gray.png",
-            "access_rules": ["cobweb_duster"],
-            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "access_rules": [
+              "cobweb_duster"
+            ],
+            "visibility_rules": [
+              "setting_mental_cobweb_shuffle"
+            ],
             "children": [
               {
                 "name": "(LO Main Cobweb) Skyscrapers Before Tunnel",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "LO", "x": 1195, "y": 190, "size": 25}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "LO",
+                    "x": 1195,
+                    "y": 190,
+                    "size": 25
+                  }
+                ]
               },
               {
                 "name": "(LO Main Cobweb) Behind Lasers",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "LO", "x": 385, "y": 326, "size": 25}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "LO",
+                    "x": 385,
+                    "y": 326,
+                    "size": 25
+                  }
+                ]
               },
               {
                 "name": "(LO Main Cobweb) End of Dam",
-                "sections": [{"name": ""}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ]
               },
               {
                 "name": "(LO Main Cobweb) Ground after Bridge",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "LO", "x": 1574, "y": 155, "size": 25}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "LO",
+                    "x": 1574,
+                    "y": 155,
+                    "size": 25
+                  }
+                ]
               },
               {
                 "name": "End of Dam",
                 "sections": [
-                  {"name": "(LO Main) End of Dam Platform", "ref": "LOMAShield/(LO Main) End of Dam Platform/"},
-                  {"name": "(LO Main Cobweb) End of Dam", "ref": "LOMAShieldCobweb/(LO Main Cobweb) End of Dam/"}
+                  {
+                    "name": "(LO Main) End of Dam Platform",
+                    "ref": "LOMAShield/(LO Main) End of Dam Platform/"
+                  },
+                  {
+                    "name": "(LO Main Cobweb) End of Dam",
+                    "ref": "LOMAShieldCobweb/(LO Main Cobweb) End of Dam/"
+                  }
                 ],
                 "map_locations": [
                   {
@@ -196,7 +453,9 @@
                     "x": 716,
                     "y": 844,
                     "size": 40,
-                    "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                    "restrict_visibility_rules": [
+                      "setting_mental_cobweb_shuffle"
+                    ]
                   }
                 ]
               }

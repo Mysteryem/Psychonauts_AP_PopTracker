@@ -6,89 +6,227 @@
     "children": [
       {
         "name": "(BT Main) Outside Caravan",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BT", "x": 243, "y": 361}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BT",
+            "x": 243,
+            "y": 361
+          }
+        ]
       },
       {
         "name": "(BT Main) Behind the Egg",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BT", "x": 1175, "y": 954}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BT",
+            "x": 1175,
+            "y": 954
+          }
+        ]
       },
       {
         "name": "(BT Main) Shadow Monster Path",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "BT", "x": 873, "y": 708}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "BT",
+            "x": 873,
+            "y": 708
+          }
+        ]
       },
       {
         "name": "NIMPMark",
-        "access_rules": ["marksmanship"],
+        "access_rules": [
+          "marksmanship"
+        ],
         "children": [
           {
             "name": "(BT Main) Shadow Monster Blue Mushrooms",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 626, "y": 778}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 626,
+                "y": 778
+              }
+            ]
           },
           {
             "name": "(BT Main) Ledge Behind Shadow Monster",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 593, "y": 861}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 593,
+                "y": 861
+              }
+            ]
           },
           {
             "name": "(BT Main) Below the Steep Ledge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 463, "y": 990}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 463,
+                "y": 990
+              }
+            ]
           },
           {
             "name": "(BT Main) Forest Path Blue Mushrooms",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 154, "y": 900}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 154,
+                "y": 900
+              }
+            ]
           },
           {
             "name": "(BT Main) Forest Blue Ledge",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 53, "y": 698}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 53,
+                "y": 698
+              }
+            ]
           },
           {
             "name": "(BT Main) Forest High Platform",
-            "sections": [{"name": ""}],
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
             "map_locations": [
               {
                 "map": "BT",
                 "x": 117,
                 "y": 886,
-                "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                "force_invisibility_rules": [
+                  "setting_mental_cobweb_shuffle"
+                ]
               }
             ]
           },
           {
             "name": "(BT Main) Forest Path Thorns",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 286, "y": 695}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 286,
+                "y": 695
+              }
+            ]
           },
           {
             "name": "(BT Main) Behind Thorn Tower Left",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 607, "y": 126}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 607,
+                "y": 126
+              }
+            ]
           },
           {
             "name": "(BT Main) Behind Thorn Tower Mid",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 653, "y": 156}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 653,
+                "y": 156
+              }
+            ]
           },
           {
             "name": "(BT Main) Behind Thorn Tower Right",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "BT", "x": 793, "y": 99}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "BT",
+                "x": 793,
+                "y": 99
+              }
+            ]
           },
           {
             "name": "NIBA",
-            "access_rules": ["levitation"],
+            "access_rules": [
+              "levitation"
+            ],
             "children": [
               {
                 "name": "(BT Boss) Brain Tumbler Experiment Complete",
-                "sections": [{"name": ""}],
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
                 "map_locations": [
-                  {"map": "BT", "x": 654, "y": 247}
+                  {
+                    "map": "BT",
+                    "x": 654,
+                    "y": 247
+                  }
                 ]
               }
             ]
@@ -97,38 +235,96 @@
             "name": "NIMPCobweb",
             "chest_unopened_img": "images/icons/cobweb.png",
             "chest_opened_img": "images/icons/cobweb_gray.png",
-            "access_rules": ["cobweb_duster"],
-            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "access_rules": [
+              "cobweb_duster"
+            ],
+            "visibility_rules": [
+              "setting_mental_cobweb_shuffle"
+            ],
             "children": [
               {
                 "name": "(BT Main Cobweb) Shadow Monster Meat",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BT", "x": 591, "y": 818, "size": 17}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BT",
+                    "x": 591,
+                    "y": 818,
+                    "size": 17
+                  }
+                ]
               },
               {
                 "name": "(BT Main Cobweb) Forest High Platform",
-                "sections": [{"name": ""}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ]
               },
               {
                 "name": "(BT Main Cobweb) Forest Path Thorns",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BT", "x": 168, "y": 581, "size": 17}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BT",
+                    "x": 168,
+                    "y": 581,
+                    "size": 17
+                  }
+                ]
               },
               {
                 "name": "(BT Main Cobweb) Bathtub Drain",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BT", "x": 555, "y": 578, "size": 17}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BT",
+                    "x": 555,
+                    "y": 578,
+                    "size": 17
+                  }
+                ]
               },
               {
                 "name": "(BT Main Cobweb) Thorn Tower Right",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "BT", "x": 769, "y": 439, "size": 17}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "BT",
+                    "x": 769,
+                    "y": 439,
+                    "size": 17
+                  }
+                ]
               },
               {
                 "name": "Forest High Platform",
                 "sections": [
-                  {"name": "(BT Main) Forest High Platform", "ref": "NIMPMark/(BT Main) Forest High Platform/"},
-                  {"name": "(BT Main Cobweb) Forest High Platform", "ref": "NIMPCobweb/(BT Main Cobweb) Forest High Platform/"}
+                  {
+                    "name": "(BT Main) Forest High Platform",
+                    "ref": "NIMPMark/(BT Main) Forest High Platform/"
+                  },
+                  {
+                    "name": "(BT Main Cobweb) Forest High Platform",
+                    "ref": "NIMPCobweb/(BT Main Cobweb) Forest High Platform/"
+                  }
                 ],
                 "map_locations": [
                   {
@@ -136,7 +332,9 @@
                     "x": 117,
                     "y": 886,
                     "size": 27,
-                    "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                    "restrict_visibility_rules": [
+                      "setting_mental_cobweb_shuffle"
+                    ]
                   }
                 ]
               }

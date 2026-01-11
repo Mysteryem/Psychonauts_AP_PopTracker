@@ -3,104 +3,261 @@
     "name": "MMI1",
     "chest_unopened_img": "images/icons/vault_closed.png",
     "chest_opened_img": "images/icons/vault_open.png",
-    "access_rules": ["mind_boyd"],
+    "access_rules": [
+      "mind_boyd"
+    ],
     "children": [
       {
         "name": "(MM Neighborhood) Boyd's Fridge",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MM", "x": 182, "y": 628}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MM",
+            "x": 182,
+            "y": 628
+          }
+        ]
       },
       {
         "name": "MMI1BeforeSign",
-        "access_rules": ["clairvoyance"],
+        "access_rules": [
+          "clairvoyance"
+        ],
         "children": [
           {
             "name": "(MM Neighborhood) Inside First House",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MM", "x": 363, "y": 472}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MM",
+                "x": 363,
+                "y": 472
+              }
+            ]
           },
           {
             "name": "(MM Neighborhood) Inside Second House",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MM", "x": 488, "y": 423}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MM",
+                "x": 488,
+                "y": 423
+              }
+            ]
           },
           {
             "name": "(MM Neighborhood) Car Trunk 1 (Stop Sign)",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MM", "x": 546, "y": 443}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MM",
+                "x": 546,
+                "y": 443
+              }
+            ]
           },
           {
             "name": "MMI1BeforeSignCobweb",
             "chest_unopened_img": "images/icons/cobweb.png",
             "chest_opened_img": "images/icons/cobweb_gray.png",
-            "access_rules": ["cobweb_duster"],
-            "visibility_rules": ["setting_mental_cobweb_shuffle"],
+            "access_rules": [
+              "cobweb_duster"
+            ],
+            "visibility_rules": [
+              "setting_mental_cobweb_shuffle"
+            ],
             "children": [
               {
                 "name": "(MM Neighborhood Cobweb) Third House",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 542, "y": 717, "size": 25}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 542,
+                    "y": 717,
+                    "size": 25
+                  }
+                ]
               }
             ]
           },
           {
             "name": "MMI1AfterSign",
-            "access_rules": ["boyd_stop_sign"],
+            "access_rules": [
+              "boyd_stop_sign"
+            ],
             "children": [
               {
                 "name": "(MM Neighborhood) Roof after Road Crew",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 931, "y": 613}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 931,
+                    "y": 613
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Car Trunk 2",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1054, "y": 476}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1054,
+                    "y": 476
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Car House Backyard",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1070, "y": 408}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1070,
+                    "y": 408
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Graveyard Patio",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1587, "y": 699}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1587,
+                    "y": 699
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Graveyard Behind Tree",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1662, "y": 725}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1662,
+                    "y": 725
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Behind Graveyard",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1486, "y": 1042}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1486,
+                    "y": 1042
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Hedge Maze",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1776, "y": 576}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1776,
+                    "y": 576
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Car Trunk 3",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1620, "y": 239}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1620,
+                    "y": 239
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Post Office Roof",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MM", "x": 1804, "y": 89}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MM",
+                    "x": 1804,
+                    "y": 89
+                  }
+                ]
               },
               {
                 "name": "(MM Neighborhood) Post Office Lobby",
-                "sections": [{"name": ""}],
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
                 "map_locations": [
                   {
                     "map": "MM",
                     "x": 1741,
                     "y": 136,
-                    "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                    "force_invisibility_rules": [
+                      "setting_mental_cobweb_shuffle"
+                    ]
                   }
                 ]
               },
@@ -114,10 +271,20 @@
                   {
                     "name": "Landscapers House",
                     "sections": [
-                      {"name": "(MM Neighborhood) Landscapers House Backyard"},
-                      {"name": "(MM Neighborhood) Landscapers House Table"}
+                      {
+                        "name": "(MM Neighborhood) Landscapers House Backyard"
+                      },
+                      {
+                        "name": "(MM Neighborhood) Landscapers House Table"
+                      }
                     ],
-                    "map_locations": [{"map": "MM", "x": 1105, "y": 639}]
+                    "map_locations": [
+                      {
+                        "map": "MM",
+                        "x": 1105,
+                        "y": 639
+                      }
+                    ]
                   },
                   {
                     "name": "MMI1RollingPin",
@@ -128,8 +295,18 @@
                     "children": [
                       {
                         "name": "(MM Neighborhood) Landscapers House Kitchen",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 1132, "y": 604}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MM",
+                            "x": 1132,
+                            "y": 604
+                          }
+                        ]
                       }
                     ]
                   }
@@ -144,13 +321,19 @@
                 "children": [
                   {
                     "name": "(MM Neighborhood) Inside Webbed Garage",
-                    "sections": [{"name": ""}],
+                    "sections": [
+                      {
+                        "name": ""
+                      }
+                    ],
                     "map_locations": [
                       {
                         "map": "MM",
                         "x": 1356,
                         "y": 575,
-                        "force_invisibility_rules": ["setting_mental_cobweb_shuffle"]
+                        "force_invisibility_rules": [
+                          "setting_mental_cobweb_shuffle"
+                        ]
                       }
                     ]
                   }
@@ -158,12 +341,24 @@
               },
               {
                 "name": "MMI1Duster",
-                "access_rules": ["cobweb_duster"],
+                "access_rules": [
+                  "cobweb_duster"
+                ],
                 "children": [
                   {
                     "name": "(MM Neighborhood) Post Office Basement",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MM", "x": 1767, "y": 62}]
+                    "sections": [
+                      {
+                        "name": ""
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "MM",
+                        "x": 1767,
+                        "y": 62
+                      }
+                    ]
                   }
                 ]
               },
@@ -171,27 +366,56 @@
                 "name": "MMI1AfterSignCobweb",
                 "chest_unopened_img": "images/icons/cobweb.png",
                 "chest_opened_img": "images/icons/cobweb_gray.png",
-                "access_rules": ["cobweb_duster"],
-                "visibility_rules": ["setting_mental_cobweb_shuffle"],
+                "access_rules": [
+                  "cobweb_duster"
+                ],
+                "visibility_rules": [
+                  "setting_mental_cobweb_shuffle"
+                ],
                 "children": [
                   {
                     "name": "(MM Neighborhood Cobweb) Post Office Lobby",
-                    "sections": [{"name": ""}]
+                    "sections": [
+                      {
+                        "name": ""
+                      }
+                    ]
                   },
                   {
                     "name": "(MM Neighborhood Cobweb) Right House before Post Office",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MM", "x": 1529, "y": 316, "size": 25}]
+                    "sections": [
+                      {
+                        "name": ""
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "MM",
+                        "x": 1529,
+                        "y": 316,
+                        "size": 25
+                      }
+                    ]
                   },
                   {
                     "name": "(MM Neighborhood Cobweb) Webbed Garage",
-                    "sections": [{"name": ""}]
+                    "sections": [
+                      {
+                        "name": ""
+                      }
+                    ]
                   },
                   {
                     "name": "Post Office Lobby",
                     "sections": [
-                      {"name": "(MM Neighborhood) Post Office Lobby", "ref": "MMI1AfterSign/(MM Neighborhood) Post Office Lobby/"},
-                      {"name": "(MM Neighborhood Cobweb) Post Office Lobby", "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Post Office Lobby/"}
+                      {
+                        "name": "(MM Neighborhood) Post Office Lobby",
+                        "ref": "MMI1AfterSign/(MM Neighborhood) Post Office Lobby/"
+                      },
+                      {
+                        "name": "(MM Neighborhood Cobweb) Post Office Lobby",
+                        "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Post Office Lobby/"
+                      }
                     ],
                     "map_locations": [
                       {
@@ -199,15 +423,23 @@
                         "x": 1741,
                         "y": 136,
                         "size": 40,
-                        "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                        "restrict_visibility_rules": [
+                          "setting_mental_cobweb_shuffle"
+                        ]
                       }
                     ]
                   },
                   {
                     "name": "Webbed Garage",
                     "sections": [
-                      {"name": "(MM Neighborhood) Inside Webbed Garage", "ref": "MMI1Duster_optional/(MM Neighborhood) Inside Webbed Garage/"},
-                      {"name": "(MM Neighborhood Cobweb) Webbed Garage", "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Webbed Garage/"}
+                      {
+                        "name": "(MM Neighborhood) Inside Webbed Garage",
+                        "ref": "MMI1Duster_optional/(MM Neighborhood) Inside Webbed Garage/"
+                      },
+                      {
+                        "name": "(MM Neighborhood Cobweb) Webbed Garage",
+                        "ref": "MMI1AfterSignCobweb/(MM Neighborhood Cobweb) Webbed Garage/"
+                      }
                     ],
                     "map_locations": [
                       {
@@ -215,7 +447,9 @@
                         "x": 1356,
                         "y": 575,
                         "size": 40,
-                        "restrict_visibility_rules": ["setting_mental_cobweb_shuffle"]
+                        "restrict_visibility_rules": [
+                          "setting_mental_cobweb_shuffle"
+                        ]
                       }
                     ]
                   }
@@ -231,20 +465,45 @@
                 "children": [
                   {
                     "name": "(MM Depository) Behind Book Depository",
-                    "sections": [{"name": ""}],
-                    "map_locations": [{"map": "MM", "x": 643, "y": 220}]
+                    "sections": [
+                      {
+                        "name": ""
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "MM",
+                        "x": 643,
+                        "y": 220
+                      }
+                    ]
                   },
                   {
                     "name": "MMI2Cobweb",
                     "chest_unopened_img": "images/icons/cobweb.png",
                     "chest_opened_img": "images/icons/cobweb_gray.png",
-                    "access_rules": ["cobweb_duster"],
-                    "visibility_rules": ["setting_mental_cobweb_shuffle"],
+                    "access_rules": [
+                      "cobweb_duster"
+                    ],
+                    "visibility_rules": [
+                      "setting_mental_cobweb_shuffle"
+                    ],
                     "children": [
                       {
                         "name": "(MM Depository Cobweb) Book Depository",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 780, "y": 216, "size": 25}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MM",
+                            "x": 780,
+                            "y": 216,
+                            "size": 25
+                          }
+                        ]
                       }
                     ]
                   },
@@ -257,18 +516,48 @@
                     "children": [
                       {
                         "name": "(MM Neighborhood) Powerline Island Sandbox",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 889, "y": 876}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MM",
+                            "x": 889,
+                            "y": 876
+                          }
+                        ]
                       },
                       {
                         "name": "(MM Neighborhood) Powerline Island Left",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 1127, "y": 990}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MM",
+                            "x": 1127,
+                            "y": 990
+                          }
+                        ]
                       },
                       {
                         "name": "(MM Neighborhood) Powerline Island Right",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MM", "x": 944, "y": 870}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MM",
+                            "x": 944,
+                            "y": 870
+                          }
+                        ]
                       },
                       {
                         "name": "MMDM",
@@ -279,9 +568,17 @@
                         "children": [
                           {
                             "name": "(MM Depository) Milkman Complete",
-                            "sections": [{"name": ""}],
+                            "sections": [
+                              {
+                                "name": ""
+                              }
+                            ],
                             "map_locations": [
-                              {"map": "MM", "x": 1166, "y": 33}
+                              {
+                                "map": "MM",
+                                "x": 1166,
+                                "y": 33
+                              }
                             ]
                           }
                         ]

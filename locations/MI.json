@@ -3,116 +3,325 @@
     "name": "MIFL",
     "chest_unopened_img": "images/icons/vault_closed.png",
     "chest_opened_img": "images/icons/vault_open.png",
-    "access_rules": ["mind_milla,levitation"],
+    "access_rules": [
+      "mind_milla,levitation"
+    ],
     "children": [
       {
         "name": "(MI Area 1) Intro Rings Tutorial",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 624, "y": 1312}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 624,
+            "y": 1312
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Dancing Camper Platform 1",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 264, "y": 1143}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 264,
+            "y": 1143
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Demon Room",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 93, "y": 1158}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 93,
+            "y": 1158
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Windy Ladder Bottom",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 404, "y": 1067}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 404,
+            "y": 1067
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Pinball Plunger",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 393, "y": 838}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 393,
+            "y": 838
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Plunger Party Ledge",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 378, "y": 883}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 378,
+            "y": 883
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Grindrail Rings",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 154, "y": 400}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 154,
+            "y": 400
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Censor Hallway",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 605, "y": 336}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 605,
+            "y": 336
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Pink Bowl Bottom",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 731, "y": 510}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 731,
+            "y": 510
+          }
+        ]
       },
       {
         "name": "(MI Area 1) Pink Bowl Small Platform",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 742, "y": 103}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 742,
+            "y": 103
+          }
+        ]
       },
       {
         "name": "(MI Finale) Bubbly Fan Bottom",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 829, "y": 1056}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 829,
+            "y": 1056
+          }
+        ]
       },
       {
         "name": "(MI Finale) Bubbly Fan Platform",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 775, "y": 913}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 775,
+            "y": 913
+          }
+        ]
       },
       {
         "name": "(MI Finale) Bubbly Fan Top",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 966, "y": 832}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 966,
+            "y": 832
+          }
+        ]
       },
       {
         "name": "(MI Finale) Milla's Party Room",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MI", "x": 1185, "y": 821}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MI",
+            "x": 1185,
+            "y": 821
+          }
+        ]
       },
       {
         "name": "(MI Finale) Milla's Dance Party Complete",
-        "sections": [{"name": ""}],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
         "map_locations": [
-          {"map": "MI", "x": 1380, "y": 811}
+          {
+            "map": "MI",
+            "x": 1380,
+            "y": 811
+          }
         ]
       },
       {
         "name": "MIFLCobweb",
         "chest_unopened_img": "images/icons/cobweb.png",
         "chest_opened_img": "images/icons/cobweb_gray.png",
-        "access_rules": ["cobweb_duster"],
-        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "access_rules": [
+          "cobweb_duster"
+        ],
+        "visibility_rules": [
+          "setting_mental_cobweb_shuffle"
+        ],
         "children": [
           {
             "name": "(MI Area 1 Cobweb) Intro Statue Corner",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MI", "x": 507, "y": 1333, "size": 21}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MI",
+                "x": 507,
+                "y": 1333,
+                "size": 21
+              }
+            ]
           },
           {
             "name": "(MI Area 1 Cobweb) Behind Pinball Ladder",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MI", "x": 441, "y": 915, "size": 21}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MI",
+                "x": 441,
+                "y": 915,
+                "size": 21
+              }
+            ]
           },
           {
             "name": "(MI Area 1 Cobweb) Grindrail Rings",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MI", "x": 436, "y": 502, "size": 21}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MI",
+                "x": 436,
+                "y": 502,
+                "size": 21
+              }
+            ]
           },
           {
             "name": "(MI Finale Cobweb) Fan Room Entrance",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MI", "x": 630, "y": 1053, "size": 21}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MI",
+                "x": 630,
+                "y": 1053,
+                "size": 21
+              }
+            ]
           },
           {
             "name": "(MI Finale Cobweb) Party Room Floor",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MI", "x": 1304, "y": 929, "size": 21}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MI",
+                "x": 1304,
+                "y": 929,
+                "size": 21
+              }
+            ]
           }
         ]
       }

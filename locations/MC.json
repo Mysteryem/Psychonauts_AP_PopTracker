@@ -3,14 +3,20 @@
     "name": "MCTC",
     "chest_unopened_img": "images/icons/vault_closed.png",
     "chest_opened_img": "images/icons/vault_open.png",
-    "access_rules": ["cobweb_duster,mind_oly"],
+    "access_rules": [
+      "cobweb_duster,mind_oly"
+    ],
     "children": [
       {
         "name": "MCTCCobweb",
         "chest_unopened_img": "images/icons/cobweb.png",
         "chest_opened_img": "images/icons/cobweb_gray.png",
-        "access_rules": ["cobweb_duster"],
-        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+        "access_rules": [
+          "cobweb_duster"
+        ],
+        "visibility_rules": [
+          "setting_mental_cobweb_shuffle"
+        ],
         "children": [
           {
             "name": "(MC Main Cobweb) Entrance Hall",
@@ -21,29 +27,76 @@
                 "clear_as_group": false
               }
             ],
-            "map_locations": [{"map": "MC", "x": 455, "y": 1285, "size": 25}]
+            "map_locations": [
+              {
+                "map": "MC",
+                "x": 455,
+                "y": 1285,
+                "size": 25
+              }
+            ]
           }
         ]
       },
       {
         "name": "(MC Main) Crumbling Path",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MC", "x": 201, "y": 1299}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MC",
+            "x": 201,
+            "y": 1299
+          }
+        ]
       },
       {
         "name": "(MC Main) Crumbling Path End Right",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MC", "x": 20, "y": 1323}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MC",
+            "x": 20,
+            "y": 1323
+          }
+        ]
       },
       {
         "name": "(MC Main) Crumbling Path End Left",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MC", "x": 94, "y": 1369}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MC",
+            "x": 94,
+            "y": 1369
+          }
+        ]
       },
       {
         "name": "(MC Main) Ollie Escort Floor",
-        "sections": [{"name": ""}],
-        "map_locations": [{"map": "MC", "x": 1553, "y": 835}]
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "MC",
+            "x": 1553,
+            "y": 835
+          }
+        ]
       },
       {
         "name": "MCTCLev",
@@ -54,8 +107,18 @@
         "children": [
           {
             "name": "(MC Main) Entrance Awning",
-            "sections": [{"name": ""}],
-            "map_locations": [{"map": "MC", "x": 478, "y": 1205}]
+            "sections": [
+              {
+                "name": ""
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "MC",
+                "x": 478,
+                "y": 1205
+              }
+            ]
           },
           {
             "name": "MCTCEscort",
@@ -66,20 +129,42 @@
             "children": [
               {
                 "name": "(MC Main) Ollie Escort Middle",
-                "sections": [{"name": ""}],
-                "map_locations": [{"map": "MC", "x": 1593, "y": 594}]
+                "sections": [
+                  {
+                    "name": ""
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "MC",
+                    "x": 1593,
+                    "y": 594
+                  }
+                ]
               },
               {
                 "name": "MCTCEscortTop",
-                "access_rules": ["levitation"],
+                "access_rules": [
+                  "levitation"
+                ],
                 "children": [
                   {
                     "name": "Ollie Escort Top",
                     "sections": [
-                      {"name": "(MC Main) Ollie Escort Top Left"},
-                      {"name": "(MC Main) Ollie Escort Top Right"}
+                      {
+                        "name": "(MC Main) Ollie Escort Top Left"
+                      },
+                      {
+                        "name": "(MC Main) Ollie Escort Top Right"
+                      }
                     ],
-                    "map_locations": [{"map": "MC", "x": 1785, "y": 227}]
+                    "map_locations": [
+                      {
+                        "map": "MC",
+                        "x": 1785,
+                        "y": 227
+                      }
+                    ]
                   },
                   {
                     "name": "MCTCToL",
@@ -92,35 +177,90 @@
                         "name": "MCTCToLCobweb",
                         "chest_unopened_img": "images/icons/cobweb.png",
                         "chest_opened_img": "images/icons/cobweb_gray.png",
-                        "access_rules": ["cobweb_duster"],
-                        "visibility_rules": ["setting_mental_cobweb_shuffle"],
+                        "access_rules": [
+                          "cobweb_duster"
+                        ],
+                        "visibility_rules": [
+                          "setting_mental_cobweb_shuffle"
+                        ],
                         "children": [
                           {
                             "name": "(MC Main Cobweb) Tunnel of Love Ollie Escort Exit",
-                            "sections": [{"name": ""}],
-                            "map_locations": [{"map": "MC", "x": 689, "y": 933, "size": 25}]
+                            "sections": [
+                              {
+                                "name": ""
+                              }
+                            ],
+                            "map_locations": [
+                              {
+                                "map": "MC",
+                                "x": 689,
+                                "y": 933,
+                                "size": 25
+                              }
+                            ]
                           }
                         ]
                       },
                       {
                         "name": "(MC Main) Tunnel of Love Start",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MC", "x": 892, "y": 892}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MC",
+                            "x": 892,
+                            "y": 892
+                          }
+                        ]
                       },
                       {
                         "name": "(MC Main) Tunnel of Love Corner",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MC", "x": 816, "y": 797}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MC",
+                            "x": 816,
+                            "y": 797
+                          }
+                        ]
                       },
                       {
                         "name": "(MC Main) Tunnel of Love Rail",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MC", "x": 1012, "y": 1338}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MC",
+                            "x": 1012,
+                            "y": 1338
+                          }
+                        ]
                       },
                       {
                         "name": "(MC Main) Next to the Final Door",
-                        "sections": [{"name": ""}],
-                        "map_locations": [{"map": "MC", "x": 1659, "y": 1298}]
+                        "sections": [
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "MC",
+                            "x": 1659,
+                            "y": 1298
+                          }
+                        ]
                       },
                       {
                         "name": "MCTCBoss",
@@ -136,7 +276,11 @@
                             "name": "Goal - Meat Circus Bosses",
                             "chest_unopened_img": "images/heads/butcher.png",
                             "chest_opened_img": "images/heads/butcher_bw.png",
-                            "sections": [{"name": "(MC Boss) Final Boss Defeated (no item)"}],
+                            "sections": [
+                              {
+                                "name": "(MC Boss) Final Boss Defeated (no item)"
+                              }
+                            ],
                             "map_locations": [
                               {
                                 "map": "MC",
