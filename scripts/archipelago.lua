@@ -244,6 +244,12 @@ function onClear(slot_data)
         starting_mental_magnet_toggle.Active = starting_mental_magnet == 1
     end
 
+    local starting_colorizer = slot_data["StartingColorizer"]
+    if starting_colorizer ~= nil then
+        local starting_colorizer_toggle = Tracker:FindObjectForCode("setting_starting_colorizer")
+        starting_colorizer_toggle.Active = starting_colorizer == 1
+    end
+
     -- Difficulty
     local easy_flight_mode = slot_data["EasyFlightMode"]
     if easy_flight_mode ~= nil then

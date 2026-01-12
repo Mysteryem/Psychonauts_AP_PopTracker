@@ -80,6 +80,13 @@
     "initial_active_state": true
   },
   {
+    "name": "StartingColorizer",
+    "type": "toggle",
+    "img": "images/items/settings/starting_colorizer.png",
+    "codes": "setting_starting_colorizer",
+    "initial_active_state": true
+  },
+  {
     "name": "Deep Arrowhead Shuffle",
     "type": "toggle",
     "img": "images/items/misc/dowsing_rod.png",
