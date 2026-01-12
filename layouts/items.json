@@ -294,15 +294,18 @@
   "settings_shuffle_grid": {
     "type": "itemgrid",
     "item_margin": "0, 0",
-    "item_size": 5,
+    "item_size": 3,
     "margin": "0,0",
     "h_alignment": "center",
     "rows": [
       [
         "setting_deep_arrowhead_shuffle",
-        "setting_mental_cobweb_shuffle",
+        "setting_mental_cobweb_shuffle"
+      ],
+      [
         "setting_ranksanity",
-        "setting_progressive_baggage_count"
+        "setting_progressive_baggage_count",
+        "setting_figment_percentage_checks"
       ]
     ]
   }

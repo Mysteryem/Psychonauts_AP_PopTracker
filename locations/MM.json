@@ -580,6 +580,14 @@
                                 "y": 33
                               }
                             ]
+                          },
+                          {
+                            "name": "MMDMRollingPin",
+                            "_comment": "Completing the level removes G-Men from the Landscaper's House",
+                            "access_rules": [
+                              "boyd_hedge_trimmers, boyd_rolling_pin",
+                              "settings_enable_out_of_logic, [boyd_hedge_trimmers], [boyd_rolling_pin]"
+                            ]
                           }
                         ]
                       }

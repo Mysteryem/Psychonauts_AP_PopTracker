@@ -105,5 +105,14 @@
     "img": "images/items/baggage/dufflebag.png",
     "codes": "setting_progressive_baggage_count",
     "max_quantity": 10
+  },
+  {
+    "name": "Figment Percentage Checks",
+    "type": "consumable",
+    "img": "images/icons/figment_bb.png",
+    "codes": "setting_figment_percentage_checks",
+    "increment": 20,
+    "decrement": 20,
+    "max_quantity": 100
   }
 ]

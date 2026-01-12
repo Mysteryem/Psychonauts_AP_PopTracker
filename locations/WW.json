@@ -396,6 +396,12 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "WWMAFullAccess",
+                "access_rules": [
+                  "invisibility"
+                ]
               }
             ]
           }

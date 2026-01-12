@@ -316,6 +316,10 @@ function onClear(slot_data)
     local progressive_baggage_setting = Tracker:FindObjectForCode("setting_progressive_baggage_count")
     progressive_baggage_setting.AcquiredCount = progressive_baggage_enabled * progressive_baggage_count
 
+    local figment_percentage_checks = slot_data["FigmentPercentageChecks"] or 0  -- [0, 5], for each 20%
+    local figment_percentage_setting = Tracker:FindObjectForCode("setting_figment_percentage_checks")
+    figment_percentage_setting.AcquiredCount = figment_percentage_checks * 20
+
     -- Other
     --slot_data["LootboxVaults"]
     -- Showing this is not yet implemented.

@@ -38,6 +38,7 @@ Tracker:AddLocations("locations/MC.json")
 Tracker:AddLocations("locations/AS.json")
 Tracker:AddLocations("locations/CU.json")
 Tracker:AddLocations("locations/baggage.json")
+Tracker:AddLocations("locations/figments.json")
 
 -- Logic Macro Locations
 Tracker:AddLocations("locations/logic_macros.json")

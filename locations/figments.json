@@ -1,0 +1,590 @@
+[
+  {
+    "name": "BB Figments",
+    "chest_unopened_img": "images/icons/figment_bb.png",
+    "chest_opened_img": "images/icons/figment_bb_disabled.png",
+    "sections": [
+      {
+        "name": "(BB Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@BBA1"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(BB Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@BBA1"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(BB Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@BBA1"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(BB Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@BBA2Duster"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(BB Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@BBA2Duster"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "BB",
+        "x": 822,
+        "y": 932,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "BT Figments",
+    "chest_unopened_img": "images/icons/figment_bt.png",
+    "chest_opened_img": "images/icons/figment_bt_disabled.png",
+    "sections": [
+      {
+        "name": "(BT Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@NIMP"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(BT Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@NIMPMark"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(BT Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@NIMPMark"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(BT Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@NIBA"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(BT Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@NIBA"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "BT",
+        "x": 704,
+        "y": 633,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "BV Figments",
+    "chest_unopened_img": "images/icons/figment_bv.png",
+    "chest_opened_img": "images/icons/figment_bv_disabled.png",
+    "sections": [
+      {
+        "name": "(BV Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@BVRB"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(BV Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@BVRB"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(BV Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@BVRBDuster"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(BV Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@BVRBFullAccess"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(BV Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@BVRBFullAccess"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "BV",
+        "x": 506,
+        "y": 585,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "LO Figments",
+    "chest_unopened_img": "images/icons/figment_lo.png",
+    "chest_opened_img": "images/icons/figment_lo_disabled.png",
+    "sections": [
+      {
+        "name": "(LO Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@LOMA"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(LO Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@LOMAShield"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(LO Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@LOMAShield"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(LO Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@LOMAShield"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(LO Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@LOMAShield"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "LO",
+        "x": 1376,
+        "y": 621,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "MC Figments",
+    "chest_unopened_img": "images/icons/figment_mc.png",
+    "chest_opened_img": "images/icons/figment_mc_disabled.png",
+    "sections": [
+      {
+        "name": "(MC Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@MCTC"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(MC Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@MCTC"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(MC Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@MCTCEscort"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(MC Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@MCTCEscort"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(MC Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@MCTCEscort"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "MC",
+        "x": 1022,
+        "y": 408,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "MI Figments",
+    "chest_unopened_img": "images/icons/figment_mi.png",
+    "chest_opened_img": "images/icons/figment_mi_disabled.png",
+    "access_rules": [
+      "@MIFL"
+    ],
+    "sections": [
+      {
+        "name": "(MI Figments) Collect Figments 20 Percent",
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(MI Figments) Collect Figments 40 Percent",
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(MI Figments) Collect Figments 60 Percent",
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(MI Figments) Collect Figments 80 Percent",
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(MI Figments) Collect Figments 100 Percent",
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "MI",
+        "x": 1103,
+        "y": 461,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "MM Figments",
+    "chest_unopened_img": "images/icons/figment_mm.png",
+    "chest_opened_img": "images/icons/figment_mm_disabled.png",
+    "sections": [
+      {
+        "name": "(MM Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@MMI1AfterSign"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(MM Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@MMI1AfterSign"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(MM Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@MMI1AfterSign"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(MM Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@MMDMRollingPin"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(MM Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@MMDMRollingPin"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "MM",
+        "x": 788,
+        "y": 441,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "SA Figments",
+    "chest_unopened_img": "images/icons/figment_sa.png",
+    "chest_opened_img": "images/icons/figment_sa_disabled.png",
+    "sections": [
+      {
+        "name": "(SA Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@SACU"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(SA Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@SACU"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(SA Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@SACU"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(SA Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@SACULev"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(SA Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@SACULev"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "SA",
+        "x": 513,
+        "y": 549,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "TH Figments",
+    "chest_unopened_img": "images/icons/figment_th.png",
+    "chest_opened_img": "images/icons/figment_th_disabled.png",
+    "sections": [
+      {
+        "name": "(TH Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@THMSLev"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(TH Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@THMSStorage"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(TH Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@THCW"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(TH Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@THFB"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(TH Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@THFB"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "TH",
+        "x": 1552,
+        "y": 241,
+        "shape": "trapezoid"
+      }
+    ]
+  },
+  {
+    "name": "WW Figments",
+    "chest_unopened_img": "images/icons/figment_ww.png",
+    "chest_opened_img": "images/icons/figment_ww_disabled.png",
+    "sections": [
+      {
+        "name": "(WW Figments) Collect Figments 20 Percent",
+        "access_rules": [
+          "@WWMA"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:20"
+        ]
+      },
+      {
+        "name": "(WW Figments) Collect Figments 40 Percent",
+        "access_rules": [
+          "@WWMA"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:40"
+        ]
+      },
+      {
+        "name": "(WW Figments) Collect Figments 60 Percent",
+        "access_rules": [
+          "@WWMALev"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:60"
+        ]
+      },
+      {
+        "name": "(WW Figments) Collect Figments 80 Percent",
+        "access_rules": [
+          "@WWMAFullAccess"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:80"
+        ]
+      },
+      {
+        "name": "(WW Figments) Collect Figments 100 Percent",
+        "access_rules": [
+          "@WWMAFullAccess"
+        ],
+        "visibility_rules": [
+          "setting_figment_percentage_checks:100"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "WW",
+        "x": 1080,
+        "y": 878,
+        "shape": "trapezoid"
+      }
+    ]
+  }
+]
