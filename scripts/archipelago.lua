@@ -131,6 +131,15 @@ BRAIN_TANK_ONLY = 0
 BRAIN_HUNT_ONLY = 1
 BRAIN_TANK_AND_HUNT = 2
 
+local HINT_ENUM_VALUE_TO_HIGHLIGHT = {
+    [0] = Highlight.Unspecified,
+    [10] = Highlight.NoPriority,
+    [20] = Highlight.Avoid,
+    [30] = Highlight.Priority,
+    [40] = Highlight.None,
+}
+local HINTS_DATASTORAGE_KEY
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return true end
@@ -171,6 +180,7 @@ function onClear(slot_data)
             local location = Tracker:FindObjectForCode(location_section_name)
             if location then
                 location.AvailableChestCount = location.ChestCount
+                location.Highlight = Highlight.None
             end
         end
     end
@@ -198,6 +208,15 @@ function onClear(slot_data)
             end
         end
     end
+
+    -- Get and subscribe to changes to the player's hints.
+    if Archipelago.PlayerNumber > 0 then
+        HINTS_DATASTORAGE_KEY = string.format("_read_hints_%i_%i", Archipelago.TeamNumber, Archipelago.PlayerNumber)
+        Archipelago:SetNotify({HINTS_DATASTORAGE_KEY})
+        Archipelago:Get({HINTS_DATASTORAGE_KEY})
+    end
+
+    -- TODO: Remove this
     -- reset brain count
     clearBrainCount()
 
@@ -478,13 +497,32 @@ function onBounced(value)
     onMap(data["psychonauts_level_name"])
 end
 
---called when Get("events") returns
---function onEventsLaunch()
---end
+function onEvent(key, value, old_value)
+    if value == old_value then
+        return
+    end
+    if key == HINTS_DATASTORAGE_KEY then
+        local self_player = Archipelago.PlayerNumber
+        for _, hint in ipairs(value) do
+            if hint.finding_player == self_player then
+                local section_name = LOCATION_MAPPING[hint.location]
+                if section_name ~= nil then
+                    local section = Tracker:FindObjectForCode(section_name)
+                    if section ~= nil then
+                        local highlight = HINT_ENUM_VALUE_TO_HIGHLIGHT[hint.status]
+                        if highlight ~= nil then
+                            section.Highlight = highlight
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
 
 Archipelago:AddClearHandler("clear handler", onClearHandler)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddBouncedHandler("map handler", onBounced)
---Archipelago:AddSetReplyHandler("event handler", onEvent)
---Archipelago:AddRetrievedHandler("event launch handler", onEventsLaunch)
+Archipelago:AddSetReplyHandler("event handler", onEvent)
+Archipelago:AddRetrievedHandler("event launch handler", onEvent)
