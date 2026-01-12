@@ -55,6 +55,7 @@
         "map": "BB",
         "x": 822,
         "y": 932,
+        "size": 45,
         "shape": "trapezoid"
       }
     ]
@@ -115,6 +116,7 @@
         "map": "BT",
         "x": 704,
         "y": 633,
+        "size": 30,
         "shape": "trapezoid"
       }
     ]
@@ -175,6 +177,7 @@
         "map": "BV",
         "x": 506,
         "y": 585,
+        "size": 38,
         "shape": "trapezoid"
       }
     ]
@@ -235,6 +238,7 @@
         "map": "LO",
         "x": 1376,
         "y": 621,
+        "size": 45,
         "shape": "trapezoid"
       }
     ]
@@ -295,6 +299,7 @@
         "map": "MC",
         "x": 1022,
         "y": 408,
+        "size": 45,
         "shape": "trapezoid"
       }
     ]
@@ -343,6 +348,7 @@
         "map": "MI",
         "x": 1103,
         "y": 461,
+        "size": 38,
         "shape": "trapezoid"
       }
     ]
@@ -403,6 +409,7 @@
         "map": "MM",
         "x": 788,
         "y": 441,
+        "size": 45,
         "shape": "trapezoid"
       }
     ]
@@ -463,6 +470,7 @@
         "map": "SA",
         "x": 513,
         "y": 549,
+        "size": 30,
         "shape": "trapezoid"
       }
     ]
@@ -523,6 +531,7 @@
         "map": "TH",
         "x": 1552,
         "y": 241,
+        "size": 45,
         "shape": "trapezoid"
       }
     ]
@@ -583,6 +592,7 @@
         "map": "WW",
         "x": 1080,
         "y": 878,
+        "size": 22,
         "shape": "trapezoid"
       }
     ]
