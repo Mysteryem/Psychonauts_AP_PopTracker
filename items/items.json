@@ -241,115 +241,115 @@
     "name": "Benny's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_benny.png",
-    "codes": "brain_benny"
+    "codes": "brain_benny, brain"
   },
   {
     "name": "Bobby's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_bobby.png",
-    "codes": "brain_bobby"
+    "codes": "brain_bobby, brain"
   },
   {
     "name": "Chloe's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_chloe.png",
-    "codes": "brain_chloe"
+    "codes": "brain_chloe, brain"
   },
   {
     "name": "Clem's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_clem.png",
-    "codes": "brain_clem"
+    "codes": "brain_clem, brain"
   },
   {
     "name": "Chops' Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_chops.png",
-    "codes": "brain_chops"
+    "codes": "brain_chops, brain"
   },
   {
     "name": "Crystal's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_crystal.png",
-    "codes": "brain_crystal"
+    "codes": "brain_crystal, brain"
   },
   {
     "name": "Dogen's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_dogen.png",
-    "codes": "brain_dogen"
+    "codes": "brain_dogen, brain"
   },
   {
     "name": "Elka's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_elka.png",
-    "codes": "brain_elka"
+    "codes": "brain_elka, brain"
   },
   {
     "name": "Elton's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_elton.png",
-    "codes": "brain_elton"
+    "codes": "brain_elton, brain"
   },
   {
     "name": "Franke's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_franke.png",
-    "codes": "brain_franke"
+    "codes": "brain_franke, brain"
   },
   {
     "name": "JT's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_jt.png",
-    "codes": "brain_jt"
+    "codes": "brain_jt, brain"
   },
   {
     "name": "Kitty's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_kitty.png",
-    "codes": "brain_kitty"
+    "codes": "brain_kitty, brain"
   },
   {
     "name": "Maloof's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_maloof.png",
-    "codes": "brain_maloof"
+    "codes": "brain_maloof, brain"
   },
   {
     "name": "Mikhail's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_mikhail.png",
-    "codes": "brain_mikhail"
+    "codes": "brain_mikhail, brain"
   },
   {
     "name": "Milka's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_milka.png",
-    "codes": "brain_milka"
+    "codes": "brain_milka, brain"
   },
   {
     "name": "Nils' Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_nils.png",
-    "codes": "brain_nils"
+    "codes": "brain_nils, brain"
   },
   {
     "name": "Phoebe's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_phoebe.png",
-    "codes": "brain_phoebe"
+    "codes": "brain_phoebe, brain"
   },
   {
     "name": "Quentin's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_quentin.png",
-    "codes": "brain_quentin"
+    "codes": "brain_quentin, brain"
   },
   {
     "name": "Vernon's Brain",
     "type": "toggle",
     "img": "images/items/brains/brain_vernon.png",
-    "codes": "brain_vernon"
+    "codes": "brain_vernon, brain"
   },
   {
     "name": "Cherry Wood Pipe",

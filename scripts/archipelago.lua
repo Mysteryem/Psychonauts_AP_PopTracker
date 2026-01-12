@@ -4,28 +4,6 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 -- Assuming this tracks the received order of items
 CUR_INDEX = -1
 
-BRAIN_CODES = {
-    "brain_elton",
-    "brain_bobby",
-    "brain_dogen",
-    "brain_benny",
-    "brain_elka",
-    "brain_kitty",
-    "brain_chloe",
-    "brain_franke",
-    "brain_jt",
-    "brain_quentin",
-    "brain_vernon",
-    "brain_milka",
-    "brain_crystal",
-    "brain_clem",
-    "brain_nils",
-    "brain_maloof",
-    "brain_mikhail",
-    "brain_phoebe",
-    "brain_chops",
-}
-
 BAGGAGE_TO_TAG = {
     ["suitcase"] = "suitcase_tag",
     ["purse"] = "purse_tag",
@@ -139,13 +117,6 @@ local HINT_ENUM_VALUE_TO_HIGHLIGHT = {
     [40] = Highlight.None,
 }
 local HINTS_DATASTORAGE_KEY
-
-function has_value (t, val)
-    for i, v in ipairs(t) do
-        if v == val then return true end
-    end
-    return false
-end
 
 function dump_table(o, depth)
     if depth == nil then
@@ -376,15 +347,6 @@ function clearBrainCount()
     obj.AcquiredCount = 0
 end
 
-function updateBrainCount(received_item_code)
-    if has_value(BRAIN_CODES, received_item_code) then
-        -- DEBUG
-        print(string.format("updateBrainCount: %s is a brain, incrementing brain count", received_item_code))
-        local obj = Tracker:FindObjectForCode("camper_brain")
-        obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-    end
-end
-
 function decrementBaggageTagCount(received_item_code)
     local tag_code = BAGGAGE_TO_TAG[received_item_code]
     if tag_code then
@@ -433,8 +395,6 @@ function onItem(index, ap_item_id, item_name, player_number)
         item_type = obj.Type
         if item_type == "toggle" then
             obj.Active = true
-            -- Extra handling for the fake consumable items used to show the current total
-            updateBrainCount(item_code)
         elseif item_type == "progressive" then
             if obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
