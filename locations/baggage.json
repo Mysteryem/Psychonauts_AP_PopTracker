@@ -120,6 +120,7 @@
         "name": "(Baggage) Dufflebag Redeemed 10",
         "access_rules": [
           "dufflebag_tag:10, dufflebag:10",
+          "dufflebag_tag:10, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:10}"
         ],
         "visibility_rules": [
@@ -244,6 +245,7 @@
         "name": "(Baggage) Hatbox Redeemed 10",
         "access_rules": [
           "hatbox_tag:10, hatbox:10",
+          "hatbox_tag:10, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:10}"
         ],
         "visibility_rules": [
@@ -368,6 +370,7 @@
         "name": "(Baggage) Purse Redeemed 10",
         "access_rules": [
           "purse_tag:10, purse:10",
+          "purse_tag:10, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:10}"
         ],
         "visibility_rules": [
@@ -492,6 +495,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 10",
         "access_rules": [
           "steamer_trunk_tag:10, steamer_trunk:10",
+          "steamer_trunk_tag:10, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:10}"
         ],
         "visibility_rules": [
@@ -616,6 +620,7 @@
         "name": "(Baggage) Suitcase Redeemed 10",
         "access_rules": [
           "suitcase_tag:10, suitcase:10",
+          "suitcase_tag:10, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:10}"
         ],
         "visibility_rules": [
