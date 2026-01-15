@@ -391,7 +391,8 @@ function onEvent(key, value, old_value)
         local self_player = Archipelago.PlayerNumber
         for _, hint in ipairs(value) do
             if hint.finding_player == self_player then
-                local section_name = LOCATION_MAPPING[hint.location]
+                local location_id = hint.location - AP_LOCATION_OFFSET
+                local section_name = LOCATION_MAPPING[location_id]
                 if section_name ~= nil then
                     local section = Tracker:FindObjectForCode(section_name)
                     if section ~= nil then
@@ -399,7 +400,11 @@ function onEvent(key, value, old_value)
                         if highlight ~= nil then
                             section.Highlight = highlight
                         end
+                    else
+                        print("Error: Could not find section for path "..section_name)
                     end
+                else
+                    print("Error: Could not find section name for location_id "..tostring(location_id))
                 end
             end
         end
