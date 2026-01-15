@@ -104,14 +104,16 @@
     "name": "Ranksanity",
     "type": "toggle",
     "img": "images/items/misc/psi_challenge_marker.png",
-    "codes": "setting_ranksanity"
+    "codes": "setting_ranksanity",
+    "initial_active_state": true
   },
   {
     "name": "Progressive Baggage Count",
     "type": "consumable",
     "img": "images/items/baggage/dufflebag.png",
     "codes": "setting_progressive_baggage_count",
-    "max_quantity": 10
+    "max_quantity": 10,
+    "initial_quantity": 10
   },
   {
     "name": "Figment Percentage Checks",
@@ -120,6 +122,7 @@
     "codes": "setting_figment_percentage_checks",
     "increment": 20,
     "decrement": 20,
-    "max_quantity": 100
+    "max_quantity": 100,
+    "initial_quantity": 100
   }
 ]
