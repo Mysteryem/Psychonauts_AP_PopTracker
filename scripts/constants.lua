@@ -1,0 +1,3 @@
+-- Offset from PsychoRando ID to Archipelago ID
+AP_ITEM_OFFSET = 42690000
+AP_LOCATION_OFFSET = AP_ITEM_OFFSET

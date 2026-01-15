@@ -12,13 +12,15 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Logic
-ScriptHost:LoadScript("scripts/logic/logic.lua")
+require("scripts/logic/logic")
+require("scripts/logic/baggage_logic")
 
 -- Items
 Tracker:AddItems("items/internal.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/pack_settings_items.json")
 Tracker:AddItems("items/settings_items.json")
+Tracker:AddItems("items/baggage_in_area.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")
@@ -39,6 +41,7 @@ Tracker:AddLocations("locations/AS.json")
 Tracker:AddLocations("locations/CU.json")
 Tracker:AddLocations("locations/baggage.json")
 Tracker:AddLocations("locations/figments.json")
+Tracker:AddLocations("locations/known_baggage.json")
 
 -- Logic Macro Locations
 Tracker:AddLocations("locations/logic_macros.json")
@@ -51,9 +54,9 @@ Tracker:AddLayouts("layouts/items_broadcast.json")
 Tracker:AddLayouts("layouts/settings.json")
 
 -- Item code watches
-ScriptHost:LoadScript("scripts/item_code_watches.lua")
+require("scripts/item_code_watches")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/archipelago.lua")
+    require("scripts/archipelago")
 end

@@ -3,7 +3,15 @@
     "_comment": [
       "Logic for Progressive Baggage is not great because the logic collects Baggage immediately, even without tags,",
       " but the player needs tags to collect the baggage, so a Progressive Baggage location won't be in logic until it",
-      " is checked."
+      " is checked.",
+      "When baggage is set to hint baggage when the player interacts and does not have a tag, then the tracker is able",
+      " to remember where the baggage is, and then it can use the hinted, unfound baggage in logic.",
+      "Logic uses rules like 'dufflebag_tag:1, dufflebag:1' so that collected baggage does not show as out-of-logic.",
+      "Logic uses rules like 'dufflebag_tag:1, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag' to show",
+      " progressive baggage as in-logic when there is hinted, unfound baggage that can be acquired.",
+      "Logic uses rules like '{dufflebag_tag:1}' so that if the player has unused tags, but does not know where",
+      " baggage is, that the locations show as blue (checkable), in the sense that if the player 'checks' for where",
+      " baggage is, they can collected it due to having unused tags."
     ],
     "name": "Progressive Dufflebag",
     "chest_unopened_img": "images/items/baggage/dufflebag.png",
@@ -13,6 +21,7 @@
         "name": "(Baggage) Dufflebag Redeemed 1",
         "access_rules": [
           "dufflebag_tag:1, dufflebag:1",
+          "dufflebag_tag:1, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:1}"
         ],
         "visibility_rules": [
@@ -23,6 +32,7 @@
         "name": "(Baggage) Dufflebag Redeemed 2",
         "access_rules": [
           "dufflebag_tag:2, dufflebag:2",
+          "dufflebag_tag:2, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:2}"
         ],
         "visibility_rules": [
@@ -33,6 +43,7 @@
         "name": "(Baggage) Dufflebag Redeemed 3",
         "access_rules": [
           "dufflebag_tag:3, dufflebag:3",
+          "dufflebag_tag:3, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:3}"
         ],
         "visibility_rules": [
@@ -43,6 +54,7 @@
         "name": "(Baggage) Dufflebag Redeemed 4",
         "access_rules": [
           "dufflebag_tag:4, dufflebag:4",
+          "dufflebag_tag:4, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:4}"
         ],
         "visibility_rules": [
@@ -53,6 +65,7 @@
         "name": "(Baggage) Dufflebag Redeemed 5",
         "access_rules": [
           "dufflebag_tag:5, dufflebag:5",
+          "dufflebag_tag:5, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:5}"
         ],
         "visibility_rules": [
@@ -63,6 +76,7 @@
         "name": "(Baggage) Dufflebag Redeemed 6",
         "access_rules": [
           "dufflebag_tag:6, dufflebag:6",
+          "dufflebag_tag:6, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:6}"
         ],
         "visibility_rules": [
@@ -73,6 +87,7 @@
         "name": "(Baggage) Dufflebag Redeemed 7",
         "access_rules": [
           "dufflebag_tag:7, dufflebag:7",
+          "dufflebag_tag:7, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:7}"
         ],
         "visibility_rules": [
@@ -83,6 +98,7 @@
         "name": "(Baggage) Dufflebag Redeemed 8",
         "access_rules": [
           "dufflebag_tag:8, dufflebag:8",
+          "dufflebag_tag:8, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:8}"
         ],
         "visibility_rules": [
@@ -93,6 +109,7 @@
         "name": "(Baggage) Dufflebag Redeemed 9",
         "access_rules": [
           "dufflebag_tag:9, dufflebag:9",
+          "dufflebag_tag:9, @Baggage Logic/Can Reach Any Hinted Unfound Dufflebag",
           "{dufflebag_tag:9}"
         ],
         "visibility_rules": [
@@ -128,6 +145,7 @@
         "name": "(Baggage) Hatbox Redeemed 1",
         "access_rules": [
           "hatbox_tag:1, hatbox:1",
+          "hatbox_tag:1, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:1}"
         ],
         "visibility_rules": [
@@ -138,6 +156,7 @@
         "name": "(Baggage) Hatbox Redeemed 2",
         "access_rules": [
           "hatbox_tag:2, hatbox:2",
+          "hatbox_tag:2, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:2}"
         ],
         "visibility_rules": [
@@ -148,6 +167,7 @@
         "name": "(Baggage) Hatbox Redeemed 3",
         "access_rules": [
           "hatbox_tag:3, hatbox:3",
+          "hatbox_tag:3, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:3}"
         ],
         "visibility_rules": [
@@ -158,6 +178,7 @@
         "name": "(Baggage) Hatbox Redeemed 4",
         "access_rules": [
           "hatbox_tag:4, hatbox:4",
+          "hatbox_tag:4, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:4}"
         ],
         "visibility_rules": [
@@ -168,6 +189,7 @@
         "name": "(Baggage) Hatbox Redeemed 5",
         "access_rules": [
           "hatbox_tag:5, hatbox:5",
+          "hatbox_tag:5, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:5}"
         ],
         "visibility_rules": [
@@ -178,6 +200,7 @@
         "name": "(Baggage) Hatbox Redeemed 6",
         "access_rules": [
           "hatbox_tag:6, hatbox:6",
+          "hatbox_tag:6, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:6}"
         ],
         "visibility_rules": [
@@ -188,6 +211,7 @@
         "name": "(Baggage) Hatbox Redeemed 7",
         "access_rules": [
           "hatbox_tag:7, hatbox:7",
+          "hatbox_tag:7, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:7}"
         ],
         "visibility_rules": [
@@ -198,6 +222,7 @@
         "name": "(Baggage) Hatbox Redeemed 8",
         "access_rules": [
           "hatbox_tag:8, hatbox:8",
+          "hatbox_tag:8, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:8}"
         ],
         "visibility_rules": [
@@ -208,6 +233,7 @@
         "name": "(Baggage) Hatbox Redeemed 9",
         "access_rules": [
           "hatbox_tag:9, hatbox:9",
+          "hatbox_tag:9, @Baggage Logic/Can Reach Any Hinted Unfound Hatbox",
           "{hatbox_tag:9}"
         ],
         "visibility_rules": [
@@ -243,6 +269,7 @@
         "name": "(Baggage) Purse Redeemed 1",
         "access_rules": [
           "purse_tag:1, purse:1",
+          "purse_tag:1, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:1}"
         ],
         "visibility_rules": [
@@ -253,6 +280,7 @@
         "name": "(Baggage) Purse Redeemed 2",
         "access_rules": [
           "purse_tag:2, purse:2",
+          "purse_tag:2, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:2}"
         ],
         "visibility_rules": [
@@ -263,6 +291,7 @@
         "name": "(Baggage) Purse Redeemed 3",
         "access_rules": [
           "purse_tag:3, purse:3",
+          "purse_tag:3, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:3}"
         ],
         "visibility_rules": [
@@ -273,6 +302,7 @@
         "name": "(Baggage) Purse Redeemed 4",
         "access_rules": [
           "purse_tag:4, purse:4",
+          "purse_tag:4, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:4}"
         ],
         "visibility_rules": [
@@ -283,6 +313,7 @@
         "name": "(Baggage) Purse Redeemed 5",
         "access_rules": [
           "purse_tag:5, purse:5",
+          "purse_tag:5, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:5}"
         ],
         "visibility_rules": [
@@ -293,6 +324,7 @@
         "name": "(Baggage) Purse Redeemed 6",
         "access_rules": [
           "purse_tag:6, purse:6",
+          "purse_tag:6, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:6}"
         ],
         "visibility_rules": [
@@ -303,6 +335,7 @@
         "name": "(Baggage) Purse Redeemed 7",
         "access_rules": [
           "purse_tag:7, purse:7",
+          "purse_tag:7, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:7}"
         ],
         "visibility_rules": [
@@ -313,6 +346,7 @@
         "name": "(Baggage) Purse Redeemed 8",
         "access_rules": [
           "purse_tag:8, purse:8",
+          "purse_tag:8, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:8}"
         ],
         "visibility_rules": [
@@ -323,6 +357,7 @@
         "name": "(Baggage) Purse Redeemed 9",
         "access_rules": [
           "purse_tag:9, purse:9",
+          "purse_tag:9, @Baggage Logic/Can Reach Any Hinted Unfound Purse",
           "{purse_tag:9}"
         ],
         "visibility_rules": [
@@ -358,6 +393,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 1",
         "access_rules": [
           "steamer_trunk_tag:1, steamer_trunk:1",
+          "steamer_trunk_tag:1, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:1}"
         ],
         "visibility_rules": [
@@ -368,6 +404,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 2",
         "access_rules": [
           "steamer_trunk_tag:2, steamer_trunk:2",
+          "steamer_trunk_tag:2, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:2}"
         ],
         "visibility_rules": [
@@ -378,6 +415,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 3",
         "access_rules": [
           "steamer_trunk_tag:3, steamer_trunk:3",
+          "steamer_trunk_tag:3, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:3}"
         ],
         "visibility_rules": [
@@ -388,6 +426,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 4",
         "access_rules": [
           "steamer_trunk_tag:4, steamer_trunk:4",
+          "steamer_trunk_tag:4, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:4}"
         ],
         "visibility_rules": [
@@ -398,6 +437,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 5",
         "access_rules": [
           "steamer_trunk_tag:5, steamer_trunk:5",
+          "steamer_trunk_tag:5, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:5}"
         ],
         "visibility_rules": [
@@ -408,6 +448,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 6",
         "access_rules": [
           "steamer_trunk_tag:6, steamer_trunk:6",
+          "steamer_trunk_tag:6, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:6}"
         ],
         "visibility_rules": [
@@ -418,6 +459,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 7",
         "access_rules": [
           "steamer_trunk_tag:7, steamer_trunk:7",
+          "steamer_trunk_tag:7, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:7}"
         ],
         "visibility_rules": [
@@ -428,6 +470,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 8",
         "access_rules": [
           "steamer_trunk_tag:8, steamer_trunk:8",
+          "steamer_trunk_tag:8, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:8}"
         ],
         "visibility_rules": [
@@ -438,6 +481,7 @@
         "name": "(Baggage) Steamertrunk Redeemed 9",
         "access_rules": [
           "steamer_trunk_tag:9, steamer_trunk:9",
+          "steamer_trunk_tag:9, @Baggage Logic/Can Reach Any Hinted Unfound Steamertrunk",
           "{steamer_trunk_tag:9}"
         ],
         "visibility_rules": [
@@ -473,6 +517,7 @@
         "name": "(Baggage) Suitcase Redeemed 1",
         "access_rules": [
           "suitcase_tag:1, suitcase:1",
+          "suitcase_tag:1, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:1}"
         ],
         "visibility_rules": [
@@ -483,6 +528,7 @@
         "name": "(Baggage) Suitcase Redeemed 2",
         "access_rules": [
           "suitcase_tag:2, suitcase:2",
+          "suitcase_tag:2, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:2}"
         ],
         "visibility_rules": [
@@ -493,6 +539,7 @@
         "name": "(Baggage) Suitcase Redeemed 3",
         "access_rules": [
           "suitcase_tag:3, suitcase:3",
+          "suitcase_tag:3, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:3}"
         ],
         "visibility_rules": [
@@ -503,6 +550,7 @@
         "name": "(Baggage) Suitcase Redeemed 4",
         "access_rules": [
           "suitcase_tag:4, suitcase:4",
+          "suitcase_tag:4, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:4}"
         ],
         "visibility_rules": [
@@ -513,6 +561,7 @@
         "name": "(Baggage) Suitcase Redeemed 5",
         "access_rules": [
           "suitcase_tag:5, suitcase:5",
+          "suitcase_tag:5, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:5}"
         ],
         "visibility_rules": [
@@ -523,6 +572,7 @@
         "name": "(Baggage) Suitcase Redeemed 6",
         "access_rules": [
           "suitcase_tag:6, suitcase:6",
+          "suitcase_tag:6, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:6}"
         ],
         "visibility_rules": [
@@ -533,6 +583,7 @@
         "name": "(Baggage) Suitcase Redeemed 7",
         "access_rules": [
           "suitcase_tag:7, suitcase:7",
+          "suitcase_tag:7, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:7}"
         ],
         "visibility_rules": [
@@ -543,6 +594,7 @@
         "name": "(Baggage) Suitcase Redeemed 8",
         "access_rules": [
           "suitcase_tag:8, suitcase:8",
+          "suitcase_tag:8, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:8}"
         ],
         "visibility_rules": [
@@ -553,6 +605,7 @@
         "name": "(Baggage) Suitcase Redeemed 9",
         "access_rules": [
           "suitcase_tag:9, suitcase:9",
+          "suitcase_tag:9, @Baggage Logic/Can Reach Any Hinted Unfound Suitcase",
           "{suitcase_tag:9}"
         ],
         "visibility_rules": [

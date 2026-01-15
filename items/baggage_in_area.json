@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Dufflebags in CA Lab+Ford",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ca_lab+ford"
+  },
+  {
+    "name": "Hatboxes in CA Lab+Ford",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ca_lab+ford"
+  },
+  {
+    "name": "Purses in CA Lab+Ford",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ca_lab+ford"
+  },
+  {
+    "name": "Steamertrunks in CA Lab+Ford",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ca_lab+ford"
+  },
+  {
+    "name": "Suitcases in CA Lab+Ford",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ca_lab+ford"
+  },
+  {
+    "name": "Dufflebags in CA GPC",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ca_gpc"
+  },
+  {
+    "name": "Hatboxes in CA GPC",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ca_gpc"
+  },
+  {
+    "name": "Purses in CA GPC",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ca_gpc"
+  },
+  {
+    "name": "Steamertrunks in CA GPC",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ca_gpc"
+  },
+  {
+    "name": "Suitcases in CA GPC",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ca_gpc"
+  },
+  {
+    "name": "Dufflebags in CA Main",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ca_main"
+  },
+  {
+    "name": "Hatboxes in CA Main",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ca_main"
+  },
+  {
+    "name": "Purses in CA Main",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ca_main"
+  },
+  {
+    "name": "Steamertrunks in CA Main",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ca_main"
+  },
+  {
+    "name": "Suitcases in CA Main",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ca_main"
+  },
+  {
+    "name": "Dufflebags in CA Cabins",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ca_cabins"
+  },
+  {
+    "name": "Hatboxes in CA Cabins",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ca_cabins"
+  },
+  {
+    "name": "Purses in CA Cabins",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ca_cabins"
+  },
+  {
+    "name": "Steamertrunks in CA Cabins",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ca_cabins"
+  },
+  {
+    "name": "Suitcases in CA Cabins",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ca_cabins"
+  },
+  {
+    "name": "Dufflebags in CA Reception",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ca_reception"
+  },
+  {
+    "name": "Hatboxes in CA Reception",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ca_reception"
+  },
+  {
+    "name": "Purses in CA Reception",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ca_reception"
+  },
+  {
+    "name": "Steamertrunks in CA Reception",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ca_reception"
+  },
+  {
+    "name": "Suitcases in CA Reception",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ca_reception"
+  },
+  {
+    "name": "Dufflebags in CA Lake",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ca_lake"
+  },
+  {
+    "name": "Hatboxes in CA Lake",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ca_lake"
+  },
+  {
+    "name": "Purses in CA Lake",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ca_lake"
+  },
+  {
+    "name": "Steamertrunks in CA Lake",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ca_lake"
+  },
+  {
+    "name": "Suitcases in CA Lake",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ca_lake"
+  },
+  {
+    "name": "Dufflebags in AS Grounds+Courtyard",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_as_grounds+courtyard"
+  },
+  {
+    "name": "Hatboxes in AS Grounds+Courtyard",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_as_grounds+courtyard"
+  },
+  {
+    "name": "Purses in AS Grounds+Courtyard",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_as_grounds+courtyard"
+  },
+  {
+    "name": "Steamertrunks in AS Grounds+Courtyard",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_as_grounds+courtyard"
+  },
+  {
+    "name": "Suitcases in AS Grounds+Courtyard",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_as_grounds+courtyard"
+  },
+  {
+    "name": "Dufflebags in AS Upper",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_as_upper"
+  },
+  {
+    "name": "Hatboxes in AS Upper",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_as_upper"
+  },
+  {
+    "name": "Purses in AS Upper",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_as_upper"
+  },
+  {
+    "name": "Steamertrunks in AS Upper",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_as_upper"
+  },
+  {
+    "name": "Suitcases in AS Upper",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_as_upper"
+  },
+  {
+    "name": "Dufflebags in AS Lab",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_as_lab"
+  },
+  {
+    "name": "Hatboxes in AS Lab",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_as_lab"
+  },
+  {
+    "name": "Purses in AS Lab",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_as_lab"
+  },
+  {
+    "name": "Steamertrunks in AS Lab",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_as_lab"
+  },
+  {
+    "name": "Suitcases in AS Lab",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_as_lab"
+  },
+  {
+    "name": "Dufflebags in SA",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_sa"
+  },
+  {
+    "name": "Hatboxes in SA",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_sa"
+  },
+  {
+    "name": "Purses in SA",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_sa"
+  },
+  {
+    "name": "Steamertrunks in SA",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_sa"
+  },
+  {
+    "name": "Suitcases in SA",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_sa"
+  },
+  {
+    "name": "Dufflebags in MI",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_mi"
+  },
+  {
+    "name": "Hatboxes in MI",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_mi"
+  },
+  {
+    "name": "Purses in MI",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_mi"
+  },
+  {
+    "name": "Steamertrunks in MI",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_mi"
+  },
+  {
+    "name": "Suitcases in MI",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_mi"
+  },
+  {
+    "name": "Dufflebags in BT",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_bt"
+  },
+  {
+    "name": "Hatboxes in BT",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_bt"
+  },
+  {
+    "name": "Purses in BT",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_bt"
+  },
+  {
+    "name": "Steamertrunks in BT",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_bt"
+  },
+  {
+    "name": "Suitcases in BT",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_bt"
+  },
+  {
+    "name": "Dufflebags in LO",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_lo"
+  },
+  {
+    "name": "Hatboxes in LO",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_lo"
+  },
+  {
+    "name": "Purses in LO",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_lo"
+  },
+  {
+    "name": "Steamertrunks in LO",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_lo"
+  },
+  {
+    "name": "Suitcases in LO",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_lo"
+  },
+  {
+    "name": "Dufflebags in MM",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_mm"
+  },
+  {
+    "name": "Hatboxes in MM",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_mm"
+  },
+  {
+    "name": "Purses in MM",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_mm"
+  },
+  {
+    "name": "Steamertrunks in MM",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_mm"
+  },
+  {
+    "name": "Suitcases in MM",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_mm"
+  },
+  {
+    "name": "Dufflebags in TH",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_th"
+  },
+  {
+    "name": "Hatboxes in TH",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_th"
+  },
+  {
+    "name": "Purses in TH",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_th"
+  },
+  {
+    "name": "Steamertrunks in TH",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_th"
+  },
+  {
+    "name": "Suitcases in TH",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_th"
+  },
+  {
+    "name": "Dufflebags in WW",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_ww"
+  },
+  {
+    "name": "Hatboxes in WW",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_ww"
+  },
+  {
+    "name": "Purses in WW",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_ww"
+  },
+  {
+    "name": "Steamertrunks in WW",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_ww"
+  },
+  {
+    "name": "Suitcases in WW",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_ww"
+  },
+  {
+    "name": "Dufflebags in BV",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_bv"
+  },
+  {
+    "name": "Hatboxes in BV",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_bv"
+  },
+  {
+    "name": "Purses in BV",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_bv"
+  },
+  {
+    "name": "Steamertrunks in BV",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_bv"
+  },
+  {
+    "name": "Suitcases in BV",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_bv"
+  },
+  {
+    "name": "Dufflebags in MC",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_mc"
+  },
+  {
+    "name": "Hatboxes in MC",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_mc"
+  },
+  {
+    "name": "Purses in MC",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_mc"
+  },
+  {
+    "name": "Steamertrunks in MC",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_mc"
+  },
+  {
+    "name": "Suitcases in MC",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_mc"
+  }
+]

@@ -1,5 +1,7 @@
-ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+require("scripts/constants")
+require("scripts/autotracking/item_mapping")
+require("scripts/autotracking/location_mapping")
+require("scripts/baggage_area_tracking")
 
 -- Assuming this tracks the received order of items
 CUR_INDEX = -1
@@ -31,10 +33,6 @@ local LEVEL_PREFIX_TO_TAB = {
     BV = tabBV,
     MC = tabMC,
 }
-
--- Offset from PsychoRando ID to Archipelago ID
-AP_ITEM_OFFSET = 42690000
-AP_LOCATION_OFFSET = AP_ITEM_OFFSET
 
 -- The "Goal" yaml option's value retrieved through AP slot_data is provided as a numeric value.
 BRAIN_TANK_ONLY = 0
@@ -389,6 +387,8 @@ function onEvent(key, value, old_value)
     end
     if key == HINTS_DATASTORAGE_KEY then
         local self_player = Archipelago.PlayerNumber
+        -- Clear tracked unfound baggage.
+        baggage_area_tracking_clear_known_unfound_baggage()
         for _, hint in ipairs(value) do
             if hint.finding_player == self_player then
                 local location_id = hint.location - AP_LOCATION_OFFSET
@@ -400,6 +400,7 @@ function onEvent(key, value, old_value)
                         if highlight ~= nil then
                             section.Highlight = highlight
                         end
+                        baggage_area_tracking_register_hint(hint)
                     else
                         print("Error: Could not find section for path "..section_name)
                     end

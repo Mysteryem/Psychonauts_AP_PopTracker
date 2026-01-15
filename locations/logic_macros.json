@@ -73,5 +73,125 @@
         "access_rules": ["@Rank Logic/upperAsylumAccess, telekinesis, levitation, oarsman_badge, lungfish_call"]
       }
     ]
+  },
+  {
+    "name": "Baggage Logic",
+    "children": [
+      {
+        "name": "Can Reach Any Hinted Unfound Dufflebag",
+        "access_rules": [
+          "@CA Lab+Ford - Hinted Unfound Baggage/Dufflebag",
+          "@CA GPC - Hinted Unfound Baggage/Dufflebag",
+          "@CA Main - Hinted Unfound Baggage/Dufflebag",
+          "@CA Cabins - Hinted Unfound Baggage/Dufflebag",
+          "@CA Reception - Hinted Unfound Baggage/Dufflebag",
+          "@CA Lake - Hinted Unfound Baggage/Dufflebag",
+          "@AS Grounds+Courtyard - Hinted Unfound Baggage/Dufflebag",
+          "@AS Upper - Hinted Unfound Baggage/Dufflebag",
+          "@AS Lab - Hinted Unfound Baggage/Dufflebag",
+          "@SA - Hinted Unfound Baggage/Dufflebag",
+          "@MI - Hinted Unfound Baggage/Dufflebag",
+          "@BT - Hinted Unfound Baggage/Dufflebag",
+          "@LO - Hinted Unfound Baggage/Dufflebag",
+          "@MM - Hinted Unfound Baggage/Dufflebag",
+          "@TH - Hinted Unfound Baggage/Dufflebag",
+          "@WW - Hinted Unfound Baggage/Dufflebag",
+          "@BV - Hinted Unfound Baggage/Dufflebag",
+          "@MC - Hinted Unfound Baggage/Dufflebag"
+        ]
+      },
+      {
+        "name": "Can Reach Any Hinted Unfound Hatbox",
+        "access_rules": [
+          "@CA Lab+Ford - Hinted Unfound Baggage/Hatbox",
+          "@CA GPC - Hinted Unfound Baggage/Hatbox",
+          "@CA Main - Hinted Unfound Baggage/Hatbox",
+          "@CA Cabins - Hinted Unfound Baggage/Hatbox",
+          "@CA Reception - Hinted Unfound Baggage/Hatbox",
+          "@CA Lake - Hinted Unfound Baggage/Hatbox",
+          "@AS Grounds+Courtyard - Hinted Unfound Baggage/Hatbox",
+          "@AS Upper - Hinted Unfound Baggage/Hatbox",
+          "@AS Lab - Hinted Unfound Baggage/Hatbox",
+          "@SA - Hinted Unfound Baggage/Hatbox",
+          "@MI - Hinted Unfound Baggage/Hatbox",
+          "@BT - Hinted Unfound Baggage/Hatbox",
+          "@LO - Hinted Unfound Baggage/Hatbox",
+          "@MM - Hinted Unfound Baggage/Hatbox",
+          "@TH - Hinted Unfound Baggage/Hatbox",
+          "@WW - Hinted Unfound Baggage/Hatbox",
+          "@BV - Hinted Unfound Baggage/Hatbox",
+          "@MC - Hinted Unfound Baggage/Hatbox"
+        ]
+      },
+      {
+        "name": "Can Reach Any Hinted Unfound Purse",
+        "access_rules": [
+          "@CA Lab+Ford - Hinted Unfound Baggage/Purse",
+          "@CA GPC - Hinted Unfound Baggage/Purse",
+          "@CA Main - Hinted Unfound Baggage/Purse",
+          "@CA Cabins - Hinted Unfound Baggage/Purse",
+          "@CA Reception - Hinted Unfound Baggage/Purse",
+          "@CA Lake - Hinted Unfound Baggage/Purse",
+          "@AS Grounds+Courtyard - Hinted Unfound Baggage/Purse",
+          "@AS Upper - Hinted Unfound Baggage/Purse",
+          "@AS Lab - Hinted Unfound Baggage/Purse",
+          "@SA - Hinted Unfound Baggage/Purse",
+          "@MI - Hinted Unfound Baggage/Purse",
+          "@BT - Hinted Unfound Baggage/Purse",
+          "@LO - Hinted Unfound Baggage/Purse",
+          "@MM - Hinted Unfound Baggage/Purse",
+          "@TH - Hinted Unfound Baggage/Purse",
+          "@WW - Hinted Unfound Baggage/Purse",
+          "@BV - Hinted Unfound Baggage/Purse",
+          "@MC - Hinted Unfound Baggage/Purse"
+        ]
+      },
+      {
+        "name": "Can Reach Any Hinted Unfound Steamertrunk",
+        "access_rules": [
+          "@CA Lab+Ford - Hinted Unfound Baggage/Steamertrunk",
+          "@CA GPC - Hinted Unfound Baggage/Steamertrunk",
+          "@CA Main - Hinted Unfound Baggage/Steamertrunk",
+          "@CA Cabins - Hinted Unfound Baggage/Steamertrunk",
+          "@CA Reception - Hinted Unfound Baggage/Steamertrunk",
+          "@CA Lake - Hinted Unfound Baggage/Steamertrunk",
+          "@AS Grounds+Courtyard - Hinted Unfound Baggage/Steamertrunk",
+          "@AS Upper - Hinted Unfound Baggage/Steamertrunk",
+          "@AS Lab - Hinted Unfound Baggage/Steamertrunk",
+          "@SA - Hinted Unfound Baggage/Steamertrunk",
+          "@MI - Hinted Unfound Baggage/Steamertrunk",
+          "@BT - Hinted Unfound Baggage/Steamertrunk",
+          "@LO - Hinted Unfound Baggage/Steamertrunk",
+          "@MM - Hinted Unfound Baggage/Steamertrunk",
+          "@TH - Hinted Unfound Baggage/Steamertrunk",
+          "@WW - Hinted Unfound Baggage/Steamertrunk",
+          "@BV - Hinted Unfound Baggage/Steamertrunk",
+          "@MC - Hinted Unfound Baggage/Steamertrunk"
+        ]
+      },
+      {
+        "name": "Can Reach Any Hinted Unfound Suitcase",
+        "access_rules": [
+          "@CA Lab+Ford - Hinted Unfound Baggage/Suitcase",
+          "@CA GPC - Hinted Unfound Baggage/Suitcase",
+          "@CA Main - Hinted Unfound Baggage/Suitcase",
+          "@CA Cabins - Hinted Unfound Baggage/Suitcase",
+          "@CA Reception - Hinted Unfound Baggage/Suitcase",
+          "@CA Lake - Hinted Unfound Baggage/Suitcase",
+          "@AS Grounds+Courtyard - Hinted Unfound Baggage/Suitcase",
+          "@AS Upper - Hinted Unfound Baggage/Suitcase",
+          "@AS Lab - Hinted Unfound Baggage/Suitcase",
+          "@SA - Hinted Unfound Baggage/Suitcase",
+          "@MI - Hinted Unfound Baggage/Suitcase",
+          "@BT - Hinted Unfound Baggage/Suitcase",
+          "@LO - Hinted Unfound Baggage/Suitcase",
+          "@MM - Hinted Unfound Baggage/Suitcase",
+          "@TH - Hinted Unfound Baggage/Suitcase",
+          "@WW - Hinted Unfound Baggage/Suitcase",
+          "@BV - Hinted Unfound Baggage/Suitcase",
+          "@MC - Hinted Unfound Baggage/Suitcase"
+        ]
+      }
+    ]
   }
 ]

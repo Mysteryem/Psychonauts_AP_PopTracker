@@ -1,0 +1,1586 @@
+[
+  {
+    "name": "CA Lab+Ford - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ca_lab+ford",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Lab+Ford"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ca_lab+ford"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ca_lab+ford",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Lab+Ford"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ca_lab+ford"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ca_lab+ford",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Lab+Ford"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ca_lab+ford"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ca_lab+ford",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Lab+Ford"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ca_lab+ford"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ca_lab+ford",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Lab+Ford"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ca_lab+ford"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "CA",
+        "shape": "diamond",
+        "x": 1829,
+        "y": 170
+      }
+    ]
+  },
+  {
+    "name": "CA GPC - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ca_gpc",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA GPC"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ca_gpc"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ca_gpc",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA GPC"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ca_gpc"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ca_gpc",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|CA GPC"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ca_gpc"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ca_gpc",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA GPC"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ca_gpc"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ca_gpc",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA GPC"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ca_gpc"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "CA",
+        "shape": "diamond",
+        "x": 2310,
+        "y": 671
+      }
+    ]
+  },
+  {
+    "name": "CA Main - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ca_main",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Main"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ca_main"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ca_main",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Main"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ca_main"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ca_main",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Main"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ca_main"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ca_main",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Main"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ca_main"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ca_main",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Main"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ca_main"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "CA",
+        "shape": "diamond",
+        "x": 1022,
+        "y": 2183
+      }
+    ]
+  },
+  {
+    "name": "CA Cabins - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ca_cabins",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Cabins"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ca_cabins"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ca_cabins",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Cabins"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ca_cabins"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ca_cabins",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Cabins"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ca_cabins"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ca_cabins",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Cabins"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ca_cabins"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ca_cabins",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Cabins"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ca_cabins"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "CA",
+        "shape": "diamond",
+        "x": 1433,
+        "y": 182
+      }
+    ]
+  },
+  {
+    "name": "CA Reception - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ca_reception",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Reception"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ca_reception"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ca_reception",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Reception"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ca_reception"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ca_reception",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Reception"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ca_reception"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ca_reception",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Reception"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ca_reception"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ca_reception",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Reception"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ca_reception"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "CA",
+        "shape": "diamond",
+        "x": 365,
+        "y": 854
+      }
+    ]
+  },
+  {
+    "name": "CA Lake - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ca_lake",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Lake"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ca_lake"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ca_lake",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Lake"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ca_lake"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ca_lake",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Lake"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ca_lake"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ca_lake",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Lake"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ca_lake"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ca_lake",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Lake"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ca_lake"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "CA",
+        "shape": "diamond",
+        "x": 2260,
+        "y": 2198
+      }
+    ]
+  },
+  {
+    "name": "AS Grounds+Courtyard - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_as_grounds+courtyard",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|AS Grounds+Courtyard"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_as_grounds+courtyard"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_as_grounds+courtyard",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|AS Grounds+Courtyard"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_as_grounds+courtyard"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_as_grounds+courtyard",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|AS Grounds+Courtyard"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_as_grounds+courtyard"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_as_grounds+courtyard",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|AS Grounds+Courtyard"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_as_grounds+courtyard"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_as_grounds+courtyard",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|AS Grounds+Courtyard"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_as_grounds+courtyard"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "AS",
+        "shape": "diamond",
+        "x": 182,
+        "y": 899
+      }
+    ]
+  },
+  {
+    "name": "AS Upper - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_as_upper",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|AS Upper"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_as_upper"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_as_upper",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|AS Upper"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_as_upper"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_as_upper",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|AS Upper"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_as_upper"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_as_upper",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|AS Upper"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_as_upper"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_as_upper",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|AS Upper"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_as_upper"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "AS",
+        "shape": "diamond",
+        "x": 1952,
+        "y": 686
+      }
+    ]
+  },
+  {
+    "name": "AS Lab - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_as_lab",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|AS Lab"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_as_lab"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_as_lab",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|AS Lab"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_as_lab"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_as_lab",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|AS Lab"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_as_lab"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_as_lab",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|AS Lab"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_as_lab"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_as_lab",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|AS Lab"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_as_lab"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "AS",
+        "shape": "diamond",
+        "x": 3434,
+        "y": 1008
+      }
+    ]
+  },
+  {
+    "name": "SA - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_sa",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|SA"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_sa"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_sa",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|SA"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_sa"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_sa",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|SA"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_sa"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_sa",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|SA"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_sa"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_sa",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|SA"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_sa"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "SA",
+        "shape": "diamond",
+        "x": 513,
+        "y": 462
+      }
+    ]
+  },
+  {
+    "name": "MI - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_mi",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|MI"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_mi"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_mi",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|MI"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_mi"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_mi",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|MI"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_mi"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_mi",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|MI"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_mi"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_mi",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|MI"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_mi"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "MI",
+        "shape": "diamond",
+        "x": 1001,
+        "y": 541
+      }
+    ]
+  },
+  {
+    "name": "BT - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_bt",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|BT"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_bt"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_bt",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|BT"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_bt"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_bt",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|BT"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_bt"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_bt",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|BT"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_bt"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_bt",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|BT"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_bt"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "BT",
+        "shape": "diamond",
+        "x": 605,
+        "y": 691
+      }
+    ]
+  },
+  {
+    "name": "LO - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_lo",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|LO"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_lo"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_lo",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|LO"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_lo"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_lo",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|LO"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_lo"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_lo",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|LO"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_lo"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_lo",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|LO"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_lo"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "LO",
+        "shape": "diamond",
+        "x": 1213,
+        "y": 621
+      }
+    ]
+  },
+  {
+    "name": "MM - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_mm",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|MM"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_mm"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_mm",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|MM"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_mm"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_mm",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|MM"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_mm"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_mm",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|MM"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_mm"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_mm",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|MM"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_mm"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "MM",
+        "shape": "diamond",
+        "x": 918,
+        "y": 438
+      }
+    ]
+  },
+  {
+    "name": "TH - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_th",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|TH"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_th"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_th",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|TH"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_th"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_th",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|TH"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_th"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_th",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|TH"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_th"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_th",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|TH"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_th"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "TH",
+        "shape": "diamond",
+        "x": 1546,
+        "y": 291
+      }
+    ]
+  },
+  {
+    "name": "WW - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_ww",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|WW"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_ww"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_ww",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|WW"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_ww"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_ww",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|WW"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_ww"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_ww",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|WW"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_ww"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_ww",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|WW"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_ww"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "WW",
+        "shape": "diamond",
+        "x": 1036,
+        "y": 879
+      }
+    ]
+  },
+  {
+    "name": "BV - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_bv",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|BV"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_bv"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_bv",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|BV"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_bv"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_bv",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|BV"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_bv"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_bv",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|BV"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_bv"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_bv",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|BV"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_bv"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "BV",
+        "shape": "diamond",
+        "x": 500,
+        "y": 668
+      }
+    ]
+  },
+  {
+    "name": "MC - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_mc",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|MC"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_mc"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_mc",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|MC"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_mc"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_mc",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|MC"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_mc"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_mc",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|MC"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_mc"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_mc",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|MC"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_mc"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "MC",
+        "shape": "diamond",
+        "x": 1038,
+        "y": 537
+      }
+    ]
+  }
+]

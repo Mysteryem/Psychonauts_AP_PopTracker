@@ -109,17 +109,12 @@ ITEM_MAPPING = {
     [40] = "max_confusion_ammo_up",
     -- PSI Challenge Markers
     [41] = "psi_challenge_marker",
-    -- Baggage and Baggage Tags
+    -- Baggage Tags
     [81] = "suitcase_tag",
     [82] = "purse_tag",
     [83] = "hatbox_tag",
     [84] = "steamer_trunk_tag",
     [85] = "dufflebag_tag",
-    [86] = "suitcase",
-    [87] = "purse",
-    [88] = "hatbox",
-    [89] = "steamer_trunk",
-    [90] = "dufflebag",
     -- Memory Vaults
     [42] = "memory_vault",
     -- Small Arrowhead Bundles
@@ -129,3 +124,17 @@ ITEM_MAPPING = {
     -- PSI Cards
     [45] = "psi_card",
 }
+
+
+-- Kept separately to simplify Baggage-related lua code.
+BAGGAGE_ITEM_MAPPING = {
+    [86] = "suitcase",
+    [87] = "purse",
+    [88] = "hatbox",
+    [89] = "steamer_trunk",
+    [90] = "dufflebag",
+}
+
+for k, v in pairs(BAGGAGE_ITEM_MAPPING) do
+    ITEM_MAPPING[k] = v
+end
