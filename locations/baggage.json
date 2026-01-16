@@ -17,6 +17,7 @@
     "name": "Progressive Dufflebag",
     "chest_unopened_img": "images/items/baggage/dufflebag.png",
     "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+    "inspectable_sequence_break": true,
     "sections": [
       {
         "name": "(Baggage) Dufflebag Redeemed 1",
@@ -142,6 +143,7 @@
     "name": "Progressive Hatbox",
     "chest_unopened_img": "images/items/baggage/hatbox.png",
     "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+    "inspectable_sequence_break": true,
     "sections": [
       {
         "name": "(Baggage) Hatbox Redeemed 1",
@@ -267,6 +269,7 @@
     "name": "Progressive Purse",
     "chest_unopened_img": "images/items/baggage/purse.png",
     "chest_opened_img": "images/items/baggage/purse_disabled.png",
+    "inspectable_sequence_break": true,
     "sections": [
       {
         "name": "(Baggage) Purse Redeemed 1",
@@ -392,6 +395,7 @@
     "name": "Progressive Steamertrunk",
     "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
     "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+    "inspectable_sequence_break": true,
     "sections": [
       {
         "name": "(Baggage) Steamertrunk Redeemed 1",
@@ -517,6 +521,7 @@
     "name": "Progressive Suitcase",
     "chest_unopened_img": "images/items/baggage/suitcase.png",
     "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+    "inspectable_sequence_break": true,
     "sections": [
       {
         "name": "(Baggage) Suitcase Redeemed 1",
