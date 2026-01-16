@@ -54,7 +54,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ca_lab+ford",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Lab+Ford"
           ]
         ],
@@ -143,7 +143,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ca_gpc",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA GPC"
           ]
         ],
@@ -232,7 +232,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ca_main",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Main"
           ]
         ],
@@ -321,7 +321,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ca_cabins",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Cabins"
           ]
         ],
@@ -410,7 +410,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ca_reception",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Reception"
           ]
         ],
@@ -499,7 +499,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ca_lake",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Lake"
           ]
         ],
@@ -588,7 +588,7 @@
         "access_rules": [
           [
             "steamertrunks_in_as_grounds+courtyard",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|AS Grounds+Courtyard"
           ]
         ],
@@ -677,7 +677,7 @@
         "access_rules": [
           [
             "steamertrunks_in_as_upper",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|AS Upper"
           ]
         ],
@@ -766,7 +766,7 @@
         "access_rules": [
           [
             "steamertrunks_in_as_lab",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|AS Lab"
           ]
         ],
@@ -855,7 +855,7 @@
         "access_rules": [
           [
             "steamertrunks_in_bb",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|BB"
           ]
         ],
@@ -944,7 +944,7 @@
         "access_rules": [
           [
             "steamertrunks_in_sa",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|SA"
           ]
         ],
@@ -1033,7 +1033,7 @@
         "access_rules": [
           [
             "steamertrunks_in_mi",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|MI"
           ]
         ],
@@ -1122,7 +1122,7 @@
         "access_rules": [
           [
             "steamertrunks_in_bt",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|BT"
           ]
         ],
@@ -1211,7 +1211,7 @@
         "access_rules": [
           [
             "steamertrunks_in_lo",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|LO"
           ]
         ],
@@ -1300,7 +1300,7 @@
         "access_rules": [
           [
             "steamertrunks_in_mm",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|MM"
           ]
         ],
@@ -1389,7 +1389,7 @@
         "access_rules": [
           [
             "steamertrunks_in_th",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|TH"
           ]
         ],
@@ -1478,7 +1478,7 @@
         "access_rules": [
           [
             "steamertrunks_in_ww",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|WW"
           ]
         ],
@@ -1567,7 +1567,7 @@
         "access_rules": [
           [
             "steamertrunks_in_bv",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|BV"
           ]
         ],
@@ -1656,7 +1656,7 @@
         "access_rules": [
           [
             "steamertrunks_in_mc",
-            "$has_unused_tags|steamertrunk",
+            "$has_unused_tags|steamer_trunk",
             "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|MC"
           ]
         ],
