@@ -1,7 +1,7 @@
 {
     "name": "PsychoRando AP",
     "package_uid": "PsychoRandoAPTracker",
-    "package_version": "1.4.0",
+    "package_version": "2.0.0",
     "platform": "pc",
     "variants": {
         "standard": {
