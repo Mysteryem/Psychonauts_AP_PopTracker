@@ -27,7 +27,8 @@ function can_access_any_unclaimed_baggage_type_in_area(baggage_code, area)
     end
 end
 
-function reachable_unclaimed_hinted_baggage_count(baggage_code, allow_sequence_break)
+function reachable_baggage_count(baggage_code, allow_sequence_break)
+    -- Count the number of reachable unclaimed baggage.
     local count = 0
     for _area, baggage_in_area in pairs(KNOWN_UNCLAIMED_BAGGAGE) do
         for _, section in ipairs(baggage_in_area[baggage_code]) do
@@ -39,6 +40,9 @@ function reachable_unclaimed_hinted_baggage_count(baggage_code, allow_sequence_b
             end
         end
     end
-    --print("DEBUG: Counted "..tostring(count).." reachable "..baggage_code..tostring(allow_sequence_break))
-    return count
+    -- Add the number of already claimed baggage, these are assumed to have been reachable. This should not have issue
+    -- with !collect because Baggage should always be placed locally. Start-inventory-ed baggage will probably be a mess
+    -- no matter what...
+    --print("DEBUG: Counted "..tostring(count + Tracker:ProviderCountForCode(baggage_code)).." reachable "..baggage_code..tostring(allow_sequence_break))
+    return count + Tracker:ProviderCountForCode(baggage_code)
 end
