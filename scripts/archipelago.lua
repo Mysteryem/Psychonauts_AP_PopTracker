@@ -246,6 +246,11 @@ function onClear(slot_data)
     local figment_percentage_setting = Tracker:FindObjectForCode("setting_figment_percentage_checks")
     figment_percentage_setting.AcquiredCount = figment_percentage_checks * 20
 
+    -- Baggage hinting
+    local unclaimed_baggage_hints_enabled = slot_data["HintUnclaimedBaggage"] or 0
+    local unclaimed_baggage_hints_setting = Tracker:FindObjectForCode("setting_unclaimed_baggage_hints")
+    unclaimed_baggage_hints_setting.Active = unclaimed_baggage_hints_enabled == 1
+
     -- Other
     --slot_data["LootboxVaults"]
     -- Showing this is not yet implemented.
@@ -387,8 +392,11 @@ function onEvent(key, value, old_value)
     end
     if key == HINTS_DATASTORAGE_KEY then
         local self_player = Archipelago.PlayerNumber
-        -- Clear tracked unfound baggage.
-        baggage_area_tracking_clear_known_unfound_baggage()
+        local unclaimed_baggage_hints_enabled = Tracker:ProviderCountForCode("setting_unclaimed_baggage_hints") > 0
+        if unclaimed_baggage_hints_enabled then
+            -- Clear tracked unclaimed baggage.
+            baggage_area_tracking_clear_known_unclaimed_baggage()
+        end
         for _, hint in ipairs(value) do
             if hint.finding_player == self_player then
                 local location_id = hint.location - AP_LOCATION_OFFSET
@@ -400,7 +408,9 @@ function onEvent(key, value, old_value)
                         if highlight ~= nil then
                             section.Highlight = highlight
                         end
-                        baggage_area_tracking_register_hint(hint)
+                        if unclaimed_baggage_hints_enabled then
+                            baggage_area_tracking_register_hint(hint)
+                        end
                     else
                         print("Error: Could not find section for path "..section_name)
                     end

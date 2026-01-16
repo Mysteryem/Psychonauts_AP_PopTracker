@@ -124,5 +124,10 @@
     "decrement": 20,
     "max_quantity": 100,
     "initial_quantity": 100
+  },
+  {
+    "name": "Hint Unclaimed Baggage (Hidden Setting)",
+    "type": "toggle",
+    "codes": "setting_unclaimed_baggage_hints"
   }
 ]

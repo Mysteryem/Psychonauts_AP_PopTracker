@@ -432,20 +432,20 @@ end
 
 _LOCATION_MAPPING_REVERSE = nil
 
-KNOWN_UNFOUND_BAGGAGE = {}
+KNOWN_UNCLAIMED_BAGGAGE = {}
 
-local function clear_known_unfound_baggage()
+local function clear_known_unclaimed_baggage()
     for area_name, _ in pairs(AREAS) do
         local t = {}
-        KNOWN_UNFOUND_BAGGAGE[area_name] = t
+        KNOWN_UNCLAIMED_BAGGAGE[area_name] = t
         for _, code in pairs(BAGGAGE_ITEM_MAPPING) do
             t[code] = {}
         end
     end
 end
 
--- Initialises KNOWN_UNFOUND_BAGGAGE to contain empty tables.
-clear_known_unfound_baggage()
+-- Initialises KNOWN_UNCLAIMED_BAGGAGE to contain empty tables.
+clear_known_unclaimed_baggage()
 
 local function reset_baggage_in_area_items()
     for _area, item_suffix in pairs(AREA_TO_ITEM_SUFFIX) do
@@ -458,8 +458,8 @@ local function reset_baggage_in_area_items()
     end
 end
 
-function baggage_area_tracking_clear_known_unfound_baggage()
-    clear_known_unfound_baggage()
+function baggage_area_tracking_clear_known_unclaimed_baggage()
+    clear_known_unclaimed_baggage()
     reset_baggage_in_area_items()
 end
 
@@ -499,7 +499,7 @@ function baggage_area_tracking_register_hint(hint)
     end
 
     -- Get the baggage table for this area.
-    local per_area_table = KNOWN_UNFOUND_BAGGAGE[area_name]
+    local per_area_table = KNOWN_UNCLAIMED_BAGGAGE[area_name]
     if per_area_table == nil then
         print("Error: No per-area table found for "..area_name)
         return

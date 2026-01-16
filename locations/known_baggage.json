@@ -1,6 +1,6 @@
 [
   {
-    "name": "CA Lab+Ford - Hinted Unfound Baggage",
+    "name": "CA Lab+Ford - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -10,7 +10,7 @@
           [
             "dufflebags_in_ca_lab+ford",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Lab+Ford"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|CA Lab+Ford"
           ]
         ],
         "visibility_rules": [
@@ -25,7 +25,7 @@
           [
             "hatboxes_in_ca_lab+ford",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Lab+Ford"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|CA Lab+Ford"
           ]
         ],
         "visibility_rules": [
@@ -40,7 +40,7 @@
           [
             "purses_in_ca_lab+ford",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Lab+Ford"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|CA Lab+Ford"
           ]
         ],
         "visibility_rules": [
@@ -55,7 +55,7 @@
           [
             "steamertrunks_in_ca_lab+ford",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Lab+Ford"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Lab+Ford"
           ]
         ],
         "visibility_rules": [
@@ -70,7 +70,7 @@
           [
             "suitcases_in_ca_lab+ford",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Lab+Ford"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|CA Lab+Ford"
           ]
         ],
         "visibility_rules": [
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "name": "CA GPC - Hinted Unfound Baggage",
+    "name": "CA GPC - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -99,7 +99,7 @@
           [
             "dufflebags_in_ca_gpc",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA GPC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|CA GPC"
           ]
         ],
         "visibility_rules": [
@@ -114,7 +114,7 @@
           [
             "hatboxes_in_ca_gpc",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA GPC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|CA GPC"
           ]
         ],
         "visibility_rules": [
@@ -129,7 +129,7 @@
           [
             "purses_in_ca_gpc",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|CA GPC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|CA GPC"
           ]
         ],
         "visibility_rules": [
@@ -144,7 +144,7 @@
           [
             "steamertrunks_in_ca_gpc",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA GPC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA GPC"
           ]
         ],
         "visibility_rules": [
@@ -159,7 +159,7 @@
           [
             "suitcases_in_ca_gpc",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA GPC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|CA GPC"
           ]
         ],
         "visibility_rules": [
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "name": "CA Main - Hinted Unfound Baggage",
+    "name": "CA Main - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -188,7 +188,7 @@
           [
             "dufflebags_in_ca_main",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Main"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|CA Main"
           ]
         ],
         "visibility_rules": [
@@ -203,7 +203,7 @@
           [
             "hatboxes_in_ca_main",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Main"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|CA Main"
           ]
         ],
         "visibility_rules": [
@@ -218,7 +218,7 @@
           [
             "purses_in_ca_main",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Main"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|CA Main"
           ]
         ],
         "visibility_rules": [
@@ -233,7 +233,7 @@
           [
             "steamertrunks_in_ca_main",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Main"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Main"
           ]
         ],
         "visibility_rules": [
@@ -248,7 +248,7 @@
           [
             "suitcases_in_ca_main",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Main"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|CA Main"
           ]
         ],
         "visibility_rules": [
@@ -267,7 +267,7 @@
     ]
   },
   {
-    "name": "CA Cabins - Hinted Unfound Baggage",
+    "name": "CA Cabins - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -277,7 +277,7 @@
           [
             "dufflebags_in_ca_cabins",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Cabins"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|CA Cabins"
           ]
         ],
         "visibility_rules": [
@@ -292,7 +292,7 @@
           [
             "hatboxes_in_ca_cabins",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Cabins"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|CA Cabins"
           ]
         ],
         "visibility_rules": [
@@ -307,7 +307,7 @@
           [
             "purses_in_ca_cabins",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Cabins"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|CA Cabins"
           ]
         ],
         "visibility_rules": [
@@ -322,7 +322,7 @@
           [
             "steamertrunks_in_ca_cabins",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Cabins"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Cabins"
           ]
         ],
         "visibility_rules": [
@@ -337,7 +337,7 @@
           [
             "suitcases_in_ca_cabins",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Cabins"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|CA Cabins"
           ]
         ],
         "visibility_rules": [
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "name": "CA Reception - Hinted Unfound Baggage",
+    "name": "CA Reception - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -366,7 +366,7 @@
           [
             "dufflebags_in_ca_reception",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Reception"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|CA Reception"
           ]
         ],
         "visibility_rules": [
@@ -381,7 +381,7 @@
           [
             "hatboxes_in_ca_reception",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Reception"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|CA Reception"
           ]
         ],
         "visibility_rules": [
@@ -396,7 +396,7 @@
           [
             "purses_in_ca_reception",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Reception"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|CA Reception"
           ]
         ],
         "visibility_rules": [
@@ -411,7 +411,7 @@
           [
             "steamertrunks_in_ca_reception",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Reception"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Reception"
           ]
         ],
         "visibility_rules": [
@@ -426,7 +426,7 @@
           [
             "suitcases_in_ca_reception",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Reception"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|CA Reception"
           ]
         ],
         "visibility_rules": [
@@ -445,7 +445,7 @@
     ]
   },
   {
-    "name": "CA Lake - Hinted Unfound Baggage",
+    "name": "CA Lake - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -455,7 +455,7 @@
           [
             "dufflebags_in_ca_lake",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|CA Lake"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|CA Lake"
           ]
         ],
         "visibility_rules": [
@@ -470,7 +470,7 @@
           [
             "hatboxes_in_ca_lake",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|CA Lake"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|CA Lake"
           ]
         ],
         "visibility_rules": [
@@ -485,7 +485,7 @@
           [
             "purses_in_ca_lake",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|CA Lake"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|CA Lake"
           ]
         ],
         "visibility_rules": [
@@ -500,7 +500,7 @@
           [
             "steamertrunks_in_ca_lake",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|CA Lake"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|CA Lake"
           ]
         ],
         "visibility_rules": [
@@ -515,7 +515,7 @@
           [
             "suitcases_in_ca_lake",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|CA Lake"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|CA Lake"
           ]
         ],
         "visibility_rules": [
@@ -534,7 +534,7 @@
     ]
   },
   {
-    "name": "AS Grounds+Courtyard - Hinted Unfound Baggage",
+    "name": "AS Grounds+Courtyard - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -544,7 +544,7 @@
           [
             "dufflebags_in_as_grounds+courtyard",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|AS Grounds+Courtyard"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|AS Grounds+Courtyard"
           ]
         ],
         "visibility_rules": [
@@ -559,7 +559,7 @@
           [
             "hatboxes_in_as_grounds+courtyard",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|AS Grounds+Courtyard"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|AS Grounds+Courtyard"
           ]
         ],
         "visibility_rules": [
@@ -574,7 +574,7 @@
           [
             "purses_in_as_grounds+courtyard",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|AS Grounds+Courtyard"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|AS Grounds+Courtyard"
           ]
         ],
         "visibility_rules": [
@@ -589,7 +589,7 @@
           [
             "steamertrunks_in_as_grounds+courtyard",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|AS Grounds+Courtyard"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|AS Grounds+Courtyard"
           ]
         ],
         "visibility_rules": [
@@ -604,7 +604,7 @@
           [
             "suitcases_in_as_grounds+courtyard",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|AS Grounds+Courtyard"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|AS Grounds+Courtyard"
           ]
         ],
         "visibility_rules": [
@@ -623,7 +623,7 @@
     ]
   },
   {
-    "name": "AS Upper - Hinted Unfound Baggage",
+    "name": "AS Upper - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -633,7 +633,7 @@
           [
             "dufflebags_in_as_upper",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|AS Upper"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|AS Upper"
           ]
         ],
         "visibility_rules": [
@@ -648,7 +648,7 @@
           [
             "hatboxes_in_as_upper",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|AS Upper"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|AS Upper"
           ]
         ],
         "visibility_rules": [
@@ -663,7 +663,7 @@
           [
             "purses_in_as_upper",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|AS Upper"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|AS Upper"
           ]
         ],
         "visibility_rules": [
@@ -678,7 +678,7 @@
           [
             "steamertrunks_in_as_upper",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|AS Upper"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|AS Upper"
           ]
         ],
         "visibility_rules": [
@@ -693,7 +693,7 @@
           [
             "suitcases_in_as_upper",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|AS Upper"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|AS Upper"
           ]
         ],
         "visibility_rules": [
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "name": "AS Lab - Hinted Unfound Baggage",
+    "name": "AS Lab - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -722,7 +722,7 @@
           [
             "dufflebags_in_as_lab",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|AS Lab"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|AS Lab"
           ]
         ],
         "visibility_rules": [
@@ -737,7 +737,7 @@
           [
             "hatboxes_in_as_lab",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|AS Lab"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|AS Lab"
           ]
         ],
         "visibility_rules": [
@@ -752,7 +752,7 @@
           [
             "purses_in_as_lab",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|AS Lab"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|AS Lab"
           ]
         ],
         "visibility_rules": [
@@ -767,7 +767,7 @@
           [
             "steamertrunks_in_as_lab",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|AS Lab"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|AS Lab"
           ]
         ],
         "visibility_rules": [
@@ -782,7 +782,7 @@
           [
             "suitcases_in_as_lab",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|AS Lab"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|AS Lab"
           ]
         ],
         "visibility_rules": [
@@ -801,7 +801,7 @@
     ]
   },
   {
-    "name": "BB - Hinted Unfound Baggage",
+    "name": "BB - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -811,7 +811,7 @@
           [
             "dufflebags_in_bb",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|BB"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|BB"
           ]
         ],
         "visibility_rules": [
@@ -826,7 +826,7 @@
           [
             "hatboxes_in_bb",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|BB"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|BB"
           ]
         ],
         "visibility_rules": [
@@ -841,7 +841,7 @@
           [
             "purses_in_bb",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|BB"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|BB"
           ]
         ],
         "visibility_rules": [
@@ -856,7 +856,7 @@
           [
             "steamertrunks_in_bb",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|BB"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|BB"
           ]
         ],
         "visibility_rules": [
@@ -871,7 +871,7 @@
           [
             "suitcases_in_bb",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|BB"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|BB"
           ]
         ],
         "visibility_rules": [
@@ -890,7 +890,7 @@
     ]
   },
   {
-    "name": "SA - Hinted Unfound Baggage",
+    "name": "SA - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -900,7 +900,7 @@
           [
             "dufflebags_in_sa",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|SA"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|SA"
           ]
         ],
         "visibility_rules": [
@@ -915,7 +915,7 @@
           [
             "hatboxes_in_sa",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|SA"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|SA"
           ]
         ],
         "visibility_rules": [
@@ -930,7 +930,7 @@
           [
             "purses_in_sa",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|SA"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|SA"
           ]
         ],
         "visibility_rules": [
@@ -945,7 +945,7 @@
           [
             "steamertrunks_in_sa",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|SA"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|SA"
           ]
         ],
         "visibility_rules": [
@@ -960,7 +960,7 @@
           [
             "suitcases_in_sa",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|SA"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|SA"
           ]
         ],
         "visibility_rules": [
@@ -979,7 +979,7 @@
     ]
   },
   {
-    "name": "MI - Hinted Unfound Baggage",
+    "name": "MI - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -989,7 +989,7 @@
           [
             "dufflebags_in_mi",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|MI"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|MI"
           ]
         ],
         "visibility_rules": [
@@ -1004,7 +1004,7 @@
           [
             "hatboxes_in_mi",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|MI"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|MI"
           ]
         ],
         "visibility_rules": [
@@ -1019,7 +1019,7 @@
           [
             "purses_in_mi",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|MI"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|MI"
           ]
         ],
         "visibility_rules": [
@@ -1034,7 +1034,7 @@
           [
             "steamertrunks_in_mi",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|MI"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|MI"
           ]
         ],
         "visibility_rules": [
@@ -1049,7 +1049,7 @@
           [
             "suitcases_in_mi",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|MI"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|MI"
           ]
         ],
         "visibility_rules": [
@@ -1068,7 +1068,7 @@
     ]
   },
   {
-    "name": "BT - Hinted Unfound Baggage",
+    "name": "BT - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1078,7 +1078,7 @@
           [
             "dufflebags_in_bt",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|BT"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|BT"
           ]
         ],
         "visibility_rules": [
@@ -1093,7 +1093,7 @@
           [
             "hatboxes_in_bt",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|BT"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|BT"
           ]
         ],
         "visibility_rules": [
@@ -1108,7 +1108,7 @@
           [
             "purses_in_bt",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|BT"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|BT"
           ]
         ],
         "visibility_rules": [
@@ -1123,7 +1123,7 @@
           [
             "steamertrunks_in_bt",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|BT"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|BT"
           ]
         ],
         "visibility_rules": [
@@ -1138,7 +1138,7 @@
           [
             "suitcases_in_bt",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|BT"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|BT"
           ]
         ],
         "visibility_rules": [
@@ -1157,7 +1157,7 @@
     ]
   },
   {
-    "name": "LO - Hinted Unfound Baggage",
+    "name": "LO - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1167,7 +1167,7 @@
           [
             "dufflebags_in_lo",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|LO"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|LO"
           ]
         ],
         "visibility_rules": [
@@ -1182,7 +1182,7 @@
           [
             "hatboxes_in_lo",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|LO"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|LO"
           ]
         ],
         "visibility_rules": [
@@ -1197,7 +1197,7 @@
           [
             "purses_in_lo",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|LO"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|LO"
           ]
         ],
         "visibility_rules": [
@@ -1212,7 +1212,7 @@
           [
             "steamertrunks_in_lo",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|LO"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|LO"
           ]
         ],
         "visibility_rules": [
@@ -1227,7 +1227,7 @@
           [
             "suitcases_in_lo",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|LO"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|LO"
           ]
         ],
         "visibility_rules": [
@@ -1246,7 +1246,7 @@
     ]
   },
   {
-    "name": "MM - Hinted Unfound Baggage",
+    "name": "MM - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1256,7 +1256,7 @@
           [
             "dufflebags_in_mm",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|MM"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|MM"
           ]
         ],
         "visibility_rules": [
@@ -1271,7 +1271,7 @@
           [
             "hatboxes_in_mm",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|MM"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|MM"
           ]
         ],
         "visibility_rules": [
@@ -1286,7 +1286,7 @@
           [
             "purses_in_mm",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|MM"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|MM"
           ]
         ],
         "visibility_rules": [
@@ -1301,7 +1301,7 @@
           [
             "steamertrunks_in_mm",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|MM"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|MM"
           ]
         ],
         "visibility_rules": [
@@ -1316,7 +1316,7 @@
           [
             "suitcases_in_mm",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|MM"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|MM"
           ]
         ],
         "visibility_rules": [
@@ -1335,7 +1335,7 @@
     ]
   },
   {
-    "name": "TH - Hinted Unfound Baggage",
+    "name": "TH - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1345,7 +1345,7 @@
           [
             "dufflebags_in_th",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|TH"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|TH"
           ]
         ],
         "visibility_rules": [
@@ -1360,7 +1360,7 @@
           [
             "hatboxes_in_th",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|TH"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|TH"
           ]
         ],
         "visibility_rules": [
@@ -1375,7 +1375,7 @@
           [
             "purses_in_th",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|TH"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|TH"
           ]
         ],
         "visibility_rules": [
@@ -1390,7 +1390,7 @@
           [
             "steamertrunks_in_th",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|TH"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|TH"
           ]
         ],
         "visibility_rules": [
@@ -1405,7 +1405,7 @@
           [
             "suitcases_in_th",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|TH"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|TH"
           ]
         ],
         "visibility_rules": [
@@ -1424,7 +1424,7 @@
     ]
   },
   {
-    "name": "WW - Hinted Unfound Baggage",
+    "name": "WW - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1434,7 +1434,7 @@
           [
             "dufflebags_in_ww",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|WW"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|WW"
           ]
         ],
         "visibility_rules": [
@@ -1449,7 +1449,7 @@
           [
             "hatboxes_in_ww",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|WW"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|WW"
           ]
         ],
         "visibility_rules": [
@@ -1464,7 +1464,7 @@
           [
             "purses_in_ww",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|WW"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|WW"
           ]
         ],
         "visibility_rules": [
@@ -1479,7 +1479,7 @@
           [
             "steamertrunks_in_ww",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|WW"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|WW"
           ]
         ],
         "visibility_rules": [
@@ -1494,7 +1494,7 @@
           [
             "suitcases_in_ww",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|WW"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|WW"
           ]
         ],
         "visibility_rules": [
@@ -1513,7 +1513,7 @@
     ]
   },
   {
-    "name": "BV - Hinted Unfound Baggage",
+    "name": "BV - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1523,7 +1523,7 @@
           [
             "dufflebags_in_bv",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|BV"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|BV"
           ]
         ],
         "visibility_rules": [
@@ -1538,7 +1538,7 @@
           [
             "hatboxes_in_bv",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|BV"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|BV"
           ]
         ],
         "visibility_rules": [
@@ -1553,7 +1553,7 @@
           [
             "purses_in_bv",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|BV"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|BV"
           ]
         ],
         "visibility_rules": [
@@ -1568,7 +1568,7 @@
           [
             "steamertrunks_in_bv",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|BV"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|BV"
           ]
         ],
         "visibility_rules": [
@@ -1583,7 +1583,7 @@
           [
             "suitcases_in_bv",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|BV"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|BV"
           ]
         ],
         "visibility_rules": [
@@ -1602,7 +1602,7 @@
     ]
   },
   {
-    "name": "MC - Hinted Unfound Baggage",
+    "name": "MC - Hinted Unclaimed Baggage",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1612,7 +1612,7 @@
           [
             "dufflebags_in_mc",
             "$has_unused_tags|dufflebag",
-            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|MC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|dufflebag|MC"
           ]
         ],
         "visibility_rules": [
@@ -1627,7 +1627,7 @@
           [
             "hatboxes_in_mc",
             "$has_unused_tags|hatbox",
-            "^$can_access_any_unfound_baggage_type_in_area|hatbox|MC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|hatbox|MC"
           ]
         ],
         "visibility_rules": [
@@ -1642,7 +1642,7 @@
           [
             "purses_in_mc",
             "$has_unused_tags|purse",
-            "^$can_access_any_unfound_baggage_type_in_area|purse|MC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|purse|MC"
           ]
         ],
         "visibility_rules": [
@@ -1657,7 +1657,7 @@
           [
             "steamertrunks_in_mc",
             "$has_unused_tags|steamertrunk",
-            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|MC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|steamer_trunk|MC"
           ]
         ],
         "visibility_rules": [
@@ -1672,7 +1672,7 @@
           [
             "suitcases_in_mc",
             "$has_unused_tags|suitcase",
-            "^$can_access_any_unfound_baggage_type_in_area|suitcase|MC"
+            "^$can_access_any_unclaimed_baggage_type_in_area|suitcase|MC"
           ]
         ],
         "visibility_rules": [
