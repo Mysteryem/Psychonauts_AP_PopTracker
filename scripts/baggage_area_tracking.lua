@@ -30,6 +30,7 @@ local BAGGAGE_CODE_TO_ITEM_PREFIX = {
     steamer_trunk="steamertrunks",
     suitcase="suitcases",
 }
+-- TODO: Split up LOCATION_MAPPING into areas so that there is only one source of truth.
 local AREAS = {
     ["CA Lab+Ford"] = {
         "@CASA/(CA Lab) Behind Furniture/",
