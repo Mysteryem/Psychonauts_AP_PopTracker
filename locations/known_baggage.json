@@ -792,6 +792,94 @@
     ]
   },
   {
+    "name": "BB - Hinted Unfound Baggage",
+    "sections": [
+      {
+        "name": "Dufflebag",
+        "chest_unopened_img": "images/items/baggage/dufflebag.png",
+        "chest_opened_img": "images/items/baggage/dufflebag_disabled.png",
+        "access_rules": [
+          [
+            "dufflebags_in_bb",
+            "$has_unused_tags|dufflebag",
+            "^$can_access_any_unfound_baggage_type_in_area|dufflebag|BB"
+          ]
+        ],
+        "visibility_rules": [
+          "dufflebags_in_bb"
+        ]
+      },
+      {
+        "name": "Hatbox",
+        "chest_unopened_img": "images/items/baggage/hatbox.png",
+        "chest_opened_img": "images/items/baggage/hatbox_disabled.png",
+        "access_rules": [
+          [
+            "hatboxes_in_bb",
+            "$has_unused_tags|hatbox",
+            "^$can_access_any_unfound_baggage_type_in_area|hatbox|BB"
+          ]
+        ],
+        "visibility_rules": [
+          "hatboxes_in_bb"
+        ]
+      },
+      {
+        "name": "Purse",
+        "chest_unopened_img": "images/items/baggage/purse.png",
+        "chest_opened_img": "images/items/baggage/purse_disabled.png",
+        "access_rules": [
+          [
+            "purses_in_bb",
+            "$has_unused_tags|purse",
+            "^$can_access_any_unfound_baggage_type_in_area|purse|BB"
+          ]
+        ],
+        "visibility_rules": [
+          "purses_in_bb"
+        ]
+      },
+      {
+        "name": "Steamertrunk",
+        "chest_unopened_img": "images/items/baggage/steamer_trunk.png",
+        "chest_opened_img": "images/items/baggage/steamer_trunk_disabled.png",
+        "access_rules": [
+          [
+            "steamertrunks_in_bb",
+            "$has_unused_tags|steamertrunk",
+            "^$can_access_any_unfound_baggage_type_in_area|steamer_trunk|BB"
+          ]
+        ],
+        "visibility_rules": [
+          "steamertrunks_in_bb"
+        ]
+      },
+      {
+        "name": "Suitcase",
+        "chest_unopened_img": "images/items/baggage/suitcase.png",
+        "chest_opened_img": "images/items/baggage/suitcase_disabled.png",
+        "access_rules": [
+          [
+            "suitcases_in_bb",
+            "$has_unused_tags|suitcase",
+            "^$can_access_any_unfound_baggage_type_in_area|suitcase|BB"
+          ]
+        ],
+        "visibility_rules": [
+          "suitcases_in_bb"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "BB",
+        "shape": "diamond",
+        "x": 822,
+        "y": 1068
+      }
+    ]
+  },
+  {
     "name": "SA - Hinted Unfound Baggage",
     "sections": [
       {

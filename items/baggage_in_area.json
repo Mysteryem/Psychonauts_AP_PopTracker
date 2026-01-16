@@ -270,6 +270,36 @@
     "codes": "suitcases_in_as_lab"
   },
   {
+    "name": "Dufflebags in BB",
+    "type": "consumable",
+    "img": "images/items/baggage/dufflebag.png",
+    "codes": "dufflebags_in_bb"
+  },
+  {
+    "name": "Hatboxes in BB",
+    "type": "consumable",
+    "img": "images/items/baggage/hatbox.png",
+    "codes": "hatboxes_in_bb"
+  },
+  {
+    "name": "Purses in BB",
+    "type": "consumable",
+    "img": "images/items/baggage/purse.png",
+    "codes": "purses_in_bb"
+  },
+  {
+    "name": "Steamertrunks in BB",
+    "type": "consumable",
+    "img": "images/items/baggage/steamer_trunk.png",
+    "codes": "steamertrunks_in_bb"
+  },
+  {
+    "name": "Suitcases in BB",
+    "type": "consumable",
+    "img": "images/items/baggage/suitcase.png",
+    "codes": "suitcases_in_bb"
+  },
+  {
     "name": "Dufflebags in SA",
     "type": "consumable",
     "img": "images/items/baggage/dufflebag.png",
