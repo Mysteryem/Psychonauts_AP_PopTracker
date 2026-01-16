@@ -1,6 +1,6 @@
 [
   {
-    "name": "CA Lab+Ford - Hinted Unclaimed Baggage",
+    "name": "CA Lab+Ford - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "name": "CA GPC - Hinted Unclaimed Baggage",
+    "name": "CA GPC - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "name": "CA Main - Hinted Unclaimed Baggage",
+    "name": "CA Main - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -267,7 +267,7 @@
     ]
   },
   {
-    "name": "CA Cabins - Hinted Unclaimed Baggage",
+    "name": "CA Cabins - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "name": "CA Reception - Hinted Unclaimed Baggage",
+    "name": "CA Reception - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -445,7 +445,7 @@
     ]
   },
   {
-    "name": "CA Lake - Hinted Unclaimed Baggage",
+    "name": "CA Lake - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -534,7 +534,7 @@
     ]
   },
   {
-    "name": "AS Grounds+Courtyard - Hinted Unclaimed Baggage",
+    "name": "AS Grounds+Courtyard - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -623,7 +623,7 @@
     ]
   },
   {
-    "name": "AS Upper - Hinted Unclaimed Baggage",
+    "name": "AS Upper - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "name": "AS Lab - Hinted Unclaimed Baggage",
+    "name": "AS Lab - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -801,7 +801,7 @@
     ]
   },
   {
-    "name": "BB - Hinted Unclaimed Baggage",
+    "name": "BB - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -890,7 +890,7 @@
     ]
   },
   {
-    "name": "SA - Hinted Unclaimed Baggage",
+    "name": "SA - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -979,7 +979,7 @@
     ]
   },
   {
-    "name": "MI - Hinted Unclaimed Baggage",
+    "name": "MI - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1068,7 +1068,7 @@
     ]
   },
   {
-    "name": "BT - Hinted Unclaimed Baggage",
+    "name": "BT - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1157,7 +1157,7 @@
     ]
   },
   {
-    "name": "LO - Hinted Unclaimed Baggage",
+    "name": "LO - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1246,7 +1246,7 @@
     ]
   },
   {
-    "name": "MM - Hinted Unclaimed Baggage",
+    "name": "MM - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1335,7 +1335,7 @@
     ]
   },
   {
-    "name": "TH - Hinted Unclaimed Baggage",
+    "name": "TH - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1424,7 +1424,7 @@
     ]
   },
   {
-    "name": "WW - Hinted Unclaimed Baggage",
+    "name": "WW - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1513,7 +1513,7 @@
     ]
   },
   {
-    "name": "BV - Hinted Unclaimed Baggage",
+    "name": "BV - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
@@ -1602,7 +1602,7 @@
     ]
   },
   {
-    "name": "MC - Hinted Unclaimed Baggage",
+    "name": "MC - Hinted Unclaimed Baggage Types",
     "sections": [
       {
         "name": "Dufflebag",
